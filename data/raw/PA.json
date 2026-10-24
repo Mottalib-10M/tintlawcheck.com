@@ -1,0 +1,46 @@
+{
+  "code": "PA", "name": "Pennsylvania",
+  "tint": {
+    "statute": [
+      {"cite": "75 Pa.C.S. § 4524(e)", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=45&section=24&subsctn=0", "readVia": null},
+      {"cite": "67 Pa. Code § 175.67(d)(4) and Table X", "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/067/chapter175/s175.67.html", "readVia": null},
+      {"cite": "67 Pa. Code § 175.265 (exemptions)", "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/067/chapter175/chap175toc.html", "readVia": null}
+    ],
+    "passenger": {
+      "windshield": {"rule": "vlt", "strip": "Table X: windshield 70% (factory tint per FMVSS 205)", "stripInches": null, "asLine": false, "vlt": 70, "reflective": null},
+      "frontSide": {"vlt": 70, "note": "Table X (inspection regulation). The statute itself (4524(e)) only bars material that does not permit a person to see inside through the windshield, side wing or side window; Commonwealth v. Brubaker (Pa. Super. 2010) held the 70% regulation is not incorporated into 4524(e)(1)"},
+      "backSide": {"vlt": 70, "note": "Table X: 70% for passenger cars"},
+      "rear": {"vlt": 70, "note": "Table X: 70% for 1998 and newer passenger cars; pre-1998 cars: VESC-20 labelled material; a treated rear window requires mirrors per § 175.264"}
+    },
+    "multipurpose": {
+      "windshield": {"rule": "vlt", "strip": "Table X: 70%", "stripInches": null, "asLine": false, "vlt": 70, "reflective": null},
+      "frontSide": {"vlt": 70, "note": "Table X"},
+      "backSide": {"vlt": "any", "note": "Table X: trucks and multipurpose passenger vehicles - no requirement"},
+      "rear": {"vlt": "any", "note": "Table X: no requirement"}
+    },
+    "measuredHow": "not stated; Table X says levels 'assume a 3% accuracy (±3%)'",
+    "reflectivity": {"front": null, "back": null},
+    "tolerance": {"points": 3, "cite": "67 Pa. Code ch. 175, Table X ('All light transmittance levels listed below assume a 3% accuracy (±3%)')"},
+    "colorsBanned": [],
+    "dualMirrors": "Required (per § 175.264) if the rear window is treated",
+    "certificateOrSticker": "PennDOT certificate of exemption (medical or pre-1984) must be carried and shown to police and at inspection",
+    "medicalExemption": {"available": true, "text": "PennDOT certificate of exemption for the owner or a household member who regularly drives/is driven, for a condition approved with the Medical Advisory Board, certified by a licensed physician or optometrist; the regulation limits medical exemptions to colorless (UV-filtering) material; void on sale/transfer", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=45&section=24&subsctn=0"},
+    "penalty": {"text": "Summary offense; fine amount for 4524(e) not stated in the section read", "maxFineUsd": null, "cite": "75 Pa.C.S. § 4524(e)", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=45&section=24&subsctn=0"},
+    "lastAmended": "Table X adopted 1996 (26 Pa.B. 4640); § 175.67 amended 1998",
+    "quotes": [
+      "No person shall drive any motor vehicle with any sun screening device or other material which does not permit a person to see or view the inside of the vehicle through the windshield, side wing or side window of the vehicle.",
+      "1998 & Newer Passenger Cars 70% 70% 70% 70%",
+      "Trucks & Multi-Purpose Passenger Vehicles 70% 70% No Requirement No Requirement",
+      "All light transmittance levels listed below assume a 3% accuracy (±3%).",
+      "An application for a certificate of exemption will be granted only for colorless sun screening device or other material"
+    ]
+  },
+  "helmet": {"rule": "partial", "ageUnder": 21, "conditions": "Helmet optional for riders 21+ licensed at least two full calendar years or who completed an approved safety course; passengers 21+ of an exempt operator also exempt; eye protection required for all", "cite": "75 Pa.C.S. § 3525", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=35&section=25&subsctn=0"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "Paul Miller's Law (Act 18 of 2024, effective June 5, 2025): handheld use $50 summary offense; written warnings only during the first 12 months (to about June 5, 2026); texting also $50 (3316)", "cite": "75 Pa.C.S. §§ 3316, 3316.1", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=33&section=16&subsctn=1"},
+  "studdedTires": {"allowed": "seasonal", "season": "Nov 1 - Apr 15 (max 2/32 in. projection; Governor may extend by executive order)", "cite": "75 Pa.C.S. § 4525(c)", "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chapter=45&section=25&subsctn=0"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
+  "underglow": {"rule": null, "cite": null, "url": null},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": ["Numeric 70% limits come from the inspection regulation (Table X), not the statute; courts have held the statute only requires that one can see inside", "Tint fine amount not found", "Exact start of the 3316.1 fine period inferred from 'eff. 12 months' after June 5, 2024 plus a 12-month warning period", "Lift/suspension limits in 67 Pa. Code ch. 175 not read; underglow not located"]
+}

@@ -1,0 +1,115 @@
+{
+  "code": "IN",
+  "name": "Indiana",
+  "tint": {
+    "statute": [
+      {
+        "cite": "Ind. Code § 9-19-19-4",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-4",
+        "readVia": "https://statecodesfiles.justia.com/indiana/2016/title-9/article-19/chapter-19/chapter-19.pdf (2016 text; iga.in.gov is a JavaScript app, law.justia.com current page blocked)"
+      },
+      {
+        "cite": "Ind. Code § 9-19-19-7 and § 9-19-19-8 (penalties)",
+        "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-7",
+        "readVia": "https://statecodesfiles.justia.com/indiana/2016/title-9/article-19/chapter-19/chapter-19.pdf"
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "vlt",
+        "strip": "No AS-1 or strip exception in the statute; the windshield is subject to the same 30% transmittance / 25% reflectance limits as the front side windows",
+        "stripInches": null,
+        "asLine": false,
+        "vlt": 30,
+        "reflective": "max 25% total solar reflectance of visible light (measured on nonfilm side)"
+      },
+      "frontSide": {
+        "vlt": 30,
+        "note": "applies to 'side wing' and 'side window that is part of a front door'"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "rear-door side windows are not listed in § 9-19-19-4(c)"
+      },
+      "rear": {
+        "vlt": 30,
+        "note": "'rear back window' is listed in § 9-19-19-4(c)"
+      }
+    },
+    "multipurpose": null,
+    "measuredHow": "not stated (statute speaks of the window 'covered by or treated with sunscreening material or ... tinted with material' having 30% transmittance)",
+    "reflectivity": {
+      "front": "max 25% (windshield, side wings, front-door windows, rear window)",
+      "back": "not regulated for rear-door side windows"
+    },
+    "tolerance": null,
+    "colorsBanned": [],
+    "dualMirrors": null,
+    "certificateOrSticker": "Factory tinting complying with FMVSS 205: proof from the manufacturer, supplier or installer must be carried in the vehicle (§ 9-19-19-4(a)). No installer sticker requirement found.",
+    "medicalExemption": {
+      "available": true,
+      "text": "Driver of a vehicle owned by, or habitually carrying, a person required for medical reasons to be shielded from the sun. Reasons attested by a physician or optometrist licensed in Indiana; certificate carried in the vehicle and renewed annually. Installer may tint for a person who submits that statement.",
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-4"
+    },
+    "penalty": {
+      "text": "Driving with non-compliant tint: Class C infraction (§ 9-19-19-7). Tinting a vehicle in violation (installer): Class A infraction (§ 9-19-19-8). Class C infraction judgment up to $500 (IC 34-28-5-4, not re-read).",
+      "maxFineUsd": 500,
+      "cite": "Ind. Code § 9-19-19-7; § 9-19-19-8; § 34-28-5-4",
+      "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-7"
+    },
+    "lastAmended": "2018 (P.L.164-2018 per Justia 2024 history line; content of that amendment not verified)",
+    "quotes": [
+      "that is covered by or treated with sunscreening material or is tinted with material that has a total solar reflectance of visible light of more than twenty-five percent (25%) as measured on the nonfilm side and light transmittance of less than thirty percent (30%) in the visible light range.",
+      "(1) windshield; (2) side wing; (3) side window that is part of a front door; or (4) rear back window;",
+      "The medical reasons must be attested to by a physician or optometrist licensed to practice in Indiana ... The physician's or optometrist's certificate must be renewed annually.",
+      "Except as provided in section 8 of this chapter, a person who violates this chapter commits a Class C infraction.",
+      "A person who violates section 4(d) of this chapter commits a Class A infraction."
+    ]
+  },
+  "helmet": {
+    "rule": "partial",
+    "ageUnder": 18,
+    "conditions": "Under 18 (operator or passenger) must wear a helmet and eye protection (IC 9-19-7-1); motorcycle learner's permit holders must wear a helmet (IC 9-24-8-3)",
+    "cite": "Ind. Code § 9-19-7-1; § 9-24-8-3",
+    "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-7-1"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": true,
+    "fineText": "Class C infraction, up to $500",
+    "cite": "Ind. Code § 9-21-8-59",
+    "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-21-8-59"
+  },
+  "studdedTires": {
+    "allowed": "seasonal",
+    "season": "Oct 1 - May 1 (retractable studs allowed year-round if retracted May 2 - Sep 30)",
+    "cite": "Ind. Code § 9-19-18-3",
+    "url": "https://faqs.in.gov/hc/en-us/articles/115005063487-Are-tire-chains-and-studs-legal-in-Indiana"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "openQuestions": [
+    "Current text of IC 9-19-19-4 could not be read on iga.in.gov (JavaScript app) nor law.justia.com (403); values come from the 2016 official-text mirror. Justia's 2024 history shows a later amendment P.L.164-2018 whose content was not verified - a reviewer should open iga.in.gov to confirm 30%/25% and the medical clause are unchanged.",
+    "Indiana State Police FAQ (faqs.in.gov) paraphrases the rule as tint that keeps occupants from being 'easily recognized or identified' from outside - possibly the 2018 wording; confirm on iga.in.gov.",
+    "Handheld phone (IC 9-21-8-59), helmet (IC 9-19-7-1), studs (IC 9-19-18-3) were taken from search summaries of the official code and the ISP FAQ, not read in full.",
+    "Underglow and lift/frame height: no Indiana statute located.",
+    "Novice/under-21 phone rule not verified on an official page (left null)."
+  ],
+  "checkedOn": "2026-10-24"
+}

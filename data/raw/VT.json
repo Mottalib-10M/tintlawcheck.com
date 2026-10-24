@@ -1,0 +1,107 @@
+{
+ "code": "VT",
+ "name": "Vermont",
+ "tint": {
+  "statute": [
+   {
+    "cite": "23 V.S.A. § 1125",
+    "url": "https://legislature.vermont.gov/statutes/section/23/013/01125",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "none",
+    "strip": "no material painted or adhered on the windshield except small permitted spaces (4 x 12 in. lower right corner, 2 x 2.5 in. upper left corner, stickers required by regulation); no tint strip allowance in statute",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": "no-film",
+    "note": "No material may be painted or adhered on the side windows immediately left and right of the operator (aftermarket tint prohibited; medical exemption possible)"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "rear side windows may be obstructed only if a securely attached mirror is fitted on each side"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "back window may be obstructed only with mirrors on each side"
+   }
+  },
+  "multipurpose": null,
+  "measuredHow": "not stated (no numeric VLT in statute)",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Securely attached mirror on each side required if the rear side windows or back window are obstructed",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "DMV Commissioner exemption on application with a document signed by a licensed physician or optometrist certifying medical necessity; renewed every 4 years (unless certified permanent and stable); limited to the vent windows and front side windows; ends on vehicle transfer (seller must remove the tint)",
+   "url": "https://legislature.vermont.gov/statutes/section/23/013/01125"
+  },
+  "penalty": {
+   "text": "Not stated in § 1125 (general traffic violation civil penalty)",
+   "maxFineUsd": null,
+   "cite": null,
+   "url": null
+  },
+  "lastAmended": "2015 (2015, No. 50, § 15)",
+  "quotes": [
+   "a person shall not operate a motor vehicle on which material or items have been painted or adhered on or over, or hung in back of, any transparent part of a motor vehicle windshield, vent windows, or side windows located immediately to the left and right of the operator",
+   "the window shading or tinting permitted under this subsection shall be limited to the vent windows or side windows located immediately to the left and right of the operator",
+   "The rear side windows and the back window may be obstructed only if the motor vehicle is equipped on each side with a securely attached mirror"
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All operators and riders (fully enclosed autocycles excepted)",
+  "cite": "23 V.S.A. § 1256",
+  "url": "https://legislature.vermont.gov/statutes/section/23/013/01256"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Under 18: no use of any portable electronic device, even hands-free (23 V.S.A. § 1095a)",
+  "primaryEnforcement": true,
+  "fineText": "$100-$200 first violation, $250-$500 second within 2 years; $200-$400 / $500-$1,000 plus points in work or school zones",
+  "cite": "23 V.S.A. § 1095b",
+  "url": "https://legislature.vermont.gov/statutes/section/23/013/01095b"
+ },
+ "studdedTires": {
+  "allowed": null,
+  "season": null,
+  "cite": null,
+  "url": null
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Vermont DMV inspection manual (which may tolerate some front-side tint) not read; statute alone bans adhered material on front side windows",
+  "Tint fine not found",
+  "Studded tire rule not located in 23 V.S.A. (believed unrestricted, not confirmed)",
+  "Underglow and lift rules not located"
+ ]
+}

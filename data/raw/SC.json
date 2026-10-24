@@ -1,0 +1,41 @@
+{
+  "code": "SC", "name": "South Carolina",
+  "tint": {
+    "statute": [{"cite": "S.C. Code Ann. § 56-5-5015", "url": "https://www.scstatehouse.gov/code/t56c005.php", "readVia": null}],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "nonreflective, not red/yellow/amber, only along the top and not below the AS-1 line; if the AS-1 line is not visible, no film on the windshield", "stripInches": null, "asLine": true, "vlt": null, "reflective": "must be nonreflective"},
+      "frontSide": {"vlt": 27, "note": "single nonreflective film; combined with factory tint at least 27%"},
+      "backSide": {"vlt": 27, "note": "single nonreflective film; combined at least 27%"},
+      "rear": {"vlt": 27, "note": "since Jan 1, 1993, combined at least 27% (20% film installed before 1993 grandfathered while in place); one right and one left outside mirror required"}
+    },
+    "multipurpose": {
+      "windshield": {"rule": "strip", "strip": "same as passenger", "stripInches": null, "asLine": true, "vlt": null, "reflective": "must be nonreflective"},
+      "frontSide": {"vlt": 27, "note": null},
+      "backSide": {"vlt": "any", "note": "light transmittance rule does not apply behind the driver on trucks (other than pickups), buses, trailers, motor homes, multipurpose passenger vehicles and RVs; it DOES apply to pickup trucks"},
+      "rear": {"vlt": "any", "note": "same exception (pickup trucks still 27%)"}
+    },
+    "measuredHow": "film + glass combined ('combined light transmission of the sunscreening device with the factory or manufacturer installed sunscreening material'); no limit applies if no aftermarket film has been added",
+    "reflectivity": {"front": "must be nonreflective", "back": "must be nonreflective"},
+    "tolerance": null,
+    "colorsBanned": ["red", "yellow", "amber"],
+    "dualMirrors": "One right and one left outside rear-view mirror required if the rear-most window is tinted",
+    "certificateOrSticker": "Every aftermarket-tinted window must bear a DPS certificate of compliance on the inside lower right-hand corner showing % light transmission, installer name/address/phone and installation date",
+    "medicalExemption": {"available": true, "text": "Affidavit signed by a physician or optometrist licensed in South Carolina; must be kept in the vehicle, shown to police on request, and updated every two years; no state permit", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+    "penalty": {"text": "Owner/operator: misdemeanor, fine up to $200 or up to 30 days. Missing certificate/illegal installation: professional tinter at least $1,000 or up to 30 days; consumer at least $200 or up to 30 days, per offense.", "maxFineUsd": 200, "cite": "S.C. Code Ann. § 56-5-5015(G), (K)", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+    "lastAmended": "2002 (2002 Act No. 339)",
+    "quotes": [
+      "the combined light transmission of the sunscreening device with the factory or manufacturer installed sunscreening material must not be less than twenty-seven percent",
+      "may be used only along the top of the windshield and may not extend downward beyond the AS1 line. If the AS1 line is not visible, no sunscreening device may be applied to the windshield.",
+      "The light transmittance requirement of this section applies to windows behind the driver on pickup trucks, but does not apply to windows behind the driver on other trucks, buses, trailers, mobile homes, multipurpose passenger vehicles, and recreational vehicles.",
+      "must be fined not more than two hundred dollars or imprisoned not more than thirty days"
+    ]
+  },
+  "helmet": {"rule": "partial", "ageUnder": 21, "conditions": "Operators and riders under 21 of two-wheeled motorized vehicles (goggles/face shield also required under 21)", "cite": "S.C. Code Ann. § 56-5-3660", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "Hands-free law since Sept 1, 2025: $100 first offense, $200 + 2 points for second/subsequent within 3 years; stop only on officer's clear and unobstructed view", "cite": "S.C. Code Ann. § 56-5-3890 (2025 Act No. 40, H.3276)", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+  "studdedTires": {"allowed": "yes", "season": "No seasonal limit in statute; studs may project no more than 1/16 in. beyond the tread", "cite": "S.C. Code Ann. § 56-5-5040", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
+  "underglow": {"rule": "No lamp showing red or blue visible from directly in front; flashing lights prohibited except emergency vehicles, school buses, snow removal, turn signals and hazard warnings (no specific underglow statute)", "cite": "S.C. Code Ann. § 56-5-4830", "url": "https://www.scstatehouse.gov/code/t56c005.php"},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": ["No tolerance stated", "Lift/bumper height rule not located (headlamp height rules exist in 56-5-4500)"]
+}

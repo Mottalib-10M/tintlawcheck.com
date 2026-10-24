@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a changed law, a reading, the widget`} description="Write to Tint Law Check when a state tint law has changed, when a limit looks wrong, or to embed the free window tint calculator on a website for drivers or car owners." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person reads every message.</p>
+    <h2>A state law has changed</h2>
+    <p>Send the state, the section and, if you have it, the bill or act number with its effective date. When a legislature amends a tint limit, the new figure often takes effect some time after the vote. We read the new text, update the state record and date the change.</p>
+    <h2>A result looks wrong</h2>
+    <p>Tell us the state, the vehicle type and the percentages you entered. If you have a meter reading, send it too: it helps us see whether the gap comes from the glass, the film label or the law.</p>
+    <h2>What we cannot do</h2>
+    <p>We cannot contest a ticket, issue an exemption or tell you what a court will decide. Please do not send your plate number, license number or address.</p>
+    <h2>Using the calculator on your own site</h2>
+    <p>Driver education sites, car clubs and community pages can show the calculator in an iframe at no cost. The code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,46 @@
+{
+  "code": "VA", "name": "Virginia",
+  "tint": {
+    "statute": [
+      {"cite": "Va. Code § 46.2-1052", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1052/", "readVia": null},
+      {"cite": "Va. Code § 46.2-1053 (medical authorization)", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1053/", "readVia": null}
+    ],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "no film or darkening material except to replace the manufacturer's sunshield in the uppermost area; clear film allowed if kept consistent with FMVSS 205 (2026 amendment)", "stripInches": null, "asLine": false, "vlt": null, "reflective": "max 20% reflectance; no holographic or prism effect"},
+      "frontSide": {"vlt": 50, "note": "total light transmittance of the window (film + glass); max 20% reflectance"},
+      "backSide": {"vlt": 35, "note": "total light transmittance; mirrors on each side (200 ft view) required for any film"},
+      "rear": {"vlt": 35, "note": "total light transmittance; mirrors on each side (200 ft view) required for any film"}
+    },
+    "multipurpose": {
+      "windshield": {"rule": "strip", "strip": "same as passenger", "stripInches": null, "asLine": false, "vlt": null, "reflective": "max 20% reflectance"},
+      "frontSide": {"vlt": 50, "note": null},
+      "backSide": {"vlt": "any", "note": "rear side and rear windows of multipurpose passenger vehicles and pickup trucks may go below 35% (46.2-1052(H)); reflectance max 20%"},
+      "rear": {"vlt": "any", "note": "same"}
+    },
+    "measuredHow": "film + glass combined ('reduce the total light transmittance of such window')",
+    "reflectivity": {"front": "max 20%, no holographic/prism effect", "back": "max 20%, no holographic/prism effect"},
+    "tolerance": {"points": 7, "cite": "Va. Code § 46.2-1052(E) ('tolerance of minus seven percentage points')"},
+    "colorsBanned": [],
+    "dualMirrors": "A mirror on each side giving a 200-ft rear view is required before any tinting film is applied to any window",
+    "certificateOrSticker": null,
+    "medicalExemption": {"available": true, "text": "Written authorization from the DMV Commissioner, on a signed statement from a licensed physician or optometrist; allows all windows including windshield down to 35% (windshield 70% except top 5 in./AS-1); authorization must be in the vehicle; valid while the condition persists or until the vehicle is sold", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1053/"},
+    "penalty": {"text": "Driver: traffic infraction, no demerit points. Installer: Class 3 misdemeanor first offense, Class 2 subsequent. Since 2020 police may not stop a vehicle for a tint violation (secondary only); court may dismiss on proof of compliance.", "maxFineUsd": null, "cite": "Va. Code § 46.2-1052(D), (O), (P)", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1052/"},
+    "lastAmended": "2026 (2026 Acts c. 894: clear windshield film allowed)",
+    "quotes": [
+      "No sun-shading or tinting films may be applied or affixed to the rear side windows or rear window or windows ... that reduce the total light transmittance of such window to less than 35 percent",
+      "No sun-shading or tinting films may be applied or affixed to the front side windows ... that reduce total light transmittance of such window to less than 50 percent",
+      "have a reflectance of light exceeding 20 percent or (ii) produce a holographic or prism effect",
+      "Such measurements made by law-enforcement officers shall be given a tolerance of minus seven percentage points.",
+      "However, clear film may be applied to a windshield, so long as it is maintained in a condition consistent with 49 C.F.R. § 571.205",
+      "No law-enforcement officer shall stop a motor vehicle for a violation of this section."
+    ]
+  },
+  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "All operators and passengers (except fully enclosed three-wheelers/autocycles and motorcycles with wheels 8 in. or less)", "cite": "Va. Code § 46.2-910", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter9/section46.2-910/"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "$125 first offense, $250 second or subsequent; mandatory $250 in a highway work zone", "cite": "Va. Code § 46.2-818.2", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter8/section46.2-818.2/"},
+  "studdedTires": {"allowed": "seasonal", "season": "Oct 15 - Apr 15 (vehicles up to 10,000 lb; studs max 1/16 in. protrusion)", "cite": "Va. Code § 46.2-1044", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1044/"},
+  "radarDetector": {"passengerAllowed": false, "note": "Virginia bans operating a vehicle equipped with, using, or selling radar/laser detectors (prima facie if present unless no power source and not accessible); no demerit points. Commercial vehicles over 10,001 lb also banned federally (49 CFR 392.71).", "cite": "Va. Code § 46.2-1079", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1079/"},
+  "underglow": {"rule": null, "cite": null, "url": null},
+  "liftHeight": {"rule": "Passenger cars: bumper height 14-22 in. Trucks: GVWR up to 4,500 lb front/rear 14-28 in.; 4,501-7,500 lb front 14-29, rear 14-30; 7,501-15,000 lb front 14-30, rear 14-31. Body lift max 3 in. above frame rail; front bumper may not be 4+ in. higher than rear (cars, pickups, panel trucks).", "cite": "Va. Code § 46.2-1063 (amended 2026, c. 497)", "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1063/"},
+  "checkedOn": "2026-10-24",
+  "openQuestions": ["Fine amount for tint traffic infraction not stated in 46.2-1052 (general traffic infraction cap not checked)", "Underglow rule not located", "2026 c. 497 change to 46.2-1063 not compared with prior text"]
+}

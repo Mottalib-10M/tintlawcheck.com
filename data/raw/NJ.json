@@ -1,0 +1,113 @@
+{
+ "code": "NJ",
+ "name": "New Jersey",
+ "tint": {
+  "statute": [
+   {
+    "cite": "N.J.S.A. 39:3-74",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+    "readVia": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-74/ (current as of 2024-01-01; summarized, short quote only)"
+   },
+   {
+    "cite": "N.J.A.C. 13:20-1.1 to 1.8 (sunscreening regulation, per MVC form MR-15)",
+    "url": "https://www.nj.gov/mvc/pdf/license/MR-15.pdf",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "none",
+    "strip": "No aftermarket tint/non-transparent material on the windshield without a medical exemption; with exemption, only above the AS-1 line",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": "no-film",
+    "note": "No aftermarket non-transparent material/sunscreening on front side windows (medical exemption only)"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "39:3-74 restricts only windshield, wings, deflectors, side shields, corner lights and front side windows; no limit stated for rear side windows"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "no limit stated in 39:3-74"
+   }
+  },
+  "multipurpose": null,
+  "measuredHow": "not stated",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": null,
+  "certificateOrSticker": "Medical exemption: temporary approval (MVC Sunscreening 2, valid 60 days) then permanent approval document (MVC Sunscreening 4, valid 48 months) to be kept in the vehicle and shown to police and at inspection",
+  "medicalExemption": {
+   "available": true,
+   "text": "Windshield and/or front side windows only with MVC medical exemption, approved before installation. Application 'MVC Sunscreening 1' with physician section and valid prescription, sent to SUNSCREENING@mvc.nj.gov or Customer Advocacy Office, PO Box 403, Trenton NJ 08666-0403; install at a licensed sunscreening facility; renew every 48 months. MR-15 form lists qualifying conditions (polymorphous light eruption, persistent light reactivity, actinic reticuloid, porphyrias, solar urticaria, lupus erythematosus).",
+   "url": "https://www.nj.gov/mvc/drivertopics/sunscreen.htm"
+  },
+  "penalty": {
+   "text": "Fine not stated in 39:3-74 as read; unauthorized sunscreening is 'subject to removal, fines and failure to pass New Jersey inspection' (MVC MR-15)",
+   "maxFineUsd": null,
+   "cite": "N.J.S.A. 39:3-74; MVC form MR-15",
+   "url": "https://www.nj.gov/mvc/pdf/license/MR-15.pdf"
+  },
+  "lastAmended": null,
+  "quotes": [
+   "No person shall drive any motor vehicle with any sign, poster, sticker or other non-transparent material upon the front windshield, wings, deflectors, side shields, corner lights adjoining windshield or front side windows of such vehicle",
+   "You may have your vehicle windshield and/or front side windows tinted (sunscreened) in New Jersey with a medical exemption only.",
+   "All medical sun-screening materials must be applied to the portion of the windshield above the AS-1 line. (MR-15)"
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All motorcycle operators and riders (fully enclosed autocycles excluded)",
+  "cite": "N.J.S.A. 39:3-76.7",
+  "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-76-7/"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "$200-$400 first offense, $400-$600 second, $600-$800 third+ (possible 90-day suspension and 3 points)",
+  "cite": "N.J.S.A. 39:4-97.3",
+  "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-4-97-3/"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 15 - Apr 1",
+  "cite": "N.J.A.C. 13:20-15.2(g)",
+  "url": "https://regulations.justia.com/states/new-jersey/title-13/chapter-20/subchapter-15/section-13-20-15-2/"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Could not open the official NJ Legislature statute text (lis.njleg); 39:3-74 read via FindLaw summary (current to 2024-01-01)",
+  "Tint fine amount not found in an official source",
+  "Primary enforcement of 39:4-97.3 not stated in statute text read (widely reported as primary)",
+  "Studded tire dates from N.J.A.C. via Justia mirror, not the official NJ OAL site",
+  "MR-15 form (R 6/09) is old; its numeric limits for medical tint (8%, 35%, 70%) are garbled and were not recorded as limits"
+ ]
+}

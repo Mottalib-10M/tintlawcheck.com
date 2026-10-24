@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers(lang);
+const n = PAGES.filter((p) => p.en).length + 1;
+const statutes = h.STATES.reduce((k, s) => k + s.detail.statute.length, 0);
+---
+<PageLayout title="Tint Law Check publisher: who reads the state tint statutes" description="Who publishes Tint Law Check, how the tint limits of the 50 states and DC are read in each statute, why the check is free and what the site will never sell you." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who reads the tint statutes behind Tint Law Check</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Tint Law Check is published by Radif Partners, a company that builds free calculators on public data. This one is for drivers who want darker windows without a ticket, for people who just bought a used car with film already on it, and for anyone moving to another state with a tinted car.</p>
+    <h2>What the site does</h2>
+    <p>A film is sold by its own percentage, while an officer's meter reads the film and the glass together. The calculator multiplies the two, as the meter does, and compares each window with the minimum written in your state's statute, its tolerance and its separate rule for SUVs and vans. It also gives the darkest film your glass can take, so you know what to ask for before you buy.</p>
+    <h2>Where the limits come from</h2>
+    <p>For each of the 50 states and the District of Columbia we read the vehicle code section on window tint, {statutes} sections and rules in all, on the legislature's official site whenever it answered, and kept a word-for-word extract of the sentence that gives each figure. When an official site refused our connection, the page says which copy of the law we read and when. A figure we could not find in the law is shown as missing, never guessed. The <a href={route('method', lang)}>method page</a> explains each step.</p>
+    <h2>What we are not</h2>
+    <p>We are not a police agency, a DMV, a court or a law firm, and nothing here is legal advice. We do not sell film, do not install it and do not send anyone to a tint shop. We use no state seal or logo.</p>
+    <h2>How the site is paid for</h2>
+    <p>It is free and asks for no account and no email. We take no commission from film makers, installers or lawyers. If advertising is added one day, it will never sit above the calculator, and it cannot see what you enter, because nothing you type leaves your browser.</p>
+    <h2>Tell us when a law changes</h2>
+    <p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the state and the section number. The <a href={route('editorial', lang)}>editorial policy</a> explains how a correction is made. The site has {n} pages in English, listed in the menu.</p>
+    <p class="text-sm text-navy-600">Statutes last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

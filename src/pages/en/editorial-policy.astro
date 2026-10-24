@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: statutes and fixes`} description="Which statutes and federal rules Tint Law Check reads, which sources it refuses, how often the 51 tint laws are checked again and how an error in a state limit is corrected." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>Drivers use these pages before paying for film that costs real money and can earn a ticket. A wrong limit sends them to the wrong film, so every figure points back to the statute section it was read in.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>What we read</h2>
+    <ul>
+      <li>the vehicle code of each state and of the District of Columbia, in its current official version;</li>
+      <li>the rules a state agency adopts under that code, where the statute sends to them;</li>
+      <li>the federal glazing standard FMVSS 205 (49 CFR 571.205), NHTSA's interpretation letters and the federal motor carrier rules for commercial vehicles.</li>
+    </ul>
+    <h2>Sources we refuse</h2><p>Film makers, tint shops, law firm blogs and other tint charts never provide a figure here, however well they rank. They often repeat an old limit after a state has changed it. A limit we cannot find in the law is shown as missing.</p>
+    <h2>Review cycle</h2><p>A script checks every month that each official address still answers; the 51 statutes are read again in full once a year, in July, and whenever a reader reports a change.</p>
+    <h2>Corrections</h2>
+    <ol><li>We read the official text again.</li><li>We correct the state record, keep the new extract and add a test for the case.</li><li>The pages rebuild and show the new date.</li></ol>
+    <h2>Independence</h2><p>No film maker, installer, insurer or state agency pays for or reviews what is published here, and the site carries no affiliate link. See also the <a href={route('method', lang)}>method page</a>. Version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

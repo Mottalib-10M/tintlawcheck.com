@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'es';
+---
+<PageLayout title={`Política editorial de ${SITE_NAMES[lang]}: leyes y fuentes`} description="Qué leyes y reglas federales leemos, qué fuentes rechazamos, cada cuánto se revisan las 51 leyes de polarizado y cómo se corrige un error en el límite de un estado del sitio." lang={lang} noindex={true} breadcrumbs={[{ label: 'Política editorial' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Política editorial y de correcciones</h1>
+    <p>Los conductores consultan estas páginas antes de pagar una lámina que cuesta dinero y que puede costar una multa. Un límite equivocado los lleva a la lámina equivocada, así que cada cifra remite a la sección de la ley donde se leyó.</p>
+    <h2>Responsable</h2><p>{AUTHOR_NAME}, en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Qué leemos</h2>
+    <ul>
+      <li>el código de vehículos de cada estado y del Distrito de Columbia, en su versión oficial vigente;</li>
+      <li>las reglas que una agencia estatal adopta en aplicación de ese código, cuando la ley remite a ellas;</li>
+      <li>la norma federal de acristalamiento FMVSS 205 (49 CFR 571.205), las cartas de interpretación de la NHTSA y las reglas federales de los vehículos comerciales.</li>
+    </ul>
+    <h2>Fuentes que rechazamos</h2><p>Fabricantes de láminas, talleres de polarizado, blogs de despachos de abogados y otras tablas de polarizado nunca aportan una cifra aquí, por bien posicionados que estén. A menudo repiten un límite antiguo después de que el estado lo cambió. Un límite que no encontramos en la ley aparece como faltante.</p>
+    <h2>Revisión</h2><p>Un programa comprueba cada mes que cada dirección oficial siga respondiendo; las 51 leyes se vuelven a leer completas una vez al año, en julio, y cada vez que un lector señala un cambio.</p>
+    <h2>Correcciones</h2>
+    <ol><li>Volvemos a leer el texto oficial.</li><li>Corregimos la ficha del estado, guardamos el nuevo extracto y añadimos una prueba para el caso.</li><li>Las páginas se reconstruyen y muestran la nueva fecha.</li></ol>
+    <h2>Independencia</h2><p>Ningún fabricante, instalador, aseguradora ni agencia estatal paga ni revisa lo que se publica aquí, y el sitio no tiene enlaces de afiliación. Vea también el <a href={route('method', lang)}>método</a>. Versión: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

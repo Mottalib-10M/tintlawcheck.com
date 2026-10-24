@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'es';
+---
+<PageLayout title={`Contacto de ${SITE_NAMES[lang]}: leyes, lecturas, widget`} description="Escriba a Polarizado Legal por Estado si una ley de polarizado cambió, si un límite le parece erróneo, o para insertar la calculadora gratuita de polarizado en su propio sitio web." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contacto' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contacto</h1>
+    <p>Correo: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Una persona lee cada mensaje.</p>
+    <h2>Una ley estatal cambió</h2>
+    <p>Envíenos el estado, la sección y, si lo tiene, el número de la ley o del proyecto con su fecha de entrada en vigor. Cuando una legislatura cambia un límite de polarizado, la nueva cifra suele aplicarse un tiempo después de la votación. Leemos el texto nuevo, actualizamos la ficha del estado y fechamos el cambio.</p>
+    <h2>Un resultado le parece erróneo</h2>
+    <p>Indíquenos el estado, el tipo de vehículo y los porcentajes que puso. Si tiene una lectura de medidor, envíela también: nos ayuda a ver si la diferencia viene del vidrio, de la etiqueta de la lámina o de la ley.</p>
+    <h2>Lo que no podemos hacer</h2>
+    <p>No podemos impugnar una multa, emitir una exención ni decirle lo que decidirá un juez. No nos envíe su placa, su número de licencia ni su dirección.</p>
+    <h2>Usar la calculadora en su sitio</h2>
+    <p>Sitios de educación vial, clubes de autos y páginas comunitarias pueden mostrar la calculadora en un iframe sin costo. El código está en la <a href={route('widget', lang)}>página para insertar</a>.</p>
+    <h2>Editor</h2>
+    <LegalIdentity lang={lang} />
+    <p>Actualizado: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

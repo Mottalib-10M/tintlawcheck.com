@@ -1,0 +1,136 @@
+{
+  "code": "GA",
+  "name": "Georgia",
+  "tint": {
+    "statute": [
+      {
+        "cite": "O.C.G.A. § 40-8-73.1",
+        "url": "https://www.legis.ga.gov/api/legislation/document/20252026/247251",
+        "readVia": "Current wording read as the unchanged/struck text in the official HB 1022 Senate substitute (LC 63 0166S, legis.ga.gov) and the Georgia DPS summary https://dps.georgia.gov/node/127"
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "no material reducing light transmission on the windshield, except a transparent item, not red or amber, on the uppermost 6 inches",
+        "stripInches": 6,
+        "asLine": false,
+        "vlt": null,
+        "reflective": "no"
+      },
+      "frontSide": {
+        "vlt": 32,
+        "note": "plus or minus 3%; reflectance max 20%"
+      },
+      "backSide": {
+        "vlt": 32,
+        "note": "plus or minus 3%; reflectance max 20%"
+      },
+      "rear": {
+        "vlt": 32,
+        "note": "plus or minus 3%; reflectance max 20%"
+      }
+    },
+    "multipurpose": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "same as passenger cars (top 6 inches, not red or amber)",
+        "stripInches": 6,
+        "asLine": false,
+        "vlt": null,
+        "reflective": "no"
+      },
+      "frontSide": {
+        "vlt": 32,
+        "note": "windows to the right and left of the driver stay at 32% +/-3"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "exempt for multipurpose passenger vehicles (§ 40-8-73.1(c)(6)(A))"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "exempt for multipurpose passenger vehicles"
+      }
+    },
+    "measuredHow": "film + glass combined ('material and glazing ... when so applied')",
+    "reflectivity": {
+      "front": "max 20% reflectance",
+      "back": "max 20% reflectance"
+    },
+    "tolerance": {
+      "points": 3,
+      "cite": "O.C.G.A. § 40-8-73.1(b)(2)"
+    },
+    "colorsBanned": [
+      "red",
+      "amber"
+    ],
+    "dualMirrors": null,
+    "certificateOrSticker": null,
+    "medicalExemption": {
+      "available": true,
+      "text": "Department of Public Safety may issue an exemption on application supported by written attestation from a licensed physician or certified optometrist that the person must be shielded from the sun; covers vehicles owned by the person or in which they are a habitual passenger; conditions set by DPS.",
+      "url": "https://dps.georgia.gov/node/127"
+    },
+    "penalty": {
+      "text": "Misdemeanor for operating with or installing illegal tint (§ 40-8-73.1(h)); general misdemeanor maximum fine $1,000 (O.C.G.A. § 17-10-3).",
+      "maxFineUsd": 1000,
+      "cite": "O.C.G.A. § 40-8-73.1(h); § 17-10-3",
+      "url": "https://www.legis.ga.gov/api/legislation/document/20252026/247251"
+    },
+    "lastAmended": "2005 (H.B. 20, effective May 2, 2005, per DPS); HB 1022 (2026) not enacted",
+    "quotes": [
+      "reduce light transmission through the windshield or window to less than 32 percent, plus or minus 3 percent, or increase light reflectance to more than 20 percent",
+      "Any transparent item which is not red or amber in color which is placed on the uppermost six inches of the windshield",
+      "The rear windshield or the side or door windows, except those windows to the right and left of the driver of: (A) A multipurpose passenger vehicle",
+      "Any person who violates subsection (b) or (e) of this Code section shall be guilty of a misdemeanor."
+    ]
+  },
+  "helmet": {
+    "rule": "universal",
+    "ageUnder": null,
+    "conditions": "All operators and riders; exempt inside an enclosed cab or motorized cart, or 3-wheeled agricultural motorcycles.",
+    "cite": "O.C.G.A. § 40-6-315",
+    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-6-315/"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": true,
+    "fineText": "misdemeanor; first conviction max $50, second within 24 months max $100, third+ max $150",
+    "cite": "O.C.G.A. § 40-6-241(c), (f)",
+    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-6-241/"
+  },
+  "studdedTires": {
+    "allowed": "restricted",
+    "season": "when required for safety because of snow, ice or other skid conditions",
+    "cite": "O.C.G.A. § 40-8-74(c)(2)",
+    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-8-74/"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "Georgia's official code (LexisNexis-hosted) and Justia were not reachable; tint text was read from the official legis.ga.gov HB 1022 substitute (current wording shown with strike-outs) and the GA DPS page. Helmet/phone/studded-tire text read via codes.findlaw.com (mirror; FindLaw notes 'current as of March 28, 2024').",
+    "HB 1022 (2026 session) would have set front side windows at 28% and rear windows at 15% and banned electric tinting; it passed the House (Feb 17, 2026) but its last action was Senate second reading (Mar 25, 2026) - treated as not enacted. Confirm on legis.ga.gov.",
+    "Windshield rule: the 6-inch top strip comes from the exception for transparent items not red/amber; DPS describes it as tint above the AS-1 line - the statute itself does not mention AS-1.",
+    "maxFineUsd 1000 comes from the general misdemeanor statute (§ 17-10-3), not read directly.",
+    "No underglow or lift-height rule found."
+  ]
+}

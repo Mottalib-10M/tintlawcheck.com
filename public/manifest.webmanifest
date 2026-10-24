@@ -1,0 +1,21 @@
+{
+ "name": "Tint Law Check",
+ "short_name": "Tint Law Check",
+ "description": "Window tint laws for all 50 states and DC, with a calculator that multiplies film and factory glass into the real combined VLT and checks each window against your state's statute.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#2B4A5E",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

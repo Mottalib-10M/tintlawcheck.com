@@ -1,0 +1,117 @@
+{
+  "code": "DE",
+  "name": "Delaware",
+  "tint": {
+    "statute": [
+      {
+        "cite": "21 Del. C. § 4313",
+        "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html",
+        "readVia": null
+      },
+      {
+        "cite": "21 Del. C. § 4313A (installers)",
+        "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html",
+        "readVia": null
+      },
+      {
+        "cite": "21 Del. C. § 4315 (penalties)",
+        "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html",
+        "readVia": null
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "transparent tint along the top edge, not encroaching on the AS-1 portion (FMVSS 205)",
+        "stripInches": null,
+        "asLine": true,
+        "vlt": null,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 50,
+        "note": "50% VLT or greater since 85 Del. Laws c. 425 (Senate Substitute 1 for SB 255, signed 2026-08-17); previously 70% (FMVSS 205)"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "'0% or greater' per § 4313(c)(2)"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "'0% or greater' per § 4313(c)(2); § 4313 does not itself mention side mirrors"
+      }
+    },
+    "multipurpose": null,
+    "measuredHow": "not stated",
+    "reflectivity": {
+      "front": null,
+      "back": null
+    },
+    "tolerance": null,
+    "colorsBanned": null,
+    "dualMirrors": null,
+    "certificateOrSticker": null,
+    "medicalExemption": {
+      "available": true,
+      "text": "Not a violation if the person possesses a statement signed by a licensed practitioner of medicine and surgery, osteopathic medicine, or optometry verifying that tinted windows are medically necessary for the owner or usual operator; no state application or limit stated in § 4313.",
+      "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html"
+    },
+    "penalty": {
+      "text": "Operator/owner: fine $28.75 to $100 (§ 4315(d), for §§ 4312-4316). Commercial installer violating § 4313: fine $100 to $500 plus restitution of the installation fee (§ 4313A).",
+      "maxFineUsd": 100,
+      "cite": "21 Del. C. § 4315(d); § 4313A(b)",
+      "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html"
+    },
+    "lastAmended": "2026 (85 Del. Laws c. 425; SS 1 for SB 255 signed 2026-08-17)",
+    "quotes": [
+      "Window tint or other material may be applied along the top edge of a motor vehicle’s windshield if the window tint or other material is transparent and does not encroach on the AS-1 portion of the windshield",
+      "Window tint or other material may be applied to the side windows to the immediate right and left of the driver and side wings ... if the window tint or other material has a visible light transmission of 50% or greater.",
+      "Window tint or other material having a visible light transmission of 0% or greater may be applied to the side windows behind the driver or the rear window.",
+      "Whoever being the operator, owner or custodian of any motor vehicle which is operated in violation of §§ 4312-4316 of this title shall be fined not less than $28.75 nor more than $100."
+    ]
+  },
+  "helmet": {
+    "rule": "partial",
+    "ageUnder": 19,
+    "conditions": "Riders 'up to 19 years of age' must wear a helmet; riders newly endorsed on or after 2023-07-30 (and their passengers) must wear one for the first 2 years; all other riders must have an approved helmet in their possession and wear eye protection. Assessment $25-$50.",
+    "cite": "21 Del. C. § 4185(b)",
+    "url": "https://delcode.delaware.gov/title21/c041/sc11/index.html"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": true,
+    "fineText": "first offense civil penalty $100; subsequent within 2 years $200-$300; no points",
+    "cite": "21 Del. C. § 4176C",
+    "url": "https://delcode.delaware.gov/title21/c041/sc09/index.html"
+  },
+  "studdedTires": {
+    "allowed": "seasonal",
+    "season": "Oct 15 - Apr 15",
+    "cite": "21 Del. C. § 4302(b)",
+    "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": "21 Del. C. § 4314 (lights changing original design must be of a Department-approved type)",
+    "url": "https://delcode.delaware.gov/title21/c043/sc01/index.html"
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "Effective date of SS 1 for SB 255 (85 Del. Laws c. 425): signed 2026-08-17 and already codified on delcode.delaware.gov at 50%; no delayed effective date seen, but the session law text was not read.",
+    "primaryEnforcement for § 4176C inferred (statute contains no secondary-enforcement clause).",
+    "No specific underglow or lift/suspension-height statute found."
+  ]
+}

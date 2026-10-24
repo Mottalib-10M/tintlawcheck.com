@@ -1,0 +1,146 @@
+{
+  "code": "KY",
+  "name": "Kentucky",
+  "tint": {
+    "statute": [
+      {
+        "cite": "KRS 189.110",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54782",
+        "readVia": null
+      },
+      {
+        "cite": "KRS 189.990(1)(a) (penalty)",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57417",
+        "readVia": null
+      },
+      {
+        "cite": "2024 Ky. Acts ch. 17 (SB 46)",
+        "url": "https://apps.legislature.ky.gov/law/acts/24RS/documents/0017.pdf",
+        "readVia": null
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "transparent strip at the top not encroaching on the AS/1 area; OR (since July 15, 2024) material over the windshield with at least 70% light transmittance, not red or yellow",
+        "stripInches": null,
+        "asLine": true,
+        "vlt": 70,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 35,
+        "note": "film tested on 1/8-in. clear glass; reflectance max 25%"
+      },
+      "backSide": {
+        "vlt": 18,
+        "note": "film tested on 1/8-in. clear glass; reflectance max 35%; perforated material min 30%"
+      },
+      "rear": {
+        "vlt": 18,
+        "note": "same as windows behind driver; nontransparent rear window requires side mirrors on both sides"
+      }
+    },
+    "multipurpose": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "same as passenger cars",
+        "stripInches": null,
+        "asLine": true,
+        "vlt": 70,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 35,
+        "note": "same as passenger cars"
+      },
+      "backSide": {
+        "vlt": 8,
+        "note": "multipurpose passenger vehicles: film min 8% (tested on 1/8-in. clear glass), reflectance max 35%"
+      },
+      "rear": {
+        "vlt": 8,
+        "note": "multipurpose passenger vehicles; side mirrors both sides if nontransparent"
+      }
+    },
+    "measuredHow": "film alone (tested on one-eighth inch clear glass); perforated material tested with existing glazing",
+    "reflectivity": {
+      "front": "max 25%",
+      "back": "max 35%"
+    },
+    "tolerance": {
+      "points": 3,
+      "cite": "KRS 189.110(7)"
+    },
+    "colorsBanned": [
+      "red",
+      "yellow"
+    ],
+    "dualMirrors": "Rear window nontransparent only if side mirrors on both sides (KRS 189.110(5))",
+    "certificateOrSticker": "Installer must affix a nonremovable compliance label to the inside left door jamb, with trade name and installer/seller business name (KRS 189.110(6))",
+    "medicalExemption": {
+      "available": false,
+      "text": "No medical exemption found in KRS 189.110.",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54782"
+    },
+    "penalty": {
+      "text": "Driver: fine $20-$100 per offense (KRS 189.990(1)(a)). Installer applying non-compliant film: Class B misdemeanor (KRS 189.110(9)).",
+      "maxFineUsd": 100,
+      "cite": "KRS 189.990(1)(a); KRS 189.110(9)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57417"
+    },
+    "lastAmended": "2024-07-15 (2024 Ky. Acts ch. 17, SB 46)",
+    "quotes": [
+      "if it has a light transmittance of not less than seventy percent (70%) and is not red or yellow in color.",
+      "a total solar reflectance of visible light of not more than twenty-five percent (25%) as measured on the nonfilm side and a light transmittance of at least thirty-five percent (35%)",
+      "not more than thirty-five percent (35%) as measured on the nonfilm side and a light transmittance of at least eighteen percent (18%) in the visible light range",
+      "a light transmittance of at least eight percent (8%) in the visible light range may be used on multipurpose passenger vehicles",
+      "Every percentage measurement required by subsections (2) to (4) of this section is subject to a tolerance of plus or minus three percent (3%).",
+      "shall be fined not less than twenty dollars ($20) nor more than one hundred dollars ($100) for each offense."
+    ]
+  },
+  "helmet": {
+    "rule": "partial",
+    "ageUnder": 21,
+    "conditions": "Under 21, instruction permit holders, and operators licensed less than one year",
+    "cite": "KRS 189.285(3)",
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=6361"
+  },
+  "handheldPhone": {
+    "allDriversBan": false,
+    "textingBan": true,
+    "noviceOrAgeBan": "Drivers under 18 with permit, intermediate or operator's license may not use a personal communication device at all while moving (KRS 189.294)",
+    "primaryEnforcement": true,
+    "fineText": "$25 first offense, $50 subsequent",
+    "cite": "KRS 189.292; 189.294; 189.990(30)",
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39750"
+  },
+  "studdedTires": {
+    "allowed": "yes",
+    "season": null,
+    "cite": "KRS 189.190 (regulates chains and lugs only; no stud restriction found)",
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=6319"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": "Visible front lights only white or amber, visible rear lights only white, amber or red, unless original equipment; headlamps white only, no colored covers/film; solid blue lights treated as emergency-light violation",
+    "cite": "KRS 189.040(12)-(15)",
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46291"
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "openQuestions": [
+    "Studded tires: no Kentucky statute expressly allowing or restricting studs found; 'yes' is inferred from absence of a prohibition.",
+    "Primary enforcement of texting ban assumed (no secondary clause in KRS 189.292).",
+    "Lift/frame height: no Kentucky statute located."
+  ],
+  "checkedOn": "2026-10-24"
+}

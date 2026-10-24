@@ -1,0 +1,46 @@
+{
+  "code": "MO", "name": "Missouri",
+  "tint": {
+    "statute": [
+      {"cite": "Mo. Rev. Stat. § 307.173", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.173", "readVia": null}
+    ],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "All sun-screening devices on the windshield are prohibited, except tinting material applied to the upper portion of the windshield that is normally tinted by the manufacturer of motor vehicle safety glass (no inch measurement or AS-1 reference in the statute)", "stripInches": null, "asLine": false, "vlt": null, "reflective": null},
+      "frontSide": {"vlt": 35, "note": "Front side windows/vents immediately left and right of the driver: 35% or more plus or minus 3%, film in conjunction with the glass; luminous reflectance 35% or less plus or minus 3%"},
+      "backSide": {"vlt": "any", "note": "Statute regulates only the windshield and the front side windows/vents"},
+      "rear": {"vlt": "any", "note": "Not regulated by § 307.173; if the driver cannot see the road behind, a mirror revealing the road behind is required (§ 307.170.4)"}
+    },
+    "multipurpose": null,
+    "measuredHow": "film + glass combined ('sun-screening device, in conjunction with safety glazing material')",
+    "reflectivity": {"front": "max 35% luminous reflectance (plus or minus 3%)", "back": null},
+    "tolerance": {"points": 3, "cite": "Mo. Rev. Stat. § 307.173.1"},
+    "colorsBanned": [],
+    "dualMirrors": "Not tint-specific: vehicles whose operator cannot see the road behind must have a mirror revealing the road behind (§ 307.170.4)",
+    "certificateOrSticker": null,
+    "medicalExemption": {"available": true, "text": "Permit issued by the Missouri Department of Public Safety to a person with a serious medical condition requiring a sun-screening device, if the permittee's physician prescribes it; covers darker front side windows; valid for the titleholder or relatives within the second degree residing in the household. Application details are set by DPS rule (not read).", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.173"},
+    "penalty": {"text": "Class C misdemeanor; maximum fine $750", "maxFineUsd": 750, "cite": "Mo. Rev. Stat. §§ 307.173.4, 558.002.1(4)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=558.002"},
+    "lastAmended": "2010 (A.L. 2010 H.B. 1540; version effective 8/28/2010 still current)",
+    "quotes": [
+      "front sidewing vents or windows located immediately to the left and right of the driver that have a sun-screening device, in conjunction with safety glazing material, that has a light transmission of thirty-five percent or more plus or minus three percent",
+      "and a luminous reflectance of thirty-five percent or less plus or minus three percent",
+      "Except as provided in subsection 2 of this section, all sun-screening devices applied to the windshield of a motor vehicle are prohibited.",
+      "tinting material applied to the upper portion of the motor vehicle's windshield which is normally tinted by the manufacturer of motor vehicle safety glass",
+      "may be issued by the department of public safety to a person having a serious medical condition which requires the use of a sun-screening device if the permittee's physician prescribes its use",
+      "Any person who violates the provisions of this section is guilty of a class C misdemeanor.",
+      "For a class C misdemeanor, seven hundred fifty dollars"
+    ]
+  },
+  "helmet": {"rule": "partial", "ageUnder": 26, "conditions": "Required for operators and passengers under 26, and for anyone 26+ riding on an instruction permit; no stop solely to check compliance; infraction, fine up to $25, no points", "cite": "Mo. Rev. Stat. § 302.020.2-3", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=302.020"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": false, "fineText": "Infraction: up to $150 first offense; up to $250 with one prior in 24 months; up to $500 with two or more priors or in a work zone/school zone; warnings only before January 1, 2025", "cite": "Mo. Rev. Stat. § 304.822 (Siddens Bening Hands Free Law, L. 2023 S.B. 398)", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=304.822"},
+  "studdedTires": {"allowed": "seasonal", "season": "Prohibited April 1 - November 1 (allowed November 1 - March 31)", "cite": "Mo. Rev. Stat. § 307.171", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.171"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban found for passenger vehicles; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71).", "cite": null, "url": null},
+  "underglow": {"rule": "No specific underglow provision found. Fixed, flashing or rotating red, red-and-blue and blue lights are reserved to emergency and listed vehicles with permits; amber/amber-and-white to listed work vehicles (class A misdemeanor).", "cite": "Mo. Rev. Stat. § 307.175", "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.175"},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "Medical permit procedure (DPS rule under 307.173, likely 11 CSR): sos.mo.gov and dps.mo.gov returned 403; application details not confirmed.",
+    "Phone law: no specific novice-driver rule found in 304.822; old texting law 304.820 (under 21 ban) repealed by 2023 S.B. 398.",
+    "Lift/bumper height: no Missouri provision located (web search budget exhausted); null.",
+    "Class C misdemeanor jail term (up to 15 days, § 558.011) not checked."
+  ]
+}

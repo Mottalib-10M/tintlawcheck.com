@@ -1,0 +1,118 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "tint": {
+    "statute": [
+      {
+        "cite": "Haw. Rev. Stat. § 291-21.5",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0021_0005.htm",
+        "readVia": "https://codes.findlaw.com/hi/division-1-government/hi-rev-st-sect-291-21-5/"
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "film not encroaching on the AS-1 portion; if no AS-1 marking, no lower than 4 inches below the top of the windshield",
+        "stripInches": 4,
+        "asLine": true,
+        "vlt": null,
+        "reflective": "mirrored or highly reflective finishes showing red, yellow, amber or blue from outside are banned"
+      },
+      "frontSide": {
+        "vlt": 35,
+        "note": "plus or minus 6%, measured with the glazing"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "exempt on sedans, vans, minivans, trucks or buses if rearview mirrors on both sides (Act 129, 2025 extended this to sedans)"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "exempt on sedans, vans, minivans, trucks, buses or other motor vehicles if rearview mirrors on both sides"
+      }
+    },
+    "multipurpose": null,
+    "measuredHow": "film + glass combined ('when used in conjunction with the glazing material')",
+    "reflectivity": {
+      "front": "no mirrored or highly reflective finish showing red, yellow, amber or blue",
+      "back": "same"
+    },
+    "tolerance": {
+      "points": 6,
+      "cite": "Haw. Rev. Stat. § 291-21.5(e)"
+    },
+    "colorsBanned": [
+      "red",
+      "yellow",
+      "amber",
+      "blue"
+    ],
+    "dualMirrors": "Rear and rear side window exemption applies only if the vehicle has rearview mirrors on both sides.",
+    "certificateOrSticker": "Installer must issue a certificate of compliance, which the owner keeps in the vehicle; a missing certificate is prima facie evidence of installer noncompliance (§ 291-21.5(f)).",
+    "medicalExemption": {
+      "available": null,
+      "text": "No medical exemption found in § 291-21.5 as read via mirror.",
+      "url": null
+    },
+    "penalty": {
+      "text": "Owner: $300 to $550 per offense; installer: $700 to $1,200 per offense plus free reinstallation or reimbursement. Occupants must fully roll down tinted windows when stopped by police (noncriminal infraction otherwise).",
+      "maxFineUsd": 550,
+      "cite": "Haw. Rev. Stat. § 291-21.5(d), (f)",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0021_0005.htm"
+    },
+    "lastAmended": "2025 (Act 129, HB 226, signed 2025-05-29)",
+    "quotes": [
+      "have a light transmittance of no less than thirty-five per cent plus or minus six per cent",
+      "no lower than four inches below the top of the windshield ... if no AS-1 markings can be found in the left or right upper margin of the windshield",
+      "Rear windows, including the rear windshield on sedans, vans, minivans, trucks, buses, or other motor vehicles",
+      "side windows to the rear of the driver on sedans, vans, minivans, trucks, or buses ... provided that the vehicles are equipped with rearview mirrors on both sides",
+      "No less than $300 and no more than $550 for each separate offense if the person is the owner of the motor vehicle that is in violation"
+    ]
+  },
+  "helmet": {
+    "rule": "partial",
+    "ageUnder": 18,
+    "conditions": "Operators and passengers under 18 on motorcycles or motor scooters",
+    "cite": "Haw. Rev. Stat. § 286-81(e)",
+    "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0286/HRS_0286-0081.htm"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": "Drivers under 18 may not use a mobile electronic device even hands-free (except to call 911)",
+    "primaryEnforcement": true,
+    "fineText": null,
+    "cite": "Haw. Rev. Stat. § 291C-137",
+    "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0137.htm"
+  },
+  "studdedTires": {
+    "allowed": null,
+    "season": null,
+    "cite": null,
+    "url": null
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "capitol.hawaii.gov blocks automated access (Cloudflare 403); § 291-21.5 and § 286-81 read via codes.findlaw.com ('current as of January 01, 2025') - the text includes Act 129 (2025) changes, but should be checked on the official page.",
+    "Act 129 (2025) effective date not confirmed (signed 2025-05-29).",
+    "Medical exemption: none found in § 291-21.5; Hawaii may handle it elsewhere - not confirmed.",
+    "§ 291C-137 fine amount not read directly (a search excerpt of the official text mentions $300, higher in school/construction zones) - left null.",
+    "Studded tires, underglow, lift-height: not found."
+  ]
+}

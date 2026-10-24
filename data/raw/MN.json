@@ -1,0 +1,52 @@
+{
+  "code": "MN", "name": "Minnesota",
+  "tint": {
+    "statute": [
+      {"cite": "Minn. Stat. § 169.71, subd. 4, 4a, 5", "url": "https://www.revisor.mn.gov/statutes/cite/169.71", "readVia": null},
+      {"cite": "Minn. Laws 2025, ch. 5 (S.F. 1075), amending § 169.71 subd. 4a", "url": "https://www.revisor.mn.gov/laws/2025/0/Session+Law/Chapter/5/", "readVia": null}
+    ],
+    "passenger": {
+      "windshield": {"rule": "none", "strip": "No tint or film of any kind on the windshield (no AS-1 strip allowance in the statute); only unmodified factory glazing conforming to FMVSS 205 is exempt", "stripInches": null, "asLine": false, "vlt": null, "reflective": "not allowed: no material making the windshield more reflective"},
+      "frontSide": {"vlt": 50, "note": "50% plus or minus 3%; luminous reflectance max 20% plus or minus 3%"},
+      "backSide": {"vlt": 50, "note": "50% plus or minus 3% for passenger cars (all side windows)"},
+      "rear": {"vlt": 50, "note": "50% plus or minus 3% for passenger cars"}
+    },
+    "multipurpose": {
+      "windshield": {"rule": "none", "strip": "Same as passenger cars: no tint on windshield", "stripInches": null, "asLine": false, "vlt": null, "reflective": "not allowed"},
+      "frontSide": {"vlt": 50, "note": "50% plus or minus 3%"},
+      "backSide": {"vlt": "any", "note": "Vans (Minn. Stat. 168.002 subd. 40): side windows behind the driver's seat exempt. Pickup trucks: only the rear window is exempt, so pickup side windows stay at 50%. SUVs are not named in the exemption: 50% applies unless the vehicle qualifies as a van."},
+      "rear": {"vlt": "any", "note": "Exempt for pickup trucks (168.002 subd. 26) and vans (168.002 subd. 40); SUVs not named, 50% applies"}
+    },
+    "measuredHow": "not stated (statute sets the light transmittance of the window 'composed of or treated with' the material, i.e. the window as it is)",
+    "reflectivity": {"front": "max 20% luminous reflectance (plus or minus 3%); no 'highly reflective or mirrored appearance' on any window", "back": "max 20% luminous reflectance (plus or minus 3%); no mirrored appearance"},
+    "tolerance": {"points": 3, "cite": "Minn. Stat. § 169.71, subd. 4(3)"},
+    "colorsBanned": [],
+    "dualMirrors": null,
+    "certificateOrSticker": "Film applied after August 1, 1985 must carry a permanent marking stating the percent of transmittance and of reflectance, readable when installed (subd. 4(4))",
+    "medicalExemption": {"available": true, "text": "No state permit: the driver or a passenger must carry a prescription or physician's statement of medical need stating the minimum light transmittance, whether the condition is temporary or permanent, and an expiration date no more than 2 years after issue unless the physician marks the condition permanent (2025 amendment, prescriptions issued on or after July 1, 2025). A driver may rely on a prescription issued to a close relative or a person they are personal care attendant for, if it names make, model and plate of one or two vehicles and is carried in the vehicle.", "url": "https://www.revisor.mn.gov/statutes/cite/169.71"},
+    "penalty": {"text": "Driving with non-compliant tint: petty misdemeanor (general penalty of chapter 169), fine up to $300, no jail; selling or applying non-compliant film as a business: misdemeanor (subd. 5)", "maxFineUsd": 300, "cite": "Minn. Stat. § 169.89, subd. 1-2; § 169.71, subd. 5(b)", "url": "https://www.revisor.mn.gov/statutes/cite/169.89"},
+    "lastAmended": "2025 (Laws 2025, ch. 5, effective July 1, 2025: medical exemption only; percentages unchanged)",
+    "quotes": [
+      "when the windshield is composed of, covered by, or treated with any material which has the effect of making the windshield more reflective or in any other way reducing light transmittance through the windshield",
+      "has a light transmittance of less than 50 percent plus or minus three percent in the visible light range or a luminous reflectance of more than 20 percent plus or minus three percent",
+      "the rear windows of a pickup truck as defined in section 168.002, subdivision 26",
+      "the rear windows or the side windows on either side behind the driver's seat of a van as defined in section 168.002, subdivision 40",
+      "the prescription specifically states whether the medical need is a temporary or permanent condition",
+      "which must be no more than two years after the date the prescription or statement was issued, unless an indication is made by the physician that the driver's condition is permanent",
+      "If convicted, the person is not subject to imprisonment but shall be punished by a fine of not more than $300."
+    ]
+  },
+  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "Required under age 18 (operators and passengers) and for anyone riding on a motorcycle instruction permit; eye protection required for all operators", "cite": "Minn. Stat. § 169.974, subd. 2(d), 4(a)", "url": "https://www.revisor.mn.gov/statutes/cite/169.974"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": "Instruction permit holders and provisional license holders may not use a cellular or wireless telephone at all, handheld or hands-free, while the vehicle is in motion (Minn. Stat. 171.05 subd. 2(c); 171.055 subd. 2)", "primaryEnforcement": true, "fineText": "First offense: petty misdemeanor (fine up to $300 under § 169.89; statute sets no specific first-offense amount); second or subsequent: $275", "cite": "Minn. Stat. § 169.475, subd. 2", "url": "https://www.revisor.mn.gov/statutes/cite/169.475"},
+  "studdedTires": {"allowed": "no", "season": null, "cite": "Minn. Stat. § 169.72, subd. 1(c), 4, 5", "url": "https://www.revisor.mn.gov/statutes/cite/169.72"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban on radar detectors in passenger cars found; Minn. Stat. 169.71 subd. 1(a)(2) forbids objects suspended between driver and windshield, so windshield mounting is risky. Commercial vehicles over 10,001 lb banned federally (49 CFR 392.71).", "cite": null, "url": null},
+  "underglow": {"rule": "No colored light other than those required or permitted by chapter 169; red lights banned; flashing lights banned except listed vehicles; blue lights banned except road maintenance/snow removal and emergency vehicles (1-inch blue in rear brake light allowed on motorcycles and collector vehicles). No specific underglow provision.", "cite": "Minn. Stat. § 169.64, subd. 2-4", "url": "https://www.revisor.mn.gov/statutes/cite/169.64"},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "Lift/bumper height: no Minnesota provision located (web search budget exhausted); null.",
+    "Dual outside mirrors when rear window is tinted: not stated in 169.71; general mirror rule (169.70) not checked.",
+    "Phone first-offense fine: statute only gives the $300 petty misdemeanor maximum; the commonly cited $50 base fine is not in the statute text read.",
+    "Tint enforcement as a basis for a traffic stop: no 2023-2025 change found in 169.71 history (only 2025 c 5 on the medical exemption)."
+  ]
+}

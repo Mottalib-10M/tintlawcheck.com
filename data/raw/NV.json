@@ -1,0 +1,36 @@
+{
+  "code": "NV", "name": "Nevada",
+  "tint": {
+    "statute": [{"cite": "Nev. Rev. Stat. § 484D.440", "url": "https://www.leg.state.nv.us/NRS/NRS-484D.html#NRS484DSec440", "readVia": "web.archive.org snapshot of the official NRS chapter 484D page (Rev. 12/9/2024); leg.state.nv.us blocked us via Cloudflare"}],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "material allowed only on the topmost portion: its bottom edge must be at least 29 in. above the undepressed driver's seat (measured 5 in. in front of the bottom of the backrest, seat rearmost and lowest); not red or amber", "stripInches": null, "asLine": false, "vlt": null, "reflective": null},
+      "frontSide": {"vlt": 35, "note": "nonreflective; total light transmission of film + glass combined at least 35%, tolerance 7%"},
+      "backSide": {"vlt": "any", "note": "allowed if outside mirrors on each side give a view at least 200 ft to the rear"},
+      "rear": {"vlt": "any", "note": "allowed if outside mirrors on each side give a view at least 200 ft to the rear"}
+    },
+    "multipurpose": null,
+    "measuredHow": "film + glass combined (front side windows)",
+    "reflectivity": {"front": "must be nonreflective", "back": "not stated"},
+    "tolerance": {"points": 7, "cite": "Nev. Rev. Stat. § 484D.440(3)(a)(2)"},
+    "colorsBanned": ["red", "amber"],
+    "dualMirrors": "Required (each side, view of at least 200 ft to the rear) for tint behind the driver",
+    "certificateOrSticker": null,
+    "medicalExemption": {"available": null, "text": "Statute lets the DMV Director provide exemptions by regulation (484D.440(6)); exemption regulation not located/read", "url": null},
+    "penalty": {"text": "Not a moving traffic violation for DMV demerit purposes (484D.440(7)); fine amount not stated in this section", "maxFineUsd": null, "cite": "Nev. Rev. Stat. § 484D.440(7)", "url": "https://www.leg.state.nv.us/NRS/NRS-484D.html#NRS484DSec440"},
+    "lastAmended": "Added 1993 (Stats. 1993, p. 2433); substituted in revision for NRS 484.6195",
+    "quotes": [
+      "Has a total light transmission through the combination, if any, of transparent material and safety glazing of not less than 35 percent with a tolerance of 7 percent.",
+      "A side window that is to the rear of the driver, or a rear window, if the vehicle has outside mirrors on each side that are located so as to reflect to the driver a view of the highway through each mirror for a distance of not less than 200 feet",
+      "The bottom edge of the material is not less than 29 inches above the undepressed driver's seat ... (2) The material is not red or amber in color.",
+      "Factory material allowed if the vehicle could have been sold new with such material as standard or optional equipment (484D.440(5)); pre-July 1, 1993 film on 1993-or-older vehicles grandfathered (484D.440(4))"
+    ]
+  },
+  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "Driver and passenger of any motorcycle or moped must wear protective headgear plus glasses/goggles/face shield unless a standard windscreen is fitted", "cite": "Nev. Rev. Stat. § 486.231", "url": "https://www.leg.state.nv.us/NRS/NRS-486.html#NRS486Sec231"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "Civil infraction: $50 first violation in 7 years, $100 second, $250 third+; doubled-type extra penalties in work/school zones (484B.130/135/370); first violation not treated as moving violation", "cite": "Nev. Rev. Stat. § 484B.165", "url": "https://www.leg.state.nv.us/NRS/NRS-484B.html#NRS484BSec165"},
+  "studdedTires": {"allowed": "seasonal", "season": "Oct 1 - Apr 30 (metal max 3% of contact area; retractable studs engaged only Oct 1 - Apr 30)", "cite": "Nev. Rev. Stat. § 484D.510(2)(c)-(d)", "url": "https://www.leg.state.nv.us/NRS/NRS-484D.html#NRS484DSec510"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
+  "underglow": {"rule": null, "cite": null, "url": null},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": ["Official site blocked; read via Wayback (chapter 484D Rev. 12/9/2024, 484B Rev. 9/9/2026, 486 Rev. 6/29/2024)", "Fine for a tint violation not found (general traffic penalty)", "Medical exemption regulation (NAC 484D) not read", "Underglow and lift rules not located"]
+}

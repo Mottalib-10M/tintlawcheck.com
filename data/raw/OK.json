@@ -1,0 +1,36 @@
+{
+  "code": "OK", "name": "Oklahoma",
+  "tint": {
+    "statute": [{"cite": "Okla. Stat. tit. 47, § 12-422", "url": "https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST47", "readVia": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf (official Legislature complete Title 47; oscn.net refused our connection)"}],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "transparent material only on the topmost portion, not below the AS-1 line or more than 5 in. from the top, whichever is closer to the top; not red or amber", "stripInches": 5, "asLine": true, "vlt": null, "reflective": null},
+      "frontSide": {"vlt": 25, "note": "material + glazing at least 25% light transmission, luminous reflectance max 25% (D.1 'side or back windows')"},
+      "backSide": {"vlt": 25, "note": "25% / max 25% reflectance; vehicles made before 1996 may go to 10% behind the driver with dual outside mirrors"},
+      "rear": {"vlt": 25, "note": "25% / max 25% reflectance (10% for pre-1996 models with dual mirrors)"}
+    },
+    "multipurpose": null,
+    "measuredHow": "film + glass combined ('substance or material in conjunction with glazing material'; light transmission = % of total light passing through a window)",
+    "reflectivity": {"front": "max 25% luminous reflectance; mirrored finish excluded", "back": "max 25% luminous reflectance"},
+    "tolerance": null,
+    "colorsBanned": ["red", "amber"],
+    "dualMirrors": "Required (left and right, 200-ft view) only for the 10% exception on pre-1996 vehicles",
+    "certificateOrSticker": "Seller/installer must certify in a bold-face written statement in the sale/installation contract that the product complies with reflectivity and transmittance requirements",
+    "medicalExemption": {"available": true, "text": "Commissioner of Public Safety exemption on application with written attestation from an Oklahoma-licensed physician, for the person's vehicle or one in which the person is a habitual passenger (side and rear windows)", "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf"},
+    "penalty": {"text": "Misdemeanor; general Title 47 penalty: fine $5-$500 or up to 10 days (longer jail for repeats within one year)", "maxFineUsd": 500, "cite": "Okla. Stat. tit. 47, §§ 12-422(I), 17-101(B)", "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf"},
+    "lastAmended": "2005 (Laws 2005, c. 190, § 11)",
+    "quotes": [
+      "Side or back windows that have a substance or material in conjunction with glazing material that has a light transmission of at least twenty-five percent (25%) and a luminous reflectance of at most twenty-five percent (25%)",
+      "it does not extend downward beyond the AS-1 line or more than five (5) inches from the top of the windshield, whichever is closer to the top of the windshield, and b. the material is not red or amber in color",
+      "a light transmission of at least ten percent (10%) and a luminous reflectance of at most twenty-five percent (25%) on all vehicles manufactured prior to 1996 year models, if the motor vehicle is equipped with outside mirrors on both left and right hand sides",
+      "shall be punished by a fine of not less than Five Dollars ($5.00) nor more than Five Hundred Dollars ($500.00) or by imprisonment for not more than ten (10) days"
+    ]
+  },
+  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "Operators and riders under 18", "cite": "Okla. Stat. tit. 47, § 12-609(B)", "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf"},
+  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Handheld use (holding a phone) banned in marked school zones and road construction zones (11-901e); learner/intermediate permit rules not read", "primaryEnforcement": true, "fineText": "Texting while driving: fine up to $100, no points (11-901d)", "cite": "Okla. Stat. tit. 47, § 11-901d", "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf"},
+  "studdedTires": {"allowed": "seasonal", "season": "Nov 1 - Apr 1 (vehicles up to 2 tons rated capacity; studs max 3% of traction surface, max 3/32 in. projection)", "cite": "Okla. Stat. tit. 47, § 12-405(C)", "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf"},
+  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
+  "underglow": {"rule": null, "cite": null, "url": null},
+  "liftHeight": {"rule": null, "cite": null, "url": null},
+  "checkedOn": "2026-10-24",
+  "openQuestions": ["Date of the os47.rtf compilation not checked (downloaded 2026-10-24 from the Legislature site)", "No separate multipurpose-vehicle rule in 12-422", "Underglow and lift rules not located"]
+}

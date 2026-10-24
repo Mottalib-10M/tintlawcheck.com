@@ -1,0 +1,47 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+import { combinedVlt, darkestLegalFilm } from '../../lib/engine/tint';
+const lang = 'en';
+const h = helpers(lang);
+const { STATES } = h;
+const combined = STATES.filter((s) => s.measuredHow === 'combined').length;
+const withTol = STATES.filter((s) => s.tolerancePoints).length;
+const mpv = STATES.filter((s) => s.multipurpose).length;
+const nullFront = STATES.filter((s) => s.passenger.frontSide.vlt === null).length;
+const offSite = STATES.filter((s) => s.detail.statute.some((x) => x.readVia && /findlaw|justia|wayback|web\.archive|lexis/i.test(x.readVia))).map((s) => s.code);
+const ex = combinedVlt(80, 35);
+---
+<PageLayout title="Tint Check Method: Film, Glass and the 51 State Statutes" description="How Tint Law Check reads each state tint statute, multiplies film and factory glass into the reading a meter gives, applies tolerances and the SUV rules." lang={lang} jsonLd={[articleSchema({ title: 'How the tint check works', description: 'Method of Tint Law Check', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How the tint check works</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and every tool reads one file of {STATES.length} state records, built from one source file per state. No percentage is typed into a page. The records were last checked on {displayDate(h.META.newestCheck, 'en-US')}.</p>
+    <h2>1. Reading the statutes</h2>
+    <p>For each state and DC we read the vehicle code section on sunscreening or window tint, plus the sections it points to for penalties and exemptions. Each record holds the citation, the official address, the date of reading and a literal extract of the sentence that gives each limit. Where a legislature's site blocked automated access, we read a dated copy of the same text and wrote down which one: that is the case for {offSite.length} jurisdictions ({offSite.join(', ')}), and their pages say so. {nullFront ? `${nullFront} record still has no front-window figure and shows it as missing.` : 'Every record has a front-window rule.'}</p>
+    <h2>2. Film times glass</h2>
+    <p>Light transmission of stacked layers multiplies: a 35% film on 80% glass passes 0.35 × 0.80 = {h.pc(ex)}. This is the physics a tint meter applies when it shines light through the whole window. In {combined} states the statute says the film is measured "in combination with" the glass; in the others it does not say, and we use the combined reading because it is the one an officer gets. The darkest legal film is the limit divided by the glass transmission, rounded up to the next tenth: on 70% glass and a 25% limit, {h.pc(darkestLegalFilm(25, 70) as number)}.</p>
+    <h2>3. Default glass</h2>
+    <p>The calculator starts each window at 70% glass, the minimum that federal standard <Fragment set:html={h.src('fmvss205', 'FMVSS 205')} /> and NHTSA's <Fragment set:html={h.src('nhtsa_70', 'interpretation letter 1985-0320')} /> require on windows needed for driving. Real glass is often lighter, which leaves more room for film; factory privacy glass on the rear of SUVs is darker and must be entered with its own reading. We publish no "typical" glass value, because we found no official source for one.</p>
+    <h2>4. Verdicts</h2>
+    <ul>
+      <li><strong>Legal</strong>: the combined reading is at or above the minimum.</li>
+      <li><strong>Tolerance</strong>: below the minimum but within the margin the statute writes for the meter ({withTol} states write one).</li>
+      <li><strong>Too dark</strong>: below the minimum and the tolerance.</li>
+      <li><strong>Any</strong>: the statute sets no limit for that window. <strong>No figure</strong>: the statute restricts the window without a percentage.</li>
+    </ul>
+    <p>{mpv} jurisdictions have separate rules for multipurpose vehicles (SUVs, vans, pickups); elsewhere the car rule applies to every vehicle. Illinois ties its front limit to the darkness of the rear windows, and the calculator applies that link.</p>
+    <h2>5. Tests</h2>
+    <p>On every build the engine is checked on known cases (35% on 80% glass, the Texas tolerance, New Jersey's no-film rule, the Illinois rear condition), and the data file must hold all 51 jurisdictions, each with a citation, an address and an extract. A failing test stops the build.</p>
+    <h2>6. What the check does not do</h2>
+    <ul>
+      <li>It does not measure your glass: a film label and a meter can differ by a few points.</li>
+      <li>It does not cover local ordinances, commercial vehicle rules beyond the federal 70% front rule of <Fragment set:html={h.src('fmcsa_393_60', '49 CFR 393.60')} />, or rules for limousines and law enforcement vehicles.</li>
+      <li>It is not legal advice and does not predict what an officer or a court will decide.</li>
+    </ul>
+    <p>Method version: {LAST_UPDATED}. A figure that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,141 @@
+{
+ "code": "AR",
+ "name": "Arkansas",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Ark. Code Ann. § 27-37-306",
+    "url": "https://www.lexisnexis.com/hottopics/arcode/",
+    "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html",
+    "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+   },
+   {
+    "cite": "Ark. Code Ann. § 27-37-307 (for-hire sedans)",
+    "url": "https://www.lexisnexis.com/hottopics/arcode/",
+    "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-307.html",
+    "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "'eyebrow' on the top edge in front of the operator, not extending more than five inches down from the top center of the windshield",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 25,
+    "note": "1994 and later models: at least 25% net light transmission"
+   },
+   "backSide": {
+    "vlt": 25,
+    "note": "side windows immediately behind the driver: at least 25% net (passenger cars)"
+   },
+   "rear": {
+    "vlt": 10,
+    "note": "rearmost window: at least 10% net light transmission"
+   }
+  },
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "top 5 inches (eyebrow)",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 25,
+    "note": "same as passenger cars"
+   },
+   "backSide": {
+    "vlt": 10,
+    "note": "trucks, buses, trailers, motor homes, multipurpose passenger vehicles: side windows behind the driver at least 10% net"
+   },
+   "rear": {
+    "vlt": 10,
+    "note": "at least 10% net"
+   }
+  },
+  "measuredHow": "film + glass combined (\"net light transmission\")",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": {
+   "points": null,
+   "cite": null
+  },
+  "colorsBanned": [],
+  "dualMirrors": null,
+  "certificateOrSticker": "Label on the front glass to the operator's left with the installer's name and phone number affirming all tinting conforms (§ 27-37-306(c))",
+  "medicalExemption": {
+   "available": true,
+   "text": "Physician diagnosis of a disease or disorder (e.g. albinism, lupus) with certification carried in the vehicle; allows at least 20% on front and adjacent side windows, 10% rearmost, 50% windshield; certification valid 3 years",
+   "url": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html"
+  },
+  "penalty": {
+   "text": "Class B misdemeanor for installers and for operating a vehicle with non-compliant tint",
+   "maxFineUsd": null,
+   "cite": "Ark. Code Ann. § 27-37-306(g)",
+   "url": null
+  },
+  "lastAmended": "medical-waiver limits effective August 16, 2013 (per statute text); text read as 'current as of March 28, 2024' on FindLaw",
+  "quotes": [
+   "(b)(1) eyebrow: may not extend downward more than \"five inches (5\")\" from the top center of the windshield",
+   "(b)(2): side windows \"at least twenty-five percent (25%) net light transmission\"; trucks, buses, trailers, motor homes, multipurpose passenger vehicles behind driver \"at least ten percent (10%) net light transmission\"",
+   "(b)(3): rearmost window \"at least ten percent (10%) net light transmission\"",
+   "(e)(2): medical: side windows \"at least twenty percent (20%) net light transmission\"; windshield \"at least fifty percent (50%) net light transmission\"",
+   "(g): \"shall be guilty of a Class B misdemeanor\""
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 21,
+  "conditions": "Operators and passengers must wear protective headgear unless 21 or older",
+  "cite": "Ark. Code Ann. § 27-20-104(b)(1)",
+  "url": null
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Drivers under 18 may not use a wireless telecommunications device or hands-free device except in an emergency (§ 27-51-1603)",
+  "primaryEnforcement": null,
+  "fineText": null,
+  "cite": "Ark. Code Ann. §§ 27-51-1504, 27-51-1603",
+  "url": null
+ },
+ "studdedTires": {
+  "allowed": null,
+  "season": null,
+  "cite": null,
+  "url": null
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No Arkansas ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Arkansas Code has no per-section official URL (official free access is the LexisNexis portal linked from arkleg.state.ar.us); text read on codes.findlaw.com, 'current as of March 28, 2024' - 2025 session amendments not checked (web search quota exhausted)",
+  "Class B misdemeanor fine maximum (general law, Ark. Code § 5-4-201) not confirmed",
+  "No tolerance or reflectance limit found in § 27-37-306 text",
+  "Phone: fine amounts, primary enforcement, 18-20 hands-free rule and school-zone rule not confirmed",
+  "Studded tires, underglow, lift height: not found"
+ ]
+}

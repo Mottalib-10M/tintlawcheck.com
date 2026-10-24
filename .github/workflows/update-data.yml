@@ -1,0 +1,36 @@
+name: Re-check state tint statutes
+# Monthly: rebuild src/data from data/raw and check that every official statute URL still answers.
+# A dead link or a changed figure opens an issue; the data is then re-read by hand in data/raw/<XX>.json.
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 1st of each month, 06:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci --legacy-peer-deps
+      - name: Rebuild the data and check the official links
+        id: run
+        run: node scripts/update-data.mjs --check-links > data-check.log 2>&1 || echo "failed=1" >> "$GITHUB_OUTPUT"
+      - name: Engine tests and build
+        run: npx vitest run && npm run build
+      - name: Commit the rebuilt data
+        run: |
+          git config user.name "Radif Partners"
+          git config user.email "amradif@gmail.com"
+          git add src/data/states.json src/data/states-lite.json src/data/meta.json
+          git diff --cached --quiet || git commit -m "Données : relecture mensuelle des lois de polarizado"
+          git push
+      - name: Open an issue when a link died
+        if: steps.run.outputs.failed == '1'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: gh issue create --title "Loi d'État à relire ($(date +%Y-%m))" --body-file data-check.log

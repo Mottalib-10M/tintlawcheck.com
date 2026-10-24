@@ -1,0 +1,51 @@
+{
+  "_lisezmoi": "Federal sources of the site. State figures, their citations and official URLs live in src/data/states.json (built by scripts/update-data.mjs from data/raw/<XX>.json).",
+  "year": 2026,
+  "retrieved_at": "2026-10-24",
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "sources": {
+    "fmvss205": {
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.205",
+      "label": {
+        "en": "49 CFR § 571.205, Federal Motor Vehicle Safety Standard No. 205 (glazing materials)",
+        "es": "49 CFR § 571.205, norma federal FMVSS 205 (materiales de acristalamiento)"
+      }
+    },
+    "nhtsa_70": {
+      "url": "https://www.nhtsa.gov/interpretations/1985-0320",
+      "label": {
+        "en": "NHTSA, interpretation letter 1985-0320 on aftermarket tinting film (70 % rule)",
+        "es": "NHTSA, carta de interpretación 1985-0320 sobre láminas de polarizado (regla del 70 %)"
+      }
+    },
+    "fmcsa_393_60": {
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-D/section-393.60",
+      "label": {
+        "en": "49 CFR § 393.60(d), tinting of commercial motor vehicle windows",
+        "es": "49 CFR § 393.60(d), polarizado de los vehículos comerciales"
+      }
+    },
+    "fmcsa_392_71": {
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-E/section-392.71",
+      "label": {
+        "en": "49 CFR § 392.71, radar detectors in commercial motor vehicles",
+        "es": "49 CFR § 392.71, detectores de radar en vehículos comerciales"
+      }
+    },
+    "fmvss218": {
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.218",
+      "label": {
+        "en": "49 CFR § 571.218, Federal Motor Vehicle Safety Standard No. 218 (motorcycle helmets)",
+        "es": "49 CFR § 571.218, norma federal FMVSS 218 (cascos de motocicleta)"
+      }
+    },
+    "fmcsa_390_5": {
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5",
+      "label": {
+        "en": "49 CFR § 390.5, definition of a commercial motor vehicle",
+        "es": "49 CFR § 390.5, definición de vehículo comercial"
+      }
+    }
+  }
+}

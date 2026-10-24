@@ -1,0 +1,107 @@
+{
+  "code": "MI",
+  "name": "Michigan",
+  "tint": {
+    "statute": [
+      {
+        "cite": "MCL 257.709",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-709",
+        "readVia": "Official site legislature.mi.gov refused every connection on 2026-10-24 (all hosts, Wayback copy 403 to scripts). Text read on the FindLaw copy of MCL 257.709, marked 'current as of January 01, 2025' (codes.findlaw.com/mi/chapter-257-motor-vehicles/mi-comp-laws-257-709/). Searches found no Michigan act amending 257.709 since then; HB 5634 (2017-2018) was vetoed on 2018-12-28 and HB 5100 (2019-2020) was not enacted."
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "tinted film only along the top edge, not more than 4 inches from the top of the windshield or lower than the shade band, whichever is closer to the top",
+        "stripInches": 4,
+        "asLine": true,
+        "vlt": null,
+        "reflective": "nonreflective"
+      },
+      "frontSide": {
+        "vlt": "no-film",
+        "note": "MCL 257.709(1)(a) bars any film or window application on the side windows immediately adjacent to the driver or front passenger and on the sidewings; the only film the subsection allows is the tinted strip along the top edge (4 inches). No percentage is written in the law."
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "no transmittance limit; material may not create a total solar reflectance of 35% or more in the visible light range (MCL 257.709(1)(b)); two outside mirrors needed if the rear view is obstructed (257.709(2))"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "same 35% solar reflectance limit; two outside rearview mirrors required when the rear window is obstructed (MCL 257.709(2))"
+      }
+    },
+    "multipurpose": null,
+    "measuredHow": "not stated",
+    "reflectivity": {
+      "front": "nonreflective strip only",
+      "back": "total solar reflectance under 35% in the visible light range"
+    },
+    "tolerance": null,
+    "colorsBanned": [],
+    "dualMirrors": null,
+    "certificateOrSticker": null,
+    "medicalExemption": {
+      "available": true,
+      "text": "Special window treatment or application determined necessary by a physician or optometrist for a light-sensitive or photosensitive person, if the owner or operator has in possession a letter signed by the physician or optometrist indicating that it is a medical necessity; it may not interfere with or obstruct the driver's clear vision of the highway (MCL 257.709(3)(e)).",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-709"
+    },
+    "penalty": {
+      "text": "Civil infraction under the Michigan Vehicle Code; the fine amount is not written in 257.709 and was not read",
+      "maxFineUsd": null,
+      "cite": "MCL 257.709",
+      "url": null
+    },
+    "lastAmended": null,
+    "quotes": [
+      "upon or in the front windshield, the side windows immediately adjacent to the driver or front passenger, or the sidewings adjacent to and forward of the driver or front passenger",
+      "except that a tinted film may be used along the top edge of the windshield ... if the material does not extend more than 4 inches from the top of the windshield or lower than the shade band, whichever is closer to the top of the windshield",
+      "a material that creates a total solar reflectance of 35% or more in the visible light range",
+      "if the owner or operator of a motor vehicle has in possession a letter signed by a physician or optometrist, indicating that the special window treatment or application is a medical necessity"
+    ]
+  },
+  "helmet": {
+    "rule": null,
+    "ageUnder": null,
+    "conditions": null,
+    "cite": "MCL 257.658 (not read)",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-658"
+  },
+  "handheldPhone": {
+    "allDriversBan": null,
+    "textingBan": null,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": null,
+    "fineText": null,
+    "cite": "MCL 257.602b (not read)",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-602b"
+  },
+  "studdedTires": {
+    "allowed": null,
+    "season": null,
+    "cite": "MCL 257.710 (not read)",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-710"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "No Michigan ban on radar detectors in passenger vehicles found; commercial vehicles banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "MCL 257.709 read on the FindLaw copy current as of 2025-01-01: legislature.mi.gov refused connections on 2026-10-24. Re-read on the official site when reachable.",
+    "Fine amount of the civil infraction not read.",
+    "Helmet (MCL 257.658), hand-held phone (MCL 257.602b) and studded tires (MCL 257.710) not read: left null."
+  ]
+}

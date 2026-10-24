@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+const lang = 'es';
+const h = helpers(lang);
+const n = PAGES.filter((p) => p.es).length + 1;
+const statutes = h.STATES.reduce((k, s) => k + s.detail.statute.length, 0);
+---
+<PageLayout title="Polarizado Legal por Estado: quién lee las leyes y cómo" description="Quién publica Polarizado Legal por Estado, cómo se leen los límites de polarizado de los 50 estados y DC en cada ley y por qué el cálculo es gratuito." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Inicio', path: route('home', lang) }, { name: 'Quiénes somos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Quiénes somos' }]}>
+  <header class="mb-6"><p class="kicker">Quiénes somos</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Quién lee las leyes de polarizado de este sitio</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Polarizado Legal por Estado es la versión en español de Tint Law Check, publicada por Radif Partners, una empresa que crea calculadoras gratuitas a partir de datos públicos. Está pensada para quien quiere vidrios más oscuros sin recibir una multa, para quien compró un auto usado que ya traía lámina y para quien se muda de estado con un auto polarizado.</p>
+    <h2>Qué hace el sitio</h2>
+    <p>La lámina se vende con su propio porcentaje, pero el medidor de un agente lee la lámina y el vidrio juntos. La calculadora multiplica las dos capas, como el medidor, y compara cada ventana con el mínimo escrito en la ley de su estado, con su tolerancia y con su regla aparte para SUV y vans. También da la lámina más oscura que admite su vidrio, para que sepa qué pedir antes de pagar.</p>
+    <h2>De dónde salen los límites</h2>
+    <p>Para cada uno de los 50 estados y el Distrito de Columbia leímos la sección del código de vehículos sobre el polarizado, {statutes} secciones y reglas en total, en el sitio oficial de la legislatura cuando respondía, y guardamos un extracto literal de la frase que da cada cifra. Cuando un sitio oficial rechazó la conexión, la página dice qué copia de la ley leímos y en qué fecha. Una cifra que no está en la ley aparece como faltante, nunca adivinada. El <a href={route('method', lang)}>método</a> explica cada paso.</p>
+    <h2>Lo que no somos</h2>
+    <p>No somos una policía, ni un DMV, ni un tribunal, ni un despacho de abogados, y nada de lo que aquí se dice es asesoría legal. No vendemos láminas, no las instalamos y no enviamos a nadie a un taller. No usamos sellos ni logotipos oficiales.</p>
+    <h2>Cómo se financia</h2>
+    <p>Es gratis y no pide cuenta ni correo. No cobramos comisión a fabricantes, instaladores ni abogados. Si algún día hay publicidad, nunca irá encima de la calculadora y no podrá ver lo que usted escribe, porque nada sale de su navegador.</p>
+    <h2>Avísenos si una ley cambia</h2>
+    <p>Escriba a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> con el estado y el número de la sección. La <a href={route('editorial', lang)}>política editorial</a> explica cómo se corrige un dato. El sitio tiene {n} páginas en español, en el menú.</p>
+    <p class="text-sm text-navy-600">Leyes revisadas por última vez el <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'es-US')}</time>.</p>
+  </div>
+</PageLayout>

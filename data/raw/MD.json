@@ -1,0 +1,54 @@
+{
+  "code": "MD", "name": "Maryland",
+  "tint": {
+    "statute": [
+      {"cite": "Md. Code, Transp. § 22-406(i)", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-406&enactments=false", "readVia": null},
+      {"cite": "COMAR 11.14.02.14D (inspection: post manufacture window tinting)", "url": "https://dsd.maryland.gov/regulations/Pages/11.14.02.14.aspx", "readVia": null}
+    ],
+    "passenger": {
+      "windshield": {"rule": "strip", "strip": "post manufacture tint may not be applied below the AS1 line or below 5 inches from the top of the windshield, whichever is less", "stripInches": 5, "asLine": true, "vlt": null, "reflective": "no mirrored, one-way vision or sparkling tint on any window or windshield"},
+      "frontSide": {"vlt": 35, "note": "passenger cars, convertibles, station wagons (registered under § 13-912)"},
+      "backSide": {"vlt": 35, "note": "all windows of a passenger car are regulated"},
+      "rear": {"vlt": 35, "note": "outside rearview mirror on each side required when side or rear windows are tinted; no tint in front of an inside high-mounted stop lamp"}
+    },
+    "multipurpose": {
+      "windshield": {"rule": "strip", "strip": "not below the AS1 line or below 5 inches from the top, whichever is less", "stripInches": 5, "asLine": true, "vlt": null, "reflective": "no mirrored, one-way vision or sparkling tint"},
+      "frontSide": {"vlt": 35, "note": "light trucks, vans and multipurpose passenger vehicles (§§ 13-913, 13-917, 13-937): windows immediately right and left of the driver"},
+      "backSide": {"vlt": "any", "note": "windows to the rear of the driver may be tinted to any degree of darkness"},
+      "rear": {"vlt": "any", "note": "outside rearview mirror on each side required"}
+    },
+    "measuredHow": "film + glass combined (\"light transmittance through the window\", \"after the application of post manufacture window tint\")",
+    "reflectivity": {"front": "mirrored, one-way vision or sparkling effect prohibited (no % stated)", "back": "mirrored, one-way vision or sparkling effect prohibited (no % stated)"},
+    "tolerance": null,
+    "colorsBanned": ["red", "yellow", "amber", "tint that changes to red, yellow or amber"],
+    "dualMirrors": "Required on any vehicle with permitted post manufacture tint on any side or rear window (COMAR 11.14.02.14D(2)).",
+    "certificateOrSticker": "No sticker required. Tint manufacturer labels, if any, may not affect the driver's vision or obscure the glazing manufacturer's trademark or AS indicator (COMAR 11.14.02.14D(5)).",
+    "medicalExemption": {"available": true, "text": "Owner must carry a written certification from a physician licensed in Maryland, in the format required by the State Police Automotive Safety Enforcement Division (form ASED 23-04B). Valid for the period the physician sets, max 2 years, or indefinitely if the physician finds the condition permanent (2025 amendment). Applies to regulated windows only; windshield still limited to AS1 line / 5 inches. Easily removable shades protecting a child under 10 are also exempt.", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-406&enactments=false"},
+    "penalty": {"text": "Misdemeanor under the Maryland Vehicle Law, fine not exceeding $500 (general penalty); officer may also issue a safety equipment repair order (§ 23-105). Preset District Court fine not checked.", "maxFineUsd": 500, "cite": "Md. Code, Transp. § 27-101(b); § 22-406(i)(2)", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=27-101&enactments=false"},
+    "lastAmended": "2025 (HB 436, permanent medical certification valid indefinitely)",
+    "quotes": [
+      "§ 22-406(i)(1)(i): \"there is affixed to any window of the vehicle any tinting materials added to the window after manufacture of the vehicle that do not allow a light transmittance through the window of at least 35%\"",
+      "§ 22-406(i)(1)(ii): \"there is affixed to any window to the immediate right or left of the driver any window tinting materials added after manufacture of the vehicle that do not allow a light transmittance through the window of at least 35%\"",
+      "COMAR 11.14.02.14D(2)(a)(ii): \"Post manufacture window tint may not be applied to the windshield below the AS1 line or below 5 inches from the top of the windshield, whichever is less.\"",
+      "COMAR 11.14.02.14D(2)(b)(iii): \"Windows of these vehicles to the rear of the driver may be tinted with post manufacture window tint to any degree of darkness.\"",
+      "COMAR 11.14.02.14D(1): \"(a) Has a mirrored or one-way vision effect or a sparkling effect; (b) Is red, yellow, or amber in color; or (c) Changes to a red, yellow, or amber color.\"",
+      "§ 22-406(i)(4)(ii)2: \"If the licensed physician determines that the owner's medical condition is permanent, a written certification under this paragraph shall be valid indefinitely.\""
+    ]
+  },
+  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "every operator and rider, except in an enclosed cab; eye protection or windscreen also required", "cite": "Md. Code, Transp. § 21-1306", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1306&enactments=false"},
+  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": "Under 18: no wireless communication device at all (§ 21-1124(c)); learner's permit or provisional licence holders 18+ and school-bus drivers carrying passengers: no handheld phone (§ 21-1124.2(c))", "primaryEnforcement": null, "fineText": "Handheld: first offense max $75, second $125, third+ $175; first-offense fine may be waived on proof of a hands-free accessory. Texting: misdemeanor, max $500 (§ 27-101)", "cite": "Md. Code, Transp. §§ 21-1124, 21-1124.1, 21-1124.2", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.2&enactments=false"},
+  "studdedTires": {"allowed": "restricted", "season": "Nov 1 - Mar 31, only for vehicles registered in Allegany, Carroll, Frederick, Garrett or Washington County (and emergency vehicles); otherwise prohibited for Maryland-registered vehicles; non-Maryland vehicles exempt", "cite": "Md. Code, Transp. § 22-405.2", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-405.2&enactments=false"},
+  "radarDetector": {"passengerAllowed": true, "note": "No Maryland ban on radar detectors in passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
+  "underglow": {"rule": null, "cite": null, "url": null},
+  "liftHeight": {"rule": "After post-manufacture alterations, frame side rails or either bumper may not exceed 20 in. (Class A passenger), 28 in. (Class M multipurpose), 28 in. (Class E truck up to 10,000 lb), 30 in. (Class E 10,001-18,000 lb; 32 in. for crop-spraying trucks); any alteration reducing bumper/suspension effectiveness is banned", "cite": "Md. Code, Transp. § 22-105", "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=22-105&enactments=false"},
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "No numeric tolerance found in statute or COMAR 11.14.02.14.",
+    "No reflectivity percentage: COMAR bans mirrored/one-way/sparkling tint outright.",
+    "Preset District Court fine for a tint citation not checked (statutory max $500).",
+    "Primary vs secondary enforcement of the phone law not stated in the statute text read.",
+    "Underglow: no specific Maryland provision found (Transp. § 22-226 / COMAR lighting not read).",
+    "§ 22-405.2 and § 22-105 read via WebFetch summary (curl got File Not Found); studded-tire quote taken from the 1997 bill text (SB 25), wording to recheck against the current section.",
+    "Limousines: no tint on windshield or front side windows; school vehicles: no tint at all (COMAR 11.14.02.14D(3))."
+  ]
+}

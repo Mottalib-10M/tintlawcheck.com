@@ -1,0 +1,128 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "tint": {
+    "statute": [
+      {
+        "cite": "Tenn. Code Ann. § 55-9-107",
+        "url": "https://advance.lexis.com/container?config=014CJAA5ZGVhZTAxNi1lMzc3LTQyZjEtYWEzNi1mOGIyYTA1MzlhZTUKAFBvZENhdGFsb2fH6M3lnYdm1BrqxgiCbFrN",
+        "readVia": "https://law.justia.com/codes/tennessee/title-55/chapter-9/part-1/section-55-9-107/ (2023 code via web.archive.org snapshot 2024-12-11; history shows 2024 Tenn. Acts ch. 602)"
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "vlt",
+        "strip": "no material reducing windshield transmittance below 70%, except the manufacturer's standard installed shade band",
+        "stripInches": null,
+        "asLine": false,
+        "vlt": 70,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 35,
+        "note": "aftermarket material may not have visible light transmittance below 35%; front door windows are never exempt"
+      },
+      "backSide": {
+        "vlt": 35,
+        "note": "same 35% rule for any window"
+      },
+      "rear": {
+        "vlt": 35,
+        "note": "same 35% rule"
+      }
+    },
+    "multipurpose": {
+      "windshield": {
+        "rule": "vlt",
+        "strip": "70%, except factory shade band",
+        "stripInches": null,
+        "asLine": false,
+        "vlt": 70,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 35,
+        "note": "front door windows never exempt"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "exempt where federal regulations allow the model to have those windows darker (e.g. factory privacy glass on MPVs/trucks) - 55-9-107(a)(6)(A)(i); interpretation of whether aftermarket film is covered not settled by the text"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "same"
+      }
+    },
+    "measuredHow": "the material itself ('any material that has a visible light transmittance of less than thirty-five percent'); field comparison test by officers per Safety Commissioner procedure",
+    "reflectivity": {
+      "front": null,
+      "back": null
+    },
+    "tolerance": null,
+    "colorsBanned": [],
+    "dualMirrors": null,
+    "certificateOrSticker": "Professional installers must affix a label on the lower right corner of the driver's window (business name + 'Complies with Tennessee Code Annotated, § 55-9-107') and give a signed receipt to keep with registration documents; owner bears burden of proof of compliance",
+    "medicalExemption": {
+      "available": true,
+      "text": "Physician's statement to the Commissioner of Safety; Department's medical review board recommends the exemption and degree of tint; the Commissioner issues a certificate or decal to display in the vehicle; appeal under the UAPA",
+      "url": "https://www.tn.gov/safety"
+    },
+    "penalty": {
+      "text": "Class C misdemeanor (also for refusing a field comparison test); officers may stop a vehicle on reasonable belief of a violation",
+      "maxFineUsd": null,
+      "cite": "Tenn. Code Ann. § 55-9-107(c), (d)",
+      "url": null
+    },
+    "lastAmended": "2024 (2024 Tenn. Acts ch. 602, eff. 3/27/2024)",
+    "quotes": [
+      "(A) Has a visible light transmittance of less than thirty-five percent (35%); or (B) With the exception of the manufacturer's standard installed shade band, reduces the visible light transmittance in the windshield below seventy percent (70%).",
+      "This subdivision (a)(6) shall not be construed in any way to exempt the front door windows of any motor vehicle of any kind from the specifications of subdivision (a)(1)(A).",
+      "It is a Class C misdemeanor for the operator of a motor vehicle to refuse to submit to the field comparison test ... or for any person to otherwise violate any provisions of this section."
+    ]
+  },
+  "helmet": {
+    "rule": "universal",
+    "ageUnder": null,
+    "conditions": "All drivers and passengers of motorcycles, motorized bicycles and motorscooters (riders 21+ may use helmets meeting alternative ASTM/CPSC/SIRC/Snell labels); exceptions for enclosed cabs, parades and funeral/memorial escorts (amended 2023 ch. 100, eff. 7/1/2024)",
+    "cite": "Tenn. Code Ann. § 55-9-302",
+    "url": "https://law.justia.com/codes/tennessee/title-55/chapter-9/part-3/section-55-9-302/"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": "Drivers under 18 may not use earpieces/one-button calling exceptions (only 18+ allowed)",
+    "primaryEnforcement": true,
+    "fineText": "Class C misdemeanor, fine up to $50; $100 for third+ offense or if a crash results; $200 in active work zones or school zones",
+    "cite": "Tenn. Code Ann. § 55-8-199",
+    "url": "https://law.justia.com/codes/tennessee/title-55/chapter-8/part-1/section-55-8-199/"
+  },
+  "studdedTires": {
+    "allowed": null,
+    "season": null,
+    "cite": null,
+    "url": null
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "No free official Tennessee Code site reachable (official publisher is LexisNexis); texts read via Justia mirror snapshots (2023-2024 code); statute 'url' left as the Lexis portal",
+    "Class C misdemeanor fine cap (40-35-111) not read",
+    "Studded tire rule not located",
+    "Underglow and lift rules not located"
+  ]
+}

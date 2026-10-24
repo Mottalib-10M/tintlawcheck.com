@@ -1,0 +1,38 @@
+{
+  "checkedOn": "2026-10-24",
+  "licence": "Works of the US federal government: no copyright (17 U.S.C. § 105).",
+  "items": [
+    {
+      "id": "fmvss205",
+      "cite": "49 CFR § 571.205 (FMVSS No. 205, Glazing materials)",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.205",
+      "readVia": "eCFR versioner API, full text as of 2026-10-01",
+      "fact": "Glazing in passenger cars, multipurpose passenger vehicles, trucks, buses and motorcycles must conform to ANSI/SAE Z26.1-1996; the standard defines the AS markings (arrow placed at the horizontal line that bounds the part complying with Test 2) and the windshield shade band.",
+      "quote": "Glazing materials for use in motor vehicles must conform to ANSI/SAE Z26.1-1996 (incorporated by reference, see § 571.5), unless this standard provides otherwise."
+    },
+    {
+      "id": "nhtsa-70",
+      "cite": "NHTSA interpretation letter 1985-0320",
+      "url": "https://www.nhtsa.gov/interpretations/1985-0320",
+      "readVia": "nhtsa.gov answers 403 to scripts; read through the Wayback Machine copy (web.archive.org/web/2024/https://www.nhtsa.gov/interpretations/1985-0320) on 2026-10-24",
+      "fact": "For new vehicles and for tint installed by dealers, distributors or repair businesses, film + glass together must let through at least 70 % of light on windows requisite for driving visibility (all windows of a passenger car; windshield and windows right and left of the driver on trucks, buses and MPVs). Owners who tint their own car are bound by state law only.",
+      "quote": "the light transmittance through the combination of tinting film and the glazing must be at least 70 percent in the case of glazing used in windows requisite for driving visibility"
+    },
+    {
+      "id": "fmcsa-393-60",
+      "cite": "49 CFR § 393.60(d)",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-D/section-393.60",
+      "readVia": "eCFR versioner API, full text as of 2026-10-01",
+      "fact": "Commercial motor vehicles: windshield and the windows immediately right and left of the driver must keep at least 70 % parallel luminous transmittance; other windows are not restricted by this rule.",
+      "quote": "Coloring or tinting of windshields and the windows to the immediate right and left of the driver is allowed, provided the parallel luminous transmittance through the colored or tinted glazing is not less than 70 percent of the light at normal incidence"
+    },
+    {
+      "id": "fmcsa-392-71",
+      "cite": "49 CFR § 392.71",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/subpart-E/section-392.71",
+      "readVia": "eCFR versioner API, full text as of 2026-10-01",
+      "fact": "No radar detector may be used in, or carried in, a commercial motor vehicle.",
+      "quote": "No driver shall use a radar detector in a commercial motor vehicle, or operate a commercial motor vehicle that is equipped with or contains any radar detector."
+    }
+  ]
+}

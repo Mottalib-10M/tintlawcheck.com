@@ -1,0 +1,163 @@
+{
+  "code": "FL",
+  "name": "Florida",
+  "tint": {
+    "statute": [
+      {
+        "cite": "Fla. Stat. § 316.2951 (definitions)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2951",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.2952 (windshield)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2952",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.2953 (front side windows)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2953",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.2954 (windows behind the driver)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2954",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.29545 (medical exemption)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.29545",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.2955 (label, tolerance)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2955",
+        "readVia": null
+      },
+      {
+        "cite": "Fla. Stat. § 316.2956 (penalties)",
+        "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2956",
+        "readVia": null
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "transparent sunscreening strip at the top that does not encroach on the AS-1 portion (FMVSS 205)",
+        "stripInches": null,
+        "asLine": true,
+        "vlt": null,
+        "reflective": "material must be transparent; no reflectance figure for the strip"
+      },
+      "frontSide": {
+        "vlt": 28,
+        "note": "total solar reflectance of visible light max 25% (nonfilm side)"
+      },
+      "backSide": {
+        "vlt": 15,
+        "note": "reflectance max 35%; perforated material: min 30% transmittance"
+      },
+      "rear": {
+        "vlt": 15,
+        "note": "if rear window is nontransparent, side mirrors on both sides required (§ 316.2954(2))"
+      }
+    },
+    "multipurpose": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "same as passenger cars (AS-1)",
+        "stripInches": null,
+        "asLine": true,
+        "vlt": null,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 28,
+        "note": "same as passenger cars; reflectance max 25%"
+      },
+      "backSide": {
+        "vlt": 6,
+        "note": "multipurpose passenger vehicles (truck chassis or off-road features, 10 persons or fewer); reflectance max 35%"
+      },
+      "rear": {
+        "vlt": 6,
+        "note": "dual side mirrors required if nontransparent"
+      }
+    },
+    "measuredHow": "film + glass combined (applied to and tested on the glass of the specific vehicle; 'transmittance' includes glazing)",
+    "reflectivity": {
+      "front": "max 25% reflective (nonfilm side)",
+      "back": "max 35% reflective (nonfilm side)"
+    },
+    "tolerance": {
+      "points": 3,
+      "cite": "Fla. Stat. § 316.2955(2)"
+    },
+    "colorsBanned": null,
+    "dualMirrors": "Required if the rear window is made nontransparent (§ 316.2954(2), mirrors per § 316.294).",
+    "certificateOrSticker": "Installer must affix a nonremovable compliance label on the inside left door jamb stating compliance, trade name of the material and installer's business name (§ 316.2955(1)).",
+    "medicalExemption": {
+      "available": true,
+      "text": "The Department of Highway Safety and Motor Vehicles issues medical exemption certificates for Lupus, autoimmune diseases or other conditions requiring limited light exposure; covers windshield, side windows and windows behind the driver; tied to the vehicle (VIN, decal number), nontransferable; a fee may be charged.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.29545"
+    },
+    "penalty": {
+      "text": "Driver/owner: noncriminal traffic infraction, nonmoving violation under ch. 318 (base $30 under § 318.18(2) plus added fees/court costs). Selling or installing illegal material: second-degree misdemeanor.",
+      "maxFineUsd": null,
+      "cite": "Fla. Stat. §§ 316.2953, 316.2954(3), 316.2956, 318.18(2)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.2956"
+    },
+    "lastAmended": "316.2953: 1999 (ch. 99-248); 316.2954: 1999; 316.29545: 2019 (ch. 2019-67); text unchanged in the 2026 Florida Statutes",
+    "quotes": [
+      "a total solar reflectance of visible light of not more than 25 percent as measured on the nonfilm side and a light transmittance of at least 28 percent in the visible light range.",
+      "a total solar reflectance of visible light of not more than 35 percent as measured on the nonfilm side and a light transmittance of at least 15 percent in the visible light range",
+      "a light transmittance of at least 6 percent in the visible light range may be used on multipurpose passenger vehicles.",
+      "Every percentage measurement required by ss. 316.2951-316.2954 is subject to a tolerance of plus or minus 3 percent.",
+      "Sunscreening material along a strip at the top of the windshield, so long as such material is transparent and does not encroach upon the driver’s direct forward viewing area ... AS/1 portion of the windshield."
+    ]
+  },
+  "helmet": {
+    "rule": "partial",
+    "ageUnder": 21,
+    "conditions": "Riders over 21 may ride without a helmet if covered by an insurance policy with at least $10,000 in medical benefits for motorcycle crash injuries; eye protection required for operators.",
+    "cite": "Fla. Stat. § 316.211",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.211"
+  },
+  "handheldPhone": {
+    "allDriversBan": false,
+    "textingBan": true,
+    "noviceOrAgeBan": "Handheld use banned for all drivers in school crossings, school zones and active work zones (§ 316.306)",
+    "primaryEnforcement": true,
+    "fineText": "Texting: first offense noncriminal nonmoving infraction (base $30, § 318.18(2)); second within 5 years: moving violation. School/work zone handheld: moving violation, 3 points.",
+    "cite": "Fla. Stat. §§ 316.305, 316.306",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.305"
+  },
+  "studdedTires": {
+    "allowed": "restricted",
+    "season": null,
+    "cite": "Fla. Stat. § 316.299",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.299"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": "No lamp showing red, red and white, or blue light visible from directly in front; blue lights reserved to police and certain authorized vehicles (§ 316.2397). No specific underglow statute.",
+    "cite": "Fla. Stat. § 316.2397",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2026/316.2397"
+  },
+  "liftHeight": {
+    "rule": "Max bumper height (ground to bottom of bumper) by net weight: cars <2,500 lb 22 in front/22 in rear; 2,500-3,499 lb 24/26; 3,500+ lb 27/29. Trucks <2,000 lb 24/26; 2,000-3,000 lb 27/29; 3,000-5,000 lb 28/30. Vehicles over 5,000 lb net shipping weight not covered.",
+    "cite": "Fla. Stat. § 316.251",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/316.251"
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "Studded tires: § 316.299 bans roughened wheels 'other than roughened pneumatic rubber tires having studs designed to improve traction without materially injuring the surface of the highway' - reads as an exception, so 'restricted' (not an outright ban as often reported).",
+    "Total fine amount for a tint ticket varies by county (base $30 + § 318.18 surcharges); no single max figure in statute.",
+    "Medical exemption: official FLHSMV application page URL not verified; statute URL given.",
+    "Statute links point to the 2025 Florida Statutes; the 2026 edition was checked for 316.2953/316.2954/316.305 and shows identical text and history."
+  ]
+}

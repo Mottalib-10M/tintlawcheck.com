@@ -1,0 +1,168 @@
+{
+  "code": "AL",
+  "name": "Alabama",
+  "tint": {
+    "statute": [
+      {
+        "cite": "Ala. Code § 32-5C-2",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-2",
+        "readVia": "ALISON GraphQL API (alison.legislature.state.al.us/graphql), official legislature data"
+      },
+      {
+        "cite": "Ala. Code § 32-5C-3",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-3",
+        "readVia": "ALISON GraphQL API"
+      },
+      {
+        "cite": "Ala. Code § 32-5C-4",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-4",
+        "readVia": "ALISON GraphQL API"
+      },
+      {
+        "cite": "Ala. Code § 32-5C-6",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-6",
+        "readVia": "ALISON GraphQL API"
+      },
+      {
+        "cite": "Ala. Code § 32-5C-7",
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-7",
+        "readVia": "ALISON GraphQL API"
+      },
+      {
+        "cite": "Ala. Admin. Code r. 760-X-1-.17",
+        "url": "https://admincode.legislature.state.al.us/api/rule/760-X-1-.17",
+        "readVia": null
+      },
+      {
+        "cite": "ALEA - Alabama Tinting Regulations",
+        "url": "https://www.alea.gov/dps/highway-patrol/alabama-tinting-regulations",
+        "readVia": null
+      }
+    ],
+    "passenger": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "transparent item, not red or amber, on the uppermost six inches of the windshield; no material reducing light transmission otherwise",
+        "stripInches": 6,
+        "asLine": false,
+        "vlt": null,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 32,
+        "note": "min 32% light transmission, max 20% reflectance, measurement tolerance of at least 3%"
+      },
+      "backSide": {
+        "vlt": 32,
+        "note": "same 32% rule as front side for passenger cars"
+      },
+      "rear": {
+        "vlt": 32,
+        "note": "rear windshield: same 32% rule"
+      }
+    },
+    "multipurpose": {
+      "windshield": {
+        "rule": "strip",
+        "strip": "uppermost six inches, transparent, not red or amber",
+        "stripInches": 6,
+        "asLine": false,
+        "vlt": null,
+        "reflective": null
+      },
+      "frontSide": {
+        "vlt": 32,
+        "note": "same as passenger cars (32%, 3% tolerance)"
+      },
+      "backSide": {
+        "vlt": "any",
+        "note": "windows tinted before factory delivery or permitted by federal law are exempt (§ 32-5C-3(6)); ALEA: darker tint behind driver as allowed by the manufacturer under federal law; outside mirrors on each side required"
+      },
+      "rear": {
+        "vlt": "any",
+        "note": "same as back side (factory/federal-law tint); ALEA requires outside mirrors on both sides when darker tint is installed"
+      }
+    },
+    "measuredHow": "film + glass combined (\"material or glazing ... which reduce light transmission\")",
+    "reflectivity": {
+      "front": "max 20% reflectance (side windows)",
+      "back": "max 20% reflectance"
+    },
+    "tolerance": {
+      "points": 3,
+      "cite": "Ala. Code § 32-5C-2(a)(2) (\"measurement tolerance of at least 3 percent\")"
+    },
+    "colorsBanned": [
+      "red",
+      "amber"
+    ],
+    "dualMirrors": "ALEA page: outside rearview mirrors on each side required when darker tint is installed behind the driver on multipurpose/recreational vehicles",
+    "certificateOrSticker": "Label visible from outside the vehicle certifying compliance required on tinted windows (§ 32-5C-6); ALEA says it must be affixed by a tinting dealer",
+    "medicalExemption": {
+      "available": true,
+      "text": "ALEA may issue an exemption on application supported by a written statement from a physician licensed in Alabama, for a vehicle owned by the person or in which the person is a habitual passenger; conditions set by ALEA; for light-sensitive porphyria it covers all areas the physician prescribes; a numbered decal is placed on the windshield (§ 32-5C-4). Apply: ALEA Driver License Division, Medical Records Unit, P.O. Box 1471, Montgomery, AL 36102, 334-676-7396.",
+      "url": "https://www.alea.gov/dps/highway-patrol/alabama-tinting-regulations"
+    },
+    "penalty": {
+      "text": "Misdemeanor: 1st conviction fine up to $100 and/or up to 10 days; 2nd within one year up to $200 and/or 30 days; 3rd within one year up to $500 and/or 3 months",
+      "maxFineUsd": 500,
+      "cite": "Ala. Code § 32-5C-7",
+      "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5C-7"
+    },
+    "lastAmended": "2021 (Act 2021-451 amended § 32-5C-2 to exempt personal vehicles of active or retired law enforcement officers; numbers unchanged since Act 96-534)",
+    "quotes": [
+      "§ 32-5C-2(a)(1): \"With material or glazing applied or affixed to the front windshield which reduces light transmission through the front windshield.\"",
+      "§ 32-5C-2(a)(2): \"...which reduce light transmission through the rear windshield or side windows to less than 32 percent or increase light reflectance to more than 20 percent, with a measurement tolerance of at least 3 percent.\"",
+      "§ 32-5C-3(4): \"Any transparent item which is not red or amber in color which is placed on the uppermost six inches of the windshield.\"",
+      "§ 32-5C-3(6): \"Any other vehicle, the windows or windshields of which have been tinted or darkened before factory delivery or permitted by federal law or regulation.\"",
+      "§ 32-5C-7: \"...for a first conviction thereof shall be punished by a fine of not more than one hundred dollars ($100), or by imprisonment for not more than 10 days...\"",
+      "ALEA: \"On the windows behind the driver, darker tinting is permitted as allowed by the manufacturer of the vehicle by Federal Law.\""
+    ]
+  },
+  "helmet": {
+    "rule": "universal",
+    "ageUnder": null,
+    "conditions": "All operators and riders of motorcycles/motor-driven cycles; not applicable in an enclosed cab or to autocycle operators",
+    "cite": "Ala. Code § 32-5A-245",
+    "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5A-245"
+  },
+  "handheldPhone": {
+    "allDriversBan": true,
+    "textingBan": true,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": false,
+    "fineText": "Class C misdemeanor: 1st conviction (24 months) up to $50, 2nd up to $100, 3rd+ up to $150; first § (c)(1) charge dismissed if driver produces a hands-free device or proof of purchase; no custodial arrest",
+    "cite": "Ala. Code § 32-5A-350.1 (Act 2023-478; old texting law § 32-5A-350 repealed)",
+    "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5A-350.1"
+  },
+  "studdedTires": {
+    "allowed": "restricted",
+    "season": null,
+    "cite": "Ala. Code § 32-5-210(b)",
+    "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5-210",
+    "note": "metal studded or safety spike tires allowed only 'when required for safety because of snow, rain, or other conditions'; no calendar season in statute"
+  },
+  "radarDetector": {
+    "passengerAllowed": true,
+    "note": "No Alabama statute banning radar detectors found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+    "cite": null,
+    "url": null
+  },
+  "underglow": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "liftHeight": {
+    "rule": null,
+    "cite": null,
+    "url": null
+  },
+  "checkedOn": "2026-10-24",
+  "openQuestions": [
+    "§ 32-5A-350.1 requires the driver to be observed lane-crossing without signal, swerving or driving impaired while holding the device, so it is not a pure primary handheld ban; effective date of Act 2023-478 enforcement (reported as June 2024 with warning period) not confirmed on an official page",
+    "Underglow / aftermarket lighting: no specific Alabama statute found (32-5-241 lists permissible lamps only)",
+    "Lift / frame height: no Alabama statute found",
+    "Radar detector: absence of state ban not confirmed by an official page"
+  ]
+}

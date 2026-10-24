@@ -1,0 +1,136 @@
+---
+/**
+ * Home of one language: the tint check on the first screen, then why film × glass decides the
+ * answer, the 51-state table and the rules that sit around the percentages (RECETTE §5, §21).
+ * Every state figure is read from src/data/states.json.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { groupLabel } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { combinedVlt, darkestLegalFilm } from '../lib/engine/tint';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const es = lang === 'es';
+const h = helpers(lang, true);
+const { STATES, S, pc, num } = h;
+const fr = (v: number | string | null) => STATES.filter((s) => s.passenger.frontSide.vlt === v);
+const at35 = fr(35), at70 = fr(70), noFilm = fr('no-film');
+const darkest = h.rank((s) => (typeof s.passenger.frontSide.vlt === 'number' ? s.passenger.frontSide.vlt : null))[0];
+const anyBack = STATES.filter((s) => s.passenger.backSide.vlt === 'any');
+const withTol = STATES.filter((s) => s.tolerancePoints);
+const sepMpv = STATES.filter((s) => s.multipurpose);
+const mpvFree = sepMpv.filter((s) => s.multipurpose!.backSide.vlt === 'any');
+const fines = STATES.map((s) => s.detail.penalty?.maxFineUsd).filter((x): x is number => typeof x === 'number' && x > 0).sort((a, b) => a - b);
+const combinedN = STATES.filter((s) => s.measuredHow === 'combined').length;
+const medYes = STATES.filter((s) => s.detail.medicalExemption?.available === true).length;
+const c35 = combinedVlt(70, 35), c35b = combinedVlt(80, 35);
+const tx = S('TX'), ca = S('CA'), fl = S('FL');
+const txFilm = darkestLegalFilm(25, 70);
+const L = es ? {
+  title: 'Leyes de polarizado 2026: VLT legal en los 50 estados',
+  description: 'Leyes de polarizado de los 50 estados y DC: ponga su lámina y su vidrio de fábrica y vea la VLT real de cada ventana frente a la ley citada. Es gratis.',
+  h1: 'Leyes de polarizado: compruebe su auto en cualquier estado',
+  intro: 'Elija el estado, ponga el porcentaje de la lámina y el del vidrio de fábrica: la calculadora multiplica las dos capas, como el medidor de un agente, y compara cada ventana con la ley.',
+} : {
+  title: 'Window Tint Laws 2026: Legal VLT Check for All 50 States',
+  description: 'Window tint laws for all 50 states and DC: enter your film and factory glass to see the real VLT of each window against the statute, cited. Free, no installer.',
+  h1: 'Window tint laws: check your tint in any state',
+  intro: 'Pick the state, enter the film percentage and the factory glass: the calculator multiplies the two layers, as an officer\'s meter does, and checks each window against the statute.',
+};
+const resume = es
+  ? `Las leyes de polarizado fijan un mínimo de transmisión de luz visible (VLT), es decir, el porcentaje de luz que debe atravesar la ventana, y no un máximo de oscuridad. En las laterales delanteras de un auto, ${at35.length} de los ${STATES.length} estados y DC piden al menos 35 %, ${at70.length} piden 70 % y ${noFilm.length} no admiten ninguna lámina de posventa; el límite más oscuro es el ${pc(darkest.passenger.frontSide.vlt as number)} de ${h.sl(darkest.code)}. Detrás del conductor, ${anyBack.length} jurisdicciones no ponen límite. La trampa está en el vidrio: en ${combinedN} estados la ley mide la lámina junto con el vidrio, y una lámina de 35 % sobre un vidrio de 70 % deja pasar ${pc(c35)}, no 35 %. En ${h.sl('TX')}, donde el mínimo delantero es ${tx.front}, la lámina más oscura que admite ese vidrio es de ${pc(txFilm as number)}. Cada límite de este sitio enlaza a la sección de la ley donde lo leímos.`
+  : `Window tint laws set a minimum visible light transmission (VLT), the share of light that must pass through the window, not a maximum darkness. On the front side windows of a car, ${at35.length} of the ${STATES.length} states and DC require at least 35%, ${at70.length} require 70% and ${noFilm.length} allow no aftermarket film at all; the darkest limit is ${h.sl(darkest.code)}'s ${pc(darkest.passenger.frontSide.vlt as number)}. Behind the driver, ${anyBack.length} jurisdictions set no limit for cars. The trap is the glass: in ${combinedN} states the statute measures the film together with the glass, and a 35% film on 70% glass lets through ${pc(c35)}, not 35%. In ${h.sl('TX')}, where the front limit is ${tx.front}, the darkest film that glass can take is ${pc(txFilm as number)}. Every limit on this site links to the statute section we read it in.`;
+const faqs = es ? [
+  { q: '¿Qué significa VLT en el polarizado?', a: `VLT es la transmisión de luz visible: el porcentaje de luz que atraviesa el vidrio. Una lámina de 5 % es casi negra y una de 70 % casi transparente. Las leyes dan un mínimo: «35 %» quiere decir que debe pasar al menos el 35 % de la luz. Cuanto más bajo el número, más oscura la ventana y más fácil quedar por debajo del mínimo de su estado.` },
+  { q: '¿Por qué mi lámina de 35 % mide menos en el control?', a: `Porque el medidor lee la lámina y el vidrio juntos, y las dos transmisiones se multiplican: 35 % sobre un vidrio de 70 % da ${pc(c35)}, y sobre uno de 80 % da ${pc(c35b)}. ${combinedN} leyes estatales dicen expresamente que se mide el conjunto. Por eso la calculadora pide también el vidrio de fábrica, que la norma federal FMVSS 205 obliga a dejar en 70 % como mínimo en las ventanas necesarias para manejar.` },
+  { q: '¿Una SUV puede llevar los vidrios traseros más oscuros que un sedán?', a: `En ${sepMpv.length} jurisdicciones sí: su ley tiene una regla propia para los vehículos de usos múltiples (SUV, van, pickup), en ${mpvFree.length} de ellas sin límite detrás del conductor. En las demás, la misma cifra vale para todos los vehículos. Elija «SUV, van, pickup» en la calculadora para aplicar la regla correcta de su estado.` },
+  { q: '¿Existe una tolerancia en la medición?', a: `En ${withTol.length} estados la ley escribe una tolerancia, de 3 puntos en la mayoría y hasta 9 en ${h.sl('SD')}: una ventana un poco por debajo del mínimo no se sanciona. La calculadora indica «tolerancia» cuando su ventana solo pasa gracias a ese margen. Donde la ley no escribe ninguna tolerancia, el mínimo se aplica tal cual.` },
+  { q: '¿Necesito una exención médica para un polarizado más oscuro?', a: `${medYes} jurisdicciones prevén en su ley una exención o una defensa por razones médicas, casi siempre con un certificado firmado por un médico u optometrista que se lleva en el vehículo. Cada estado fija sus condiciones y algunas exenciones deben renovarse. La guía de exenciones médicas resume la regla de cada estado.` },
+  { q: '¿Qué pasa si me multan por polarizado?', a: `Depende del estado: la multa máxima escrita en las leyes que leímos va de ${h.m(fines[0])} a ${h.m(fines.at(-1) as number)}, y algunos estados anulan la multa si se retira la lámina y se presenta la prueba. En Virginia, la policía ya no puede detener un auto solo por el polarizado. La página de multas detalla cada caso.` },
+] : [
+  { q: 'What does VLT mean in window tint?', a: `VLT is visible light transmission: the share of light that passes through the glass. A 5% film is close to black and a 70% film close to clear. State laws give a minimum, so "35%" means at least 35% of the light must get through. The lower the number, the darker the window and the easier it is to fall below your state's minimum.` },
+  { q: 'Why does my 35% film read lower at a traffic stop?', a: `Because the meter reads the film and the glass together, and the two transmissions multiply: 35% on 70% glass gives ${pc(c35)}, and on 80% glass ${pc(c35b)}. ${combinedN} state statutes say outright that the combination is measured. That is why the calculator also asks for the factory glass, which federal standard FMVSS 205 keeps at 70% or more on windows needed for driving.` },
+  { q: 'Can an SUV have darker rear windows than a sedan?', a: `In ${sepMpv.length} jurisdictions, yes: their law has its own rule for multipurpose vehicles (SUVs, vans, pickups), in ${mpvFree.length} of them with no limit behind the driver. Elsewhere one figure applies to every vehicle. Choose "SUV, van, pickup" in the calculator to apply the right rule for your state.` },
+  { q: 'Is there a tolerance on the meter reading?', a: `In ${withTol.length} states the statute writes a tolerance, 3 points in most of them and up to 9 in ${h.sl('SD')}, so a window slightly under the minimum is not cited. The calculator says "tolerance" when your window only passes thanks to that margin. Where the law writes no tolerance, the minimum applies as it stands.` },
+  { q: 'Do I need a medical exemption for darker tint?', a: `${medYes} jurisdictions provide a medical exemption or defense in their law, usually with a statement signed by a physician or optometrist kept in the vehicle. Each state sets its own conditions and some exemptions must be renewed. The medical exemption guide sums up the rule of each state.` },
+  { q: 'What happens if I get a tint ticket?', a: `It depends on the state: the highest fine written in the statutes we read runs from ${h.m(fines[0])} to ${h.m(fines.at(-1) as number)}, and some states drop the fine once the film is removed and proof is shown. In Virginia, police may no longer stop a car for tint alone. The tint ticket page goes through each case.` },
+];
+const rows = STATES.map((s) => { const x = S(s.code); return [h.sl(s.code), x.front, x.back, x.rear, x.mpv ? (es ? 'regla propia' : 'own rule') : '=', x.tol ? `±${x.tol}` : '–']; });
+const jsonLd = [webApplicationSchema({ name: L.h1, description: L.description, path: route('home', lang), lang }), websiteSchema(lang), organizationSchema(lang), faqSchema(faqs, lang)];
+const guides = PAGES.filter((p) => p.group !== 'states' && hasRoute(p.id, lang));
+const states = PAGES.filter((p) => p.group === 'states' && hasRoute(p.id, lang));
+const T = (p: (typeof PAGES)[number]) => (es ? p.es! : p.en);
+---
+<PageLayout title={L.title} description={L.description} lang={lang} jsonLd={jsonLd} faqs={faqs}>
+  <header class="mb-3">
+    <h1 class="text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{L.h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{L.intro}</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'tint', props: { state: 'TX' } }} lang={lang} primary={true} /></div>
+  <Clamp text={resume} id="clamp-home" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">{es ? 'Actualizado el' : 'Last updated'} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, es ? 'es-US' : 'en-US')}</time>{es ? `, ${STATES.length} leyes estatales leídas en su texto oficial` : `, ${STATES.length} state statutes read in their official text`} · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">{es ? 'Cómo funciona el cálculo' : 'How the check works'}</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">{es ? 'Quiénes somos' : 'About'}</a></p>
+
+  {es ? (
+  <div class="prose prose-slate max-w-none">
+    <p>Este sitio lee la ley de polarizado de cada estado, multiplica su lámina por el vidrio de fábrica y le dice, ventana por ventana, si el conjunto pasa, si solo pasa gracias a la tolerancia o si queda demasiado oscuro, con la sección de la ley a un clic.</p>
+    <h2>Por qué el vidrio de fábrica cambia la respuesta</h2>
+    <p>Una lámina se vende por su propia VLT: 5, 20, 35, 50 o 70 %. Pero el vidrio del auto ya filtra luz. La norma federal <Fragment set:html={h.src('fmvss205', 'FMVSS 205')} /> le exige al fabricante al menos 70 % en las ventanas necesarias para manejar, y nada impide que un vidrio sea más claro que ese mínimo: si puede, mida el suyo. Las dos capas se multiplican: 35 % × 70 % = {pc(c35)}. Un agente que pone el medidor en su ventana lee esa cifra, no la de la etiqueta. En {combinedN} estados la ley lo dice de forma expresa («en combinación con el vidrio»); en los demás no lo precisa, y la calculadora adopta la lectura del medidor, la más prudente. Los camiones y autobuses comerciales siguen además la regla federal <Fragment set:html={h.src('fmcsa_393_60', '49 CFR 393.60(d)')} />: 70 % en el parabrisas y en las ventanas junto al conductor.</p>
+    <p>Con un vidrio de 70 %, {h.sl('TX')} ({tx.front} adelante) solo admite láminas de {pc(txFilm as number)} o más claras, aunque muchas tiendas vendan «25 %». En {h.sl('CA')} ({ca.front} adelante) el vidrio de fábrica ya ocupa casi todo el margen: solo cabe una lámina casi transparente. En {h.sl('FL')} ({fl.front} adelante, {fl.back} atrás) los vidrios traseros de un sedán pueden ser mucho más oscuros que los delanteros.</p>
+  </div>
+  ) : (
+  <div class="prose prose-slate max-w-none">
+    <p>This site reads the tint statute of every state, multiplies your film by the factory glass and tells you, window by window, whether the result passes, passes only thanks to the tolerance or is too dark, with the statute section one click away.</p>
+    <h2>Why the factory glass changes the answer</h2>
+    <p>A film is sold by its own VLT: 5, 20, 35, 50 or 70%. But the car's glass already filters light. Federal standard <Fragment set:html={h.src('fmvss205', 'FMVSS 205')} /> requires the maker to leave at least 70% on the windows needed for driving, and nothing stops a glass from being lighter than that minimum, so measure yours if you can. The two layers multiply: 35% × 70% = {pc(c35)}. An officer who puts a meter on your window reads that figure, not the one on the label. In {combinedN} states the statute says so in words ("in combination with the glass"); the others do not specify, and the calculator takes the meter reading, the cautious choice. Commercial trucks and buses also follow the federal rule <Fragment set:html={h.src('fmcsa_393_60', '49 CFR 393.60(d)')} />: 70% on the windshield and the windows beside the driver.</p>
+    <p>On 70% glass, {h.sl('TX')} ({tx.front} in front) only takes films of {pc(txFilm as number)} or lighter, even though many shops sell "25%". In {h.sl('CA')} ({ca.front} in front) the factory glass already uses up almost the whole margin: only a nearly clear film fits. In {h.sl('FL')} ({fl.front} in front, {fl.back} behind) a sedan's rear windows can be far darker than the front ones.</p>
+  </div>
+  )}
+
+  <Fragment set:html={h.table(es ? ['Estado', 'Delanteras', 'Traseras', 'Medallón', 'SUV', 'Tolerancia'] : ['State', 'Front side', 'Rear side', 'Back window', 'SUV', 'Tolerance'], rows, es ? `VLT mínima de un auto en los ${STATES.length} estados y DC (lámina y vidrio juntos salvo indicación de la ley). «Regla propia»: la ley trata aparte las SUV, vans y pickups. Fuente: la ley de cada estado, enlazada en su página o en la calculadora.` : `Minimum VLT for a car in the ${STATES.length} states and DC (film and glass together unless the law says otherwise). "Own rule": the law treats SUVs, vans and pickups separately. Source: each state's statute, linked on its page or in the calculator.`, ['l', 'r', 'r', 'r', 'r', 'r'])} />
+
+  {es ? (
+  <div class="prose prose-slate max-w-none">
+    <h2>Autos, SUV y camionetas</h2>
+    <p>{sepMpv.length} jurisdicciones escriben una regla distinta para los vehículos de usos múltiples. {mpvFree.length} de ellas dejan libres las ventanas detrás del conductor, porque esos vehículos suelen salir de fábrica con vidrio privacy, mientras que el sedán conserva el límite en todas las ventanas. Si su vehículo es una SUV, una van o una pickup, elija ese tipo en la calculadora: el resultado puede cambiar por completo atrás y nunca adelante.</p>
+    <h2>Lo que las leyes regulan además del porcentaje</h2>
+    <ul>
+      <li><strong>El parabrisas.</strong> Casi todos los estados solo admiten una franja en la parte superior, sobre la línea AS-1 marcada en el vidrio o en las 4 a 6 pulgadas superiores. La <a href={route('windshield', lang)}>guía del parabrisas</a> da la regla de cada estado.</li>
+      <li><strong>La reflectividad.</strong> Muchas leyes limitan el efecto espejo, a menudo a 25 o 35 %, y prohíben las láminas metálicas o de espejo.</li>
+      <li><strong>Los colores.</strong> El rojo y el ámbar están prohibidos en la mayoría de los estados que citan colores, porque se confunden con luces de señalización.</li>
+      <li><strong>Los espejos.</strong> Muchos estados exigen dos espejos exteriores cuando el medallón está polarizado.</li>
+      <li><strong>Las etiquetas y certificados.</strong> Algunos estados exigen una etiqueta del instalador entre la lámina y el vidrio.</li>
+    </ul>
+    <h2>Cómo leímos las leyes</h2>
+    <p>Para cada estado y para DC leímos la sección del código de vehículos sobre el polarizado, en el sitio oficial de la legislatura cuando respondía, y anotamos para cada ventana el mínimo, la tolerancia, la regla de las SUV, la exención médica y la multa, con un extracto literal de la frase que da la cifra. Donde la ley no da una cifra, el sitio lo dice en lugar de inventarla. El <a href={route('method', lang)}>método</a> detalla las fuentes, los casos difíciles y lo que el cálculo no hace.</p>
+  </div>
+  ) : (
+  <div class="prose prose-slate max-w-none">
+    <h2>Cars, SUVs and pickups</h2>
+    <p>{sepMpv.length} jurisdictions write a separate rule for multipurpose vehicles. {mpvFree.length} of them leave the windows behind the driver free, because those vehicles often leave the factory with privacy glass, while a sedan keeps the limit on every window. If you drive an SUV, a van or a pickup, choose that type in the calculator: the answer can change completely at the back and never in front.</p>
+    <h2>What the laws regulate besides the percentage</h2>
+    <ul>
+      <li><strong>The windshield.</strong> Nearly every state allows only a strip at the top, above the AS-1 line marked on the glass or within the top 4 to 6 inches. The <a href={route('windshield', lang)}>windshield guide</a> gives each state's rule.</li>
+      <li><strong>Reflectivity.</strong> Many statutes cap the mirror effect, often at 25 or 35%, and ban metallic or mirrored films.</li>
+      <li><strong>Colors.</strong> Red and amber are banned in most states that name colors, because they can be mistaken for signal lights.</li>
+      <li><strong>Mirrors.</strong> Many states require two outside mirrors when the back window is tinted.</li>
+      <li><strong>Labels and certificates.</strong> Some states require an installer's label between the film and the glass.</li>
+    </ul>
+    <h2>How we read the laws</h2>
+    <p>For each state and for DC we read the section of the vehicle code on window tint, on the legislature's official site whenever it answered, and recorded for each window the minimum, the tolerance, the SUV rule, the medical exemption and the fine, with a word-for-word extract of the sentence that gives the figure. Where the law gives no figure, the site says so instead of making one up. The <a href={route('method', lang)}>method page</a> covers the sources, the hard cases and what the check does not do.</p>
+  </div>
+  )}
+
+  <section class="mt-12" aria-labelledby="guides-title">
+    <h2 id="guides-title" class="text-2xl font-bold text-navy-900">{es ? 'Guías' : 'Guides'}</h2>
+    <ul class="mt-4 grid gap-x-10 gap-y-3 md:grid-cols-2">{guides.map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{T(p).nav}</a><span class="block text-sm text-navy-600">{groupLabel(p.group, lang)} · {T(p).card}</span></li>)}</ul>
+    {states.length > 0 && <h3 class="mt-8 border-b border-navy-200 pb-1 text-sm font-semibold uppercase tracking-wide text-navy-600">{groupLabel('states', lang)}</h3>}
+    {states.length > 0 && <p class="mt-2 text-sm leading-7">{states.map((p, i) => <Fragment><a href={route(p.id, lang)} class="text-accent-700 hover:underline">{T(p).nav}</a>{i < states.length - 1 ? ' · ' : ''}</Fragment>)}</p>}
+  </section>
+</PageLayout>
