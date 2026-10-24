@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-window-tint.example";
+export const SITE_URL = "https://tintlawcheck.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Tint Law Check", "es": "Polarizado Legal por Estado"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US", "es": "es-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US", "es": "es_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Window tint laws in US states", "Visible light transmission (VLT) of automotive glazing", "FMVSS No. 205 and the AS-1 windshield line", "Medical exemptions for window tint", "Motorcycle helmet laws by state", "Hand-held phone and texting laws for drivers", "Studded tire seasons by state"], "es": ["Leyes de polarizado de ventanas en los estados de EE. UU.", "Transmisión de luz visible (VLT) del vidrio automotriz", "La norma FMVSS 205 y la línea AS-1 del parabrisas", "Exenciones médicas para el polarizado", "Leyes de casco de motocicleta por estado", "Leyes sobre el uso del celular al conducir", "Temporadas de llantas con clavos por estado"]};
-export const CONTACT_EMAIL = "contact@us-window-tint.example";
+export const CONTACT_EMAIL = "contact@tintlawcheck.com";
 export const THEME_COLOR = '#2B4A5E';
 export const LOGO_SYMBOL = 'VLT';
 export const BING_VERIFY_CODE = '';

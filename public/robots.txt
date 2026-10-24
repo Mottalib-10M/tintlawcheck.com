@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-window-tint.example/sitemap-index.xml
+Sitemap: https://tintlawcheck.com/sitemap-index.xml
