@@ -1,41 +1,140 @@
 {
-  "code": "NC", "name": "North Carolina",
-  "tint": {
-    "statute": [{"cite": "N.C. Gen. Stat. § 20-127", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html", "readVia": "web.archive.org snapshot of the official page (ncleg.gov returned 403); text includes S.L. 2025-47 amendments"}],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "tint only along the top, not more than 5 in. below the top or below the AS1 line, whichever measurement is longer; untinted clear UV film allowed on the whole windshield", "stripInches": 5, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 35, "note": "total light transmission (window as tinted); a light-meter reading above 32% is conclusively presumed compliant; reflectance max 20%; nonreflective film"},
-      "backSide": {"vlt": 35, "note": "same 35% / 20% reflectance"},
-      "rear": {"vlt": 35, "note": "same; rear window of a property-hauling vehicle exempt"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "same as passenger", "stripInches": 5, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 35, "note": "max 20% reflectance"},
-      "backSide": {"vlt": "any", "note": "windows behind the driver of a multipurpose vehicle (incl. minivans and pickup trucks) exempt from 35%/20% limits; still no red/yellow/amber, nonreflective"},
-      "rear": {"vlt": "any", "note": "same"}
-    },
-    "measuredHow": "total light transmission of the tinted window (film + glass), by a Commissioner-approved light meter",
-    "reflectivity": {"front": "max 20%, nonreflective film", "back": "max 20%, nonreflective film"},
-    "tolerance": {"points": 3, "cite": "N.C. Gen. Stat. § 20-127(b)(1) (reading above 32% conclusively compliant)"},
-    "colorsBanned": ["red", "yellow", "amber"],
-    "dualMirrors": null,
-    "certificateOrSticker": "Medical exception permit holders get a DMV sticker for the lower left-hand corner of the rear window (between glass and film); failure to display is a $200 infraction",
-    "medicalExemption": {"available": true, "text": "Medical exception permit for photosensitivity to visible light: written application to the DMV Drivers Medical Evaluation Program with the doctor's evaluation form; valid 5 years; max 4 permits at once; permit names the vehicle, windows and levels and must be carried in the vehicle; windshield rules apply without exception", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html"},
-    "penalty": {"text": "Class 3 misdemeanor for driving with, or applying, non-compliant tint; defense if tint removed within 15 days with a DMV/Highway Patrol compliance certificate. Driver must roll down window when an officer approaches.", "maxFineUsd": null, "cite": "N.C. Gen. Stat. § 20-127(d), (e), (g)", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html"},
-    "lastAmended": "2025 (S.L. 2025-47, ss. 21, 22(d))",
-    "quotes": [
-      "The total light transmission of the tinted window shall be at least thirty-five percent (35%). A vehicle window that, by use of a light meter approved by the Commissioner, measures a total light transmission of more than thirty-two percent (32%) is conclusively presumed to meet this restriction.",
-      "The light reflectance of the tinted window shall be twenty percent (20%) or less.",
-      "the tinting may not extend more than five inches below the top of the windshield or below the AS1 line of the windshield, whichever measurement is longer",
-      "A window of a multipurpose vehicle that is behind the driver of the vehicle. ... A minivan and a pickup truck are multipurpose vehicles."
-    ]
+ "code": "NC",
+ "name": "North Carolina",
+ "tint": {
+  "statute": [
+   {
+    "cite": "N.C. Gen. Stat. § 20-127",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html",
+    "readVia": "https://web.archive.org/web/20260611044024/https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_20/gs_20-127.html (archived copy of the official page dated 2026-06-11; ncleg.gov answers 403 to scripts); text includes S.L. 2025-47 amendments"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "tint only along the top, not more than 5 in. below the top or below the AS1 line, whichever measurement is longer; untinted clear UV film allowed on the whole windshield",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "total light transmission (window as tinted); a light-meter reading above 32% is conclusively presumed compliant; reflectance max 20%; nonreflective film"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "same 35% / 20% reflectance"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "same; rear window of a property-hauling vehicle exempt"
+   }
   },
-  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "All operators and passengers of motorcycles and mopeds (enclosed autocycles excepted); infraction $25.50 + costs", "cite": "N.C. Gen. Stat. § 20-140.4", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-140.4.html"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Under-18 provisional drivers: mobile phone restriction in G.S. 20-137.3 (not fully read)", "primaryEnforcement": true, "fineText": "Texting/email: infraction, $100 + court costs, no points; school bus drivers Class 2 misdemeanor (min $100)", "cite": "N.C. Gen. Stat. § 20-137.4A", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.4A.html"},
-  "studdedTires": {"allowed": "yes", "season": "No seasonal limit; studs may project no more than 1/16 in. when compressed", "cite": "N.C. Gen. Stat. § 20-122(b)", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-122.html"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Content of S.L. 2025-47 changes to 20-127 not compared with prior text (likely tied to the 2025 end of NC safety inspections, which tint checks used to rely on)", "Class 3 misdemeanor fine cap not read", "Underglow and lift rules not located"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same as passenger",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "max 20% reflectance"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "windows behind the driver of a multipurpose vehicle (incl. minivans and pickup trucks) exempt from 35%/20% limits; still no red/yellow/amber, nonreflective"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same"
+   }
+  },
+  "measuredHow": "total light transmission of the tinted window (film + glass), by a Commissioner-approved light meter",
+  "reflectivity": {
+   "front": "max 20%, nonreflective film",
+   "back": "max 20%, nonreflective film"
+  },
+  "tolerance": {
+   "points": 3,
+   "cite": "N.C. Gen. Stat. § 20-127(b)(1) (reading above 32% conclusively compliant)"
+  },
+  "colorsBanned": [
+   "red",
+   "yellow",
+   "amber"
+  ],
+  "dualMirrors": null,
+  "certificateOrSticker": "Medical exception permit holders get a DMV sticker for the lower left-hand corner of the rear window (between glass and film); failure to display is a $200 infraction",
+  "medicalExemption": {
+   "available": true,
+   "text": "Medical exception permit for photosensitivity to visible light: written application to the DMV Drivers Medical Evaluation Program with the doctor's evaluation form; valid 5 years; max 4 permits at once; permit names the vehicle, windows and levels and must be carried in the vehicle; windshield rules apply without exception",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html"
+  },
+  "penalty": {
+   "text": "Class 3 misdemeanor for driving with, or applying, non-compliant tint; defense if tint removed within 15 days with a DMV/Highway Patrol compliance certificate. Driver must roll down window when an officer approaches.",
+   "maxFineUsd": null,
+   "cite": "N.C. Gen. Stat. § 20-127(d), (e), (g)",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html"
+  },
+  "lastAmended": "2025 (S.L. 2025-47, ss. 21, 22(d))",
+  "quotes": [
+   "The total light transmission of the tinted window shall be at least thirty-five percent (35%). A vehicle window that, by use of a light meter approved by the Commissioner, measures a total light transmission of more than thirty-two percent (32%) is conclusively presumed to meet this restriction.",
+   "The light reflectance of the tinted window shall be twenty percent (20%) or less.",
+   "the tinting may not extend more than five inches below the top of the windshield or below the AS1 line of the windshield, whichever measurement is longer",
+   "A window of a multipurpose vehicle that is behind the driver of the vehicle. ... A minivan and a pickup truck are multipurpose vehicles."
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All operators and passengers of motorcycles and mopeds (enclosed autocycles excepted); infraction $25.50 + costs",
+  "cite": "N.C. Gen. Stat. § 20-140.4",
+  "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-140.4.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Under-18 provisional drivers: mobile phone restriction in G.S. 20-137.3 (not fully read)",
+  "primaryEnforcement": true,
+  "fineText": "Texting/email: infraction, $100 + court costs, no points; school bus drivers Class 2 misdemeanor (min $100)",
+  "cite": "N.C. Gen. Stat. § 20-137.4A",
+  "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-137.4A.html"
+ },
+ "studdedTires": {
+  "allowed": "yes",
+  "season": "No seasonal limit; studs may project no more than 1/16 in. when compressed",
+  "cite": "N.C. Gen. Stat. § 20-122(b)",
+  "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-122.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Content of S.L. 2025-47 changes to 20-127 not compared with prior text (likely tied to the 2025 end of NC safety inspections, which tint checks used to rely on)",
+  "Class 3 misdemeanor fine cap not read",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-06-11",
+  "host": "ncleg.gov"
+ }
 }

@@ -1,138 +1,143 @@
 {
-  "code": "AK",
-  "name": "Alaska",
-  "tint": {
-    "statute": [
-      {
-        "cite": "13 AAC 04.223 (Tinted vehicle windows)",
-        "url": "https://www.akleg.gov/basis/aac.asp#13.04.223",
-        "readVia": "https://www.akleg.gov/basis/aac.asp?media=print&secStart=13.04.223&secEnd=13.04.223"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "'eyebrow' strip on the top edge, not extending downward more than five inches from the top of the glass",
-        "stripInches": 5,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "mirrored tinting banned on any window"
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": "driver and front passenger side windows: at least 70% light transmittance"
-      },
-      "backSide": {
-        "vlt": 40,
-        "note": "rear door windows and quarter glasses: at least 40%"
-      },
-      "rear": {
-        "vlt": 40,
-        "note": "back glass at least 40%; rear window tinted before July 1, 1994 exempt if driver- and passenger-side mirrors and proof of installation date"
-      }
-    },
-    "multipurpose": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "top 5 inches (eyebrow)",
-        "stripInches": 5,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "mirrored tinting banned"
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": "13 AAC 04.223(b)(4) lets vehicles identified by the manufacturer as multipurpose use tinting that complies with FMVSS 205 (49 CFR 571.205); text does not say it is limited to rear windows, FMVSS 205 itself requires 70% for windows requisite for driving visibility"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "multipurpose vehicles, limousines, for-hire buses and motor homes: tinting that complies with FMVSS 205 (no minimum for windows not requisite for driving visibility)"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "same FMVSS 205 rule"
-      }
-    },
-    "measuredHow": "film + glass combined (\"light transmittance\" = light through a window, including glazing)",
-    "reflectivity": {
-      "front": "mirrored tinting material prohibited on any window",
-      "back": "mirrored tinting material prohibited on any window"
-    },
-    "tolerance": {
-      "points": 3,
-      "cite": "13 AAC 04.223(e) (\"allowance for manufacturing variances of plus or minus three percent\")"
-    },
-    "colorsBanned": [
-      "any color other than green, gray, bronze, neutral smoke or sun reflective auto film"
-    ],
-    "dualMirrors": "Required for the pre-July 1, 1994 rear window exemption (13 AAC 04.223(h)); 13 AAC 04.220(b)(2) requires both-side mirrors when the view through the rear window is obstructed",
-    "certificateOrSticker": null,
-    "medicalExemption": {
-      "available": true,
-      "text": "Darker tint allowed if the driver or a frequent passenger must be shielded from direct sun for medical reasons, certified annually by a physician licensed in Alaska; certification must be carried in the vehicle (no state application)",
-      "url": "https://www.akleg.gov/basis/aac.asp#13.04.223"
-    },
-    "penalty": {
-      "text": null,
-      "maxFineUsd": null,
-      "cite": null,
-      "url": null
-    },
-    "lastAmended": null,
-    "quotes": [
-      "13 AAC 04.223(b)(1): \"the front windshield may have a strip of tinting material applied to the top edge, known in the industry as an 'eyebrow,' which does not extend downward more than five inches from the top of the glass\"",
-      "(b)(2): \"the driver and front passenger side windows may have tinting material that permits at least 70 percent light transmittance\"",
-      "(b)(3): \"the rear door windows, quarter glasses, and back glasses may have tinting material that permits at least 40 percent light transmittance\"",
-      "(b)(4): \"...vehicles identified by the vehicle manufacturer as multipurpose may have tinting material that complies with Standard No. 205, Glazing Materials, in 49 C.F.R. 571.205 (1992)\"",
-      "(d): \"Tinting materials must be green, gray, bronze, or neutral smoke in color, or a sun reflective auto film.\"",
-      "(e): \"...light transmittance measuring device with an allowance for manufacturing variances of plus or minus three percent\""
-    ]
+ "code": "AK",
+ "name": "Alaska",
+ "tint": {
+  "statute": [
+   {
+    "cite": "13 AAC 04.223 (Tinted vehicle windows)",
+    "url": "https://www.akleg.gov/basis/aac.asp#13.04.223",
+    "readVia": "https://www.akleg.gov/basis/aac.asp?media=print&secStart=13.04.223&secEnd=13.04.223"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "'eyebrow' strip on the top edge, not extending downward more than five inches from the top of the glass",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "mirrored tinting banned on any window"
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "driver and front passenger side windows: at least 70% light transmittance"
+   },
+   "backSide": {
+    "vlt": 40,
+    "note": "rear door windows and quarter glasses: at least 40%"
+   },
+   "rear": {
+    "vlt": 40,
+    "note": "back glass at least 40%; rear window tinted before July 1, 1994 exempt if driver- and passenger-side mirrors and proof of installation date"
+   }
   },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "AS 28.35.245(b): a person 18 or older may not be required to wear a helmet if holder of a motorcycle license or endorsement (so under 18, and riders without a license/endorsement, can be required)",
-    "cite": "AS 28.35.245",
-    "url": "https://www.akleg.gov/basis/statutes.asp#28.35.245"
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "top 5 inches (eyebrow)",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "mirrored tinting banned"
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "13 AAC 04.223(b)(4) lets vehicles identified by the manufacturer as multipurpose use tinting that complies with FMVSS 205 (49 CFR 571.205); text does not say it is limited to rear windows, FMVSS 205 itself requires 70% for windows requisite for driving visibility"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "multipurpose vehicles, limousines, for-hire buses and motor homes: tinting that complies with FMVSS 205 (no minimum for windows not requisite for driving visibility)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same FMVSS 205 rule"
+   }
   },
-  "handheldPhone": {
-    "allDriversBan": false,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "Violation punished under AS 12.55 (felony if injury/death); voice calls on handheld phones not banned",
-    "cite": "AS 28.35.161",
-    "url": "https://www.akleg.gov/basis/statutes.asp#28.35.161"
+  "measuredHow": "film + glass combined (\"light transmittance\" = light through a window, including glazing)",
+  "reflectivity": {
+   "front": "mirrored tinting material prohibited on any window",
+   "back": "mirrored tinting material prohibited on any window"
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Banned on paved roads May 1 - Sep 15 north of 60°N and Apr 15 - Sep 30 south of 60°N (Sterling Highway: May 1 - Sep 15); DPS may extend by emergency order; studs max 1/4 inch",
-    "cite": "AS 28.35.155",
-    "url": "https://www.akleg.gov/basis/statutes.asp#28.35.155"
+  "tolerance": {
+   "points": 3,
+   "cite": "13 AAC 04.223(e) (\"allowance for manufacturing variances of plus or minus three percent\")"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No Alaska ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "colorsBanned": [
+   "any color other than green, gray, bronze, neutral smoke or sun reflective auto film"
+  ],
+  "dualMirrors": "Required for the pre-July 1, 1994 rear window exemption (13 AAC 04.223(h)); 13 AAC 04.220(b)(2) requires both-side mirrors when the view through the rear window is obstructed",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "Darker tint allowed if the driver or a frequent passenger must be shielded from direct sun for medical reasons, certified annually by a physician licensed in Alaska; certification must be carried in the vehicle (no state application)",
+   "url": "https://www.akleg.gov/basis/aac.asp#13.04.223"
   },
-  "underglow": {
-    "rule": "13 AAC 04.145: no red light visible from directly in front, no flashing or rotating light, and no illuminated light color other than those specified in the chapter while operating on a roadway",
-    "cite": "13 AAC 04.145(b), (f)",
-    "url": "https://www.akleg.gov/basis/aac.asp#13.04.145"
+  "penalty": {
+   "text": null,
+   "maxFineUsd": null,
+   "cite": null,
+   "url": null
   },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "Tint penalty / fine amount not found (Alaska minor-offense bail schedule not read)",
-    "Helmet: which riders under 18 / passengers must wear helmets is set by regulation (13 AAC 02) not read; only AS 28.35.245(b) confirmed",
-    "AS 28.35.161 violation fine amount (AS 12.55 violation, up to $500 by general law) not confirmed",
-    "Multipurpose front-side windows: 13 AAC 04.223(b)(4) wording ambiguous (FMVSS 205 = 70% for front sides in practice)",
-    "No amendment date visible for 13 AAC 04.223 on the print page",
-    "Lift height: no Alaska rule found"
+  "lastAmended": null,
+  "quotes": [
+   "13 AAC 04.223(b)(1): \"the front windshield may have a strip of tinting material applied to the top edge, known in the industry as an 'eyebrow,' which does not extend downward more than five inches from the top of the glass\"",
+   "(b)(2): \"the driver and front passenger side windows may have tinting material that permits at least 70 percent light transmittance\"",
+   "(b)(3): \"the rear door windows, quarter glasses, and back glasses may have tinting material that permits at least 40 percent light transmittance\"",
+   "(b)(4): \"...vehicles identified by the vehicle manufacturer as multipurpose may have tinting material that complies with Standard No. 205, Glazing Materials, in 49 C.F.R. 571.205 (1992)\"",
+   "(d): \"Tinting materials must be green, gray, bronze, or neutral smoke in color, or a sun reflective auto film.\"",
+   "(e): \"...light transmittance measuring device with an allowance for manufacturing variances of plus or minus three percent\""
   ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "AS 28.35.245(b): a person 18 or older may not be required to wear a helmet if holder of a motorcycle license or endorsement (so under 18, and riders without a license/endorsement, can be required)",
+  "cite": "AS 28.35.245",
+  "url": "https://www.akleg.gov/basis/statutes.asp#28.35.245"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "Violation punished under AS 12.55 (felony if injury/death); voice calls on handheld phones not banned",
+  "cite": "AS 28.35.161",
+  "url": "https://www.akleg.gov/basis/statutes.asp#28.35.161"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Banned on paved roads May 1 - Sep 15 north of 60°N and Apr 15 - Sep 30 south of 60°N (Sterling Highway: May 1 - Sep 15); DPS may extend by emergency order; studs max 1/4 inch",
+  "cite": "AS 28.35.155",
+  "url": "https://www.akleg.gov/basis/statutes.asp#28.35.155"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No Alaska ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "13 AAC 04.145: no red light visible from directly in front, no flashing or rotating light, and no illuminated light color other than those specified in the chapter while operating on a roadway",
+  "cite": "13 AAC 04.145(b), (f)",
+  "url": "https://www.akleg.gov/basis/aac.asp#13.04.145"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Tint penalty / fine amount not found (Alaska minor-offense bail schedule not read)",
+  "Helmet: which riders under 18 / passengers must wear helmets is set by regulation (13 AAC 02) not read; only AS 28.35.245(b) confirmed",
+  "AS 28.35.161 violation fine amount (AS 12.55 violation, up to $500 by general law) not confirmed",
+  "Multipurpose front-side windows: 13 AAC 04.223(b)(4) wording ambiguous (FMVSS 205 = 70% for front sides in practice)",
+  "No amendment date visible for 13 AAC 04.223 on the print page",
+  "Lift height: no Alaska rule found"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "akleg.gov"
+ }
 }

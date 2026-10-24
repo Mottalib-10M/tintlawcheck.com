@@ -1,123 +1,128 @@
 {
-  "code": "KS",
-  "name": "Kansas",
-  "tint": {
-    "statute": [
-      {
-        "cite": "K.S.A. 8-1749a",
-        "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html",
-        "readVia": null
-      },
-      {
-        "cite": "K.S.A. 8-1749b (definitions)",
-        "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049b.html",
-        "readVia": null
-      },
-      {
-        "cite": "K.S.A. 8-1749c (installer penalty)",
-        "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049c.html",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "along the top of the windshield, not below the AS1 line; nonreflective; not red, yellow or amber",
-        "stripInches": null,
-        "asLine": true,
-        "vlt": null,
-        "reflective": "must be nonreflective"
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "total light transmission with all sun screening devices combined; nonreflective"
-      },
-      "backSide": {
-        "vlt": 35,
-        "note": "nonreflective"
-      },
-      "rear": {
-        "vlt": 35,
-        "note": "nonreflective"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('total light transmission'; 'light transmission' includes any safety glazing material)",
-    "reflectivity": {
-      "front": "nonreflective",
-      "back": "nonreflective"
-    },
-    "tolerance": null,
-    "colorsBanned": [
-      "red",
-      "yellow",
-      "amber"
-    ],
-    "dualMirrors": null,
-    "certificateOrSticker": null,
-    "medicalExemption": {
-      "available": true,
-      "text": "Limited: only clear, colorless UV-blocking film with at least 78% VLT (glazing+film meeting FMVSS 205 70%), with a signed statement from a licensed physician or optometrist identifying the occupant. No exemption for dark tint. A driver cited without the statement has 60 days to produce it or remove the film.",
-      "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html"
-    },
-    "penalty": {
-      "text": "Driver: misdemeanor (class C unless repeat within one year, K.S.A. 8-2116); class C misdemeanor fine up to $500 (K.S.A. 21-6611). Installer: class C misdemeanor (8-1749c).",
-      "maxFineUsd": 500,
-      "cite": "K.S.A. 8-1749a(h); 8-1749c; 8-2116; 21-6611",
-      "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html"
-    },
-    "lastAmended": "2019 (L. 2019, ch. 61, § 4)",
-    "quotes": [
-      "the total light transmission shall not be less than 35% when a sun screening device is used in conjunction with other existing sun screening devices.",
-      "A sun screening device when used in conjunction with the windshield shall be nonreflective and shall not be red, yellow or amber in color.",
-      "shall not extend downward beyond the AS1 line, which is clearly defined and marked",
-      "The material has a minimum visible light transmittance of 78%",
-      "Any person convicted of violating the provisions of this section shall be guilty of a misdemeanor.",
-      "for a class C misdemeanor, a sum not exceeding $500"
-    ]
-  },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "Under 18 operator or passenger; eye protection for all operators unless 10-in. windscreen",
-    "cite": "K.S.A. 8-1598",
-    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0098.html"
-  },
-  "handheldPhone": {
-    "allDriversBan": false,
-    "textingBan": true,
-    "noviceOrAgeBan": "Instruction permit holders may not operate a wireless communication device while driving (K.S.A. 8-2,100; restricted licenses similar)",
-    "primaryEnforcement": true,
-    "fineText": "$60 (uniform fine schedule)",
-    "cite": "K.S.A. 8-15,111; 8-2118",
-    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0111.html"
-  },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Nov 1 - Apr 15 (stud tires, K.A.R. 36-7-1); studded traction equipment Nov 1 - Apr 1 (K.A.R. 36-7-2)",
-    "cite": "K.S.A. 8-1742(c); K.A.R. 36-7-1; 36-7-2",
-    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0042.html"
-  },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
-  },
-  "underglow": {
-    "rule": "Only white or amber light visible from directly in front; no red to the front; flashing lights prohibited except authorized; AG Opinion 2003-6 says 8-1729 may prohibit 'ground effect' or 'auto neon' lights in some instances",
-    "cite": "K.S.A. 8-1729",
-    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0029.html"
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "openQuestions": [
-    "K.A.R. 36-7-1/36-7-2 stud dates read via search summaries of Cornell/Justia copies, not the Kansas Register directly.",
-    "Lift/frame height: no Kansas statute located.",
-    "Whether 8-1749a(h) misdemeanor is enforced as class C (8-2116) - inferred from statute text, no agency confirmation."
+ "code": "KS",
+ "name": "Kansas",
+ "tint": {
+  "statute": [
+   {
+    "cite": "K.S.A. 8-1749a",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html",
+    "readVia": null
+   },
+   {
+    "cite": "K.S.A. 8-1749b (definitions)",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049b.html",
+    "readVia": null
+   },
+   {
+    "cite": "K.S.A. 8-1749c (installer penalty)",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049c.html",
+    "readVia": null
+   }
   ],
-  "checkedOn": "2026-10-24"
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "along the top of the windshield, not below the AS1 line; nonreflective; not red, yellow or amber",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "must be nonreflective"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "total light transmission with all sun screening devices combined; nonreflective"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "nonreflective"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "nonreflective"
+   }
+  },
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('total light transmission'; 'light transmission' includes any safety glazing material)",
+  "reflectivity": {
+   "front": "nonreflective",
+   "back": "nonreflective"
+  },
+  "tolerance": null,
+  "colorsBanned": [
+   "red",
+   "yellow",
+   "amber"
+  ],
+  "dualMirrors": null,
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "Limited: only clear, colorless UV-blocking film with at least 78% VLT (glazing+film meeting FMVSS 205 70%), with a signed statement from a licensed physician or optometrist identifying the occupant. No exemption for dark tint. A driver cited without the statement has 60 days to produce it or remove the film.",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html"
+  },
+  "penalty": {
+   "text": "Driver: misdemeanor (class C unless repeat within one year, K.S.A. 8-2116); class C misdemeanor fine up to $500 (K.S.A. 21-6611). Installer: class C misdemeanor (8-1749c).",
+   "maxFineUsd": 500,
+   "cite": "K.S.A. 8-1749a(h); 8-1749c; 8-2116; 21-6611",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0049a.html"
+  },
+  "lastAmended": "2019 (L. 2019, ch. 61, § 4)",
+  "quotes": [
+   "the total light transmission shall not be less than 35% when a sun screening device is used in conjunction with other existing sun screening devices.",
+   "A sun screening device when used in conjunction with the windshield shall be nonreflective and shall not be red, yellow or amber in color.",
+   "shall not extend downward beyond the AS1 line, which is clearly defined and marked",
+   "The material has a minimum visible light transmittance of 78%",
+   "Any person convicted of violating the provisions of this section shall be guilty of a misdemeanor.",
+   "for a class C misdemeanor, a sum not exceeding $500"
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Under 18 operator or passenger; eye protection for all operators unless 10-in. windscreen",
+  "cite": "K.S.A. 8-1598",
+  "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0098.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Instruction permit holders may not operate a wireless communication device while driving (K.S.A. 8-2,100; restricted licenses similar)",
+  "primaryEnforcement": true,
+  "fineText": "$60 (uniform fine schedule)",
+  "cite": "K.S.A. 8-15,111; 8-2118",
+  "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0111.html"
+ },
+ "studdedTires": {
+  "allowed": "restricted",
+  "season": null,
+  "cite": "K.S.A. 8-1742(c) (months set by K.A.R. 36-7-1 and 36-7-2, not read on an official site)",
+  "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0042.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "Only white or amber light visible from directly in front; no red to the front; flashing lights prohibited except authorized; AG Opinion 2003-6 says 8-1729 may prohibit 'ground effect' or 'auto neon' lights in some instances",
+  "cite": "K.S.A. 8-1729",
+  "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0029.html"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "openQuestions": [
+  "K.A.R. 36-7-1 / 36-7-2 (stud months) could not be read on an official site (sos.ks.gov page not found on 2026-10-24); season left null. K.S.A. 8-1742(c) read on ksrevisor.gov.",
+  "Lift/frame height: no Kansas statute located.",
+  "Whether 8-1749a(h) misdemeanor is enforced as class C (8-2116) - inferred from statute text, no agency confirmation."
+ ],
+ "checkedOn": "2026-10-24",
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "ksrevisor.gov"
+ }
 }

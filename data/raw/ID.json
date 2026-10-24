@@ -1,111 +1,116 @@
 {
-  "code": "ID",
-  "name": "Idaho",
-  "tint": {
-    "statute": [
-      {
-        "cite": "Idaho Code § 49-944",
-        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/",
-        "readVia": "https://web.archive.org/web/20260610064342/https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH9/SECT49-944/ (archived copy of the official page; live site unreachable)"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "nonreflective tint not below the AS-1 line; if no AS-1 line, not below a line 6 inches below the top of the exposed windshield",
-        "stripInches": 6,
-        "asLine": true,
-        "vlt": null,
-        "reflective": "nonreflective only"
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
-      },
-      "backSide": {
-        "vlt": 20,
-        "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
-      },
-      "rear": {
-        "vlt": 35,
-        "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "not stated (light transmission defined as light passing through 'the product or material')",
-    "reflectivity": {
-      "front": "max 35% luminous reflectance (+/-3%)",
-      "back": "max 35% luminous reflectance (+/-3%)"
-    },
-    "tolerance": {
-      "points": 3,
-      "cite": "Idaho Code § 49-944(1)(b)-(c)"
-    },
-    "colorsBanned": null,
-    "dualMirrors": null,
-    "certificateOrSticker": null,
-    "medicalExemption": {
-      "available": true,
-      "text": "Driver or passenger with written verification from a licensed physician of medical need to be protected from sunlight or heat may have 70% (+/-3) on the windshield and 20% (+/-3) on the windows; verification must be carried in the vehicle.",
-      "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/"
-    },
-    "penalty": {
-      "text": "Infraction",
-      "maxFineUsd": null,
-      "cite": "Idaho Code § 49-944(6)",
-      "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/"
-    },
-    "lastAmended": "2023 (2023 Idaho Sess. Laws ch. 112, sec. 1)",
-    "quotes": [
-      "a light transmission of not less than thirty-five percent (35%) with a tolerance limit of plus or minus three percent (3%) ... may be applied to the front side vents, front side windows to the immediate right and left of the driver, and the rear window",
-      "a light transmission of not less than twenty percent (20%) with a tolerance limit of plus or minus three percent (3%) ... may be applied to the side windows to the rear of the driver",
-      "shall not be applied to the windshield below the AS-1 line; if no AS-1 line is identifiable ... below a line extending six (6) inches below and parallel to the exposed windshield",
-      "Any person convicted of a violation of the provisions of this section shall be guilty of an infraction."
-    ]
+ "code": "ID",
+ "name": "Idaho",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Idaho Code § 49-944",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/",
+    "readVia": "https://web.archive.org/web/20260610064342/https://legislature.idaho.gov/statutesrules/idstat/Title49/T49CH9/SECT49-944/ (archived copy of the official page; live site unreachable)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "nonreflective tint not below the AS-1 line; if no AS-1 line, not below a line 6 inches below the top of the exposed windshield",
+    "stripInches": 6,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "nonreflective only"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
+   },
+   "backSide": {
+    "vlt": 20,
+    "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "plus or minus 3%; luminous reflectance max 35% (+/-3)"
+   }
   },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "Riders and operators under 18 (motorcycles, motorbikes, ATVs, UTVs) on public roads",
-    "cite": "Idaho Code § 49-666",
-    "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-666/"
+  "multipurpose": null,
+  "measuredHow": "not stated (light transmission defined as light passing through 'the product or material')",
+  "reflectivity": {
+   "front": "max 35% luminous reflectance (+/-3%)",
+   "back": "max 35% luminous reflectance (+/-3%)"
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "first offense $75; second within 3 years $150; third+ $300; no points on first conviction",
-    "cite": "Idaho Code § 49-1401A",
-    "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/"
+  "tolerance": {
+   "points": 3,
+   "cite": "Idaho Code § 49-944(1)(b)-(c)"
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Oct 1 - Apr 30 (prohibited May 1 - Sep 30)",
-    "cite": "Idaho Code § 49-948(3)",
-    "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-948/"
+  "colorsBanned": null,
+  "dualMirrors": null,
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "Driver or passenger with written verification from a licensed physician of medical need to be protected from sunlight or heat may have 70% (+/-3) on the windshield and 20% (+/-3) on the windows; verification must be carried in the vehicle.",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "penalty": {
+   "text": "Infraction",
+   "maxFineUsd": null,
+   "cite": "Idaho Code § 49-944(6)",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-944/"
   },
-  "underglow": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "legislature.idaho.gov refused connections; § 49-944 read from a June 2026 Wayback copy of the official page; §§ 49-666, 49-1401A, 49-948 read via codes.findlaw.com ('current as of January 01, 2024').",
-    "Infraction fine amount for tint (set by Idaho infraction rules) not found.",
-    "No separate rule for SUVs/vans/pickups in § 49-944 (only factory glazing exempt under (5)).",
-    "Underglow and lift-height: not found."
+  "lastAmended": "2023 (2023 Idaho Sess. Laws ch. 112, sec. 1)",
+  "quotes": [
+   "a light transmission of not less than thirty-five percent (35%) with a tolerance limit of plus or minus three percent (3%) ... may be applied to the front side vents, front side windows to the immediate right and left of the driver, and the rear window",
+   "a light transmission of not less than twenty percent (20%) with a tolerance limit of plus or minus three percent (3%) ... may be applied to the side windows to the rear of the driver",
+   "shall not be applied to the windshield below the AS-1 line; if no AS-1 line is identifiable ... below a line extending six (6) inches below and parallel to the exposed windshield",
+   "Any person convicted of a violation of the provisions of this section shall be guilty of an infraction."
   ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Riders and operators under 18 (motorcycles, motorbikes, ATVs, UTVs) on public roads",
+  "cite": "Idaho Code § 49-666",
+  "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-666/"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "first offense $75; second within 3 years $150; third+ $300; no points on first conviction",
+  "cite": "Idaho Code § 49-1401A",
+  "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 1 - Apr 30 (prohibited May 1 - Sep 30)",
+  "cite": "Idaho Code § 49-948(3)",
+  "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-948/"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "legislature.idaho.gov refused connections; § 49-944 read on the archived copy of the official page of 2026-06-10, § 49-666 on that of 2026-06-10, § 49-1401A on that of 2026-07-10 and § 49-948 on that of 2026-08-14.",
+  "Infraction fine amount for tint (set by Idaho infraction rules) not found.",
+  "No separate rule for SUVs/vans/pickups in § 49-944 (only factory glazing exempt under (5)).",
+  "Underglow and lift-height: not found."
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-06-10",
+  "host": "legislature.idaho.gov"
+ }
 }

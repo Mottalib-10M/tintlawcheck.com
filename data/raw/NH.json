@@ -1,44 +1,140 @@
 {
-  "code": "NH", "name": "New Hampshire",
-  "tint": {
-    "statute": [
-      {"cite": "N.H. Rev. Stat. Ann. § 266:58-a", "url": "https://gc.nh.gov/rsa/html/XXI/266/266-58-a.htm", "readVia": "web.archive.org snapshot of the official page (gc.nh.gov returned 403 to us); text includes the 2024 amendment (2024, 48:1, eff. Sept. 12, 2024)"},
-      {"cite": "N.H. Rev. Stat. Ann. § 266:61-a, IX (medical permit)", "url": "https://gc.nh.gov/rsa/html/XXI/266/266-61-a.htm", "readVia": "web.archive.org snapshot of the official page"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "aftermarket tint on the windshield prohibited except a strip not wider than 6 in. at the very top, with light transmittance of at least 35%", "stripInches": 6, "asLine": false, "vlt": 35, "reflective": null},
-      "frontSide": {"vlt": 70, "note": "windows to the left and right of the driver: aftermarket tint must leave light transmittance of at least 70%"},
-      "backSide": {"vlt": 35, "note": "statute says 'rear windows' (to the rear of the driver) at least 35%; outside mirrors on both sides required"},
-      "rear": {"vlt": 35, "note": "outside rear-view mirrors required on both left and right sides when windows to the rear of the driver are tinted"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "same as passenger: top strip max 6 in., min 35% transmittance", "stripInches": 6, "asLine": false, "vlt": 35, "reflective": null},
-      "frontSide": {"vlt": 70, "note": null},
-      "backSide": {"vlt": "any", "note": "rear windows of multipurpose passenger vehicles (49 CFR 571.3) and pickup trucks may have whatever 49 CFR 571.205 allows for factory-tinted rear windows (no minimum)"},
-      "rear": {"vlt": "any", "note": "same; dual outside mirrors required"}
-    },
-    "measuredHow": "not stated",
-    "reflectivity": {"front": null, "back": null},
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": "Outside rear-view mirrors required on both left and right sides where aftermarket tint is applied to windows to the rear of the driver",
-    "certificateOrSticker": null,
-    "medicalExemption": {"available": true, "text": "Commissioner of Safety may issue a special permit for bona fide medical reasons covering the windshield or front side windows; permitted tint min 35% light transmittance; medical certification by a NH-licensed provider or a VA-affiliated provider; a medical review board may be consulted", "url": "https://gc.nh.gov/rsa/html/XXI/266/266-61-a.htm"},
-    "penalty": {"text": "A 'violation' (non-criminal offense); also unlawful to sell or inspect a vehicle with aftermarket windshield tint", "maxFineUsd": null, "cite": "N.H. Rev. Stat. Ann. § 266:58-a, VI", "url": "https://gc.nh.gov/rsa/html/XXI/266/266-58-a.htm"},
-    "lastAmended": "2024 (2024, 48:1, eff. Sept. 12, 2024); earlier 2021, 185:2",
-    "quotes": [
-      "The light transmittance of after-market tinted windows to the left and right of the driver where they are allowed shall not be less than 70 percent",
-      "the light transmittance of after-market tinted rear windows where they are allowed shall not be less than 35 percent, except that the light transmittance of after market tinted rear windows of multipurpose passenger vehicles ... and pickup trucks may be such percentage as is allowed by 49 C.F.R. section 571.205",
-      "a strip not wider than 6 inches located at the very top of the windshield, provided that the light transmittance of the strip shall not be less than 35 percent",
-      "Where after market tinting is applied to windows to the rear of the driver, outside rear view mirrors shall be required on both the left and right side"
-    ]
+ "code": "NH",
+ "name": "New Hampshire",
+ "tint": {
+  "statute": [
+   {
+    "cite": "N.H. Rev. Stat. Ann. § 266:58-a",
+    "url": "https://gc.nh.gov/rsa/html/XXI/266/266-58-a.htm",
+    "readVia": "https://web.archive.org/web/20260326185526/https://gc.nh.gov/RSA/html/XXI/266/266-58-a.htm (archived copy of the official page dated 2026-03-26; gc.nh.gov answers 403 to scripts); text includes the 2024 amendment (2024, 48:1, eff. Sept. 12, 2024)"
+   },
+   {
+    "cite": "N.H. Rev. Stat. Ann. § 266:61-a, IX (medical permit)",
+    "url": "https://gc.nh.gov/rsa/html/XXI/266/266-61-a.htm",
+    "readVia": "web.archive.org snapshot of the official page"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "aftermarket tint on the windshield prohibited except a strip not wider than 6 in. at the very top, with light transmittance of at least 35%",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 35,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "windows to the left and right of the driver: aftermarket tint must leave light transmittance of at least 70%"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "statute says 'rear windows' (to the rear of the driver) at least 35%; outside mirrors on both sides required"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "outside rear-view mirrors required on both left and right sides when windows to the rear of the driver are tinted"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "riders and drivers of motorcycles or autocycles under 18", "cite": "N.H. Rev. Stat. Ann. § 265:122", "url": "https://gc.nh.gov/rsa/html/XXI/265/265-122.htm"},
-  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": "Under 18: no cell phone use at all, even hands-free, except to report an emergency", "primaryEnforcement": true, "fineText": "$100 + penalty assessment first offense, $250 second, $500 subsequent within 24 months", "cite": "N.H. Rev. Stat. Ann. § 265:79-c", "url": "https://gc.nh.gov/rsa/html/XXI/265/265-79-c.htm"},
-  "studdedTires": {"allowed": "yes", "season": "No seasonal restriction found in RSA ch. 266 tire sections", "cite": null, "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXI-266.htm"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": "RSA 266:9 'Height of Motor Vehicle Body and Chassis' exists but could not be read (official site blocked, no archive copy)", "cite": "N.H. Rev. Stat. Ann. § 266:9", "url": "https://gc.nh.gov/rsa/html/XXI/266/266-9.htm"},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Official RSA site returned 403; read via Wayback", "Fine for a 'violation' not read (RSA 651:2 not checked)", "266:58-a III literally says 'rear windows' - whether rear side windows fall under the 35% rule or another rule is an interpretation (DMV rules Saf-C not read)", "Studded tires: absence of restriction inferred, not confirmed by an official page", "266:9 (body/chassis height) not readable"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same as passenger: top strip max 6 in., min 35% transmittance",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 35,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": null
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "rear windows of multipurpose passenger vehicles (49 CFR 571.3) and pickup trucks may have whatever 49 CFR 571.205 allows for factory-tinted rear windows (no minimum)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same; dual outside mirrors required"
+   }
+  },
+  "measuredHow": "not stated",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Outside rear-view mirrors required on both left and right sides where aftermarket tint is applied to windows to the rear of the driver",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "Commissioner of Safety may issue a special permit for bona fide medical reasons covering the windshield or front side windows; permitted tint min 35% light transmittance; medical certification by a NH-licensed provider or a VA-affiliated provider; a medical review board may be consulted",
+   "url": "https://gc.nh.gov/rsa/html/XXI/266/266-61-a.htm"
+  },
+  "penalty": {
+   "text": "A 'violation' (non-criminal offense); also unlawful to sell or inspect a vehicle with aftermarket windshield tint",
+   "maxFineUsd": null,
+   "cite": "N.H. Rev. Stat. Ann. § 266:58-a, VI",
+   "url": "https://gc.nh.gov/rsa/html/XXI/266/266-58-a.htm"
+  },
+  "lastAmended": "2024 (2024, 48:1, eff. Sept. 12, 2024); earlier 2021, 185:2",
+  "quotes": [
+   "The light transmittance of after-market tinted windows to the left and right of the driver where they are allowed shall not be less than 70 percent",
+   "the light transmittance of after-market tinted rear windows where they are allowed shall not be less than 35 percent, except that the light transmittance of after market tinted rear windows of multipurpose passenger vehicles ... and pickup trucks may be such percentage as is allowed by 49 C.F.R. section 571.205",
+   "a strip not wider than 6 inches located at the very top of the windshield, provided that the light transmittance of the strip shall not be less than 35 percent",
+   "Where after market tinting is applied to windows to the rear of the driver, outside rear view mirrors shall be required on both the left and right side"
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "riders and drivers of motorcycles or autocycles under 18",
+  "cite": "N.H. Rev. Stat. Ann. § 265:122",
+  "url": "https://gc.nh.gov/rsa/html/XXI/265/265-122.htm"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Under 18: no cell phone use at all, even hands-free, except to report an emergency",
+  "primaryEnforcement": true,
+  "fineText": "$100 + penalty assessment first offense, $250 second, $500 subsequent within 24 months",
+  "cite": "N.H. Rev. Stat. Ann. § 265:79-c",
+  "url": "https://gc.nh.gov/rsa/html/XXI/265/265-79-c.htm"
+ },
+ "studdedTires": {
+  "allowed": "yes",
+  "season": "No seasonal restriction found in RSA ch. 266 tire sections",
+  "cite": null,
+  "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXI-266.htm"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": "RSA 266:9 'Height of Motor Vehicle Body and Chassis' exists but could not be read (official site blocked, no archive copy)",
+  "cite": "N.H. Rev. Stat. Ann. § 266:9",
+  "url": "https://gc.nh.gov/rsa/html/XXI/266/266-9.htm"
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Official RSA site returned 403; read via Wayback",
+  "Fine for a 'violation' not read (RSA 651:2 not checked)",
+  "266:58-a III literally says 'rear windows' - whether rear side windows fall under the 35% rule or another rule is an interpretation (DMV rules Saf-C not read)",
+  "Studded tires: absence of restriction inferred, not confirmed by an official page",
+  "266:9 (body/chassis height) not readable"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-03-26",
+  "host": "gc.nh.gov"
+ }
 }

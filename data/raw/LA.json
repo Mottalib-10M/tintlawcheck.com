@@ -1,147 +1,152 @@
 {
-  "code": "LA",
-  "name": "Louisiana",
-  "tint": {
-    "statute": [
-      {
-        "cite": "La. R.S. 32:361.1",
-        "url": "https://legis.la.gov/Legis/law.aspx?d=88294",
-        "readVia": null
-      },
-      {
-        "cite": "La. R.S. 32:361.2 (medical exemption)",
-        "url": "https://legis.la.gov/Legis/law.aspx?d=88295",
-        "readVia": null
-      },
-      {
-        "cite": "La. R.S. 32:361.3 (security exemption)",
-        "url": "https://legis.la.gov/Legis/law.aspx?d=88296",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "transparent material, not red or amber, on the topmost portion, not more than 5 inches down from the top",
-        "stripInches": 5,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "max 20% luminous reflectance (all sun screening devices)"
-      },
-      "frontSide": {
-        "vlt": 25,
-        "note": "25% all tolerances included, since August 1, 2025 (Act 143 of 2025, HB 119); was 40% before"
-      },
-      "backSide": {
-        "vlt": 25,
-        "note": "all tolerances included"
-      },
-      "rear": {
-        "vlt": 12,
-        "note": "rearmost windows, all tolerances included"
-      }
-    },
-    "multipurpose": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "transparent material, not red or amber, on the topmost portion, not more than 5 inches down from the top",
-        "stripInches": 5,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "max 20% luminous reflectance (all sun screening devices)"
-      },
-      "frontSide": {
-        "vlt": 25,
-        "note": "same as passenger cars"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "light transmittance requirement does not apply to windows behind the driver on trucks, buses, trailers, motor homes and multipurpose passenger vehicles (R.S. 32:361.1(D)(4)); 20% reflectance cap still applies"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "same exclusion as rear side windows"
-      }
-    },
-    "measuredHow": "film + glass combined ('light transmission' includes any glazing material)",
-    "reflectivity": {
-      "front": "max 20% luminous reflectance",
-      "back": "max 20% luminous reflectance"
-    },
-    "tolerance": {
-      "points": 0,
-      "cite": "R.S. 32:361.1(C)(1): limits are 'all tolerances included'"
-    },
-    "colorsBanned": [
-      "red",
-      "amber"
-    ],
-    "dualMirrors": null,
-    "certificateOrSticker": "Installer label (max 1.5 sq in, installer name and city) between film and glass, lower right corner of driver's side window (R.S. 32:361.1(D)(2)-(3)); manufacturers certify film to the Office of Motor Vehicles. Pre-1994 tint needs a certificate kept in the vehicle.",
-    "medicalExemption": {
-      "available": true,
-      "text": "Affidavit (form prepared by the Office of State Police) signed by a Louisiana-licensed optometrist or physician (incl. ophthalmologist, dermatologist) citing an ICD-9-CM recognized condition; notarized medical-records release; criminal-history check with fingerprints (violent crime or drug convictions disqualify); review every 3 years (porphyria: duration of ownership); decal displayed; does not cover windshield below top 6 inches except porphyria. A separate security exemption exists (R.S. 32:361.3).",
-      "url": "https://legis.la.gov/Legis/law.aspx?d=88295"
-    },
-    "penalty": {
-      "text": "Operator: fine up to $150 first offense, $250 second, $350 third or subsequent. Seller/installer/manufacturer/distributor: $1,000 first, $2,000 second, business ban on third.",
-      "maxFineUsd": 350,
-      "cite": "La. R.S. 32:361.1(E), (G)",
-      "url": "https://legis.la.gov/Legis/law.aspx?d=88294"
-    },
-    "lastAmended": "2025 (Acts 2025, No. 143, effective August 1, 2025); also Acts 2024, No. 268 (Wildlife and Fisheries enforcement vehicles exempt)",
-    "quotes": [
-      "A sun screening device when used in conjunction with automotive safety glazing materials on the front side window, with a light transmission of at least twenty-five percent, all tolerances included",
-      "side window behind the driver with a light transmission of at least twenty-five percent, all tolerances included, and rearmost windows with a light transmission of at least twelve percent, all tolerances included.",
-      "All sun screening devices shall not have a luminous reflectance of more than twenty percent.",
-      "A transparent material, not red or amber in color, affixed to the topmost portion of the windshield not to extend more than five inches down from the top.",
-      "The light transmittance requirement of this Section does not apply to windows behind the driver on trucks, busses, trailers, motor homes, multipurpose passenger vehicles",
-      "shall be fined not more than one hundred fifty dollars for a first offense, not more than two hundred fifty dollars for a second offense, and not more than three hundred fifty dollars for a third or subsequent offense."
-    ]
-  },
-  "helmet": {
-    "rule": "universal",
-    "ageUnder": null,
-    "conditions": "All operators and riders of motorcycles, motor-driven cycles and motorized bicycles; fine $50",
-    "cite": "La. R.S. 32:190",
-    "url": "https://legis.la.gov/Legis/law.aspx?d=88170"
-  },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": false,
-    "fineText": "$100 (secondary offense) outside school/highway construction zones; $250 and primary offense in school or construction zones; doubled if crash; warnings only before January 1, 2026",
-    "cite": "La. R.S. 32:59 (Acts 2025, No. 288, HB 519; repealed R.S. 32:300.5-300.8)",
-    "url": "https://legis.la.gov/LEGIS/ViewDocument.aspx?d=1425602"
-  },
-  "studdedTires": {
-    "allowed": "no",
-    "season": null,
-    "cite": "La. R.S. 32:362(B) (no protuberances other than rubber except farm machinery and tire chains)",
-    "url": "https://legis.la.gov/Legis/law.aspx?d=88297"
-  },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
-  },
-  "underglow": {
-    "rule": "No red or green light visible from directly in front; flashing lights prohibited except emergency vehicles, school buses, turn/hazard signals; neon or other lights around license plates prohibited",
-    "cite": "La. R.S. 32:327; 32:333",
-    "url": "https://legis.la.gov/Legis/law.aspx?d=88269"
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "openQuestions": [
-    "Hands-free law: read from the enrolled HB 519 (Act 288 of 2025); codified R.S. 32:59 page not opened. Act effective date assumed August 1, 2025 (general LA effective date) - confirm.",
-    "Old R.S. 32:300.6/300.7 under-18 rules were repealed by Act 288; no novice-specific rule found in new R.S. 32:59 (set null).",
-    "No 2026 Regular Session change to R.S. 32:361.1 found; the codified page lists Acts 2025, No. 143 as the last amendment.",
-    "Lift/frame height: no Louisiana statute located."
+ "code": "LA",
+ "name": "Louisiana",
+ "tint": {
+  "statute": [
+   {
+    "cite": "La. R.S. 32:361.1",
+    "url": "https://legis.la.gov/Legis/law.aspx?d=88294",
+    "readVia": null
+   },
+   {
+    "cite": "La. R.S. 32:361.2 (medical exemption)",
+    "url": "https://legis.la.gov/Legis/law.aspx?d=88295",
+    "readVia": null
+   },
+   {
+    "cite": "La. R.S. 32:361.3 (security exemption)",
+    "url": "https://legis.la.gov/Legis/law.aspx?d=88296",
+    "readVia": null
+   }
   ],
-  "checkedOn": "2026-10-24"
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material, not red or amber, on the topmost portion, not more than 5 inches down from the top",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "max 20% luminous reflectance (all sun screening devices)"
+   },
+   "frontSide": {
+    "vlt": 25,
+    "note": "25% all tolerances included, since August 1, 2025 (Act 143 of 2025, HB 119); was 40% before"
+   },
+   "backSide": {
+    "vlt": 25,
+    "note": "all tolerances included"
+   },
+   "rear": {
+    "vlt": 12,
+    "note": "rearmost windows, all tolerances included"
+   }
+  },
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material, not red or amber, on the topmost portion, not more than 5 inches down from the top",
+    "stripInches": 5,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "max 20% luminous reflectance (all sun screening devices)"
+   },
+   "frontSide": {
+    "vlt": 25,
+    "note": "same as passenger cars"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "light transmittance requirement does not apply to windows behind the driver on trucks, buses, trailers, motor homes and multipurpose passenger vehicles (R.S. 32:361.1(D)(4)); 20% reflectance cap still applies"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same exclusion as rear side windows"
+   }
+  },
+  "measuredHow": "film + glass combined ('light transmission' includes any glazing material)",
+  "reflectivity": {
+   "front": "max 20% luminous reflectance",
+   "back": "max 20% luminous reflectance"
+  },
+  "tolerance": {
+   "points": 0,
+   "cite": "R.S. 32:361.1(C)(1): limits are 'all tolerances included'"
+  },
+  "colorsBanned": [
+   "red",
+   "amber"
+  ],
+  "dualMirrors": null,
+  "certificateOrSticker": "Installer label (max 1.5 sq in, installer name and city) between film and glass, lower right corner of driver's side window (R.S. 32:361.1(D)(2)-(3)); manufacturers certify film to the Office of Motor Vehicles. Pre-1994 tint needs a certificate kept in the vehicle.",
+  "medicalExemption": {
+   "available": true,
+   "text": "Affidavit (form prepared by the Office of State Police) signed by a Louisiana-licensed optometrist or physician (incl. ophthalmologist, dermatologist) citing an ICD-9-CM recognized condition; notarized medical-records release; criminal-history check with fingerprints (violent crime or drug convictions disqualify); review every 3 years (porphyria: duration of ownership); decal displayed; does not cover windshield below top 6 inches except porphyria. A separate security exemption exists (R.S. 32:361.3).",
+   "url": "https://legis.la.gov/Legis/law.aspx?d=88295"
+  },
+  "penalty": {
+   "text": "Operator: fine up to $150 first offense, $250 second, $350 third or subsequent. Seller/installer/manufacturer/distributor: $1,000 first, $2,000 second, business ban on third.",
+   "maxFineUsd": 350,
+   "cite": "La. R.S. 32:361.1(E), (G)",
+   "url": "https://legis.la.gov/Legis/law.aspx?d=88294"
+  },
+  "lastAmended": "2025 (Acts 2025, No. 143, effective August 1, 2025); also Acts 2024, No. 268 (Wildlife and Fisheries enforcement vehicles exempt)",
+  "quotes": [
+   "A sun screening device when used in conjunction with automotive safety glazing materials on the front side window, with a light transmission of at least twenty-five percent, all tolerances included",
+   "side window behind the driver with a light transmission of at least twenty-five percent, all tolerances included, and rearmost windows with a light transmission of at least twelve percent, all tolerances included.",
+   "All sun screening devices shall not have a luminous reflectance of more than twenty percent.",
+   "A transparent material, not red or amber in color, affixed to the topmost portion of the windshield not to extend more than five inches down from the top.",
+   "The light transmittance requirement of this Section does not apply to windows behind the driver on trucks, busses, trailers, motor homes, multipurpose passenger vehicles",
+   "shall be fined not more than one hundred fifty dollars for a first offense, not more than two hundred fifty dollars for a second offense, and not more than three hundred fifty dollars for a third or subsequent offense."
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All operators and riders of motorcycles, motor-driven cycles and motorized bicycles; fine $50",
+  "cite": "La. R.S. 32:190",
+  "url": "https://legis.la.gov/Legis/law.aspx?d=88170"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": false,
+  "fineText": "$100 (secondary offense) outside school/highway construction zones; $250 and primary offense in school or construction zones; doubled if crash; warnings only before January 1, 2026",
+  "cite": "La. R.S. 32:59 (Acts 2025, No. 288, HB 519; repealed R.S. 32:300.5-300.8)",
+  "url": "https://legis.la.gov/LEGIS/ViewDocument.aspx?d=1425602"
+ },
+ "studdedTires": {
+  "allowed": "no",
+  "season": null,
+  "cite": "La. R.S. 32:362(B) (no protuberances other than rubber except farm machinery and tire chains)",
+  "url": "https://legis.la.gov/Legis/law.aspx?d=88297"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "No red or green light visible from directly in front; flashing lights prohibited except emergency vehicles, school buses, turn/hazard signals; neon or other lights around license plates prohibited",
+  "cite": "La. R.S. 32:327; 32:333",
+  "url": "https://legis.la.gov/Legis/law.aspx?d=88269"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "openQuestions": [
+  "Hands-free law: read from the enrolled HB 519 (Act 288 of 2025); codified R.S. 32:59 page not opened. Act effective date assumed August 1, 2025 (general LA effective date) - confirm.",
+  "Old R.S. 32:300.6/300.7 under-18 rules were repealed by Act 288; no novice-specific rule found in new R.S. 32:59 (set null).",
+  "No 2026 Regular Session change to R.S. 32:361.1 found; the codified page lists Acts 2025, No. 143 as the last amendment.",
+  "Lift/frame height: no Louisiana statute located."
+ ],
+ "checkedOn": "2026-10-24",
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "legis.la.gov"
+ }
 }

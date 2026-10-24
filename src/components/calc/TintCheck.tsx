@@ -12,6 +12,7 @@ import { STATES, stateByCode, stateName } from '../../lib/engine/states-lite';
 import { checkCar, overall, frontLimitFromRear, type CarInput, type VehicleKind, type Window, type WindowResult } from '../../lib/engine/tint';
 import { limitLabel } from '../../lib/labels';
 import { pct } from '../../lib/format-l';
+import { readNote } from '../../lib/read-note';
 import { readParams, num, str, updateURL } from '../../lib/url-state';
 
 const T = {
@@ -110,6 +111,7 @@ export default function TintCheck({ lang = 'en', state = 'TX', idPrefix = 'c', f
         {st.measuredHow === 'unstated' && <p className="mt-2 text-xs text-navy-600">{L.unstated}</p>}
         {st.measuredHow === 'film' && <p className="mt-2 text-xs text-navy-600">{L.filmOnly}</p>}
         {law && <p className="mt-2 text-xs text-navy-600">{L.law}: <a href={law.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{law.cite}</a>{statePage ? <> · <a href={statePage} className="underline">{stateName(st, lang)}</a></> : null}</p>}
+        {st.read && <p data-lecture={st.read.how} className={`mt-1 text-xs ${st.read.how === 'unconfirmed' ? 'font-medium text-amber-800' : 'text-navy-600'}`}>{readNote(st.read, lang)}</p>}
       </div>
     </div>
   );

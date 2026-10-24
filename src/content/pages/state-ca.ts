@@ -53,7 +53,7 @@ ${h.table(['Window', 'Rule in California', 'Condition'], [
 <h2>Crossing into a neighboring state</h2>
 <p>A car tinted to the California limit is legal almost everywhere, because few states are stricter in front. The reverse is not true. A car from ${h.sl('AZ')} may carry ${az.front} on the front side windows, from ${h.sl('NV')} ${nv.front}, from ${h.sl('OR')} ${or.front}; once it is registered in California, those films have to come off. Compare any two states with the tool below.</p>
 <!--tool:mini:compare|{"state":"CA","b":"NV"}-->
-<p>The California rules on this page were read in the Vehicle Code (sections 26708, 26708.2, 26708.5 and 42001) on ${s.checked}. The official site blocked automated reading that day, so the text was read on a copy updated on January 1, 2026; the links point to the official sections.</p>`;
+<p>The California rules on this page come from Vehicle Code sections 26708, 26708.2, 26708.5 and 42001. ${s.readL} The links point to the official sections.</p>`;
     },
   },
   es: {
@@ -95,7 +95,7 @@ ${h.table(['Ventana', 'Regla en California', 'Condición'], [
 <h2>Al cruzar a un estado vecino</h2>
 <p>Un auto polarizado al límite de California es legal casi en todas partes, porque pocos estados son más estrictos adelante. Al revés no es así. Un auto de ${h.sl('AZ')} puede llevar ${az.front} en las laterales delanteras, uno de ${h.sl('NV')} ${nv.front} y uno de ${h.sl('OR')} ${or.front}; una vez registrado en California, esas láminas tienen que salir. Compare dos estados con la herramienta de abajo.</p>
 <!--tool:mini:compare|{"state":"CA","b":"NV"}-->
-<p>Las reglas de California de esta página se leyeron en el Código de Vehículos (secciones 26708, 26708.2, 26708.5 y 42001) el ${s.checked}. Ese día el sitio oficial bloqueaba la lectura automática, así que el texto se leyó en una copia actualizada al 1 de enero de 2026; los enlaces llevan a las secciones oficiales.</p>`;
+<p>Las reglas de California de esta página vienen de las secciones 26708, 26708.2, 26708.5 y 42001 del Código de Vehículos. ${s.readL} Los enlaces llevan a las secciones oficiales.</p>`;
     },
   },
 });

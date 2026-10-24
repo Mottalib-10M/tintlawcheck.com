@@ -4,8 +4,10 @@
  */
 import RAW from '../../data/states-lite.json';
 import type { StateTint, VehicleRules } from './tint';
+import type { ReadInfo } from '../read-note';
 
 export interface LiteRec extends StateTint {
+  read: ReadInfo;
   detail: {
     statute: Array<{ cite: string; url: string }>;
     penalty: { maxFineUsd: number | null; cite: string | null } | null;

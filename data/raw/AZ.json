@@ -1,124 +1,129 @@
 {
-  "code": "AZ",
-  "name": "Arizona",
-  "tint": {
-    "statute": [
-      {
-        "cite": "A.R.S. § 28-959.01",
-        "url": "https://www.azleg.gov/ars/28/00959-01.htm",
-        "readVia": null
-      },
-      {
-        "cite": "A.R.S. § 28-121(B) (civil traffic violation)",
-        "url": "https://www.azleg.gov/ars/28/00121.htm",
-        "readVia": null
-      },
-      {
-        "cite": "A.R.S. § 28-1598 (max civil penalty)",
-        "url": "https://www.azleg.gov/ars/28/01598.htm",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat (measured 5 in. in front of backrest, seat rearmost/lowest), not red or amber",
-        "stripInches": null,
-        "asLine": false,
-        "vlt": null,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 33,
-        "note": "33% plus or minus 3% light transmission, luminous reflectance 35% plus or minus 3%"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "no transmission limit; luminous reflectance 35% plus or minus 3% or less"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "exempt if outside mirrors on both sides reflect at least 200 feet to the rear; reflectance limit 35% (+/-3%)"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined (\"light transmission\" includes the glazing)",
-    "reflectivity": {
-      "front": "max 35% luminous reflectance (+/-3%)",
-      "back": "max 35% luminous reflectance (+/-3%)"
-    },
-    "tolerance": {
-      "points": 3,
-      "cite": "A.R.S. § 28-959.01(A)(1) (\"thirty-three percent plus or minus three percent\")"
-    },
-    "colorsBanned": [
-      "red",
-      "amber"
-    ],
-    "dualMirrors": "Rear window exemption requires outside mirrors on both left and right sides with a view of at least 200 feet to the rear (§ 28-959.01(A)(10))",
-    "certificateOrSticker": "No vehicle sticker; manufacturers must certify products to the director (D); sellers/installers must state conspicuously that front side window installation may be illegal in some states (F)",
-    "medicalExemption": {
-      "available": true,
-      "text": "ADOT (department/director) may issue an exemption on application by a person required for medical reasons to be shielded from the sun, supported by written attestation from a physician licensed under A.R.S. title 32, ch. 13, 14 or 17; covers the person's vehicle or one in which they are a habitual passenger; side and rear windows",
-      "url": "https://www.azleg.gov/ars/28/00959-01.htm"
-    },
-    "penalty": {
-      "text": "Civil traffic violation (chapter 3); civil penalty not more than $250 plus surcharges",
-      "maxFineUsd": 250,
-      "cite": "A.R.S. §§ 28-121(B), 28-1598",
-      "url": "https://www.azleg.gov/ars/28/01598.htm"
-    },
-    "lastAmended": null,
-    "quotes": [
-      "§ 28-959.01(A)(1): \"Front side wing vents and windows that have a substance or material in conjunction with glazing material that has a light transmission of thirty-three percent plus or minus three percent and a luminous reflectance of thirty-five percent plus or minus three percent.\"",
-      "(A)(6): \"Side windows that are to the rear of the driver and rear windows that have a substance or material in conjunction with glazing material that has a luminous reflectance of thirty-five percent plus or minus three percent or less.\"",
-      "(A)(11)(a): \"The bottom edge of the material is at least twenty-nine inches above the undepressed driver's seat...\" (b) \"The material is not red or amber in color.\"",
-      "(G): \"...supported by written attestation of this fact from a physician licensed pursuant to title 32, chapter 13, 14 or 17, the department may issue an exemption...\"",
-      "§ 28-1598: \"...a civil penalty imposed pursuant to this article shall not exceed two hundred fifty dollars.\""
-    ]
+ "code": "AZ",
+ "name": "Arizona",
+ "tint": {
+  "statute": [
+   {
+    "cite": "A.R.S. § 28-959.01",
+    "url": "https://www.azleg.gov/ars/28/00959-01.htm",
+    "readVia": null
+   },
+   {
+    "cite": "A.R.S. § 28-121(B) (civil traffic violation)",
+    "url": "https://www.azleg.gov/ars/28/00121.htm",
+    "readVia": null
+   },
+   {
+    "cite": "A.R.S. § 28-1598 (max civil penalty)",
+    "url": "https://www.azleg.gov/ars/28/01598.htm",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat (measured 5 in. in front of backrest, seat rearmost/lowest), not red or amber",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 33,
+    "note": "33% plus or minus 3% light transmission, luminous reflectance 35% plus or minus 3%"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "no transmission limit; luminous reflectance 35% plus or minus 3% or less"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "exempt if outside mirrors on both sides reflect at least 200 feet to the rear; reflectance limit 35% (+/-3%)"
+   }
   },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "Operators and passengers under 18 must wear a helmet; citation only to 16-17 year-olds with a license/permit; eye protection required unless windshield",
-    "cite": "A.R.S. § 28-964",
-    "url": "https://www.azleg.gov/ars/28/00964.htm"
+  "multipurpose": null,
+  "measuredHow": "film + glass combined (\"light transmission\" includes the glazing)",
+  "reflectivity": {
+   "front": "max 35% luminous reflectance (+/-3%)",
+   "back": "max 35% luminous reflectance (+/-3%)"
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "Civil penalty $75 to $149 first violation; $400 second or subsequent; +$150 if a crash with a motorcycle",
-    "cite": "A.R.S. § 28-914",
-    "url": "https://www.azleg.gov/ars/28/00914.htm"
+  "tolerance": {
+   "points": 3,
+   "cite": "A.R.S. § 28-959.01(A)(1) (\"thirty-three percent plus or minus three percent\")"
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Oct 1 - May 1 (studs max 3% of tire contact area)",
-    "cite": "A.R.S. § 28-958(B)(3)",
-    "url": "https://www.azleg.gov/ars/28/00958.htm"
+  "colorsBanned": [
+   "red",
+   "amber"
+  ],
+  "dualMirrors": "Rear window exemption requires outside mirrors on both left and right sides with a view of at least 200 feet to the rear (§ 28-959.01(A)(10))",
+  "certificateOrSticker": "No vehicle sticker; manufacturers must certify products to the director (D); sellers/installers must state conspicuously that front side window installation may be illegal in some states (F)",
+  "medicalExemption": {
+   "available": true,
+   "text": "ADOT (department/director) may issue an exemption on application by a person required for medical reasons to be shielded from the sun, supported by written attestation from a physician licensed under A.R.S. title 32, ch. 13, 14 or 17; covers the person's vehicle or one in which they are a habitual passenger; side and rear windows",
+   "url": "https://www.azleg.gov/ars/28/00959-01.htm"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No Arizona ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "penalty": {
+   "text": "Civil traffic violation (chapter 3); civil penalty not more than $250 plus surcharges",
+   "maxFineUsd": 250,
+   "cite": "A.R.S. §§ 28-121(B), 28-1598",
+   "url": "https://www.azleg.gov/ars/28/01598.htm"
   },
-  "underglow": {
-    "rule": "No lamp capable of displaying red or red-and-blue light visible from directly in front; lights visible from the front must be amber or white; flashing lights prohibited except listed uses",
-    "cite": "A.R.S. § 28-947(B), (C)",
-    "url": "https://www.azleg.gov/ars/28/00947.htm"
-  },
-  "liftHeight": {
-    "rule": "No height limit found; a pickup (GVWR 10,000 lb or less) modified from original bumper height to raise its center of gravity must have rear fender splash guards",
-    "cite": "A.R.S. § 28-958.01(C)(1)",
-    "url": "https://www.azleg.gov/ars/28/00958-01.htm"
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "Windshield strip defined by 29-inch seat measurement, not by AS-1 line or inches from top",
-    "ADOT medical exemption application page/form URL not confirmed (statute URL given)",
-    "Amendment year of § 28-959.01 not shown on azleg page (page created 09/09/26)"
+  "lastAmended": null,
+  "quotes": [
+   "§ 28-959.01(A)(1): \"Front side wing vents and windows that have a substance or material in conjunction with glazing material that has a light transmission of thirty-three percent plus or minus three percent and a luminous reflectance of thirty-five percent plus or minus three percent.\"",
+   "(A)(6): \"Side windows that are to the rear of the driver and rear windows that have a substance or material in conjunction with glazing material that has a luminous reflectance of thirty-five percent plus or minus three percent or less.\"",
+   "(A)(11)(a): \"The bottom edge of the material is at least twenty-nine inches above the undepressed driver's seat...\" (b) \"The material is not red or amber in color.\"",
+   "(G): \"...supported by written attestation of this fact from a physician licensed pursuant to title 32, chapter 13, 14 or 17, the department may issue an exemption...\"",
+   "§ 28-1598: \"...a civil penalty imposed pursuant to this article shall not exceed two hundred fifty dollars.\""
   ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Operators and passengers under 18 must wear a helmet; citation only to 16-17 year-olds with a license/permit; eye protection required unless windshield",
+  "cite": "A.R.S. § 28-964",
+  "url": "https://www.azleg.gov/ars/28/00964.htm"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "Civil penalty $75 to $149 first violation; $400 second or subsequent; +$150 if a crash with a motorcycle",
+  "cite": "A.R.S. § 28-914",
+  "url": "https://www.azleg.gov/ars/28/00914.htm"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 1 - May 1 (studs max 3% of tire contact area)",
+  "cite": "A.R.S. § 28-958(B)(3)",
+  "url": "https://www.azleg.gov/ars/28/00958.htm"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No Arizona ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "No lamp capable of displaying red or red-and-blue light visible from directly in front; lights visible from the front must be amber or white; flashing lights prohibited except listed uses",
+  "cite": "A.R.S. § 28-947(B), (C)",
+  "url": "https://www.azleg.gov/ars/28/00947.htm"
+ },
+ "liftHeight": {
+  "rule": "No height limit found; a pickup (GVWR 10,000 lb or less) modified from original bumper height to raise its center of gravity must have rear fender splash guards",
+  "cite": "A.R.S. § 28-958.01(C)(1)",
+  "url": "https://www.azleg.gov/ars/28/00958-01.htm"
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Windshield strip defined by 29-inch seat measurement, not by AS-1 line or inches from top",
+  "ADOT medical exemption application page/form URL not confirmed (statute URL given)",
+  "Amendment year of § 28-959.01 not shown on azleg page (page created 09/09/26)"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "azleg.gov"
+ }
 }

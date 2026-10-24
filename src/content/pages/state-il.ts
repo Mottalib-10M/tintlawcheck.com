@@ -63,7 +63,7 @@ ${h.table(['Film', 'Combined on 75% glass', 'Combined on 85% glass'], [
 <h2>Penalty and the court order</h2>
 <p>A first violation is a petty offense, punished by a fine of $50 to ${s.fineL}. A second or later violation becomes a Class C misdemeanor, with a fine of $100 to ${s.fineL}. In both cases the court orders the windows brought into compliance, so paying the fine does not end the matter: the film has to come off or be replaced, and a car bought from another state with darker front film has to be brought to the Illinois ladder before it is driven here.</p>
 <h2>Around Illinois</h2>
-<p>${h.sl('WI')} asks for ${wi.front} on the front doors and ${wi.back} behind, ${h.sl('IA')} ${ia.front} on the front, ${h.sl('MO')} ${mo.front}, ${h.sl('KY')} ${ky.front} and ${h.sl('IN')} ${in_.front}. Figures read on ${s.checked}, from an archived copy of the official Illinois Compiled Statutes page because ilga.gov was not reachable that day.</p>`;
+<p>${h.sl('WI')} asks for ${wi.front} on the front doors and ${wi.back} behind, ${h.sl('IA')} ${ia.front} on the front, ${h.sl('MO')} ${mo.front}, ${h.sl('KY')} ${ky.front} and ${h.sl('IN')} ${in_.front}. ${s.readL}</p>`;
     },
   },
   es: {
@@ -115,7 +115,7 @@ ${h.table(['Lámina', 'Combinada con vidrio de 75 %', 'Combinada con vidrio de 8
 <h2>Sanción y orden del tribunal</h2>
 <p>Una primera infracción es una falta menor, castigada con una multa de 50 dólares a ${s.fineL}. Una segunda o posterior pasa a ser un delito menor de clase C, con una multa de 100 dólares a ${s.fineL}. En los dos casos el tribunal ordena poner las ventanas en regla, así que pagar la multa no cierra el asunto: hay que quitar o cambiar la lámina, y un auto comprado en otro estado con una lámina delantera más oscura debe ajustarse a la escala de Illinois antes de circular aquí.</p>
 <h2>Alrededor de Illinois</h2>
-<p>${h.sl('WI')} pide ${wi.front} en las puertas delanteras y ${wi.back} atrás, ${h.sl('IA')} ${ia.front} adelante, ${h.sl('MO')} ${mo.front}, ${h.sl('KY')} ${ky.front} e ${h.sl('IN')} ${in_.front}. Cifras leídas el ${s.checked}, en una copia archivada de la página oficial de los Estatutos Compilados de Illinois porque ilga.gov no respondía ese día.</p>`;
+<p>${h.sl('WI')} pide ${wi.front} en las puertas delanteras y ${wi.back} atrás, ${h.sl('IA')} ${ia.front} adelante, ${h.sl('MO')} ${mo.front}, ${h.sl('KY')} ${ky.front} e ${h.sl('IN')} ${in_.front}. ${s.readL}</p>`;
     },
   },
 });

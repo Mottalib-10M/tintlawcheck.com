@@ -1,40 +1,123 @@
 {
-  "code": "WI", "name": "Wisconsin",
-  "tint": {
-    "statute": [
-      {"cite": "Wis. Admin. Code Trans 305.32 (side and rear windows)", "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/32", "readVia": "web.archive.org snapshot 2026-06-11 of the official page (docs.legis.wisconsin.gov refused our connection)"},
-      {"cite": "Wis. Admin. Code Trans 305.34(6) (windshield)", "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/34", "readVia": "same snapshot (chapter page)"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "film only on the part of the windshield both outside the critical area and above the 'AS-1' line marked by the manufacturer; if there is no AS-1 mark, no film on the windshield", "stripInches": null, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 50, "note": "glazing + film combined at least 50%; film inside only, not reflective"},
-      "backSide": {"vlt": 35, "note": "glazing + film combined at least 35%; not reflective"},
-      "rear": {"vlt": 35, "note": "glazing + film at least 35%, not reflective; if the rear window transmits less than 60%, left and right outside mirrors required"}
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('combination of the glazing and tinting film')",
-    "reflectivity": {"front": "film may not be reflective", "back": "film may not be reflective"},
-    "tolerance": {"points": 3, "cite": "Wis. Admin. Code Trans 305.32(7)"},
-    "colorsBanned": [],
-    "dualMirrors": "Outside rear-view mirrors on left and right required if the rear window transmits less than 60% of visible light",
-    "certificateOrSticker": null,
-    "medicalExemption": {"available": true, "text": "On the recommendation of a physician or Christian Science practitioner treating the owner or an immediate family member, front side windows may go down to 35% (non-reflective). A written statement identifying the patient, condition, whether temporary or permanent, and the vehicle (make, model, year, VIN) must be carried in the vehicle; film removed when the vehicle is sold, the person moves out, or a temporary condition ends.", "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/32"},
-    "penalty": {"text": "Not stated in Trans 305.32; penalty provision for violating Trans 305 rules not confirmed", "maxFineUsd": null, "cite": null, "url": null},
-    "lastAmended": "Created Register Feb. 1996, No. 482; amended Oct. 1997, No. 502",
-    "quotes": [
-      "the combination of the glazing and tinting film permits passage through the windows of at least 50% of the visible light striking the windows. Tinting films permitted under this subdivision may not be reflective.",
-      "the combination of the glazing and tinting film permits passage through the window of at least 35% of the visible light striking the window",
-      "If a rear window does not transmit at least 60% of the visible light striking the window, the vehicle shall be equipped with an outside rearview mirror on the left and right side",
-      "When measuring total light transmittance under subs. (4) (b), (5) (b) and (6), law enforcement officers shall allow a tolerance of 3%.",
-      "If no such mark was affixed to the windshield by its manufacturer, no window tinting film may be attached to the windshield."
-    ]
+ "code": "WI",
+ "name": "Wisconsin",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Wis. Admin. Code Trans 305.32 (side and rear windows)",
+    "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/32",
+    "readVia": "web.archive.org snapshot 2026-06-11 of the official page (docs.legis.wisconsin.gov refused our connection)"
+   },
+   {
+    "cite": "Wis. Admin. Code Trans 305.34(6) (windshield)",
+    "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/34",
+    "readVia": "same snapshot (chapter page)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "film only on the part of the windshield both outside the critical area and above the 'AS-1' line marked by the manufacturer; if there is no AS-1 mark, no film on the windshield",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 50,
+    "note": "glazing + film combined at least 50%; film inside only, not reflective"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "glazing + film combined at least 35%; not reflective"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "glazing + film at least 35%, not reflective; if the rear window transmits less than 60%, left and right outside mirrors required"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "Operators and riders under 18 and instructional permit holders; operators may not carry a passenger under 18 without a helmet", "cite": "Wis. Stat. § 347.485(1)", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/347/485"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Probationary license and instruction permit holders may not use a cell phone while driving except to report an emergency (346.89(4)); no phone use in highway work zones with workers present (346.89(4m))", "primaryEnforcement": true, "fineText": "Penalty section (346.95) not read", "cite": "Wis. Stat. § 346.89(3), (4), (4m)", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/346/89"},
-  "studdedTires": {"allowed": "restricted", "season": "Only authorized emergency vehicles, school buses, mail delivery vehicles and out-of-state automobiles passing through for 30 days or less; dates set by DOT rule (not read)", "cite": "Wis. Stat. § 347.45(2)(c)", "url": "https://docs.legis.wisconsin.gov/statutes/statutes/347/45"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Official site refused connections; statutes read via Wayback snapshots (2025-2026)", "Tint penalty/forfeiture not confirmed", "Studded-tire season dates in DOT rule (Trans) not read", "Phone fine (346.95) not read", "Underglow and lift rules not located"]
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('combination of the glazing and tinting film')",
+  "reflectivity": {
+   "front": "film may not be reflective",
+   "back": "film may not be reflective"
+  },
+  "tolerance": {
+   "points": 3,
+   "cite": "Wis. Admin. Code Trans 305.32(7)"
+  },
+  "colorsBanned": [],
+  "dualMirrors": "Outside rear-view mirrors on left and right required if the rear window transmits less than 60% of visible light",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "On the recommendation of a physician or Christian Science practitioner treating the owner or an immediate family member, front side windows may go down to 35% (non-reflective). A written statement identifying the patient, condition, whether temporary or permanent, and the vehicle (make, model, year, VIN) must be carried in the vehicle; film removed when the vehicle is sold, the person moves out, or a temporary condition ends.",
+   "url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/305/II/32"
+  },
+  "penalty": {
+   "text": "Not stated in Trans 305.32; penalty provision for violating Trans 305 rules not confirmed",
+   "maxFineUsd": null,
+   "cite": null,
+   "url": null
+  },
+  "lastAmended": "Created Register Feb. 1996, No. 482; amended Oct. 1997, No. 502",
+  "quotes": [
+   "the combination of the glazing and tinting film permits passage through the windows of at least 50% of the visible light striking the windows. Tinting films permitted under this subdivision may not be reflective.",
+   "the combination of the glazing and tinting film permits passage through the window of at least 35% of the visible light striking the window",
+   "If a rear window does not transmit at least 60% of the visible light striking the window, the vehicle shall be equipped with an outside rearview mirror on the left and right side",
+   "When measuring total light transmittance under subs. (4) (b), (5) (b) and (6), law enforcement officers shall allow a tolerance of 3%.",
+   "If no such mark was affixed to the windshield by its manufacturer, no window tinting film may be attached to the windshield."
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Operators and riders under 18 and instructional permit holders; operators may not carry a passenger under 18 without a helmet",
+  "cite": "Wis. Stat. § 347.485(1)",
+  "url": "https://docs.legis.wisconsin.gov/statutes/statutes/347/485"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Probationary license and instruction permit holders may not use a cell phone while driving except to report an emergency (346.89(4)); no phone use in highway work zones with workers present (346.89(4m))",
+  "primaryEnforcement": true,
+  "fineText": "Penalty section (346.95) not read",
+  "cite": "Wis. Stat. § 346.89(3), (4), (4m)",
+  "url": "https://docs.legis.wisconsin.gov/statutes/statutes/346/89"
+ },
+ "studdedTires": {
+  "allowed": "restricted",
+  "season": "Only authorized emergency vehicles, school buses, mail delivery vehicles and out-of-state automobiles passing through for 30 days or less; dates set by DOT rule (not read)",
+  "cite": "Wis. Stat. § 347.45(2)(c)",
+  "url": "https://docs.legis.wisconsin.gov/statutes/statutes/347/45"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Official site refused connections; statutes read via Wayback snapshots (2025-2026)",
+  "Tint penalty/forfeiture not confirmed",
+  "Studded-tire season dates in DOT rule (Trans) not read",
+  "Phone fine (346.95) not read",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-06-11",
+  "host": "docs.legis.wisconsin.gov"
+ }
 }

@@ -15,6 +15,7 @@ const BANDS: Array<[string, string, (l: Limit) => boolean]> = [
   ['24% to 25%', '24 a 25 %', (l) => num(l, 21, 25)],
   ['20%', '20 %', (l) => num(l, 0, 20)],
 ];
+const RD = (h: Helpers, how: 'official' | 'archive' | 'unconfirmed') => h.STATES.filter((s) => s.read.how === how).map((s) => s.code);
 const F = (h: Helpers) => {
   const front = BANDS.map(([en, es, t]) => ({ label: h.es ? es : en, c: codes(h, 'frontSide', t) }));
   const anyRear = codes(h, 'rear', (l) => l === 'any');
@@ -69,7 +70,7 @@ ${h.table(['Front limit', 'States', 'Count'], f.front.map((b) => [b.label, h.lis
 <h2>Tolerance, reflection and the windshield</h2>
 <p>${f.tol.length} statutes give officers a measurement margin, usually 3 points; Virginia and Nevada write 7 and South Dakota 9. Most states also cap reflectance, often at 20%, 25% or 35%, and ban mirror finishes. On the windshield, the usual rule is a strip along the top, measured either in inches or down to the AS-1 line marked on the glass; a few states ask for 70% on the whole windshield instead, and ${h.a('windshield', 'the windshield guide')} compares them.</p>
 <h2>How the figures were read</h2>
-<p>Each state's figures come from its statute or regulation, read on the official legislature or code site when it answered, and otherwise on an archived copy of that official page or a reproduction of the code, as each state page says. Michigan is the case to note: the official legislature site refused our connections on the day of the check, so section 257.709 was read in a published reproduction marked current as of January 1, 2025, and no later amendment was found. Its figures stay marked with that caveat until the official text can be read. The ${h.a('method', 'method page')} explains how the calculator turns these texts into a verdict.</p>`;
+<p>Each state's figures come from its statute or regulation. ${RD(h, 'official').length} jurisdictions were read on the official legislature, code or agency site on the day of the check. ${RD(h, 'archive').length} official sites refused automated reading, so their text was read on an archived copy of the official page, and the calculator and each state page give the date of that copy: ${h.list(RD(h, 'archive'))}. ${h.list(RD(h, 'unconfirmed'))} could not be read on any official text: their figures are shown as not confirmed, with the copy they come from. The ${h.a('method', 'method page')} explains how the calculator turns these texts into a verdict.</p>`;
     },
   },
   es: {
@@ -110,7 +111,7 @@ ${h.table(['Límite delantero', 'Estados', 'Número'], f.front.map((b) => [b.lab
 <h2>Tolerancia, reflejo y parabrisas</h2>
 <p>${f.tol.length} leyes dan a los agentes un margen de medición, casi siempre de 3 puntos; Virginia y Nevada escriben 7 y Dakota del Sur 9. La mayoría de los estados también limita la reflectancia, a menudo a 20, 25 o 35 %, y prohíbe los acabados espejo. En el parabrisas, la regla habitual es una franja en la parte alta, medida en pulgadas o hasta la línea AS-1 marcada en el vidrio; unos pocos estados piden 70 % en todo el parabrisas, y ${h.a('windshield', 'la guía del parabrisas')} los compara.</p>
 <h2>Cómo se leyeron las cifras</h2>
-<p>Las cifras de cada estado vienen de su ley o reglamento, leídos en el sitio oficial de la legislatura o del código cuando respondía, y si no en una copia archivada de esa página oficial o en una reproducción del código, como indica cada página de estado. Michigan es el caso a señalar: el sitio oficial de la legislatura rechazó nuestras conexiones el día de la revisión, así que la sección 257.709 se leyó en una reproducción publicada marcada como vigente al 1 de enero de 2025, y no se encontró ninguna reforma posterior. Sus cifras llevan esa reserva hasta que pueda leerse el texto oficial. La ${h.a('method', 'página de metodología')} explica cómo la calculadora convierte estos textos en un veredicto.</p>`;
+<p>Las cifras de cada estado vienen de su ley o reglamento. ${RD(h, 'official').length} jurisdicciones se leyeron en el sitio oficial de la legislatura, del código o de la agencia el día de la revisión. ${RD(h, 'archive').length} sitios oficiales rechazaron la lectura automática, así que su texto se leyó en una copia archivada de la página oficial, y la calculadora y cada página de estado dan la fecha de esa copia: ${h.list(RD(h, 'archive'))}. ${h.list(RD(h, 'unconfirmed'))} no pudieron leerse en ningún texto oficial: sus cifras se muestran como no confirmadas, con la copia de la que vienen. La ${h.a('method', 'página de metodología')} explica cómo la calculadora convierte estos textos en un veredicto.</p>`;
     },
   },
 });

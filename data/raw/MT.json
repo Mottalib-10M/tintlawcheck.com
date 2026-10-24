@@ -1,45 +1,148 @@
 {
-  "code": "MT", "name": "Montana",
-  "tint": {
-    "statute": [
-      {"cite": "Mont. Code Ann. § 61-9-405", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0050/0610-0090-0040-0050.html", "readVia": null},
-      {"cite": "Mont. Code Ann. § 61-9-428 (waiver)", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0280/0610-0090-0040-0280.html", "readVia": null},
-      {"cite": "Mont. Code Ann. § 61-9-429 (penalty)", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0290/0610-0090-0040-0290.html", "readVia": null}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "clear and transparent below the AS-1 line; above the AS-1 line no red, yellow or amber", "stripInches": null, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 24, "note": "luminous reflectance max 35%"},
-      "backSide": {"vlt": 14, "note": "luminous reflectance max 35%"},
-      "rear": {"vlt": 14, "note": "luminous reflectance max 35%"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "clear and transparent below the AS-1 line; above the AS-1 line no red, yellow or amber", "stripInches": null, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 24, "note": "luminous reflectance max 35%"},
-      "backSide": {"vlt": "any", "note": "the 14% limit does not apply to rear/side windows behind the front seat on a multipurpose vehicle, van or bus; manufacturer-installed tint on a multipurpose vehicle is exempt from subsection (4)"},
-      "rear": {"vlt": "any", "note": "same exception as back side"}
-    },
-    "measuredHow": "not stated (light transmission defined as light passing through the sunscreening or transparent material vs light falling on the window; applies to factory-tinted windows with added film)",
-    "reflectivity": {"front": "max 35% luminous reflectance", "back": "max 35% luminous reflectance"},
-    "tolerance": null,
-    "colorsBanned": ["red", "yellow", "amber"],
-    "dualMirrors": null,
-    "certificateOrSticker": "A currently valid certificate of waiver (61-9-428) must be affixed to exempt vehicles.",
-    "medicalExemption": {"available": true, "text": "Waiver granted by the Highway Patrol or a local law enforcement agency for safety, security or medical reasons, based on an affidavit signed by a licensed physician, physician assistant or APRN; written waiver identifying the vehicle, owner, reason and effective dates.", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0280/0610-0090-0040-0280.html"},
-    "penalty": {"text": "Misdemeanor for the owner/operator and for the installer; punishable under 46-18-212: up to 6 months in county jail and/or fine up to $500", "maxFineUsd": 500, "cite": "Mont. Code Ann. §§ 61-9-429, 46-18-212", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0290/0610-0090-0040-0290.html"},
-    "lastAmended": "2005 (Ch. 542, L. 2005); text shown in MCA 2025",
-    "quotes": [
-      "the windshield has sunscreening material that is not clear and transparent below the AS-1 line or if it has a sunscreening material that is red, yellow, or amber in color above the AS-1 line",
-      "the front side windows have sunscreening or other transparent material that has a luminous reflectance of more than 35% or has light transmission of less than 24%",
-      "the rear window or side windows behind the front seat have sunscreening or other transparent material that has a luminous reflectance of more than 35% or has light transmission of less than 14%, except for the rear window or side windows behind the front seat on a multipurpose vehicle, van, or bus",
-      "may sentence the offender to a term of imprisonment not to exceed 6 months in the county jail or a fine not to exceed $500, or both"
-    ]
+ "code": "MT",
+ "name": "Montana",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Mont. Code Ann. § 61-9-405",
+    "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0050/0610-0090-0040-0050.html",
+    "readVia": null
+   },
+   {
+    "cite": "Mont. Code Ann. § 61-9-428 (waiver)",
+    "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0280/0610-0090-0040-0280.html",
+    "readVia": null
+   },
+   {
+    "cite": "Mont. Code Ann. § 61-9-429 (penalty)",
+    "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0290/0610-0090-0040-0290.html",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "clear and transparent below the AS-1 line; above the AS-1 line no red, yellow or amber",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 24,
+    "note": "luminous reflectance max 35%"
+   },
+   "backSide": {
+    "vlt": 14,
+    "note": "luminous reflectance max 35%"
+   },
+   "rear": {
+    "vlt": 14,
+    "note": "luminous reflectance max 35%"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "operator and passengers under 18 of a motorcycle, moped, motorized scooter or quadricycle (not fully enclosed autocycles)", "cite": "Mont. Code Ann. § 61-9-417", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0170/0610-0090-0040-0170.html"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": false, "noviceOrAgeBan": null, "primaryEnforcement": false, "fineText": "No statewide law; some cities (e.g. Missoula, Helena, Billings, Bozeman) have local ordinances. 2025 SB 359 (hands-free) died in the House on 2025-05-23.", "cite": null, "url": "https://projects.montanafreepress.org/capitol-tracker-2025/bills/sb-359/"},
-  "studdedTires": {"allowed": "seasonal", "season": "Oct 1 - May 31 (one studded spare allowed year-round; retractable studs may only be engaged Oct 1 - May 31)", "cite": "Mont. Code Ann. § 61-9-406(3)-(4)", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0060/0610-0090-0040-0060.html"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": "No lift/frame height limit found; vehicles under 10,000 lb GVWR must have a front bumper and (unless impractical) a rear bumper", "cite": "Mont. Code Ann. § 61-9-430", "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0300/0610-0090-0040-0300.html"},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["No numeric windshield strip (inches) in statute, only AS-1 line", "No tolerance stated", "Underglow rule not located in MCA", "Status of the phone ban comes from Montana Free Press tracker, not the legislature site; no 2026 session (next session Jan 2027)"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "clear and transparent below the AS-1 line; above the AS-1 line no red, yellow or amber",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 24,
+    "note": "luminous reflectance max 35%"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "the 14% limit does not apply to rear/side windows behind the front seat on a multipurpose vehicle, van or bus; manufacturer-installed tint on a multipurpose vehicle is exempt from subsection (4)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same exception as back side"
+   }
+  },
+  "measuredHow": "not stated (light transmission defined as light passing through the sunscreening or transparent material vs light falling on the window; applies to factory-tinted windows with added film)",
+  "reflectivity": {
+   "front": "max 35% luminous reflectance",
+   "back": "max 35% luminous reflectance"
+  },
+  "tolerance": null,
+  "colorsBanned": [
+   "red",
+   "yellow",
+   "amber"
+  ],
+  "dualMirrors": null,
+  "certificateOrSticker": "A currently valid certificate of waiver (61-9-428) must be affixed to exempt vehicles.",
+  "medicalExemption": {
+   "available": true,
+   "text": "Waiver granted by the Highway Patrol or a local law enforcement agency for safety, security or medical reasons, based on an affidavit signed by a licensed physician, physician assistant or APRN; written waiver identifying the vehicle, owner, reason and effective dates.",
+   "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0280/0610-0090-0040-0280.html"
+  },
+  "penalty": {
+   "text": "Misdemeanor for the owner/operator and for the installer; punishable under 46-18-212: up to 6 months in county jail and/or fine up to $500",
+   "maxFineUsd": 500,
+   "cite": "Mont. Code Ann. §§ 61-9-429, 46-18-212",
+   "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0290/0610-0090-0040-0290.html"
+  },
+  "lastAmended": "2005 (Ch. 542, L. 2005); text shown in MCA 2025",
+  "quotes": [
+   "the windshield has sunscreening material that is not clear and transparent below the AS-1 line or if it has a sunscreening material that is red, yellow, or amber in color above the AS-1 line",
+   "the front side windows have sunscreening or other transparent material that has a luminous reflectance of more than 35% or has light transmission of less than 24%",
+   "the rear window or side windows behind the front seat have sunscreening or other transparent material that has a luminous reflectance of more than 35% or has light transmission of less than 14%, except for the rear window or side windows behind the front seat on a multipurpose vehicle, van, or bus",
+   "may sentence the offender to a term of imprisonment not to exceed 6 months in the county jail or a fine not to exceed $500, or both"
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "operator and passengers under 18 of a motorcycle, moped, motorized scooter or quadricycle (not fully enclosed autocycles)",
+  "cite": "Mont. Code Ann. § 61-9-417",
+  "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0170/0610-0090-0040-0170.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": false,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": false,
+  "fineText": "No statewide law; some cities (e.g. Missoula, Helena, Billings, Bozeman) have local ordinances. 2025 SB 359 (hands-free) died in the House on 2025-05-23.",
+  "cite": null,
+  "url": "https://projects.montanafreepress.org/capitol-tracker-2025/bills/sb-359/"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 1 - May 31 (one studded spare allowed year-round; retractable studs may only be engaged Oct 1 - May 31)",
+  "cite": "Mont. Code Ann. § 61-9-406(3)-(4)",
+  "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0060/0610-0090-0040-0060.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": "No lift/frame height limit found; vehicles under 10,000 lb GVWR must have a front bumper and (unless impractical) a rear bumper",
+  "cite": "Mont. Code Ann. § 61-9-430",
+  "url": "https://archive.legmt.gov/bills/mca/title_0610/chapter_0090/part_0040/section_0300/0610-0090-0040-0300.html"
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "No numeric windshield strip (inches) in statute, only AS-1 line",
+  "No tolerance stated",
+  "Underglow rule not located in MCA",
+  "Status of the phone ban comes from Montana Free Press tracker, not the legislature site; no 2026 session (next session Jan 2027)"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "archive.legmt.gov"
+ }
 }

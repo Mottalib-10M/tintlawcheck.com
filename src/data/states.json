@@ -157,6 +157,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "alison.legislature.state.al.us"
+  },
   "openQuestions": [
    "§ 32-5A-350.1 requires the driver to be observed lane-crossing without signal, swerving or driving impaired while holding the device, so it is not a pure primary handheld ban; effective date of Act 2023-478 enforcement (reported as June 2024 with warning period) not confirmed on an official page",
    "Underglow / aftermarket lighting: no specific Alabama statute found (32-5-241 lists permissible lamps only)",
@@ -290,6 +295,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "akleg.gov"
+  },
   "openQuestions": [
    "Tint penalty / fine amount not found (Alaska minor-offense bail schedule not read)",
    "Helmet: which riders under 18 / passengers must wear helmets is set by regulation (13 AAC 02) not read; only AS 28.35.245(b) confirmed",
@@ -415,6 +425,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "azleg.gov"
+  },
   "openQuestions": [
    "Windshield strip defined by 29-inch seat measurement, not by AS-1 line or inches from top",
    "ADOT medical exemption application page/form URL not confirmed (statute URL given)",
@@ -477,14 +492,12 @@
     {
      "cite": "Ark. Code Ann. § 27-37-306",
      "url": "https://www.lexisnexis.com/hottopics/arcode/",
-     "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html",
-     "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+     "readVia": "Not read on an official text: the official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section. Figures come from a non-official copy of the code marked current as of 2024-03-28."
     },
     {
      "cite": "Ark. Code Ann. § 27-37-307 (for-hire sedans)",
      "url": "https://www.lexisnexis.com/hottopics/arcode/",
-     "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-307.html",
-     "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+     "readVia": "Not read on an official text: the official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section. Figures come from a non-official copy of the code marked current as of 2024-03-28."
     }
    ],
    "reflectivity": {
@@ -501,7 +514,7 @@
    "medicalExemption": {
     "available": true,
     "text": "Physician diagnosis of a disease or disorder (e.g. albinism, lupus) with certification carried in the vehicle; allows at least 20% on front and adjacent side windows, 10% rearmost, 50% windshield; certification valid 3 years",
-    "url": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html"
+    "url": "https://www.lexisnexis.com/hottopics/arcode/"
    },
    "penalty": {
     "text": "Class B misdemeanor for installers and for operating a vehicle with non-compliant tint",
@@ -509,13 +522,13 @@
     "cite": "Ark. Code Ann. § 27-37-306(g)",
     "url": null
    },
-   "lastAmended": "medical-waiver limits effective August 16, 2013 (per statute text); text read as 'current as of March 28, 2024' on FindLaw"
+   "lastAmended": "medical-waiver limits effective August 16, 2013 (per the text read on the non-official copy)"
   },
   "equipment": {
    "helmet": {
-    "rule": "partial",
-    "ageUnder": 21,
-    "conditions": "Operators and passengers must wear protective headgear unless 21 or older",
+    "rule": null,
+    "ageUnder": null,
+    "conditions": null,
     "cite": "Ark. Code Ann. § 27-20-104(b)(1)",
     "url": null
    },
@@ -552,12 +565,20 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "unconfirmed",
+   "date": "2026-10-24",
+   "host": "arkleg.state.ar.us",
+   "noteEn": "The official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section, so these figures are not confirmed on an official text. They come from a non-official copy of the code marked current as of March 28, 2024.",
+   "noteEs": "El Código oficial de Arkansas (portal de LexisNexis enlazado desde arkleg.state.ar.us) no tiene una página legible de la sección, así que estas cifras no están confirmadas en un texto oficial. Vienen de una copia no oficial del código marcada como vigente al 28 de marzo de 2024."
+  },
   "openQuestions": [
-   "Arkansas Code has no per-section official URL (official free access is the LexisNexis portal linked from arkleg.state.ar.us); text read on codes.findlaw.com, 'current as of March 28, 2024' - 2025 session amendments not checked (web search quota exhausted)",
+   "The official Arkansas Code (LexisNexis portal) could not be read by page on 2026-10-24: § 27-37-306/307 figures are shown as not confirmed; they come from a non-official copy current as of 2024-03-28. 2025-2026 amendments not checked.",
    "Class B misdemeanor fine maximum (general law, Ark. Code § 5-4-201) not confirmed",
    "No tolerance or reflectance limit found in § 27-37-306 text",
    "Phone: fine amounts, primary enforcement, 18-20 hands-free rule and school-zone rule not confirmed",
-   "Studded tires, underglow, lift height: not found"
+   "Studded tires, underglow, lift height: not found",
+   "Helmet (Ark. Code § 27-20-104): not confirmed on an official page (earlier read on a non-official copy of the code); left null."
   ]
  },
  {
@@ -595,22 +616,22 @@
     {
      "cite": "Cal. Veh. Code § 26708",
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708",
-     "readVia": "https://california.public.law/codes/vehicle_code_section_26708"
+     "readVia": "https://web.archive.org/web/20260930141447/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708 (archived copy of the official page; leginfo answers 403 to scripts)"
     },
     {
      "cite": "Cal. Veh. Code § 26708.5",
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.5",
-     "readVia": "https://california.public.law/codes/vehicle_code_section_26708.5"
+     "readVia": "https://web.archive.org/web/20250815184355/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.5 (archived copy of the official page; leginfo answers 403 to scripts)"
     },
     {
      "cite": "Cal. Veh. Code § 26708.2",
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.2",
-     "readVia": "https://california.public.law/codes/vehicle_code_section_26708.2"
+     "readVia": "https://web.archive.org/web/20250823230011/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.2 (archived copy of the official page; leginfo answers 403 to scripts)"
     },
     {
      "cite": "Cal. Veh. Code § 42001",
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001",
-     "readVia": "https://california.public.law/codes/vehicle_code_section_42001"
+     "readVia": "https://web.archive.org/web/20250421070440/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001 (archived copy of the official page; leginfo answers 403 to scripts)"
     }
    ],
    "reflectivity": {
@@ -681,8 +702,13 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-09-30",
+   "host": "leginfo.legislature.ca.gov"
+  },
   "openQuestions": [
-   "leginfo.legislature.ca.gov blocked (Cloudflare); text read on california.public.law (mirror stating it was updated Jan. 1, 2026 from leginfo) - not one of the brief's listed mirrors; amendment year not visible",
+   "leginfo.legislature.ca.gov answers 403 to scripts; § 26708 read on the archived copy of the official page of 2026-09-30, §§ 26708.5, 26708.2 and 42001 on copies of 2025 (Aug 15, Aug 23, Apr 21).",
    "No numeric VLT limit for windshield; strip defined by 29-inch seat measurement",
    "Underglow: § 25950 color rules only; whether other sections (e.g. § 24003, § 25251 flashing) restrict underglow not checked",
    "Under-18 phone ban § 23124 not re-read",
@@ -724,12 +750,12 @@
     {
      "cite": "C.R.S. § 42-4-227",
      "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
-     "readVia": "https://colorado.public.law/statutes/crs_42-4-227"
+     "readVia": "https://web.archive.org/web/20260922192310/https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf (archived copy of the official C.R.S. 2024 PDF; the live PDF is behind a bot challenge)"
     },
     {
      "cite": "C.R.S. § 42-4-1701(3)(a)(I)",
      "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
-     "readVia": "https://colorado.public.law/statutes/crs_42-4-1701"
+     "readVia": "https://web.archive.org/web/20260922192310/https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf (archived copy of the official C.R.S. 2024 PDF; the live PDF is behind a bot challenge)"
     }
    ],
    "reflectivity": {
@@ -749,7 +775,7 @@
    "medicalExemption": {
     "available": false,
     "text": "No medical exemption in C.R.S. § 42-4-227 as read (only law enforcement vehicles and factory federal-compliant glass)",
-    "url": "https://colorado.public.law/statutes/crs_42-4-227"
+    "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf"
    },
    "penalty": {
     "text": "Driving with non-compliant windows: class B traffic infraction ($15-$100); installing/treating a window that does not meet (1)(a): class A traffic infraction ($15-$100)",
@@ -757,7 +783,7 @@
     "cite": "C.R.S. §§ 42-4-227(3), 42-4-1701(3)(a)(I)",
     "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf"
    },
-   "lastAmended": null
+   "lastAmended": "2021 (SB 21-271, (3)(b), effective March 1, 2022; source note of the C.R.S. 2024 edition)"
   },
   "equipment": {
    "helmet": {
@@ -801,8 +827,15 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-09-22",
+   "host": "leg.colorado.gov",
+   "docEn": "Colorado Revised Statutes 2024 edition, official PDF; later amendments not checked",
+   "docEs": "edición 2024 de los Colorado Revised Statutes, PDF oficial; reformas posteriores no comprobadas"
+  },
   "openQuestions": [
-   "leg.colorado.gov / content.leg.colorado.gov PDFs blocked by AWS WAF; statute text read on colorado.public.law, which reproduces the 2024 C.R.S. PDF - 2025/2026 amendments to 42-4-227 not verified",
+   "leg.colorado.gov PDFs are behind a bot challenge; 42-4-227, 42-4-228, 42-4-1502 and 42-4-1701 read on the archived copy (2026-09-22) of the official C.R.S. 2024 PDF; 2025-2026 amendments not checked.",
    "No tolerance stated in 42-4-227",
    "Medical exemption: none in statute as read; not confirmed against a CSP/DOR page",
    "Hands-free law: CDOT says officer must witness careless/imprudent driving while holding the device, so treated as not purely primary; exact repeat-offense fines ($150 / $250 reported) not confirmed on an official page",
@@ -936,6 +969,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "cga.ct.gov"
+  },
   "openQuestions": [
    "Infraction fine amount for § 14-99g not stated in statute (set by court infraction schedule) - not found",
    "DMV medical exemption form/page URL not confirmed",
@@ -1053,6 +1091,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "delcode.delaware.gov"
+  },
   "openQuestions": [
    "Effective date of SS 1 for SB 255 (85 Del. Laws c. 425): signed 2026-08-17 and already codified on delcode.delaware.gov at 50%; no delayed effective date seen, but the session law text was not read.",
    "primaryEnforcement for § 4176C inferred (statute contains no secondary-enforcement clause).",
@@ -1180,6 +1223,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "code.dccouncil.gov"
+  },
   "openQuestions": [
    "Helmet (18 DCMR 2215.3) and radar-detector ban (18 DCMR 736) cites come from search results; the official dcregs.dc.gov text was not read. Federal bills H.R. 10067 / S. 5274 ('Ride in Freedom Act', 2026) would repeal the D.C. helmet rule; not enacted as far as seen.",
    "Studded tires: DCMR rule not found (secondary sources give conflicting dates Oct 15-Mar 15 vs Oct 15-Apr 15).",
@@ -1342,6 +1390,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "flsenate.gov"
+  },
   "openQuestions": [
    "Studded tires: § 316.299 bans roughened wheels 'other than roughened pneumatic rubber tires having studs designed to improve traction without materially injuring the surface of the highway' - reads as an exception, so 'restricted' (not an outright ban as often reported).",
    "Total fine amount for a tint ticket varies by county (base $30 + § 318.18 surcharges); no single max figure in statute.",
@@ -1437,26 +1490,26 @@
   },
   "equipment": {
    "helmet": {
-    "rule": "universal",
+    "rule": null,
     "ageUnder": null,
-    "conditions": "All operators and riders; exempt inside an enclosed cab or motorized cart, or 3-wheeled agricultural motorcycles.",
+    "conditions": null,
     "cite": "O.C.G.A. § 40-6-315",
-    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-6-315/"
+    "url": null
    },
    "handheldPhone": {
     "allDriversBan": true,
     "textingBan": true,
     "noviceOrAgeBan": null,
     "primaryEnforcement": true,
-    "fineText": "misdemeanor; first conviction max $50, second within 24 months max $100, third+ max $150",
+    "fineText": "first conviction $50 and 1 point; second (within 24 months) $100 and 2 points; third+ $150 and 3 points (Governor's Office of Highway Safety)",
     "cite": "O.C.G.A. § 40-6-241(c), (f)",
-    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-6-241/"
+    "url": "https://www.gahighwaysafety.org/hands-free-law/"
    },
    "studdedTires": {
-    "allowed": "restricted",
-    "season": "when required for safety because of snow, ice or other skid conditions",
+    "allowed": null,
+    "season": null,
     "cite": "O.C.G.A. § 40-8-74(c)(2)",
-    "url": "https://codes.findlaw.com/ga/title-40-motor-vehicles-and-traffic/ga-code-sect-40-8-74/"
+    "url": null
    },
    "radarDetector": {
     "passengerAllowed": true,
@@ -1476,12 +1529,21 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "legis.ga.gov",
+   "docEn": "text of 2026 bill HB 1022, which reprints the section in force",
+   "docEs": "texto del proyecto HB 1022 de 2026, que reproduce la sección vigente"
+  },
   "openQuestions": [
-   "Georgia's official code (LexisNexis-hosted) and Justia were not reachable; tint text was read from the official legis.ga.gov HB 1022 substitute (current wording shown with strike-outs) and the GA DPS page. Helmet/phone/studded-tire text read via codes.findlaw.com (mirror; FindLaw notes 'current as of March 28, 2024').",
+   "Georgia's official code (LexisNexis-hosted) is not readable by page; tint text read on 2026-10-24 in the official legis.ga.gov HB 1022 substitute (current wording shown with strike-outs) and the GA DPS page; phone fines on the Governor's Office of Highway Safety page.",
    "HB 1022 (2026 session) would have set front side windows at 28% and rear windows at 15% and banned electric tinting; it passed the House (Feb 17, 2026) but its last action was Senate second reading (Mar 25, 2026) - treated as not enacted. Confirm on legis.ga.gov.",
    "Windshield rule: the 6-inch top strip comes from the exception for transparent items not red/amber; DPS describes it as tint above the AS-1 line - the statute itself does not mention AS-1.",
    "maxFineUsd 1000 comes from the general misdemeanor statute (§ 17-10-3), not read directly.",
-   "No underglow or lift-height rule found."
+   "No underglow or lift-height rule found.",
+   "Helmet (O.C.G.A. § 40-6-315): not confirmed on an official page (earlier read on a non-official copy of the code); left null.",
+   "Studded tires (O.C.G.A. § 40-8-74): not confirmed on an official page; left null."
   ]
  },
  {
@@ -1519,7 +1581,7 @@
     {
      "cite": "Haw. Rev. Stat. § 291-21.5",
      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0021_0005.htm",
-     "readVia": "https://codes.findlaw.com/hi/division-1-government/hi-rev-st-sect-291-21-5/"
+     "readVia": "https://web.archive.org/web/20251224191826/https://www.capitol.hawaii.gov/sessions/session2025/bills/HB226_CD1_.HTM (archived copy of the official bill text, which rewrites the whole section) + governor message GM1229 (Act 129, signed 2025-05-29); capitol.hawaii.gov answers 403 to scripts"
     }
    ],
    "reflectivity": {
@@ -1549,7 +1611,7 @@
     "cite": "Haw. Rev. Stat. § 291-21.5(d), (f)",
     "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0021_0005.htm"
    },
-   "lastAmended": "2025 (Act 129, HB 226, signed 2025-05-29)"
+   "lastAmended": "2025 (Act 129, H.B. 226 C.D. 1, signed 2025-05-29, effective on approval)"
   },
   "equipment": {
    "helmet": {
@@ -1592,9 +1654,15 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2025-12-24",
+   "host": "capitol.hawaii.gov",
+   "docEn": "text of H.B. 226 C.D. 1, signed as Act 129 on May 29, 2025",
+   "docEs": "texto de H.B. 226 C.D. 1, firmado como Act 129 el 29 de mayo de 2025"
+  },
   "openQuestions": [
-   "capitol.hawaii.gov blocks automated access (Cloudflare 403); § 291-21.5 and § 286-81 read via codes.findlaw.com ('current as of January 01, 2025') - the text includes Act 129 (2025) changes, but should be checked on the official page.",
-   "Act 129 (2025) effective date not confirmed (signed 2025-05-29).",
+   "capitol.hawaii.gov answers 403 to scripts; § 291-21.5 read on the archived copy of the official H.B. 226 C.D. 1 text (2025-12-24) and governor message GM1229 (Act 129); § 286-81 and § 291C-137 on archived copies of the official HRS pages (2025-02-13, 2025-08-22).",
    "Medical exemption: none found in § 291-21.5; Hawaii may handle it elsewhere - not confirmed.",
    "§ 291C-137 fine amount not read directly (a search excerpt of the official text mentions $300, higher in school/construction zones) - left null.",
    "Studded tires, underglow, lift-height: not found."
@@ -1703,8 +1771,13 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-06-10",
+   "host": "legislature.idaho.gov"
+  },
   "openQuestions": [
-   "legislature.idaho.gov refused connections; § 49-944 read from a June 2026 Wayback copy of the official page; §§ 49-666, 49-1401A, 49-948 read via codes.findlaw.com ('current as of January 01, 2024').",
+   "legislature.idaho.gov refused connections; § 49-944 read on the archived copy of the official page of 2026-06-10, § 49-666 on that of 2026-06-10, § 49-1401A on that of 2026-07-10 and § 49-948 on that of 2026-08-14.",
    "Infraction fine amount for tint (set by Idaho infraction rules) not found.",
    "No separate rule for SUVs/vans/pickups in § 49-944 (only factory glazing exempt under (5)).",
    "Underglow and lift-height: not found."
@@ -1822,6 +1895,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-06-27",
+   "host": "ilga.gov"
+  },
   "openQuestions": [
    "ilga.gov refused connections; statutes read from Wayback copies of the official ILCS pages (12-503: June 2026; 12-610.2: Aug 2026; 12-401: Oct 2025; 12-212: Nov 2025).",
    "Rear/back side VLT: commonly reported as 35% for sedans and 'any' for MPVs, but § 12-503 sets no direct numeric rear limit - it conditions front tint on the rear windows. Recorded as 'any' with that condition.",
@@ -1864,12 +1942,12 @@
     {
      "cite": "Ind. Code § 9-19-19-4",
      "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-4",
-     "readVia": "https://statecodesfiles.justia.com/indiana/2016/title-9/article-19/chapter-19/chapter-19.pdf (2016 text; iga.in.gov is a JavaScript app, law.justia.com current page blocked)"
+     "readVia": "https://iga.in.gov/ic/2025/Title_9.pdf (official Indiana Code 2025, read 2026-10-24)"
     },
     {
      "cite": "Ind. Code § 9-19-19-7 and § 9-19-19-8 (penalties)",
      "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-7",
-     "readVia": "https://statecodesfiles.justia.com/indiana/2016/title-9/article-19/chapter-19/chapter-19.pdf"
+     "readVia": "https://iga.in.gov/ic/2025/Title_9.pdf (official Indiana Code 2025, read 2026-10-24)"
     }
    ],
    "reflectivity": {
@@ -1891,7 +1969,7 @@
     "cite": "Ind. Code § 9-19-19-7; § 9-19-19-8; § 34-28-5-4",
     "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-19-7"
    },
-   "lastAmended": "2018 (P.L.164-2018 per Justia 2024 history line; content of that amendment not verified)"
+   "lastAmended": "2018 (P.L.164-2018, SEC.9; history line of IC 9-19-19-4 in the Indiana Code 2025)"
   },
   "equipment": {
    "helmet": {
@@ -1914,7 +1992,7 @@
     "allowed": "seasonal",
     "season": "Oct 1 - May 1 (retractable studs allowed year-round if retracted May 2 - Sep 30)",
     "cite": "Ind. Code § 9-19-18-3",
-    "url": "https://faqs.in.gov/hc/en-us/articles/115005063487-Are-tire-chains-and-studs-legal-in-Indiana"
+    "url": "https://iga.in.gov/laws/2025/ic/titles/9#9-19-18-3"
    },
    "radarDetector": {
     "passengerAllowed": true,
@@ -1934,10 +2012,15 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "iga.in.gov",
+   "docEn": "Indiana Code 2025, title 9 PDF",
+   "docEs": "Código de Indiana 2025, PDF del título 9"
+  },
   "openQuestions": [
-   "Current text of IC 9-19-19-4 could not be read on iga.in.gov (JavaScript app) nor law.justia.com (403); values come from the 2016 official-text mirror. Justia's 2024 history shows a later amendment P.L.164-2018 whose content was not verified - a reviewer should open iga.in.gov to confirm 30%/25% and the medical clause are unchanged.",
-   "Indiana State Police FAQ (faqs.in.gov) paraphrases the rule as tint that keeps occupants from being 'easily recognized or identified' from outside - possibly the 2018 wording; confirm on iga.in.gov.",
-   "Handheld phone (IC 9-21-8-59), helmet (IC 9-19-7-1), studs (IC 9-19-18-3) were taken from search summaries of the official code and the ISP FAQ, not read in full.",
+   "Tint, helmet (IC 9-19-7-1), phone (IC 9-21-8-59) and studs (IC 9-19-18-3) read on 2026-10-24 in the official Indiana Code 2025 PDF (iga.in.gov/ic/2025/Title_9.pdf).",
    "Underglow and lift/frame height: no Indiana statute located.",
    "Novice/under-21 phone rule not verified on an official page (left null)."
   ]
@@ -2047,6 +2130,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "legis.iowa.gov"
+  },
   "openQuestions": [
    "Iowa hands-free law (2025 Acts ch 14) is new: enforcement with citations began January 1, 2026 - confirm no further change.",
    "Primary enforcement assumed (statute contains no secondary-enforcement clause).",
@@ -2144,9 +2232,9 @@
     "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0111.html"
    },
    "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Nov 1 - Apr 15 (stud tires, K.A.R. 36-7-1); studded traction equipment Nov 1 - Apr 1 (K.A.R. 36-7-2)",
-    "cite": "K.S.A. 8-1742(c); K.A.R. 36-7-1; 36-7-2",
+    "allowed": "restricted",
+    "season": null,
+    "cite": "K.S.A. 8-1742(c) (months set by K.A.R. 36-7-1 and 36-7-2, not read on an official site)",
     "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_017_0042.html"
    },
    "radarDetector": {
@@ -2167,8 +2255,13 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "ksrevisor.gov"
+  },
   "openQuestions": [
-   "K.A.R. 36-7-1/36-7-2 stud dates read via search summaries of Cornell/Justia copies, not the Kansas Register directly.",
+   "K.A.R. 36-7-1 / 36-7-2 (stud months) could not be read on an official site (sos.ks.gov page not found on 2026-10-24); season left null. K.S.A. 8-1742(c) read on ksrevisor.gov.",
    "Lift/frame height: no Kansas statute located.",
    "Whether 8-1749a(h) misdemeanor is enforced as class C (8-2116) - inferred from statute text, no agency confirmation."
   ]
@@ -2310,6 +2403,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "apps.legislature.ky.gov"
+  },
   "openQuestions": [
    "Studded tires: no Kentucky statute expressly allowing or restricting studs found; 'yes' is inferred from absence of a prohibition.",
    "Primary enforcement of texting ban assumed (no secondary clause in KRS 189.292).",
@@ -2453,6 +2551,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "legis.la.gov"
+  },
   "openQuestions": [
    "Hands-free law: read from the enrolled HB 519 (Act 288 of 2025); codified R.S. 32:59 page not opened. Act effective date assumed August 1, 2025 (general LA effective date) - confirm.",
    "Old R.S. 32:300.6/300.7 under-18 rules were repealed by Act 288; no novice-specific rule found in new R.S. 32:59 (set null).",
@@ -2560,6 +2663,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "legislature.maine.gov"
+  },
   "openQuestions": [
    "Underglow: no specific Maine statute located (§ 2054 restricts emergency/auxiliary lights; not read in full).",
    "§ 1916(1)(D) requires 2-way glass on front windshield, front door windows and windows at either end of the rear passenger seat - interplay with § 1916(2)(B) mirror exception reviewed: exception covers paragraphs C and D for windows behind the operator."
@@ -2696,6 +2804,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "mgaleg.maryland.gov"
+  },
   "openQuestions": [
    "No numeric tolerance found in statute or COMAR 11.14.02.14.",
    "No reflectivity percentage: COMAR bans mirrored/one-way/sparkling tint outright.",
@@ -2741,7 +2854,7 @@
     {
      "cite": "Mass. Gen. Laws ch. 90, § 9D",
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section9D",
-     "readVia": "https://law.onecle.com/massachusetts/90/9D.html"
+     "readVia": "https://web.archive.org/web/20260517121552/https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section9D (archived copy of the official page dated 2026-05-17; malegislature.gov refused our connection)"
     },
     {
      "cite": "540 CMR 4.04(8)(g) window tinting inspection standard (Mass Vehicle Check station guideline)",
@@ -2811,13 +2924,18 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-05-17",
+   "host": "malegislature.gov"
+  },
   "openQuestions": [
-   "malegislature.gov unreachable from this machine (connection timeout); § 9D, § 7 read via onecle mirror (page dated 2015) - wording to recheck on the official page; § 13B figures read via search snippet of the official page.",
+   "malegislature.gov refused connections on 2026-10-24; § 9D read on the archived copy of the official page of 2026-05-17, § 7 on that of 2026-08-11, § 13B on that of 2026-10-16.",
    "Reflectance: statute says 'reflectance of not more than 35% OR transmittance of not less than 35%' - ambiguous 'or'; RMV inspection applies the 35% transmittance test.",
    "No tolerance found; no colour restriction found in § 9D.",
    "Studded tires: secondary sources give Nov 1 (or Nov 2) - Apr 30, cite disputed (ch. 90 § 16 or registrar rule); not confirmed in an official text, left null.",
    "Underglow and lift/height limits (540 CMR 4.00 inspection rules) not found; left null.",
-   "Junior operator ban (§ 8M) and primary-enforcement status not re-read in the official text."
+   "Junior operator ban (§ 8M) and primary-enforcement status not read in the official text."
   ]
  },
  {
@@ -2834,7 +2952,7 @@
    },
    "frontSide": {
     "vlt": "no-film",
-    "note": "MCL 257.709(1)(a) bars any film or window application on the side windows immediately adjacent to the driver or front passenger and on the sidewings; the only film the subsection allows is the tinted strip along the top edge (4 inches). No percentage is written in the law."
+    "note": "MCL 257.709(1)(a) bars any film or window application on the side windows immediately adjacent to the driver or front passenger, except a tinted film along the top edge that does not extend more than 4 inches from the top. No percentage is written in the law."
    },
    "backSide": {
     "vlt": "any",
@@ -2855,7 +2973,7 @@
     {
      "cite": "MCL 257.709",
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-709",
-     "readVia": "Official site legislature.mi.gov refused every connection on 2026-10-24 (all hosts, Wayback copy 403 to scripts). Text read on the FindLaw copy of MCL 257.709, marked 'current as of January 01, 2025' (codes.findlaw.com/mi/chapter-257-motor-vehicles/mi-comp-laws-257-709/). Searches found no Michigan act amending 257.709 since then; HB 5634 (2017-2018) was vetoed on 2018-12-28 and HB 5100 (2019-2020) was not enacted."
+     "readVia": "https://web.archive.org/web/20260208080357/https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-709 (archived copy of the official page dated 2026-02-08, \"MCL complete through PA 74 of 2025\"; legislature.mi.gov refused our connection)"
     }
    ],
    "reflectivity": {
@@ -2920,8 +3038,13 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-02-08",
+   "host": "legislature.mi.gov"
+  },
   "openQuestions": [
-   "MCL 257.709 read on the FindLaw copy current as of 2025-01-01: legislature.mi.gov refused connections on 2026-10-24. Re-read on the official site when reachable.",
+   "legislature.mi.gov refused connections on 2026-10-24; MCL 257.709 read on the archived copy of the official page of 2026-02-08 (MCL complete through PA 74 of 2025).",
    "Fine amount of the civil infraction not read.",
    "Helmet (MCL 257.658), hand-held phone (MCL 257.602b) and studded tires (MCL 257.710) not read: left null."
   ]
@@ -3055,6 +3178,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "revisor.mn.gov"
+  },
   "openQuestions": [
    "Lift/bumper height: no Minnesota provision located (web search budget exhausted); null.",
    "Dual outside mirrors when rear window is tinted: not stated in 169.71; general mirror rule (169.70) not checked.",
@@ -3147,20 +3275,20 @@
   },
   "equipment": {
    "helmet": {
-    "rule": "universal",
+    "rule": null,
     "ageUnder": null,
-    "conditions": "All operators and riders of motorcycles and motor scooters must wear a crash helmet meeting federal standards; exceptions: autocycle operators, and riders 18+ in a parade at no more than 30 mph",
+    "conditions": null,
     "cite": "Miss. Code § 63-7-64",
-    "url": "http://www.lexisnexis.com/hottopics/mscode/"
+    "url": null
    },
    "handheldPhone": {
-    "allDriversBan": false,
-    "textingBan": true,
+    "allDriversBan": null,
+    "textingBan": null,
     "noviceOrAgeBan": null,
     "primaryEnforcement": null,
-    "fineText": "Civil violation, fine $100 (since July 1, 2016); no state assessments",
+    "fineText": null,
     "cite": "Miss. Code § 63-33-1",
-    "url": "http://www.lexisnexis.com/hottopics/mscode/"
+    "url": null
    },
    "studdedTires": {
     "allowed": null,
@@ -3186,11 +3314,19 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "billstatus.ls.state.ms.us",
+   "docEn": "text of 2026 act SB 2453, which reprints the whole section",
+   "docEs": "texto de la ley SB 2453 de 2026, que reproduce toda la sección"
+  },
   "openQuestions": [
-   "Mississippi has no per-section official URL (the Legislature links to the LexisNexis-hosted code); tint text read from the official Legislature bill text of 2026 SB 2453; §§ 63-7-7, 63-9-11, 63-7-64 and 63-33-1 read via codes.findlaw.com (current to Jan 1, 2025) and not re-checked against the official code.",
+   "Mississippi has no per-section official URL (the Legislature links to the LexisNexis-hosted code); tint text read on 2026-10-24 in the official Legislature text of 2026 SB 2453, which reprints the whole section. Penalty sections 63-7-7 and 63-9-11 were read on a non-official copy and are not confirmed.",
    "Multipurpose rear windows: 'any' is an interpretation of the federal-minimum exemption (FMVSS 205 sets no minimum for windows behind the driver on MPVs).",
-   "Texting law: primary vs secondary enforcement not stated in the text read; any learner/intermediate license phone restriction not found. No 2024-2026 phone bill was enacted (bills HB 178/187/291/1459, SB 2801 died).",
-   "Studded tires, underglow, lift height: not found (web search budget exhausted); null."
+   "Studded tires, underglow, lift height: not found (web search budget exhausted); null.",
+   "Helmet (Miss. Code § 63-7-64): not confirmed on an official page (earlier read on a non-official copy of the code); left null.",
+   "Texting (Miss. Code § 63-33-1): not confirmed on an official page; left null."
   ]
  },
  {
@@ -3296,6 +3432,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "revisor.mo.gov"
+  },
   "openQuestions": [
    "Medical permit procedure (DPS rule under 307.173, likely 11 CSR): sos.mo.gov and dps.mo.gov returned 403; application details not confirmed.",
    "Phone law: no specific novice-driver rule found in 304.822; old texting law 304.820 (under 21 ban) repealed by 2023 S.B. 398.",
@@ -3438,6 +3579,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "archive.legmt.gov"
+  },
   "openQuestions": [
    "No numeric windshield strip (inches) in statute, only AS-1 line",
    "No tolerance stated",
@@ -3580,6 +3726,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-01-19",
+   "host": "nebraskalegislature.gov"
+  },
   "openQuestions": [
    "Official nebraskalegislature.gov refused connections; text read from Wayback snapshots dated Nov 2025 - Feb 2026",
    "Hands-free bill LB 594 indefinitely postponed on 2026-04-17 (per search results, not verified on the legislature site)",
@@ -3622,7 +3773,7 @@
     {
      "cite": "Nev. Rev. Stat. § 484D.440",
      "url": "https://www.leg.state.nv.us/NRS/NRS-484D.html#NRS484DSec440",
-     "readVia": "web.archive.org snapshot of the official NRS chapter 484D page (Rev. 12/9/2024); leg.state.nv.us blocked us via Cloudflare"
+     "readVia": "https://web.archive.org/web/20260606020459/https://www.leg.state.nv.us/nrs/NRS-484D.html (archived copy of the official NRS chapter 484D page dated 2026-06-06, Rev. 4/15/2026); leg.state.nv.us answers 403 to scripts"
     }
    ],
    "reflectivity": {
@@ -3693,6 +3844,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-06-06",
+   "host": "leg.state.nv.us"
+  },
   "openQuestions": [
    "Official site blocked; read via Wayback (chapter 484D Rev. 12/9/2024, 484B Rev. 9/9/2026, 486 Rev. 6/29/2024)",
    "Fine for a tint violation not found (general traffic penalty)",
@@ -3756,7 +3912,7 @@
     {
      "cite": "N.H. Rev. Stat. Ann. § 266:58-a",
      "url": "https://gc.nh.gov/rsa/html/XXI/266/266-58-a.htm",
-     "readVia": "web.archive.org snapshot of the official page (gc.nh.gov returned 403 to us); text includes the 2024 amendment (2024, 48:1, eff. Sept. 12, 2024)"
+     "readVia": "https://web.archive.org/web/20260326185526/https://gc.nh.gov/RSA/html/XXI/266/266-58-a.htm (archived copy of the official page dated 2026-03-26; gc.nh.gov answers 403 to scripts); text includes the 2024 amendment (2024, 48:1, eff. Sept. 12, 2024)"
     },
     {
      "cite": "N.H. Rev. Stat. Ann. § 266:61-a, IX (medical permit)",
@@ -3826,6 +3982,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-03-26",
+   "host": "gc.nh.gov"
+  },
   "openQuestions": [
    "Official RSA site returned 403; read via Wayback",
    "Fine for a 'violation' not read (RSA 651:2 not checked)",
@@ -3869,7 +4030,7 @@
     {
      "cite": "N.J.S.A. 39:3-74",
      "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
-     "readVia": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-74/ (current as of 2024-01-01; summarized, short quote only)"
+     "readVia": "Statute text not readable on the official NJ Legislature site; the rule is confirmed on the official NJ MVC pages (https://www.nj.gov/mvc/drivertopics/sunscreen.htm and the 2026 Driver Manual, linked from https://www.nj.gov/mvc/about/manuals.htm: \"New Jersey law prohibits add-on tinting on windshields and front side windows. (N.J.S.A 39:3-74)\")"
     },
     {
      "cite": "N.J.A.C. 13:20-1.1 to 1.8 (sunscreening regulation, per MVC form MR-15)",
@@ -3902,9 +4063,9 @@
    "helmet": {
     "rule": "universal",
     "ageUnder": null,
-    "conditions": "All motorcycle operators and riders (fully enclosed autocycles excluded)",
+    "conditions": "All motorcycle operators and riders (\"Helmets are required by law for motorcycle operators and riders in New Jersey\", MVC Driver Manual 2026)",
     "cite": "N.J.S.A. 39:3-76.7",
-    "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-76-7/"
+    "url": "https://www.nj.gov/mvc/about/manuals.htm"
    },
    "handheldPhone": {
     "allDriversBan": true,
@@ -3913,13 +4074,13 @@
     "primaryEnforcement": true,
     "fineText": "$200-$400 first offense, $400-$600 second, $600-$800 third+ (possible 90-day suspension and 3 points)",
     "cite": "N.J.S.A. 39:4-97.3",
-    "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-4-97-3/"
+    "url": "https://www.nj.gov/mvc/about/manuals.htm"
    },
    "studdedTires": {
     "allowed": "seasonal",
     "season": "Nov 15 - Apr 1",
-    "cite": "N.J.A.C. 13:20-15.2(g)",
-    "url": "https://regulations.justia.com/states/new-jersey/title-13/chapter-20/subchapter-15/section-13-20-15-2/"
+    "cite": "NJ MVC Driver Manual 2026 (studded snow tires Nov 15 - Apr 1)",
+    "url": "https://www.nj.gov/mvc/about/manuals.htm"
    },
    "radarDetector": {
     "passengerAllowed": true,
@@ -3939,11 +4100,16 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "nj.gov/mvc",
+   "docEn": "Motor Vehicle Commission pages and 2026 Driver Manual; the statute itself was not readable",
+   "docEs": "páginas de la Motor Vehicle Commission y manual del conductor 2026; la ley misma no fue legible"
+  },
   "openQuestions": [
-   "Could not open the official NJ Legislature statute text (lis.njleg); 39:3-74 read via FindLaw summary (current to 2024-01-01)",
+   "The official NJ statute text (lis.njleg) could not be read; tint, helmet, phone and studded-tire rules confirmed on 2026-10-24 in the official NJ MVC Driver Manual 2026 (PDF linked from https://www.nj.gov/mvc/about/manuals.htm) and the MVC sunscreening page.",
    "Tint fine amount not found in an official source",
-   "Primary enforcement of 39:4-97.3 not stated in statute text read (widely reported as primary)",
-   "Studded tire dates from N.J.A.C. via Justia mirror, not the official NJ OAL site",
    "MR-15 form (R 6/09) is old; its numeric limits for medical tint (8%, 35%, 70%) are garbled and were not recorded as limits"
   ]
  },
@@ -4003,7 +4169,7 @@
     {
      "cite": "N.M. Stat. Ann. § 66-3-846.1",
      "url": "https://nmonesource.com/nmos/nmsa/en/nav_date.do",
-     "readVia": "Existing-law text as printed in 2023 HB 286 (https://www.nmlegis.gov/Sessions/23%20Regular/bills/house/HB0286.html); HB 286 was pocket-vetoed, so the bracketed (to-be-deleted) windshield text remains law. nmonesource.com could not be read."
+     "readVia": "https://web.archive.org/web/20260207160221/https://www.nmlegis.gov/Sessions/23%20Regular/bills/house/HB0286.html (archived copy of the official 2023 bill text, which reprints the section in force; HB 286 did not become law, so the bracketed windshield text remains law). nmlegis.gov answers 403 to scripts."
     }
    ],
    "reflectivity": {
@@ -4072,6 +4238,13 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-02-07",
+   "host": "nmlegis.gov",
+   "docEn": "law in force as reprinted in 2023 bill HB 286, which did not become law; later amendments not checked",
+   "docEs": "ley vigente reproducida en el proyecto HB 286 de 2023, que no llegó a ser ley; reformas posteriores no comprobadas"
+  },
   "openQuestions": [
    "NMSA official compilation (nmonesource.com) and nmlegis.gov blocked us; tint text is the existing-law portion of 2023 HB 286 (pocket veto) - any 2024-2026 amendment not checked",
    "Helmet, phone and studded-tire statutes not read: left null",
@@ -4199,6 +4372,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-10-12",
+   "host": "nysenate.gov"
+  },
   "openQuestions": [
    "nysenate.gov pages read via Wayback snapshots (Nov 2025 - Oct 2026)",
    "Exact 1225-c second/third offense caps and 1225-d texting fines partly read only",
@@ -4262,7 +4440,7 @@
     {
      "cite": "N.C. Gen. Stat. § 20-127",
      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-127.html",
-     "readVia": "web.archive.org snapshot of the official page (ncleg.gov returned 403); text includes S.L. 2025-47 amendments"
+     "readVia": "https://web.archive.org/web/20260611044024/https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_20/gs_20-127.html (archived copy of the official page dated 2026-06-11; ncleg.gov answers 403 to scripts); text includes S.L. 2025-47 amendments"
     }
    ],
    "reflectivity": {
@@ -4334,6 +4512,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-06-11",
+   "host": "ncleg.gov"
+  },
   "openQuestions": [
    "Content of S.L. 2025-47 changes to 20-127 not compared with prior text (likely tied to the 2025 end of NC safety inspections, which tint checks used to rely on)",
    "Class 3 misdemeanor fine cap not read",
@@ -4440,6 +4623,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "ndlegis.gov"
+  },
   "openQuestions": [
    "Exact effective date of HB 1340 (2025) not read on an official page (2024 Century Code still said 50%)",
    "A 2026 initiated measure to remove all tint limits failed to qualify (KFYR, 2026-02-25, news source only)",
@@ -4563,6 +4751,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2025-12-28",
+   "host": "codes.ohio.gov"
+  },
   "openQuestions": [
    "codes.ohio.gov refused connections; all texts read from Wayback snapshots (studded tires and helmet snapshots are 2021/2023 versions)",
    "Bumper-height rule numbers (OAC 4501-43) not read",
@@ -4673,6 +4866,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "oklegislature.gov"
+  },
   "openQuestions": [
    "Date of the os47.rtf compilation not checked (downloaded 2026-10-24 from the Legislature site)",
    "No separate multipurpose-vehicle rule in 12-422",
@@ -4811,6 +5009,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-09-23",
+   "host": "oregonlegislature.gov"
+  },
   "openQuestions": [
    "oregonlegislature.gov read via Wayback; ORS 815 page notes 2026-session amendments to some ch. 815 sections, 815.221 history still ends 2015",
    "Third-offense phone penalty text (crime class) not fully read",
@@ -4952,6 +5155,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "palegis.us"
+  },
   "openQuestions": [
    "Numeric 70% limits come from the inspection regulation (Table X), not the statute; courts have held the statute only requires that one can see inside",
    "Tint fine amount not found",
@@ -5090,6 +5298,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2025-02-12",
+   "host": "rilegislature.gov"
+  },
   "openQuestions": [
    "Official RI site refused connections; tint sections read from Feb 2025 Wayback snapshots (index page Dec 2025 shows same 6 sections)",
    "Handheld phone law (31-22-30.1, hands-free) could not be read - no archived copy; left null",
@@ -5222,6 +5435,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "scstatehouse.gov"
+  },
   "openQuestions": [
    "No tolerance stated",
    "Lift/bumper height rule not located (headlamp height rules exist in 56-5-4500)"
@@ -5340,6 +5558,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "sdlegislature.gov"
+  },
   "openQuestions": [
    "Primary enforcement of 32-26-47.1 assumed (no secondary clause in the text)",
    "No separate multipurpose-vehicle rule found",
@@ -5402,7 +5625,7 @@
     {
      "cite": "Tenn. Code Ann. § 55-9-107",
      "url": "https://advance.lexis.com/container?config=014CJAA5ZGVhZTAxNi1lMzc3LTQyZjEtYWEzNi1mOGIyYTA1MzlhZTUKAFBvZENhdGFsb2fH6M3lnYdm1BrqxgiCbFrN",
-     "readVia": "https://law.justia.com/codes/tennessee/title-55/chapter-9/part-1/section-55-9-107/ (2023 code via web.archive.org snapshot 2024-12-11; history shows 2024 Tenn. Acts ch. 602)"
+     "readVia": "Not read on an official text: the official code is the LexisNexis portal (not readable by script) and tn.gov refused our connection. Figures come from a non-official copy of the 2023 code archived on 2024-12-11. Public Chapter 602 of 2024 (official, publications.tnsosfiles.com/acts/113/pub/pc0602.pdf) only rewords the officer exemption."
     }
    ],
    "reflectivity": {
@@ -5416,7 +5639,7 @@
    "medicalExemption": {
     "available": true,
     "text": "Physician's statement to the Commissioner of Safety; Department's medical review board recommends the exemption and degree of tint; the Commissioner issues a certificate or decal to display in the vehicle; appeal under the UAPA",
-    "url": "https://www.tn.gov/safety"
+    "url": null
    },
    "penalty": {
     "text": "Class C misdemeanor (also for refusing a field comparison test); officers may stop a vehicle on reasonable belief of a violation",
@@ -5424,24 +5647,24 @@
     "cite": "Tenn. Code Ann. § 55-9-107(c), (d)",
     "url": null
    },
-   "lastAmended": "2024 (2024 Tenn. Acts ch. 602, eff. 3/27/2024)"
+   "lastAmended": "2024 (Public Chapter 602, SB 1864: \"full-time, salaried police officer\" replaced by \"POST-certified law enforcement officer\"; percentages not touched)"
   },
   "equipment": {
    "helmet": {
-    "rule": "universal",
+    "rule": null,
     "ageUnder": null,
-    "conditions": "All drivers and passengers of motorcycles, motorized bicycles and motorscooters (riders 21+ may use helmets meeting alternative ASTM/CPSC/SIRC/Snell labels); exceptions for enclosed cabs, parades and funeral/memorial escorts (amended 2023 ch. 100, eff. 7/1/2024)",
+    "conditions": null,
     "cite": "Tenn. Code Ann. § 55-9-302",
-    "url": "https://law.justia.com/codes/tennessee/title-55/chapter-9/part-3/section-55-9-302/"
+    "url": null
    },
    "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": "Drivers under 18 may not use earpieces/one-button calling exceptions (only 18+ allowed)",
-    "primaryEnforcement": true,
-    "fineText": "Class C misdemeanor, fine up to $50; $100 for third+ offense or if a crash results; $200 in active work zones or school zones",
+    "allDriversBan": null,
+    "textingBan": null,
+    "noviceOrAgeBan": null,
+    "primaryEnforcement": null,
+    "fineText": null,
     "cite": "Tenn. Code Ann. § 55-8-199",
-    "url": "https://law.justia.com/codes/tennessee/title-55/chapter-8/part-1/section-55-8-199/"
+    "url": null
    },
    "studdedTires": {
     "allowed": null,
@@ -5467,11 +5690,20 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "unconfirmed",
+   "date": "2026-10-24",
+   "host": "tn.gov",
+   "noteEn": "The official Tennessee Code (published by LexisNexis) could not be read, so these figures are not confirmed on an official text. They come from a non-official copy of the 2023 code, archived on December 11, 2024. The only later change found on an official site, Public Chapter 602 of 2024, rewords the officer exemption and leaves the percentages as they were.",
+   "noteEs": "No se pudo leer el Código oficial de Tennessee (publicado por LexisNexis), así que estas cifras no están confirmadas en un texto oficial. Vienen de una copia no oficial del código de 2023, archivada el 11 de diciembre de 2024. El único cambio posterior hallado en un sitio oficial, el Public Chapter 602 de 2024, reformula la exención de los agentes y no toca los porcentajes."
+  },
   "openQuestions": [
-   "No free official Tennessee Code site reachable (official publisher is LexisNexis); texts read via Justia mirror snapshots (2023-2024 code); statute 'url' left as the Lexis portal",
+   "No official Tennessee Code text could be read (LexisNexis portal; tn.gov refused connections on 2026-10-24): § 55-9-107 figures are shown as not confirmed. Public Chapter 602 (2024) read on publications.tnsosfiles.com.",
    "Class C misdemeanor fine cap (40-35-111) not read",
    "Studded tire rule not located",
-   "Underglow and lift rules not located"
+   "Underglow and lift rules not located",
+   "Helmet (Tenn. Code § 55-9-302): not confirmed on an official page (earlier read on a non-official copy of the code); left null.",
+   "Hand-held phone (Tenn. Code § 55-8-199): not confirmed on an official page; left null."
   ]
  },
  {
@@ -5586,6 +5818,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "statutes.capitol.texas.gov"
+  },
   "openQuestions": [
    "DPS medical exemption paperwork not checked (statute gives only a defense)",
    "Underglow and lift rules not located (Texas has no lift statute found in ch. 547)"
@@ -5694,6 +5931,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "le.utah.gov"
+  },
   "openQuestions": [
    "Medical exemption: none in statute; DPS rules not checked",
    "Tint infraction fine amount not stated",
@@ -5801,6 +6043,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "legislature.vermont.gov"
+  },
   "openQuestions": [
    "Vermont DMV inspection manual (which may tolerate some front-side tint) not read; statute alone bans adhered material on front side windows",
    "Tint fine not found",
@@ -5937,6 +6184,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "law.lis.virginia.gov"
+  },
   "openQuestions": [
    "Fine amount for tint traffic infraction not stated in 46.2-1052 (general traffic infraction cap not checked)",
    "Underglow rule not located",
@@ -6074,6 +6326,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "app.leg.wa.gov"
+  },
   "openQuestions": [
    "Exact phone fine amount (RCW 46.63.110 / court rule base penalty) not read",
    "No tolerance stated in statute",
@@ -6206,6 +6463,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "code.wvlegislature.gov"
+  },
   "openQuestions": [
    "Primary enforcement of 17C-14-15 not explicitly confirmed in excerpts read (no secondary-only clause seen); section amended in 2025 session",
    "No tolerance stated",
@@ -6320,6 +6582,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "archive",
+   "date": "2026-06-11",
+   "host": "docs.legis.wisconsin.gov"
+  },
   "openQuestions": [
    "Official site refused connections; statutes read via Wayback snapshots (2025-2026)",
    "Tint penalty/forfeiture not confirmed",
@@ -6453,6 +6720,11 @@
    }
   },
   "checkedOn": "2026-10-24",
+  "read": {
+   "how": "official",
+   "date": "2026-10-24",
+   "host": "wyoleg.gov"
+  },
   "openQuestions": [
    "Section amendment history not printed in the Title 31 PDF; lastAmended unknown",
    "Primary enforcement of texting ban assumed (no secondary clause)",

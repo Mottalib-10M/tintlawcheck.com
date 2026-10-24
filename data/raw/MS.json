@@ -1,50 +1,142 @@
 {
-  "code": "MS", "name": "Mississippi",
-  "tint": {
-    "statute": [
-      {"cite": "Miss. Code Ann. § 63-7-59 (as amended by 2026 S.B. 2453, effective July 1, 2026)", "url": "http://www.lexisnexis.com/hottopics/mscode/", "readVia": "https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2453SG.htm (official Legislature text of SB 2453 as sent to Governor, reproducing the whole section; approved by Governor 03/13/2026)"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "No tint on the windshield except material that replaces or provides a sun shield in the uppermost area as manufacturers are authorized to install under federal law (i.e. the AS-1 area; no inch measurement in the statute)", "stripInches": null, "asLine": true, "vlt": null, "reflective": "not allowed: no glazing material causing a mirrored effect"},
-      "frontSide": {"vlt": 28, "note": "All windows must have light transmittance of 28% or more, certified by a DPS tint label on the windshield"},
-      "backSide": {"vlt": 28, "note": "28% or more for passenger cars"},
-      "rear": {"vlt": 28, "note": "28% or more for passenger cars"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "Same as passenger cars: sun shield in the uppermost area as allowed under federal law", "stripInches": null, "asLine": true, "vlt": null, "reflective": "not allowed: no mirrored effect"},
-      "frontSide": {"vlt": 28, "note": "28% or more"},
-      "backSide": {"vlt": "any", "note": "Pickup, van, motor home, RV, SUV or multipurpose vehicle: windows behind the front two side windows are exempt to the extent they meet the federal factory minimum for that window (federal law sets no minimum for these windows, so effectively any darkness; interpretation)"},
-      "rear": {"vlt": "any", "note": "Same exemption as back side windows (rear window included)"}
-    },
-    "measuredHow": "not stated (inspection station tests that 'the window complies'; label certifies the windows' light transmittance, i.e. film + glass as installed)",
-    "reflectivity": {"front": "no glazing material which causes a mirrored effect (no percentage)", "back": "no glazing material which causes a mirrored effect (no percentage)"},
-    "tolerance": {"points": null, "cite": "No tolerance stated in Miss. Code § 63-7-59"},
-    "colorsBanned": [],
-    "dualMirrors": null,
-    "certificateOrSticker": "Required: a DPS label (max 1 inch square, self-destructive) affixed to the lower left corner of the windshield by an official tint inspection station after testing; test fee $5",
-    "medicalExemption": {"available": true, "text": "For a person diagnosed with a physical condition or disease seriously aggravated by minimum exposure to sunlight. Certificate of medical exemption issued free by the county tax collector on an affidavit signed by the applicant and attested by a Mississippi-licensed physician or (since July 1, 2026) a Mississippi-licensed optometrist, plus proof of ownership or owner's affidavit; must be prominently displayed on the dashboard.", "url": "https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2453SG.htm"},
-    "penalty": {"text": "Driving with illegal tint: misdemeanor under § 63-7-7, punished under § 63-9-11: first conviction fine up to $100 or up to 10 days jail; 2nd within a year up to $200 / 20 days; 3rd+ within a year up to $500 / 6 months. Installing illegal film, issuing a false label or misusing labels/certificates: fine up to $1,000 and/or up to 3 months jail. Enforced only by DPS officers and police of municipalities of 2,000+.", "maxFineUsd": 100, "cite": "Miss. Code §§ 63-7-59(10)-(12), 63-7-7, 63-9-11", "url": "http://www.lexisnexis.com/hottopics/mscode/"},
-    "lastAmended": "2026 (S.B. 2453, approved March 13, 2026, effective July 1, 2026: optometrists may attest for medical exemption; 28% unchanged)",
-    "quotes": [
-      "with any tinted film, glazing material or darkening material of any kind on the windshield of a motor vehicle except material designed to replace or provide a sun shield in the uppermost area as authorized to be installed by manufacturers of vehicles under federal law",
-      "certifying that all the windows of the vehicle have a light transmittance of twenty-eight percent (28%) or more",
-      "Any window behind the front two (2) side windows, including the rear window, of any pickup truck, van, motor home, recreational vehicle, sport utility vehicle or multipurpose vehicle",
-      "diagnosed by a physician licensed to practice medicine in the State of Mississippi or by an optometrist licensed to practice optometry in the State of Mississippi",
-      "shall be punished by a fine of not more than One Thousand Dollars ($1,000.00), or imprisonment in the county jail for not more than three (3) months",
-      "a fine of not more than One Hundred Dollars ($100.00) or by imprisonment for not more than ten (10) days"
-    ]
+ "code": "MS",
+ "name": "Mississippi",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Miss. Code Ann. § 63-7-59 (as amended by 2026 S.B. 2453, effective July 1, 2026)",
+    "url": "http://www.lexisnexis.com/hottopics/mscode/",
+    "readVia": "https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2453SG.htm (official Legislature text of SB 2453 as sent to Governor, reproducing the whole section; approved by Governor 03/13/2026)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "No tint on the windshield except material that replaces or provides a sun shield in the uppermost area as manufacturers are authorized to install under federal law (i.e. the AS-1 area; no inch measurement in the statute)",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "not allowed: no glazing material causing a mirrored effect"
+   },
+   "frontSide": {
+    "vlt": 28,
+    "note": "All windows must have light transmittance of 28% or more, certified by a DPS tint label on the windshield"
+   },
+   "backSide": {
+    "vlt": 28,
+    "note": "28% or more for passenger cars"
+   },
+   "rear": {
+    "vlt": 28,
+    "note": "28% or more for passenger cars"
+   }
   },
-  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "All operators and riders of motorcycles and motor scooters must wear a crash helmet meeting federal standards; exceptions: autocycle operators, and riders 18+ in a parade at no more than 30 mph", "cite": "Miss. Code § 63-7-64", "url": "http://www.lexisnexis.com/hottopics/mscode/"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": null, "fineText": "Civil violation, fine $100 (since July 1, 2016); no state assessments", "cite": "Miss. Code § 63-33-1", "url": "http://www.lexisnexis.com/hottopics/mscode/"},
-  "studdedTires": {"allowed": null, "season": null, "cite": null, "url": null},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found for passenger vehicles; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71).", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "Mississippi has no per-section official URL (the Legislature links to the LexisNexis-hosted code); tint text read from the official Legislature bill text of 2026 SB 2453; §§ 63-7-7, 63-9-11, 63-7-64 and 63-33-1 read via codes.findlaw.com (current to Jan 1, 2025) and not re-checked against the official code.",
-    "Multipurpose rear windows: 'any' is an interpretation of the federal-minimum exemption (FMVSS 205 sets no minimum for windows behind the driver on MPVs).",
-    "Texting law: primary vs secondary enforcement not stated in the text read; any learner/intermediate license phone restriction not found. No 2024-2026 phone bill was enacted (bills HB 178/187/291/1459, SB 2801 died).",
-    "Studded tires, underglow, lift height: not found (web search budget exhausted); null."
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "Same as passenger cars: sun shield in the uppermost area as allowed under federal law",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "not allowed: no mirrored effect"
+   },
+   "frontSide": {
+    "vlt": 28,
+    "note": "28% or more"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "Pickup, van, motor home, RV, SUV or multipurpose vehicle: windows behind the front two side windows are exempt to the extent they meet the federal factory minimum for that window (federal law sets no minimum for these windows, so effectively any darkness; interpretation)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "Same exemption as back side windows (rear window included)"
+   }
+  },
+  "measuredHow": "not stated (inspection station tests that 'the window complies'; label certifies the windows' light transmittance, i.e. film + glass as installed)",
+  "reflectivity": {
+   "front": "no glazing material which causes a mirrored effect (no percentage)",
+   "back": "no glazing material which causes a mirrored effect (no percentage)"
+  },
+  "tolerance": {
+   "points": null,
+   "cite": "No tolerance stated in Miss. Code § 63-7-59"
+  },
+  "colorsBanned": [],
+  "dualMirrors": null,
+  "certificateOrSticker": "Required: a DPS label (max 1 inch square, self-destructive) affixed to the lower left corner of the windshield by an official tint inspection station after testing; test fee $5",
+  "medicalExemption": {
+   "available": true,
+   "text": "For a person diagnosed with a physical condition or disease seriously aggravated by minimum exposure to sunlight. Certificate of medical exemption issued free by the county tax collector on an affidavit signed by the applicant and attested by a Mississippi-licensed physician or (since July 1, 2026) a Mississippi-licensed optometrist, plus proof of ownership or owner's affidavit; must be prominently displayed on the dashboard.",
+   "url": "https://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2453SG.htm"
+  },
+  "penalty": {
+   "text": "Driving with illegal tint: misdemeanor under § 63-7-7, punished under § 63-9-11: first conviction fine up to $100 or up to 10 days jail; 2nd within a year up to $200 / 20 days; 3rd+ within a year up to $500 / 6 months. Installing illegal film, issuing a false label or misusing labels/certificates: fine up to $1,000 and/or up to 3 months jail. Enforced only by DPS officers and police of municipalities of 2,000+.",
+   "maxFineUsd": 100,
+   "cite": "Miss. Code §§ 63-7-59(10)-(12), 63-7-7, 63-9-11",
+   "url": "http://www.lexisnexis.com/hottopics/mscode/"
+  },
+  "lastAmended": "2026 (S.B. 2453, approved March 13, 2026, effective July 1, 2026: optometrists may attest for medical exemption; 28% unchanged)",
+  "quotes": [
+   "with any tinted film, glazing material or darkening material of any kind on the windshield of a motor vehicle except material designed to replace or provide a sun shield in the uppermost area as authorized to be installed by manufacturers of vehicles under federal law",
+   "certifying that all the windows of the vehicle have a light transmittance of twenty-eight percent (28%) or more",
+   "Any window behind the front two (2) side windows, including the rear window, of any pickup truck, van, motor home, recreational vehicle, sport utility vehicle or multipurpose vehicle",
+   "diagnosed by a physician licensed to practice medicine in the State of Mississippi or by an optometrist licensed to practice optometry in the State of Mississippi",
+   "shall be punished by a fine of not more than One Thousand Dollars ($1,000.00), or imprisonment in the county jail for not more than three (3) months",
+   "a fine of not more than One Hundred Dollars ($100.00) or by imprisonment for not more than ten (10) days"
   ]
+ },
+ "helmet": {
+  "rule": null,
+  "ageUnder": null,
+  "conditions": null,
+  "cite": "Miss. Code § 63-7-64",
+  "url": null
+ },
+ "handheldPhone": {
+  "allDriversBan": null,
+  "textingBan": null,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": null,
+  "fineText": null,
+  "cite": "Miss. Code § 63-33-1",
+  "url": null
+ },
+ "studdedTires": {
+  "allowed": null,
+  "season": null,
+  "cite": null,
+  "url": null
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found for passenger vehicles; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71).",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Mississippi has no per-section official URL (the Legislature links to the LexisNexis-hosted code); tint text read on 2026-10-24 in the official Legislature text of 2026 SB 2453, which reprints the whole section. Penalty sections 63-7-7 and 63-9-11 were read on a non-official copy and are not confirmed.",
+  "Multipurpose rear windows: 'any' is an interpretation of the federal-minimum exemption (FMVSS 205 sets no minimum for windows behind the driver on MPVs).",
+  "Studded tires, underglow, lift height: not found (web search budget exhausted); null.",
+  "Helmet (Miss. Code § 63-7-64): not confirmed on an official page (earlier read on a non-official copy of the code); left null.",
+  "Texting (Miss. Code § 63-33-1): not confirmed on an official page; left null."
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "billstatus.ls.state.ms.us",
+  "docEn": "text of 2026 act SB 2453, which reprints the whole section",
+  "docEs": "texto de la ley SB 2453 de 2026, que reproduce toda la sección"
+ }
 }

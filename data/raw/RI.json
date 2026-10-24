@@ -1,44 +1,143 @@
 {
-  "code": "RI", "name": "Rhode Island",
-  "tint": {
-    "statute": [
-      {"cite": "R.I. Gen. Laws § 31-23.3-2", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-2.htm", "readVia": "web.archive.org snapshot 2025-02-12 (official site refused our connection)"},
-      {"cite": "R.I. Gen. Laws § 31-23.3-4 (exemptions incl. the 70% rule)", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-4.htm", "readVia": "web.archive.org snapshot"},
-      {"cite": "R.I. Gen. Laws § 31-23.3-5 (penalties)", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-5.htm", "readVia": "web.archive.org snapshot 2025-02-11"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "transparent material allowed in the uppermost 6 in. if it does not encroach on the driver's direct forward viewing area; otherwise 70% total", "stripInches": 6, "asLine": false, "vlt": 70, "reflective": null},
-      "frontSide": {"vlt": 70, "note": "total visible light transmittance measured perpendicular to the glass"},
-      "backSide": {"vlt": 70, "note": "side windows immediately to the rear of the operator's and front passenger seats"},
-      "rear": {"vlt": 70, "note": "70% on the rear window allowed if two outside mirrors are fitted"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "same (top 6 in.)", "stripInches": 6, "asLine": false, "vlt": 70, "reflective": null},
-      "frontSide": {"vlt": 70, "note": null},
-      "backSide": {"vlt": "any", "note": "chapter does not apply to windows behind the driver in trucks, buses, trailers, motor homes, campers, multipurpose vehicles, charter buses, funeral vehicles or limousines with two outside mirrors"},
-      "rear": {"vlt": "any", "note": "same, with two outside mirrors"}
-    },
-    "measuredHow": "film + glass combined (transmittance defined through 'the product or material, including glazing'; 'total visible light transmittance measured perpendicular to the surface of the glass')",
-    "reflectivity": {"front": null, "back": null},
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": "Two outside mirrors (one each side) required for a tinted rear window and for the rear-window exemption on trucks/MPVs",
-    "certificateOrSticker": "Installer must affix a label (max 1.5 sq in.) with installer name and % transmittance on the lower left corner of the front window (viewed from outside); medical exemption: DMV sticker on the driver's side window",
-    "medicalExemption": {"available": true, "text": "Affidavit from a physician or optometrist licensed in Rhode Island submitted with an application to the Division of Motor Vehicles, which issues a sticker for the driver's side window", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-4.htm"},
-    "penalty": {"text": "Owner: fine up to $250; installer: up to $250 per offense", "maxFineUsd": 250, "cite": "R.I. Gen. Laws § 31-23.3-5", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-5.htm"},
-    "lastAmended": "1994 (P.L. 1994, ch. 76) for 31-23.3-4",
-    "quotes": [
-      "which has a total visible light transmittance of not less than seventy percent (70%) measured perpendicular to the surface of the glass on the windshield and side windows immediately adjacent to the right and left of the operator's seat, the side windows immediately to the rear of the operator's seat and the front passenger seat or on the rear window if the vehicle is equipped with two (2) outside mirrors",
-      "The use of any transparent material limited to the uppermost six inches (6\") along the top of the windshield",
-      "Any person who owns a motor vehicle which has installed on it any sunscreening device or material in violation of this chapter shall be fined not more than two hundred fifty dollars ($250)."
-    ]
+ "code": "RI",
+ "name": "Rhode Island",
+ "tint": {
+  "statute": [
+   {
+    "cite": "R.I. Gen. Laws § 31-23.3-2",
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-2.htm",
+    "readVia": "web.archive.org snapshot 2025-02-12 (official site refused our connection)"
+   },
+   {
+    "cite": "R.I. Gen. Laws § 31-23.3-4 (exemptions incl. the 70% rule)",
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-4.htm",
+    "readVia": "web.archive.org snapshot"
+   },
+   {
+    "cite": "R.I. Gen. Laws § 31-23.3-5 (penalties)",
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-5.htm",
+    "readVia": "web.archive.org snapshot 2025-02-11"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material allowed in the uppermost 6 in. if it does not encroach on the driver's direct forward viewing area; otherwise 70% total",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 70,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "total visible light transmittance measured perpendicular to the glass"
+   },
+   "backSide": {
+    "vlt": 70,
+    "note": "side windows immediately to the rear of the operator's and front passenger seats"
+   },
+   "rear": {
+    "vlt": 70,
+    "note": "70% on the rear window allowed if two outside mirrors are fitted"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 21, "conditions": "Operators under 21, and all new operators for one year after their first motorcycle license; eye protection required for all operators", "cite": "R.I. Gen. Laws § 31-10.1-4", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10.1/31-10.1-4.htm"},
-  "handheldPhone": {"allDriversBan": null, "textingBan": null, "noviceOrAgeBan": null, "primaryEnforcement": null, "fineText": null, "cite": "R.I. Gen. Laws § 31-22-30.1 (not read)", "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-22/31-22-30.1.htm"},
-  "studdedTires": {"allowed": null, "season": null, "cite": null, "url": null},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Official RI site refused connections; tint sections read from Feb 2025 Wayback snapshots (index page Dec 2025 shows same 6 sections)", "Handheld phone law (31-22-30.1, hands-free) could not be read - no archived copy; left null", "Studded tire rule not located", "Underglow and lift rules not located"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same (top 6 in.)",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 70,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": null
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "chapter does not apply to windows behind the driver in trucks, buses, trailers, motor homes, campers, multipurpose vehicles, charter buses, funeral vehicles or limousines with two outside mirrors"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same, with two outside mirrors"
+   }
+  },
+  "measuredHow": "film + glass combined (transmittance defined through 'the product or material, including glazing'; 'total visible light transmittance measured perpendicular to the surface of the glass')",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Two outside mirrors (one each side) required for a tinted rear window and for the rear-window exemption on trucks/MPVs",
+  "certificateOrSticker": "Installer must affix a label (max 1.5 sq in.) with installer name and % transmittance on the lower left corner of the front window (viewed from outside); medical exemption: DMV sticker on the driver's side window",
+  "medicalExemption": {
+   "available": true,
+   "text": "Affidavit from a physician or optometrist licensed in Rhode Island submitted with an application to the Division of Motor Vehicles, which issues a sticker for the driver's side window",
+   "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-4.htm"
+  },
+  "penalty": {
+   "text": "Owner: fine up to $250; installer: up to $250 per offense",
+   "maxFineUsd": 250,
+   "cite": "R.I. Gen. Laws § 31-23.3-5",
+   "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-23.3/31-23.3-5.htm"
+  },
+  "lastAmended": "1994 (P.L. 1994, ch. 76) for 31-23.3-4",
+  "quotes": [
+   "which has a total visible light transmittance of not less than seventy percent (70%) measured perpendicular to the surface of the glass on the windshield and side windows immediately adjacent to the right and left of the operator's seat, the side windows immediately to the rear of the operator's seat and the front passenger seat or on the rear window if the vehicle is equipped with two (2) outside mirrors",
+   "The use of any transparent material limited to the uppermost six inches (6\") along the top of the windshield",
+   "Any person who owns a motor vehicle which has installed on it any sunscreening device or material in violation of this chapter shall be fined not more than two hundred fifty dollars ($250)."
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 21,
+  "conditions": "Operators under 21, and all new operators for one year after their first motorcycle license; eye protection required for all operators",
+  "cite": "R.I. Gen. Laws § 31-10.1-4",
+  "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10.1/31-10.1-4.htm"
+ },
+ "handheldPhone": {
+  "allDriversBan": null,
+  "textingBan": null,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": null,
+  "fineText": null,
+  "cite": "R.I. Gen. Laws § 31-22-30.1 (not read)",
+  "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-22/31-22-30.1.htm"
+ },
+ "studdedTires": {
+  "allowed": null,
+  "season": null,
+  "cite": null,
+  "url": null
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Official RI site refused connections; tint sections read from Feb 2025 Wayback snapshots (index page Dec 2025 shows same 6 sections)",
+  "Handheld phone law (31-22-30.1, hands-free) could not be read - no archived copy; left null",
+  "Studded tire rule not located",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2025-02-12",
+  "host": "rilegislature.gov"
+ }
 }

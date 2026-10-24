@@ -5,6 +5,7 @@
  * FAQ, related pages, sources and author box come from PageLayout; the FAQ is shown and marked up
  * from the same list (§7).
  */
+import { readNote } from '../lib/read-note';
 import PageLayout from '../layouts/PageLayout.astro';
 import Clamp from './Clamp.astro';
 import Tool from './Tool.astro';
@@ -41,6 +42,7 @@ if (page.state) {
   if (s.detail.penalty?.url) add(s.detail.penalty.cite ?? s.detail.statute[0].cite, s.detail.penalty.url);
   for (const x of [...s.detail.statute].reverse()) add(x.cite, x.url);
 }
+const stRead = page.state ? stateByCode(page.state).read : null;
 const chunks: Array<{ html?: string; tool?: ToolDef }> = [];
 for (let i = 0; i < parts.length; i += 3) { chunks.push({ html: parts[i] }); if (parts[i + 1]) chunks.push({ tool: { kind: parts[i + 1], props: parts[i + 2] ? JSON.parse(parts[i + 2]) : undefined } }); }
 ---
@@ -55,6 +57,7 @@ for (let i = 0; i < parts.length; i += 3) { chunks.push({ html: parts[i] }); if 
     <Clamp text={T.resume(h)} id={`clamp-${page.id}`} lang={lang} class="mb-3" />
     {page.mini && <div class="mb-4"><Tool tool={page.mini} lang={lang} idPrefix="g" state={page.state} /></div>}
     <p class="mb-8 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('editorial', lang)} class="underline hover:text-navy-900">{ui.editorialPolicy}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method', lang)}</a></p>
+    {stRead && <p data-lecture={stRead.how} class={`-mt-6 mb-8 text-sm ${stRead.how === 'unconfirmed' ? 'font-medium text-amber-800' : 'text-navy-600'}`}>{readNote(stRead, lang)}</p>}
     <div class="prose prose-slate max-w-none">
       {chunks.map((c, i) => c.html !== undefined ? <Fragment set:html={c.html} /> : <div class="not-prose"><Tool tool={c.tool!} lang={lang} idPrefix={`s${i}`} state={page.state} /></div>)}
     </div>

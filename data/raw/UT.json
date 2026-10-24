@@ -1,37 +1,117 @@
 {
-  "code": "UT", "name": "Utah",
-  "tint": {
-    "statute": [{"cite": "Utah Code § 41-6a-1635", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1635.html", "readVia": "https://le.utah.gov/xcode/Title41/Chapter6A/C41-6a-S1635_2025050720250507.html (current version, effective 5/7/2025)"}],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "windshield must allow at least 70% light transmittance; nontransparent material allowed along the top edge down to 4 in. from the top or the AS-1 line, whichever is lowest; also lower left corner up to 3 in. right x 4 in. high", "stripInches": 4, "asLine": true, "vlt": 70, "reflective": "no metallic or mirrored appearance on any window"},
-      "frontSide": {"vlt": 35, "note": "no more than a 5% variance observed by a peace officer metering the light transmittance"},
-      "backSide": {"vlt": "any", "note": "nontransparent materials may be used on rear side windows behind the operator; left and right mirrors required"},
-      "rear": {"vlt": "any", "note": "left and right rear-view mirrors required when any window (other than the windshield strip) is tinted"}
-    },
-    "multipurpose": null,
-    "measuredHow": "not stated ('a front side window that allows less than 35% light transmittance' - i.e. the window as a whole)",
-    "reflectivity": {"front": "no metallic or mirrored appearance", "back": "no metallic or mirrored appearance"},
-    "tolerance": {"points": 5, "cite": "Utah Code § 41-6a-1635(1)(b)"},
-    "colorsBanned": [],
-    "dualMirrors": "Required (left and right) for a vehicle with tinting or nontransparent material on any window other than the permitted windshield areas",
-    "certificateOrSticker": null,
-    "medicalExemption": {"available": null, "text": "No medical exemption appears in the current text of 41-6a-1635; not verified elsewhere", "url": null},
-    "penalty": {"text": "Infraction; selling/installing non-compliant tint also prohibited; officers may not seek license/registration suspension for windshield or front-side tint violations", "maxFineUsd": null, "cite": "Utah Code § 41-6a-1635(7), (9), (10)", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1635.html"},
-    "lastAmended": "2025 (Chapter 205, 2025 General Session, effective 5/7/2025); the 35% front-side figure was already in the 2022 version",
-    "quotes": [
-      "a windshield that allows less than 70% light transmittance",
-      "a front side window that allows less than 35% light transmittance, with no more than a 5% variance observed by a peace officer metering the light transmittance",
-      "along the top edge of the windshield if the materials do not extend downward more than four inches from the top edge of the windshield or beyond the AS-1 line whichever is lowest",
-      "on the rear windows including rear side windows located behind the vehicle operator",
-      "A violation of this section is an infraction."
-    ]
+ "code": "UT",
+ "name": "Utah",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Utah Code § 41-6a-1635",
+    "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1635.html",
+    "readVia": "https://le.utah.gov/xcode/Title41/Chapter6A/C41-6a-S1635_2025050720250507.html (current version, effective 5/7/2025)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "windshield must allow at least 70% light transmittance; nontransparent material allowed along the top edge down to 4 in. from the top or the AS-1 line, whichever is lowest; also lower left corner up to 3 in. right x 4 in. high",
+    "stripInches": 4,
+    "asLine": true,
+    "vlt": 70,
+    "reflective": "no metallic or mirrored appearance on any window"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "no more than a 5% variance observed by a peace officer metering the light transmittance"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "nontransparent materials may be used on rear side windows behind the operator; left and right mirrors required"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "left and right rear-view mirrors required when any window (other than the windshield strip) is tinted"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 21, "conditions": "Under 21 on a motorcycle, non-enclosed autocycle, e-bike, motor assisted scooter or high power electric device; max fine $110 (motorcycle)", "cite": "Utah Code § 41-6a-1505 (amended 2026, ch. 334)", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1505.html"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Under-18 rule not checked", "primaryEnforcement": true, "fineText": "Manual texting, dialing, internet, photo/video, data entry banned (voice calls allowed); class C misdemeanor, max $100; class B if serious injury or prior conviction within 3 years", "cite": "Utah Code § 41-6a-1716", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1716.html"},
-  "studdedTires": {"allowed": "seasonal", "season": "Oct 15 - Mar 31 (tungsten carbide studs, max .050 in. protrusion; vehicles up to 9,000 lb GVWR except emergency vehicles/school buses)", "cite": "Utah Code § 41-6a-1636(5) (amended 2026, ch. 295)", "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1636.html"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Medical exemption: none in statute; DPS rules not checked", "Tint infraction fine amount not stated", "Primary enforcement of phone law assumed (no secondary clause in text)", "Underglow and lift rules not located"]
+  "multipurpose": null,
+  "measuredHow": "not stated ('a front side window that allows less than 35% light transmittance' - i.e. the window as a whole)",
+  "reflectivity": {
+   "front": "no metallic or mirrored appearance",
+   "back": "no metallic or mirrored appearance"
+  },
+  "tolerance": {
+   "points": 5,
+   "cite": "Utah Code § 41-6a-1635(1)(b)"
+  },
+  "colorsBanned": [],
+  "dualMirrors": "Required (left and right) for a vehicle with tinting or nontransparent material on any window other than the permitted windshield areas",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": null,
+   "text": "No medical exemption appears in the current text of 41-6a-1635; not verified elsewhere",
+   "url": null
+  },
+  "penalty": {
+   "text": "Infraction; selling/installing non-compliant tint also prohibited; officers may not seek license/registration suspension for windshield or front-side tint violations",
+   "maxFineUsd": null,
+   "cite": "Utah Code § 41-6a-1635(7), (9), (10)",
+   "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1635.html"
+  },
+  "lastAmended": "2025 (Chapter 205, 2025 General Session, effective 5/7/2025); the 35% front-side figure was already in the 2022 version",
+  "quotes": [
+   "a windshield that allows less than 70% light transmittance",
+   "a front side window that allows less than 35% light transmittance, with no more than a 5% variance observed by a peace officer metering the light transmittance",
+   "along the top edge of the windshield if the materials do not extend downward more than four inches from the top edge of the windshield or beyond the AS-1 line whichever is lowest",
+   "on the rear windows including rear side windows located behind the vehicle operator",
+   "A violation of this section is an infraction."
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 21,
+  "conditions": "Under 21 on a motorcycle, non-enclosed autocycle, e-bike, motor assisted scooter or high power electric device; max fine $110 (motorcycle)",
+  "cite": "Utah Code § 41-6a-1505 (amended 2026, ch. 334)",
+  "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1505.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Under-18 rule not checked",
+  "primaryEnforcement": true,
+  "fineText": "Manual texting, dialing, internet, photo/video, data entry banned (voice calls allowed); class C misdemeanor, max $100; class B if serious injury or prior conviction within 3 years",
+  "cite": "Utah Code § 41-6a-1716",
+  "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1716.html"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 15 - Mar 31 (tungsten carbide studs, max .050 in. protrusion; vehicles up to 9,000 lb GVWR except emergency vehicles/school buses)",
+  "cite": "Utah Code § 41-6a-1636(5) (amended 2026, ch. 295)",
+  "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1636.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Medical exemption: none in statute; DPS rules not checked",
+  "Tint infraction fine amount not stated",
+  "Primary enforcement of phone law assumed (no secondary clause in text)",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "le.utah.gov"
+ }
 }

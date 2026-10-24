@@ -1,40 +1,125 @@
 {
-  "code": "SD", "name": "South Dakota",
-  "tint": {
-    "statute": [
-      {"cite": "S.D. Codified Laws § 32-15-2.4 (windshield and front side)", "url": "https://sdlegislature.gov/Statutes/32-15-2.4", "readVia": "https://sdlegislature.gov/api/Statutes/32-15-2.4.html (official API copy)"},
-      {"cite": "S.D. Codified Laws § 32-15-2.5 (rear windows)", "url": "https://sdlegislature.gov/Statutes/32-15-2.5", "readVia": "official API copy"},
-      {"cite": "S.D. Codified Laws § 32-15-2.9 (windshield film)", "url": "https://sdlegislature.gov/Statutes/32-15-2.9", "readVia": "official API copy"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "no film below the AS-1 line or below the lowest point of the sun visor; no sunscreening device that obstructs or reduces the clear view", "stripInches": null, "asLine": true, "vlt": null, "reflective": null},
-      "frontSide": {"vlt": 35, "note": "combined level (film + glass), enforcement tolerance 9 points"},
-      "backSide": {"vlt": 20, "note": "rear windows behind the operator's seat: 20%, enforcement tolerance 9 points"},
-      "rear": {"vlt": 20, "note": "20%, tolerance 9 points"}
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('reduces the light transmittance of such windows to the combined level'; definition includes 'the product or material and the glazing')",
-    "reflectivity": {"front": null, "back": null},
-    "tolerance": {"points": 9, "cite": "S.D. Codified Laws §§ 32-15-2.4, 32-15-2.5 ('enforcement tolerance of nine percent')"},
-    "colorsBanned": [],
-    "dualMirrors": null,
-    "certificateOrSticker": "Officer must note the meter serial number and certification date on the citation (32-15-2.10)",
-    "medicalExemption": {"available": false, "text": "No medical exemption in ch. 32-15 as read (32-15-2.8 repealed in 2005)", "url": null},
-    "penalty": {"text": "Class 2 misdemeanor: up to 30 days in county jail and/or $500 fine", "maxFineUsd": 500, "cite": "S.D. Codified Laws §§ 32-15-2.4, 32-15-2.5, 22-6-2", "url": "https://sdlegislature.gov/Statutes/22-6-2"},
-    "lastAmended": "1994 (SL 1994, ch 257)",
-    "quotes": [
-      "which reduces the light transmittance of such windows to the combined level below thirty-five percent, with an enforcement tolerance of nine percent",
-      "in the rear windows behind the operators seat that reduces light transmission below twenty percent, with an enforcement tolerance of nine percent",
-      "No film may be extended downward beyond the AS-1 line or more than the lowest point of the sun visor of the motor vehicle.",
-      "Class 2 misdemeanor: thirty days imprisonment in a county jail or five hundred dollars fine, or both."
-    ]
+ "code": "SD",
+ "name": "South Dakota",
+ "tint": {
+  "statute": [
+   {
+    "cite": "S.D. Codified Laws § 32-15-2.4 (windshield and front side)",
+    "url": "https://sdlegislature.gov/Statutes/32-15-2.4",
+    "readVia": "https://sdlegislature.gov/api/Statutes/32-15-2.4.html (official API copy)"
+   },
+   {
+    "cite": "S.D. Codified Laws § 32-15-2.5 (rear windows)",
+    "url": "https://sdlegislature.gov/Statutes/32-15-2.5",
+    "readVia": "official API copy"
+   },
+   {
+    "cite": "S.D. Codified Laws § 32-15-2.9 (windshield film)",
+    "url": "https://sdlegislature.gov/Statutes/32-15-2.9",
+    "readVia": "official API copy"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "no film below the AS-1 line or below the lowest point of the sun visor; no sunscreening device that obstructs or reduces the clear view",
+    "stripInches": null,
+    "asLine": true,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "combined level (film + glass), enforcement tolerance 9 points"
+   },
+   "backSide": {
+    "vlt": 20,
+    "note": "rear windows behind the operator's seat: 20%, enforcement tolerance 9 points"
+   },
+   "rear": {
+    "vlt": 20,
+    "note": "20%, tolerance 9 points"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "Operators and riders under 18; operators may not carry an unhelmeted passenger under 18", "cite": "S.D. Codified Laws § 32-20-4", "url": "https://sdlegislature.gov/Statutes/32-20-4"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Separate restriction for permit/restricted-license holders (32-26-47.2, not read)", "primaryEnforcement": true, "fineText": "Using a mobile electronic device (texting, manual entry) while driving: Class 2 misdemeanor (up to $500 / 30 days); calls and hands-free use excepted", "cite": "S.D. Codified Laws § 32-26-47.1", "url": "https://sdlegislature.gov/Statutes/32-26-47.1"},
-  "studdedTires": {"allowed": "seasonal", "season": "Oct 1 - Apr 30 (prohibited May 1 - Sept 30; school buses and local fire vehicles over 5,000 lb excepted)", "cite": "S.D. Codified Laws § 32-19-3", "url": "https://sdlegislature.gov/Statutes/32-19-3"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Primary enforcement of 32-26-47.1 assumed (no secondary clause in the text)", "No separate multipurpose-vehicle rule found", "Underglow and lift rules not located"]
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('reduces the light transmittance of such windows to the combined level'; definition includes 'the product or material and the glazing')",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": {
+   "points": 9,
+   "cite": "S.D. Codified Laws §§ 32-15-2.4, 32-15-2.5 ('enforcement tolerance of nine percent')"
+  },
+  "colorsBanned": [],
+  "dualMirrors": null,
+  "certificateOrSticker": "Officer must note the meter serial number and certification date on the citation (32-15-2.10)",
+  "medicalExemption": {
+   "available": false,
+   "text": "No medical exemption in ch. 32-15 as read (32-15-2.8 repealed in 2005)",
+   "url": null
+  },
+  "penalty": {
+   "text": "Class 2 misdemeanor: up to 30 days in county jail and/or $500 fine",
+   "maxFineUsd": 500,
+   "cite": "S.D. Codified Laws §§ 32-15-2.4, 32-15-2.5, 22-6-2",
+   "url": "https://sdlegislature.gov/Statutes/22-6-2"
+  },
+  "lastAmended": "1994 (SL 1994, ch 257)",
+  "quotes": [
+   "which reduces the light transmittance of such windows to the combined level below thirty-five percent, with an enforcement tolerance of nine percent",
+   "in the rear windows behind the operators seat that reduces light transmission below twenty percent, with an enforcement tolerance of nine percent",
+   "No film may be extended downward beyond the AS-1 line or more than the lowest point of the sun visor of the motor vehicle.",
+   "Class 2 misdemeanor: thirty days imprisonment in a county jail or five hundred dollars fine, or both."
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Operators and riders under 18; operators may not carry an unhelmeted passenger under 18",
+  "cite": "S.D. Codified Laws § 32-20-4",
+  "url": "https://sdlegislature.gov/Statutes/32-20-4"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Separate restriction for permit/restricted-license holders (32-26-47.2, not read)",
+  "primaryEnforcement": true,
+  "fineText": "Using a mobile electronic device (texting, manual entry) while driving: Class 2 misdemeanor (up to $500 / 30 days); calls and hands-free use excepted",
+  "cite": "S.D. Codified Laws § 32-26-47.1",
+  "url": "https://sdlegislature.gov/Statutes/32-26-47.1"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 1 - Apr 30 (prohibited May 1 - Sept 30; school buses and local fire vehicles over 5,000 lb excepted)",
+  "cite": "S.D. Codified Laws § 32-19-3",
+  "url": "https://sdlegislature.gov/Statutes/32-19-3"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Primary enforcement of 32-26-47.1 assumed (no secondary clause in the text)",
+  "No separate multipurpose-vehicle rule found",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "sdlegislature.gov"
+ }
 }

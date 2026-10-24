@@ -55,3 +55,28 @@ describe('règles particulières relues en phase 2 (2026-10-24)', () => {
     expect(r.verdict).toBe('tolerance');
   });
 });
+
+describe('provenance de la lecture (relecture officielle du 2026-10-24)', () => {
+  type R = { code: string; read: { how: string; date: string; host: string } };
+  const recs = states as unknown as R[];
+  const how = (h: string) => recs.filter((s) => s.read?.how === h).map((s) => s.code).sort();
+  it('chaque État dit comment il a été lu : site officiel, copie archivée datée ou non confirmé', () => {
+    for (const s of recs) {
+      expect(['official', 'archive', 'unconfirmed']).toContain(s.read.how);
+      expect(s.read.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    }
+    expect(how('official')).toHaveLength(32);
+    expect(how('archive')).toHaveLength(17);
+    expect(how('unconfirmed')).toEqual(['AR', 'TN']);
+  });
+  it('aucun relais non officiel (FindLaw, Justia, public.law, onecle, Cornell) dans les données', () => {
+    expect(JSON.stringify(states)).not.toMatch(/findlaw|justia|public\.law|onecle|law\.cornell/i);
+  });
+  it('valeurs relues sur le texte officiel', () => {
+    expect([by('IN').passenger.frontSide.vlt, by('IN').passenger.backSide.vlt, by('IN').passenger.rear.vlt]).toEqual([30, 'any', 30]); // IC 9-19-19-4, Indiana Code 2025
+    expect(by('HI').passenger.frontSide.vlt).toBe(35); // HRS 291-21.5, Act 129 (2025)
+    expect(by('MA').passenger.frontSide.vlt).toBe(35); // M.G.L. c. 90 § 9D
+    expect(by('CO').passenger.frontSide.vlt).toBe(27); // C.R.S. 42-4-227 (2024)
+    expect(by('CA').passenger.backSide.vlt).toBe('any'); // Cal. Veh. Code § 26708(b)(4)
+  });
+});

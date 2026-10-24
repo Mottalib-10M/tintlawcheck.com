@@ -67,6 +67,9 @@ const jsonLd = [webApplicationSchema({ name: L.h1, description: L.description, p
 const guides = PAGES.filter((p) => p.group !== 'states' && hasRoute(p.id, lang));
 const states = PAGES.filter((p) => p.group === 'states' && hasRoute(p.id, lang));
 const T = (p: (typeof PAGES)[number]) => (es ? p.es! : p.en);
+const nOff = STATES.filter((s) => s.read.how === 'official').length;
+const nArc = STATES.filter((s) => s.read.how === 'archive').length;
+const nUnc = STATES.filter((s) => s.read.how === 'unconfirmed').length;
 ---
 <PageLayout title={L.title} description={L.description} lang={lang} jsonLd={jsonLd} faqs={faqs}>
   <header class="mb-3">
@@ -75,7 +78,7 @@ const T = (p: (typeof PAGES)[number]) => (es ? p.es! : p.en);
   </header>
   <div data-outil class="mb-4"><Tool tool={{ kind: 'tint', props: { state: 'TX' } }} lang={lang} primary={true} /></div>
   <Clamp text={resume} id="clamp-home" lang={lang} class="mb-3" />
-  <p class="mb-8 text-sm text-navy-600">{es ? 'Actualizado el' : 'Last updated'} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, es ? 'es-US' : 'en-US')}</time>{es ? `, ${STATES.length} leyes estatales leídas en su texto oficial` : `, ${STATES.length} state statutes read in their official text`} · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">{es ? 'Cómo funciona el cálculo' : 'How the check works'}</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">{es ? 'Quiénes somos' : 'About'}</a></p>
+  <p class="mb-8 text-sm text-navy-600">{es ? 'Actualizado el' : 'Last updated'} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, es ? 'es-US' : 'en-US')}</time>{es ? `, ${nOff} leyes estatales leídas en el sitio oficial, ${nArc} en una copia archivada fechada de la página oficial, ${nUnc} no confirmadas` : `, ${nOff} state statutes read on the official site, ${nArc} on a dated archived copy of the official page, ${nUnc} not confirmed`} · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">{es ? 'Cómo funciona el cálculo' : 'How the check works'}</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">{es ? 'Quiénes somos' : 'About'}</a></p>
 
   {es ? (
   <div class="prose prose-slate max-w-none">
@@ -108,7 +111,7 @@ const T = (p: (typeof PAGES)[number]) => (es ? p.es! : p.en);
       <li><strong>Las etiquetas y certificados.</strong> Algunos estados exigen una etiqueta del instalador entre la lámina y el vidrio.</li>
     </ul>
     <h2>Cómo leímos las leyes</h2>
-    <p>Para cada estado y para DC leímos la sección del código de vehículos sobre el polarizado, en el sitio oficial de la legislatura cuando respondía, y anotamos para cada ventana el mínimo, la tolerancia, la regla de las SUV, la exención médica y la multa, con un extracto literal de la frase que da la cifra. Donde la ley no da una cifra, el sitio lo dice en lugar de inventarla. El <a href={route('method', lang)}>método</a> detalla las fuentes, los casos difíciles y lo que el cálculo no hace.</p>
+    <p>Para cada estado y para DC leímos la sección del código de vehículos sobre el polarizado, en el sitio oficial de la legislatura cuando respondía (si no, en una copia archivada fechada de la página oficial, o marcada como no confirmada), y anotamos para cada ventana el mínimo, la tolerancia, la regla de las SUV, la exención médica y la multa, con un extracto literal de la frase que da la cifra. Donde la ley no da una cifra, el sitio lo dice en lugar de inventarla. El <a href={route('method', lang)}>método</a> detalla las fuentes, los casos difíciles y lo que el cálculo no hace.</p>
   </div>
   ) : (
   <div class="prose prose-slate max-w-none">
@@ -123,7 +126,7 @@ const T = (p: (typeof PAGES)[number]) => (es ? p.es! : p.en);
       <li><strong>Labels and certificates.</strong> Some states require an installer's label between the film and the glass.</li>
     </ul>
     <h2>How we read the laws</h2>
-    <p>For each state and for DC we read the section of the vehicle code on window tint, on the legislature's official site whenever it answered, and recorded for each window the minimum, the tolerance, the SUV rule, the medical exemption and the fine, with a word-for-word extract of the sentence that gives the figure. Where the law gives no figure, the site says so instead of making one up. The <a href={route('method', lang)}>method page</a> covers the sources, the hard cases and what the check does not do.</p>
+    <p>For each state and for DC we read the section of the vehicle code on window tint, on the legislature's official site whenever it answered (otherwise on a dated archived copy of the official page, or marked not confirmed), and recorded for each window the minimum, the tolerance, the SUV rule, the medical exemption and the fine, with a word-for-word extract of the sentence that gives the figure. Where the law gives no figure, the site says so instead of making one up. The <a href={route('method', lang)}>method page</a> covers the sources, the hard cases and what the check does not do.</p>
   </div>
   )}
 

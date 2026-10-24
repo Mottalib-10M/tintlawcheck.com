@@ -1,45 +1,146 @@
 {
-  "code": "OR", "name": "Oregon",
-  "tint": {
-    "statute": [
-      {"cite": "Or. Rev. Stat. § 815.221", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html", "readVia": "web.archive.org snapshot 2026-09-23 of the official ORS chapter 815 page (2025 edition, notes 2026 session amendments to the chapter)"},
-      {"cite": "Or. Rev. Stat. § 815.222 (offenses, penalty)", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html", "readVia": "same"}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "darker tint allowed only on the top 6 in. of the windshield; no tint on any other portion", "stripInches": 6, "asLine": false, "vlt": null, "reflective": "mirror finish prohibited"},
-      "frontSide": {"vlt": 35, "note": "two tests: film itself at least 50% light transmittance AND total (film + glass) at least 35%; film reflectance max 13%"},
-      "backSide": {"vlt": 35, "note": "same two-part rule (film >= 50%, total >= 35%, reflectance <= 13%)"},
-      "rear": {"vlt": 35, "note": "same two-part rule"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "top 6 in. only", "stripInches": 6, "asLine": false, "vlt": null, "reflective": "mirror finish prohibited"},
-      "frontSide": {"vlt": 35, "note": "film >= 50%, total >= 35%, reflectance <= 13%"},
-      "backSide": {"vlt": "any", "note": "darker tint allowed on all windows behind the driver of a multipurpose passenger vehicle with rearview mirrors on each side; windows must meet AS-3 glazing requirements"},
-      "rear": {"vlt": "any", "note": "same"}
-    },
-    "measuredHow": "both: film alone (min 50%) and film + glass combined (min 35%)",
-    "reflectivity": {"front": "film max 13%", "back": "film max 13%"},
-    "tolerance": null,
-    "colorsBanned": ["red", "gold", "yellow", "amber", "black"],
-    "dualMirrors": "Rearview mirrors on each side required for the multipurpose-vehicle rear exemption",
-    "certificateOrSticker": "Installer must give a certificate (installer name/address, film transmittance and reflectance, statement that total transmittance is at least 35%) that must be kept in the vehicle and shown to police on request",
-    "medicalExemption": {"available": true, "text": "Darker side and rear tint allowed for a vehicle registered to a person (or guardian) when the person or a household member has a physical condition, with an affidavit, prescription or letterhead letter from a licensed physician or optometrist kept in the vehicle and shown to police; windshield not covered", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html"},
-    "penalty": {"text": "Class B traffic violation (installing or operating): presumptive fine $265, maximum $1,000; court may dismiss or reduce if windows are brought into compliance", "maxFineUsd": 1000, "cite": "Or. Rev. Stat. §§ 815.222, 153.018, 153.019", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors153.html"},
-    "lastAmended": "2015 (2015 c.579 §1)",
-    "quotes": [
-      "(a) The tinting material has a light transmittance of 50 percent or more; (b) The tinting material has a light reflectance of 13 percent or less; and (c) The total light transmittance through the window with the tinting material applied is 35 percent or more.",
-      "may be applied to the top six inches of a windshield. Tinting material may not be applied to any other portion of the windshield.",
-      "may be applied to all windows of a multipurpose passenger vehicle that are behind the driver. This subsection applies only to vehicles that are equipped with rearview mirrors on each side",
-      "Mirror finish products. (b) Red, gold, yellow, amber or black material.",
-      "Each offense described in this section is a Class B traffic violation."
-    ]
+ "code": "OR",
+ "name": "Oregon",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Or. Rev. Stat. § 815.221",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html",
+    "readVia": "web.archive.org snapshot 2026-09-23 of the official ORS chapter 815 page (2025 edition, notes 2026 session amendments to the chapter)"
+   },
+   {
+    "cite": "Or. Rev. Stat. § 815.222 (offenses, penalty)",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html",
+    "readVia": "same"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "darker tint allowed only on the top 6 in. of the windshield; no tint on any other portion",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "mirror finish prohibited"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "two tests: film itself at least 50% light transmittance AND total (film + glass) at least 35%; film reflectance max 13%"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "same two-part rule (film >= 50%, total >= 35%, reflectance <= 13%)"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "same two-part rule"
+   }
   },
-  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "All motorcycle operators (814.269) and passengers (814.275); exemptions in 814.290; Class D violation", "cite": "Or. Rev. Stat. §§ 814.269, 814.275", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors814.html"},
-  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "First conviction Class B violation (presumptive $265, max $1,000); Class A if it contributes to a crash or for a second conviction within 10 years; third within 10 years is a crime", "cite": "Or. Rev. Stat. § 811.507", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors811.html"},
-  "studdedTires": {"allowed": "seasonal", "season": "Nov 1 - Apr 1 (ODOT may extend by rule)", "cite": "Or. Rev. Stat. § 815.165(7)", "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["oregonlegislature.gov read via Wayback; ORS 815 page notes 2026-session amendments to some ch. 815 sections, 815.221 history still ends 2015", "Third-offense phone penalty text (crime class) not fully read", "Studded season extension rule not read", "Underglow and lift rules not located"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "top 6 in. only",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "mirror finish prohibited"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "film >= 50%, total >= 35%, reflectance <= 13%"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "darker tint allowed on all windows behind the driver of a multipurpose passenger vehicle with rearview mirrors on each side; windows must meet AS-3 glazing requirements"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same"
+   }
+  },
+  "measuredHow": "both: film alone (min 50%) and film + glass combined (min 35%)",
+  "reflectivity": {
+   "front": "film max 13%",
+   "back": "film max 13%"
+  },
+  "tolerance": null,
+  "colorsBanned": [
+   "red",
+   "gold",
+   "yellow",
+   "amber",
+   "black"
+  ],
+  "dualMirrors": "Rearview mirrors on each side required for the multipurpose-vehicle rear exemption",
+  "certificateOrSticker": "Installer must give a certificate (installer name/address, film transmittance and reflectance, statement that total transmittance is at least 35%) that must be kept in the vehicle and shown to police on request",
+  "medicalExemption": {
+   "available": true,
+   "text": "Darker side and rear tint allowed for a vehicle registered to a person (or guardian) when the person or a household member has a physical condition, with an affidavit, prescription or letterhead letter from a licensed physician or optometrist kept in the vehicle and shown to police; windshield not covered",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html"
+  },
+  "penalty": {
+   "text": "Class B traffic violation (installing or operating): presumptive fine $265, maximum $1,000; court may dismiss or reduce if windows are brought into compliance",
+   "maxFineUsd": 1000,
+   "cite": "Or. Rev. Stat. §§ 815.222, 153.018, 153.019",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors153.html"
+  },
+  "lastAmended": "2015 (2015 c.579 §1)",
+  "quotes": [
+   "(a) The tinting material has a light transmittance of 50 percent or more; (b) The tinting material has a light reflectance of 13 percent or less; and (c) The total light transmittance through the window with the tinting material applied is 35 percent or more.",
+   "may be applied to the top six inches of a windshield. Tinting material may not be applied to any other portion of the windshield.",
+   "may be applied to all windows of a multipurpose passenger vehicle that are behind the driver. This subsection applies only to vehicles that are equipped with rearview mirrors on each side",
+   "Mirror finish products. (b) Red, gold, yellow, amber or black material.",
+   "Each offense described in this section is a Class B traffic violation."
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All motorcycle operators (814.269) and passengers (814.275); exemptions in 814.290; Class D violation",
+  "cite": "Or. Rev. Stat. §§ 814.269, 814.275",
+  "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors814.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "First conviction Class B violation (presumptive $265, max $1,000); Class A if it contributes to a crash or for a second conviction within 10 years; third within 10 years is a crime",
+  "cite": "Or. Rev. Stat. § 811.507",
+  "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors811.html"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 1 - Apr 1 (ODOT may extend by rule)",
+  "cite": "Or. Rev. Stat. § 815.165(7)",
+  "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors815.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "oregonlegislature.gov read via Wayback; ORS 815 page notes 2026-session amendments to some ch. 815 sections, 815.221 history still ends 2015",
+  "Third-offense phone penalty text (crime class) not fully read",
+  "Studded season extension rule not read",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-09-23",
+  "host": "oregonlegislature.gov"
+ }
 }

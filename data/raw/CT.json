@@ -1,136 +1,141 @@
 {
-  "code": "CT",
-  "name": "Connecticut",
-  "tint": {
-    "statute": [
-      {
-        "cite": "Conn. Gen. Stat. § 14-99g",
-        "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat (measured 5 in. in front of backrest), not red or amber",
-        "stripInches": null,
-        "asLine": false,
-        "vlt": null,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "not mirror-like; total light transmission not less than 35% plus or minus 3%; luminous reflectance 27% plus or minus 3%"
-      },
-      "backSide": {
-        "vlt": 35,
-        "note": "right and left side windows behind the driver: 35% plus or minus 3%; reflectance 21% plus or minus 3%; not mirror-like"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "rearmost window: 35% rule, or any darkness if outside mirrors on both sides show 200 feet to the rear (§ 14-99g(c)(10))"
-      }
-    },
-    "multipurpose": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "same 29-inch topmost rule, not red or amber",
-        "stripInches": null,
-        "asLine": false,
-        "vlt": null,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "35% plus or minus 3%, reflectance 27% plus or minus 3%"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "windows behind the driver on trucks, buses, trailers, mobile homes and multipurpose passenger vehicles (49 CFR 571.3) exempt if outside mirrors on both sides show 200 feet to the rear"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "same dual-mirror condition"
-      }
-    },
-    "measuredHow": "film + glass combined (\"in conjunction with glazing material\"; light transmission includes the glazing)",
-    "reflectivity": {
-      "front": "luminous reflectance 27% (+/-3%), not mirror-like",
-      "back": "luminous reflectance 21% (+/-3%), not mirror-like"
-    },
-    "tolerance": {
-      "points": 3,
-      "cite": "Conn. Gen. Stat. § 14-99g(c)(1), (5) (\"plus or minus three per cent\")"
-    },
-    "colorsBanned": [
-      "red",
-      "amber"
-    ],
-    "dualMirrors": "Outside mirrors on left and right sides (200-foot view) required to use darker rear window, and for darker windows behind the driver on trucks/MPVs",
-    "certificateOrSticker": "Post-factory tinted windows (vehicles made and sold on/after Jan 1, 1994) need a DMV-approved sticker, max one square inch, in the lower left corner of each tinted window (§ 14-99g(e))",
-    "medicalExemption": {
-      "available": true,
-      "text": "Person required for medical reasons to be shielded from direct sun (or operating that person's vehicle or one in which they are a usual passenger) is exempt; written application to the DMV Commissioner supported by documentation from a physician or optometrist licensed in Connecticut",
-      "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g"
-    },
-    "penalty": {
-      "text": "Infraction for each offense; must remove the material and present the vehicle to the issuing police department within 60 days; repeat after failure to report can lead to impoundment",
-      "maxFineUsd": null,
-      "cite": "Conn. Gen. Stat. § 14-99g(f)",
-      "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g"
-    },
-    "lastAmended": "P.A. 07-217 (last public act listed in the section history; 35% limits set by P.A. 93-135)",
-    "quotes": [
-      "§ 14-99g(c)(1): \"...total light transmission of not less than thirty-five per cent plus or minus three per cent and a luminous reflectance of twenty-seven per cent plus or minus three per cent\"",
-      "(c)(5): \"The right and left side windows behind the driver and the rearmost window which shall not be mirror-like...not less than thirty-five per cent plus or minus three per cent and a luminous reflectance of twenty-one per cent...\"",
-      "(c)(6): \"The windows behind the driver on any truck, motor bus, trailer, mobile manufactured home, or multipurpose passenger vehicle...provided said vehicle is equipped with outside mirrors on the left and right-hand sides\"",
-      "(c)(11): \"(A) The bottom edge of the material is at least twenty-nine inches above the undepressed driver's seat... (B) the material is not red or amber in color\"",
-      "(f): \"Any person who violates any provision of subsections (b) to (e), inclusive, of this section shall be deemed to have committed an infraction for each offense.\""
-    ]
+ "code": "CT",
+ "name": "Connecticut",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Conn. Gen. Stat. § 14-99g",
+    "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat (measured 5 in. in front of backrest), not red or amber",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "not mirror-like; total light transmission not less than 35% plus or minus 3%; luminous reflectance 27% plus or minus 3%"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "right and left side windows behind the driver: 35% plus or minus 3%; reflectance 21% plus or minus 3%; not mirror-like"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "rearmost window: 35% rule, or any darkness if outside mirrors on both sides show 200 feet to the rear (§ 14-99g(c)(10))"
+   }
   },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "Operators and passengers under 18 on a motorcycle or motor-driven cycle must wear FMVSS 218 headgear; infraction, fine not less than $90",
-    "cite": "Conn. Gen. Stat. § 14-289g",
-    "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-289g"
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same 29-inch topmost rule, not red or amber",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": null,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "35% plus or minus 3%, reflectance 27% plus or minus 3%"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "windows behind the driver on trucks, buses, trailers, mobile homes and multipurpose passenger vehicles (49 CFR 571.3) exempt if outside mirrors on both sides show 200 feet to the rear"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same dual-mirror condition"
+   }
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": "Drivers under 18 may not use any hand-held phone, even with a hands-free accessory, or mobile electronic device (§ 14-296aa(d))",
-    "primaryEnforcement": true,
-    "fineText": "$200 first violation, $375 second, $625 third or subsequent",
-    "cite": "Conn. Gen. Stat. § 14-296aa",
-    "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-296aa"
+  "measuredHow": "film + glass combined (\"in conjunction with glazing material\"; light transmission includes the glazing)",
+  "reflectivity": {
+   "front": "luminous reflectance 27% (+/-3%), not mirror-like",
+   "back": "luminous reflectance 21% (+/-3%), not mirror-like"
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Nov 15 - Apr 30",
-    "cite": "Conn. Gen. Stat. § 14-98",
-    "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-98"
+  "tolerance": {
+   "points": 3,
+   "cite": "Conn. Gen. Stat. § 14-99g(c)(1), (5) (\"plus or minus three per cent\")"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No Connecticut ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "colorsBanned": [
+   "red",
+   "amber"
+  ],
+  "dualMirrors": "Outside mirrors on left and right sides (200-foot view) required to use darker rear window, and for darker windows behind the driver on trucks/MPVs",
+  "certificateOrSticker": "Post-factory tinted windows (vehicles made and sold on/after Jan 1, 1994) need a DMV-approved sticker, max one square inch, in the lower left corner of each tinted window (§ 14-99g(e))",
+  "medicalExemption": {
+   "available": true,
+   "text": "Person required for medical reasons to be shielded from direct sun (or operating that person's vehicle or one in which they are a usual passenger) is exempt; written application to the DMV Commissioner supported by documentation from a physician or optometrist licensed in Connecticut",
+   "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g"
   },
-  "underglow": {
-    "rule": "No light visible from the front other than white, yellow or amber; none visible from the rear other than red, yellow, amber or white; no red light visible from directly in front; flashing lights prohibited except listed uses; infraction",
-    "cite": "Conn. Gen. Stat. § 14-96p",
-    "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-96p"
+  "penalty": {
+   "text": "Infraction for each offense; must remove the material and present the vehicle to the issuing police department within 60 days; repeat after failure to report can lead to impoundment",
+   "maxFineUsd": null,
+   "cite": "Conn. Gen. Stat. § 14-99g(f)",
+   "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-99g"
   },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "Infraction fine amount for § 14-99g not stated in statute (set by court infraction schedule) - not found",
-    "DMV medical exemption form/page URL not confirmed",
-    "Primary enforcement for § 14-296aa inferred (no secondary-enforcement condition in text)",
-    "Lift / frame height: may be in DMV regulations (RCSA 14-80 series / § 14-137); not checked"
+  "lastAmended": "P.A. 07-217 (last public act listed in the section history; 35% limits set by P.A. 93-135)",
+  "quotes": [
+   "§ 14-99g(c)(1): \"...total light transmission of not less than thirty-five per cent plus or minus three per cent and a luminous reflectance of twenty-seven per cent plus or minus three per cent\"",
+   "(c)(5): \"The right and left side windows behind the driver and the rearmost window which shall not be mirror-like...not less than thirty-five per cent plus or minus three per cent and a luminous reflectance of twenty-one per cent...\"",
+   "(c)(6): \"The windows behind the driver on any truck, motor bus, trailer, mobile manufactured home, or multipurpose passenger vehicle...provided said vehicle is equipped with outside mirrors on the left and right-hand sides\"",
+   "(c)(11): \"(A) The bottom edge of the material is at least twenty-nine inches above the undepressed driver's seat... (B) the material is not red or amber in color\"",
+   "(f): \"Any person who violates any provision of subsections (b) to (e), inclusive, of this section shall be deemed to have committed an infraction for each offense.\""
   ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Operators and passengers under 18 on a motorcycle or motor-driven cycle must wear FMVSS 218 headgear; infraction, fine not less than $90",
+  "cite": "Conn. Gen. Stat. § 14-289g",
+  "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-289g"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Drivers under 18 may not use any hand-held phone, even with a hands-free accessory, or mobile electronic device (§ 14-296aa(d))",
+  "primaryEnforcement": true,
+  "fineText": "$200 first violation, $375 second, $625 third or subsequent",
+  "cite": "Conn. Gen. Stat. § 14-296aa",
+  "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-296aa"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 15 - Apr 30",
+  "cite": "Conn. Gen. Stat. § 14-98",
+  "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-98"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No Connecticut ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "No light visible from the front other than white, yellow or amber; none visible from the rear other than red, yellow, amber or white; no red light visible from directly in front; flashing lights prohibited except listed uses; infraction",
+  "cite": "Conn. Gen. Stat. § 14-96p",
+  "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-96p"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Infraction fine amount for § 14-99g not stated in statute (set by court infraction schedule) - not found",
+  "DMV medical exemption form/page URL not confirmed",
+  "Primary enforcement for § 14-296aa inferred (no secondary-enforcement condition in text)",
+  "Lift / frame height: may be in DMV regulations (RCSA 14-80 series / § 14-137); not checked"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "cga.ct.gov"
+ }
 }

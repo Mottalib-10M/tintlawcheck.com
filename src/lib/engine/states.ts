@@ -1,10 +1,12 @@
 /**
  * The 51 state records (50 states + DC), built by `scripts/update-data.mjs` from `data/raw/<XX>.json`.
- * Every figure here was read in the state's vehicle code; the citation and the official URL travel with it.
+ * Every figure here was read in the state's vehicle code; the citation, the official URL and how the text was read
+ * (official site, dated archived copy of the official page, or not confirmed) travel with it.
  */
 import RAW from '../../data/states.json';
 import META_RAW from '../../data/meta.json';
 import type { StateTint, Limit } from './tint';
+import type { ReadInfo } from '../read-note';
 
 export interface Statute { cite: string; url: string; readVia?: string | null }
 export interface Equip { cite?: string | null; url?: string | null; [k: string]: unknown }
@@ -26,6 +28,7 @@ export interface StateRec extends StateTint {
     [k: string]: unknown;
   };
   checkedOn: string;
+  read: ReadInfo;
   openQuestions: string[];
 }
 

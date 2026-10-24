@@ -45,7 +45,7 @@ ${h.table(['Window', 'Sedan, coupe, hatchback, wagon, convertible', 'SUV, van or
   ['Front side windows', '70%', '70%'],
   ['Rear side windows', '70%', 'no limit'],
   ['Back window', 'any, with two side mirrors', 'any, with two side mirrors'],
-], 'N.Y. Veh. & Traf. Law 375(12-a), read in an archived copy of the official New York Senate page.', ['l', 'l', 'l'])}
+], `N.Y. Veh. & Traf. Law 375(12-a), read in an archived copy of the official New York Senate page dated ${s.readDate}.`, ['l', 'l', 'l'])}
 <h2>Why so little film fits</h2>
 <p>Federal standard ${h.src('fmvss205', 'FMVSS 205')} requires at least 70% for the glass in the driver's field of view, and New York asks for the same figure with the material on. A meter cannot separate film from glass, so the room left is small:</p>
 ${h.table(['Film', 'On 80% glass', 'On 88% glass'], [
@@ -63,7 +63,7 @@ ${h.table(['Film', 'On 80% glass', 'On 88% glass'], [
 <!--tool:mini:compare|{"state":"NY","b":"NJ"}-->
 <p>${h.sl('NJ')} allows ${nj.front} on the front side windows, ${h.sl('CT')} asks for ${ct.front}, ${h.sl('MA')} for ${ma.front}, ${h.sl('VT')} allows ${vt.front} and ${h.sl('PA')} asks for ${pa.front} in its inspection table. A car tinted to the Connecticut or Massachusetts line is too dark on the front for New York.</p>
 <h2>Penalty</h2>
-<p>A violation is a traffic infraction. The general penalty of section 1800(a) applies: up to ${s.fineL}, up to 15 days in jail, or both for a first conviction, and more for a second within 18 months. Figures read on ${s.checked}, from an archived copy of the official New York Senate page of the law.</p>`;
+<p>A violation is a traffic infraction. The general penalty of section 1800(a) applies: up to ${s.fineL}, up to 15 days in jail, or both for a first conviction, and more for a second within 18 months. ${s.readL}</p>`;
     },
   },
   es: {
@@ -97,7 +97,7 @@ ${h.table(['Ventana', 'Sedán, cupé, hatchback, ranchera, convertible', 'SUV, v
   ['Laterales delanteras', '70 %', '70 %'],
   ['Laterales traseras', '70 %', 'sin límite'],
   ['Vidrio trasero', 'cualquiera, con dos espejos laterales', 'cualquiera, con dos espejos laterales'],
-], 'N.Y. Veh. & Traf. Law 375(12-a), leída en una copia archivada de la página oficial del Senado de Nueva York.', ['l', 'l', 'l'])}
+], `N.Y. Veh. & Traf. Law 375(12-a), leída en una copia archivada de la página oficial del Senado de Nueva York fechada el ${s.readDate}.`, ['l', 'l', 'l'])}
 <h2>Por qué cabe tan poca lámina</h2>
 <p>La norma federal ${h.src('fmvss205', 'FMVSS 205')} exige al menos 70 % en el vidrio del campo de visión del conductor, y Nueva York pide la misma cifra con el material puesto. Un medidor no puede separar la lámina del vidrio, así que queda poco margen:</p>
 ${h.table(['Lámina', 'Vidrio de 80 %', 'Vidrio de 88 %'], [
@@ -115,7 +115,7 @@ ${h.table(['Lámina', 'Vidrio de 80 %', 'Vidrio de 88 %'], [
 <!--tool:mini:compare|{"state":"NY","b":"NJ"}-->
 <p>${h.sl('NJ')} admite ${nj.front} en las laterales delanteras, ${h.sl('CT')} pide ${ct.front}, ${h.sl('MA')} ${ma.front}, ${h.sl('VT')} admite ${vt.front} y ${h.sl('PA')} pide ${pa.front} en su tabla de inspección. Un auto polarizado al límite de Connecticut o Massachusetts es muy oscuro adelante para Nueva York.</p>
 <h2>Sanción</h2>
-<p>Una infracción es una falta de tránsito. Se aplica la sanción general de la sección 1800(a): hasta ${s.fineL}, hasta 15 días de cárcel, o ambas en una primera condena, y más en una segunda dentro de 18 meses. Cifras leídas el ${s.checked}, en una copia archivada de la página oficial de la ley en el Senado de Nueva York.</p>`;
+<p>Una infracción es una falta de tránsito. Se aplica la sanción general de la sección 1800(a): hasta ${s.fineL}, hasta 15 días de cárcel, o ambas en una primera condena, y más en una segunda dentro de 18 meses. ${s.readL}</p>`;
     },
   },
 });

@@ -1,44 +1,144 @@
 {
-  "code": "WA", "name": "Washington",
-  "tint": {
-    "statute": [
-      {"cite": "RCW 46.37.430", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430", "readVia": null},
-      {"cite": "RCW 46.37.435 (installer offenses)", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.435", "readVia": null}
-    ],
-    "passenger": {
-      "windshield": {"rule": "strip", "strip": "transparent product along the top edge allowed if it does not extend into the AS-1 portion or more than 6 in. from the top; clear UV-reducing film allowed on the windshield", "stripInches": 6, "asLine": true, "vlt": null, "reflective": "mirror finish prohibited"},
-      "frontSide": {"vlt": 24, "note": "net film sunscreening (factory tint + film) min 24% light transmission, max 35% reflectance; outside mirrors both sides required; only a single sheet of film per window"},
-      "backSide": {"vlt": 24, "note": "same 24% / 35% reflectance rule; mirrors both sides"},
-      "rear": {"vlt": 24, "note": "same 24% / 35% reflectance rule; mirrors both sides"}
-    },
-    "multipurpose": {
-      "windshield": {"rule": "strip", "strip": "same as passenger (AS-1 or 6 in. from top)", "stripInches": 6, "asLine": true, "vlt": null, "reflective": "mirror finish prohibited"},
-      "frontSide": {"vlt": 24, "note": "max 35% reflectance"},
-      "backSide": {"vlt": "any", "note": "vehicles identified by the manufacturer as truck, motor home or multipurpose passenger vehicle may go below 24% on windows to the rear of the driver if reflectance max 35% and mirrors on both sides"},
-      "rear": {"vlt": "any", "note": "same"}
-    },
-    "measuredHow": "film + glass combined ('net film sunscreening' includes manufacturer shading and aftermarket film)",
-    "reflectivity": {"front": "max 35%", "back": "max 35%"},
-    "tolerance": null,
-    "colorsBanned": ["red", "gold", "yellow", "black"],
-    "dualMirrors": "When film is applied to any window except the windshield, outside mirrors on both left and right sides giving a 200-ft rear view are required",
-    "certificateOrSticker": "Commercial installer tinting restricted areas must affix a sticker on the driver's door post (between 3/4 x 1.5 in. and 2 x 2.5 in.) with business name and state tax ID, certifying compliance",
-    "medicalExemption": {"available": true, "text": "Greater light reduction on all windows and the top 6 in. of the windshield for a vehicle operated by or carrying a person with written verification from a licensed physician that they must be protected from sunlight; no state permit, keep the physician's verification", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430"},
-    "penalty": {"text": "Operating with illegal film: traffic infraction. Knowingly installing illegal film: misdemeanor; buying/selling illegal installation services: gross misdemeanor. Mirror-finish, liquid spray-on film also prohibited.", "maxFineUsd": null, "cite": "RCW 46.37.430(7), 46.37.435", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430"},
-    "lastAmended": "2009 (2009 c 142 s 1); RCW 46.37.435 amended 2019",
-    "quotes": [
-      "The maximum level of net film sunscreening to be applied to any window, except the windshield, shall have a total reflectance of thirty-five percent or less, and a light transmission of twenty-four percent or more",
-      "any vehicle identified by the manufacturer as a truck, motor home, or multipurpose passenger vehicle ... may have net film sunscreening applied on any window to the rear of the driver that has less than twenty-four percent light transmittance",
-      "does not extend into the AS-1 portion of the windshield or extend more than six inches from the top of the windshield",
-      "Mirror finish products; (ii) Red, gold, yellow, or black material"
-    ]
+ "code": "WA",
+ "name": "Washington",
+ "tint": {
+  "statute": [
+   {
+    "cite": "RCW 46.37.430",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430",
+    "readVia": null
+   },
+   {
+    "cite": "RCW 46.37.435 (installer offenses)",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.435",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent product along the top edge allowed if it does not extend into the AS-1 portion or more than 6 in. from the top; clear UV-reducing film allowed on the windshield",
+    "stripInches": 6,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "mirror finish prohibited"
+   },
+   "frontSide": {
+    "vlt": 24,
+    "note": "net film sunscreening (factory tint + film) min 24% light transmission, max 35% reflectance; outside mirrors both sides required; only a single sheet of film per window"
+   },
+   "backSide": {
+    "vlt": 24,
+    "note": "same 24% / 35% reflectance rule; mirrors both sides"
+   },
+   "rear": {
+    "vlt": 24,
+    "note": "same 24% / 35% reflectance rule; mirrors both sides"
+   }
   },
-  "helmet": {"rule": "universal", "ageUnder": null, "conditions": "All operators and riders of motorcycles, motor-driven cycles and mopeds (except enclosed vehicles with steering wheel and seat belts, antique motor-driven cycles)", "cite": "RCW 46.37.530(1)(c)", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.530"},
-  "handheldPhone": {"allDriversBan": true, "textingBan": true, "noviceOrAgeBan": null, "primaryEnforcement": true, "fineText": "Traffic infraction, base penalty under RCW 46.63.110(3); second or subsequent offense doubled; doubled in crash prevention zones (amended 2026 c 123)", "cite": "RCW 46.61.672", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.672"},
-  "studdedTires": {"allowed": "seasonal", "season": "Nov 1 - Apr 1 (unlawful between April 1 and November 1; retractable studs engaged only Nov 1 - Apr 1)", "cite": "RCW 46.37.420(2)", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.420"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": "No numeric lift limit found in RCW; factory bumpers/energy-absorbing systems must be maintained and not removed", "cite": "RCW 46.37.513", "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.513"},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Exact phone fine amount (RCW 46.63.110 / court rule base penalty) not read", "No tolerance stated in statute", "WAC 204-21 (State Patrol film rules) not read", "Underglow rule not located; lift/frame height rules in WAC not read"]
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same as passenger (AS-1 or 6 in. from top)",
+    "stripInches": 6,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "mirror finish prohibited"
+   },
+   "frontSide": {
+    "vlt": 24,
+    "note": "max 35% reflectance"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "vehicles identified by the manufacturer as truck, motor home or multipurpose passenger vehicle may go below 24% on windows to the rear of the driver if reflectance max 35% and mirrors on both sides"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same"
+   }
+  },
+  "measuredHow": "film + glass combined ('net film sunscreening' includes manufacturer shading and aftermarket film)",
+  "reflectivity": {
+   "front": "max 35%",
+   "back": "max 35%"
+  },
+  "tolerance": null,
+  "colorsBanned": [
+   "red",
+   "gold",
+   "yellow",
+   "black"
+  ],
+  "dualMirrors": "When film is applied to any window except the windshield, outside mirrors on both left and right sides giving a 200-ft rear view are required",
+  "certificateOrSticker": "Commercial installer tinting restricted areas must affix a sticker on the driver's door post (between 3/4 x 1.5 in. and 2 x 2.5 in.) with business name and state tax ID, certifying compliance",
+  "medicalExemption": {
+   "available": true,
+   "text": "Greater light reduction on all windows and the top 6 in. of the windshield for a vehicle operated by or carrying a person with written verification from a licensed physician that they must be protected from sunlight; no state permit, keep the physician's verification",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430"
+  },
+  "penalty": {
+   "text": "Operating with illegal film: traffic infraction. Knowingly installing illegal film: misdemeanor; buying/selling illegal installation services: gross misdemeanor. Mirror-finish, liquid spray-on film also prohibited.",
+   "maxFineUsd": null,
+   "cite": "RCW 46.37.430(7), 46.37.435",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.430"
+  },
+  "lastAmended": "2009 (2009 c 142 s 1); RCW 46.37.435 amended 2019",
+  "quotes": [
+   "The maximum level of net film sunscreening to be applied to any window, except the windshield, shall have a total reflectance of thirty-five percent or less, and a light transmission of twenty-four percent or more",
+   "any vehicle identified by the manufacturer as a truck, motor home, or multipurpose passenger vehicle ... may have net film sunscreening applied on any window to the rear of the driver that has less than twenty-four percent light transmittance",
+   "does not extend into the AS-1 portion of the windshield or extend more than six inches from the top of the windshield",
+   "Mirror finish products; (ii) Red, gold, yellow, or black material"
+  ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All operators and riders of motorcycles, motor-driven cycles and mopeds (except enclosed vehicles with steering wheel and seat belts, antique motor-driven cycles)",
+  "cite": "RCW 46.37.530(1)(c)",
+  "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.530"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "Traffic infraction, base penalty under RCW 46.63.110(3); second or subsequent offense doubled; doubled in crash prevention zones (amended 2026 c 123)",
+  "cite": "RCW 46.61.672",
+  "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.672"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 1 - Apr 1 (unlawful between April 1 and November 1; retractable studs engaged only Nov 1 - Apr 1)",
+  "cite": "RCW 46.37.420(2)",
+  "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.420"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": "No numeric lift limit found in RCW; factory bumpers/energy-absorbing systems must be maintained and not removed",
+  "cite": "RCW 46.37.513",
+  "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.513"
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Exact phone fine amount (RCW 46.63.110 / court rule base penalty) not read",
+  "No tolerance stated in statute",
+  "WAC 204-21 (State Patrol film rules) not read",
+  "Underglow rule not located; lift/frame height rules in WAC not read"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "app.leg.wa.gov"
+ }
 }

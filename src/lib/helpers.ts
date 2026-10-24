@@ -5,6 +5,7 @@ import type { Limit } from './engine/tint';
 import { formatNumberL, money, pct, dateL } from './format-l';
 import P from '../data/params-2026.json';
 import { limitLabel } from './labels';
+import { readNote } from './read-note';
 export { limitLabel };
 
 export type SourceKey = keyof typeof P.sources;
@@ -63,6 +64,7 @@ export function helpers(lang: Locale, strict = false) {
       medical: med?.available ?? null, medLink: med?.url ? ext(med.url, es ? 'texto de la exención' : 'exemption text') : '',
       colors: s.detail.colorsBanned, refl: s.detail.reflectivity, combined: s.measuredHow === 'combined',
       checked: dateL(s.checkedOn, lang), amended: s.detail.lastAmended,
+      readHow: s.read.how, readDate: dateL(s.read.date, lang), readL: readNote(s.read, lang),
     };
   };
   return {

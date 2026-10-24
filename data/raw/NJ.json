@@ -6,7 +6,7 @@
    {
     "cite": "N.J.S.A. 39:3-74",
     "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
-    "readVia": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-74/ (current as of 2024-01-01; summarized, short quote only)"
+    "readVia": "Statute text not readable on the official NJ Legislature site; the rule is confirmed on the official NJ MVC pages (https://www.nj.gov/mvc/drivertopics/sunscreen.htm and the 2026 Driver Manual, linked from https://www.nj.gov/mvc/about/manuals.htm: \"New Jersey law prohibits add-on tinting on windshields and front side windows. (N.J.S.A 39:3-74)\")"
    },
    {
     "cite": "N.J.A.C. 13:20-1.1 to 1.8 (sunscreening regulation, per MVC form MR-15)",
@@ -59,17 +59,17 @@
   },
   "lastAmended": null,
   "quotes": [
-   "No person shall drive any motor vehicle with any sign, poster, sticker or other non-transparent material upon the front windshield, wings, deflectors, side shields, corner lights adjoining windshield or front side windows of such vehicle",
    "You may have your vehicle windshield and/or front side windows tinted (sunscreened) in New Jersey with a medical exemption only.",
-   "All medical sun-screening materials must be applied to the portion of the windshield above the AS-1 line. (MR-15)"
+   "All medical sun-screening materials must be applied to the portion of the windshield above the AS-1 line. (MR-15)",
+   "MVC Driver Manual 2026: \"New Jersey law prohibits add-on tinting on windshields and front side windows. (N.J.S.A 39:3-74)\""
   ]
  },
  "helmet": {
   "rule": "universal",
   "ageUnder": null,
-  "conditions": "All motorcycle operators and riders (fully enclosed autocycles excluded)",
+  "conditions": "All motorcycle operators and riders (\"Helmets are required by law for motorcycle operators and riders in New Jersey\", MVC Driver Manual 2026)",
   "cite": "N.J.S.A. 39:3-76.7",
-  "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-3-76-7/"
+  "url": "https://www.nj.gov/mvc/about/manuals.htm"
  },
  "handheldPhone": {
   "allDriversBan": true,
@@ -78,13 +78,13 @@
   "primaryEnforcement": true,
   "fineText": "$200-$400 first offense, $400-$600 second, $600-$800 third+ (possible 90-day suspension and 3 points)",
   "cite": "N.J.S.A. 39:4-97.3",
-  "url": "https://codes.findlaw.com/nj/title-39-motor-vehicles-and-traffic-regulation/nj-st-sect-39-4-97-3/"
+  "url": "https://www.nj.gov/mvc/about/manuals.htm"
  },
  "studdedTires": {
   "allowed": "seasonal",
   "season": "Nov 15 - Apr 1",
-  "cite": "N.J.A.C. 13:20-15.2(g)",
-  "url": "https://regulations.justia.com/states/new-jersey/title-13/chapter-20/subchapter-15/section-13-20-15-2/"
+  "cite": "NJ MVC Driver Manual 2026 (studded snow tires Nov 15 - Apr 1)",
+  "url": "https://www.nj.gov/mvc/about/manuals.htm"
  },
  "radarDetector": {
   "passengerAllowed": true,
@@ -104,10 +104,15 @@
  },
  "checkedOn": "2026-10-24",
  "openQuestions": [
-  "Could not open the official NJ Legislature statute text (lis.njleg); 39:3-74 read via FindLaw summary (current to 2024-01-01)",
+  "The official NJ statute text (lis.njleg) could not be read; tint, helmet, phone and studded-tire rules confirmed on 2026-10-24 in the official NJ MVC Driver Manual 2026 (PDF linked from https://www.nj.gov/mvc/about/manuals.htm) and the MVC sunscreening page.",
   "Tint fine amount not found in an official source",
-  "Primary enforcement of 39:4-97.3 not stated in statute text read (widely reported as primary)",
-  "Studded tire dates from N.J.A.C. via Justia mirror, not the official NJ OAL site",
   "MR-15 form (R 6/09) is old; its numeric limits for medical tint (8%, 35%, 70%) are garbled and were not recorded as limits"
- ]
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "nj.gov/mvc",
+  "docEn": "Motor Vehicle Commission pages and 2026 Driver Manual; the statute itself was not readable",
+  "docEs": "páginas de la Motor Vehicle Commission y manual del conductor 2026; la ley misma no fue legible"
+ }
 }

@@ -58,7 +58,7 @@ ${h.table(['Film', 'On 75% glass', 'On 85% glass', 'North Carolina car'], [
 <h2>Medical permit and penalty</h2>
 <p>The Division of Motor Vehicles grants medical exception permits for photosensitivity to visible light, valid five years, up to four at a time. The holder gets a sticker for the lower left corner of the back window; driving without it displayed is a $200 infraction. For everyone else, driving with or applying non-compliant tint is a Class 3 misdemeanor. The statute does not write a fine amount for it, so this site shows the fine as ${s.fineL}.</p>
 <h2>Around North Carolina</h2>
-<p>${h.sl('VA')} asks for ${va.front} on the front doors, ${h.sl('SC')} for ${sc.front}, ${h.sl('TN')} for ${tn.front} and ${h.sl('GA')} for ${ga.front}. A car tinted to the North Carolina line passes in all four on the rear windows, but not on the front doors in Virginia. Figures read in the General Statutes on ${s.checked}, from an archived copy of the official page because ncleg.gov refused our connection that day.</p>`;
+<p>${h.sl('VA')} asks for ${va.front} on the front doors, ${h.sl('SC')} for ${sc.front}, ${h.sl('TN')} for ${tn.front} and ${h.sl('GA')} for ${ga.front}. A car tinted to the North Carolina line passes in all four on the rear windows, but not on the front doors in Virginia. ${s.readL}</p>`;
     },
   },
   es: {
@@ -105,7 +105,7 @@ ${h.table(['Lámina', 'Vidrio de 75 %', 'Vidrio de 85 %', 'Auto en Carolina del 
 <h2>Permiso médico y sanción</h2>
 <p>La División de Vehículos Motorizados concede permisos de excepción médica por fotosensibilidad a la luz visible, válidos cinco años, hasta cuatro a la vez. El titular recibe una calcomanía para la esquina inferior izquierda del vidrio trasero; manejar sin mostrarla es una infracción de 200 dólares. Para los demás, manejar con un polarizado no conforme o aplicarlo es un delito menor de clase 3. La ley no fija un monto de multa para ese caso, así que este sitio muestra la multa como ${s.fineL}.</p>
 <h2>Alrededor de Carolina del Norte</h2>
-<p>${h.sl('VA')} pide ${va.front} en las puertas delanteras, ${h.sl('SC')} ${sc.front}, ${h.sl('TN')} ${tn.front} y ${h.sl('GA')} ${ga.front}. Un auto polarizado al límite de Carolina del Norte pasa en los cuatro en las ventanas traseras, pero no en las puertas delanteras en Virginia. Cifras leídas en los Estatutos Generales el ${s.checked}, en una copia archivada de la página oficial porque ncleg.gov rechazó la conexión ese día.</p>`;
+<p>${h.sl('VA')} pide ${va.front} en las puertas delanteras, ${h.sl('SC')} ${sc.front}, ${h.sl('TN')} ${tn.front} y ${h.sl('GA')} ${ga.front}. Un auto polarizado al límite de Carolina del Norte pasa en los cuatro en las ventanas traseras, pero no en las puertas delanteras en Virginia. ${s.readL}</p>`;
     },
   },
 });

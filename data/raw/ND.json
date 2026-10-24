@@ -1,35 +1,112 @@
 {
-  "code": "ND", "name": "North Dakota",
-  "tint": {
-    "statute": [{"cite": "N.D. Cent. Code § 39-21-39", "url": "https://www.ndlegis.gov/cencode/t39c21.pdf", "readVia": null}],
-    "passenger": {
-      "windshield": {"rule": "vlt", "strip": "nonreflective tint allowed above the AS-1 line or within the top 5 in.; below that the windshield with tint must keep at least 70%", "stripInches": 5, "asLine": true, "vlt": 70, "reflective": "strip must be nonreflective"},
-      "frontSide": {"vlt": 35, "note": "tint in conjunction with the window (film + glass); changed from 50% to 35% by HB 1340 (2025)"},
-      "backSide": {"vlt": "any", "note": "35% rule does not apply to windows behind the operator if outside mirrors on both sides are fitted (39-21-38); otherwise 35%"},
-      "rear": {"vlt": "any", "note": "same: any darkness with outside mirrors on both sides, otherwise 35%"}
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('in conjunction with the windshield/window')",
-    "reflectivity": {"front": null, "back": null},
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": "Outside mirrors on both sides (meeting 39-21-38) required to exceed the 35% limit on windows behind the operator",
-    "certificateOrSticker": null,
-    "medicalExemption": {"available": null, "text": "No medical exemption in § 39-21-39 as read", "url": null},
-    "penalty": {"text": "Non-criminal traffic violation with a statutory fee (39-06.1-06; specific tint fee not isolated); a violation found while the vehicle is not being operated is listed as non-moving (39-06.1-08)", "maxFineUsd": null, "cite": "N.D. Cent. Code §§ 39-06.1-06, 39-06.1-08", "url": "https://www.ndlegis.gov/cencode/t39c06-1.pdf"},
-    "lastAmended": "2025 (HB 1340, signed March 2025: front side 50% -> 35%)",
-    "quotes": [
-      "has a light transmittance of at least seventy percent or the object, material, or tinting in conjunction with a window other than the windshield ... has a light transmittance of at least thirty-five percent",
-      "This subsection does not apply to windows behind the operator if the motor vehicle is equipped with outside mirrors on both sides which meet the requirements of section 39-21-38.",
-      "Subsection 4 does not apply to nonreflective sunscreening or window tinting material above the AS-1 line or within the top five inches"
-    ]
+ "code": "ND",
+ "name": "North Dakota",
+ "tint": {
+  "statute": [
+   {
+    "cite": "N.D. Cent. Code § 39-21-39",
+    "url": "https://www.ndlegis.gov/cencode/t39c21.pdf",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "vlt",
+    "strip": "nonreflective tint allowed above the AS-1 line or within the top 5 in.; below that the windshield with tint must keep at least 70%",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": 70,
+    "reflective": "strip must be nonreflective"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "tint in conjunction with the window (film + glass); changed from 50% to 35% by HB 1340 (2025)"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "35% rule does not apply to windows behind the operator if outside mirrors on both sides are fitted (39-21-38); otherwise 35%"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same: any darkness with outside mirrors on both sides, otherwise 35%"
+   }
   },
-  "helmet": {"rule": "partial", "ageUnder": 18, "conditions": "Operators and riders under 18; if the operator must wear a helmet, any passenger must also wear one regardless of age", "cite": "N.D. Cent. Code § 39-10.2-06", "url": "https://www.ndlegis.gov/cencode/t39c10-2.pdf"},
-  "handheldPhone": {"allDriversBan": false, "textingBan": true, "noviceOrAgeBan": "Drivers 16-17 with a class D license may not use an electronic communication device while driving (39-08-24)", "primaryEnforcement": true, "fineText": "Texting: $100 fee (39-06.1-06)", "cite": "N.D. Cent. Code § 39-08-23", "url": "https://www.ndlegis.gov/cencode/t39c08.pdf"},
-  "studdedTires": {"allowed": "seasonal", "season": "Oct 15 - Apr 15 (studs max 1/16 in.; school buses year-round)", "cite": "N.D. Cent. Code § 39-21-40(3)", "url": "https://www.ndlegis.gov/cencode/t39c21.pdf"},
-  "radarDetector": {"passengerAllowed": true, "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)", "cite": null, "url": null},
-  "underglow": {"rule": null, "cite": null, "url": null},
-  "liftHeight": {"rule": null, "cite": null, "url": null},
-  "checkedOn": "2026-10-24",
-  "openQuestions": ["Exact effective date of HB 1340 (2025) not read on an official page (2024 Century Code still said 50%)", "A 2026 initiated measure to remove all tint limits failed to qualify (KFYR, 2026-02-25, news source only)", "Tint fee amount not isolated", "Underglow and lift rules not located"]
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('in conjunction with the windshield/window')",
+  "reflectivity": {
+   "front": null,
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Outside mirrors on both sides (meeting 39-21-38) required to exceed the 35% limit on windows behind the operator",
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": null,
+   "text": "No medical exemption in § 39-21-39 as read",
+   "url": null
+  },
+  "penalty": {
+   "text": "Non-criminal traffic violation with a statutory fee (39-06.1-06; specific tint fee not isolated); a violation found while the vehicle is not being operated is listed as non-moving (39-06.1-08)",
+   "maxFineUsd": null,
+   "cite": "N.D. Cent. Code §§ 39-06.1-06, 39-06.1-08",
+   "url": "https://www.ndlegis.gov/cencode/t39c06-1.pdf"
+  },
+  "lastAmended": "2025 (HB 1340, signed March 2025: front side 50% -> 35%)",
+  "quotes": [
+   "has a light transmittance of at least seventy percent or the object, material, or tinting in conjunction with a window other than the windshield ... has a light transmittance of at least thirty-five percent",
+   "This subsection does not apply to windows behind the operator if the motor vehicle is equipped with outside mirrors on both sides which meet the requirements of section 39-21-38.",
+   "Subsection 4 does not apply to nonreflective sunscreening or window tinting material above the AS-1 line or within the top five inches"
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Operators and riders under 18; if the operator must wear a helmet, any passenger must also wear one regardless of age",
+  "cite": "N.D. Cent. Code § 39-10.2-06",
+  "url": "https://www.ndlegis.gov/cencode/t39c10-2.pdf"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Drivers 16-17 with a class D license may not use an electronic communication device while driving (39-08-24)",
+  "primaryEnforcement": true,
+  "fineText": "Texting: $100 fee (39-06.1-06)",
+  "cite": "N.D. Cent. Code § 39-08-23",
+  "url": "https://www.ndlegis.gov/cencode/t39c08.pdf"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 15 - Apr 15 (studs max 1/16 in.; school buses year-round)",
+  "cite": "N.D. Cent. Code § 39-21-40(3)",
+  "url": "https://www.ndlegis.gov/cencode/t39c21.pdf"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Exact effective date of HB 1340 (2025) not read on an official page (2024 Century Code still said 50%)",
+  "A 2026 initiated measure to remove all tint limits failed to qualify (KFYR, 2026-02-25, news source only)",
+  "Tint fee amount not isolated",
+  "Underglow and lift rules not located"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "ndlegis.gov"
+ }
 }

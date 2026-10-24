@@ -6,14 +6,12 @@
    {
     "cite": "Ark. Code Ann. § 27-37-306",
     "url": "https://www.lexisnexis.com/hottopics/arcode/",
-    "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html",
-    "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+    "readVia": "Not read on an official text: the official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section. Figures come from a non-official copy of the code marked current as of 2024-03-28."
    },
    {
     "cite": "Ark. Code Ann. § 27-37-307 (for-hire sedans)",
     "url": "https://www.lexisnexis.com/hottopics/arcode/",
-    "readVia": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-307.html",
-    "urlNote": "Official free public access to the Arkansas Code, linked from arkleg.state.ar.us (no per-section URL); text read via FindLaw (readVia)"
+    "readVia": "Not read on an official text: the official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section. Figures come from a non-official copy of the code marked current as of 2024-03-28."
    }
   ],
   "passenger": {
@@ -75,7 +73,7 @@
   "medicalExemption": {
    "available": true,
    "text": "Physician diagnosis of a disease or disorder (e.g. albinism, lupus) with certification carried in the vehicle; allows at least 20% on front and adjacent side windows, 10% rearmost, 50% windshield; certification valid 3 years",
-   "url": "https://codes.findlaw.com/ar/title-27-transportation/ar-code-sect-27-37-306.html"
+   "url": "https://www.lexisnexis.com/hottopics/arcode/"
   },
   "penalty": {
    "text": "Class B misdemeanor for installers and for operating a vehicle with non-compliant tint",
@@ -83,7 +81,7 @@
    "cite": "Ark. Code Ann. § 27-37-306(g)",
    "url": null
   },
-  "lastAmended": "medical-waiver limits effective August 16, 2013 (per statute text); text read as 'current as of March 28, 2024' on FindLaw",
+  "lastAmended": "medical-waiver limits effective August 16, 2013 (per the text read on the non-official copy)",
   "quotes": [
    "(b)(1) eyebrow: may not extend downward more than \"five inches (5\")\" from the top center of the windshield",
    "(b)(2): side windows \"at least twenty-five percent (25%) net light transmission\"; trucks, buses, trailers, motor homes, multipurpose passenger vehicles behind driver \"at least ten percent (10%) net light transmission\"",
@@ -93,9 +91,9 @@
   ]
  },
  "helmet": {
-  "rule": "partial",
-  "ageUnder": 21,
-  "conditions": "Operators and passengers must wear protective headgear unless 21 or older",
+  "rule": null,
+  "ageUnder": null,
+  "conditions": null,
   "cite": "Ark. Code Ann. § 27-20-104(b)(1)",
   "url": null
  },
@@ -132,10 +130,18 @@
  },
  "checkedOn": "2026-10-24",
  "openQuestions": [
-  "Arkansas Code has no per-section official URL (official free access is the LexisNexis portal linked from arkleg.state.ar.us); text read on codes.findlaw.com, 'current as of March 28, 2024' - 2025 session amendments not checked (web search quota exhausted)",
+  "The official Arkansas Code (LexisNexis portal) could not be read by page on 2026-10-24: § 27-37-306/307 figures are shown as not confirmed; they come from a non-official copy current as of 2024-03-28. 2025-2026 amendments not checked.",
   "Class B misdemeanor fine maximum (general law, Ark. Code § 5-4-201) not confirmed",
   "No tolerance or reflectance limit found in § 27-37-306 text",
   "Phone: fine amounts, primary enforcement, 18-20 hands-free rule and school-zone rule not confirmed",
-  "Studded tires, underglow, lift height: not found"
- ]
+  "Studded tires, underglow, lift height: not found",
+  "Helmet (Ark. Code § 27-20-104): not confirmed on an official page (earlier read on a non-official copy of the code); left null."
+ ],
+ "read": {
+  "how": "unconfirmed",
+  "date": "2026-10-24",
+  "host": "arkleg.state.ar.us",
+  "noteEn": "The official Arkansas Code (LexisNexis portal linked from arkleg.state.ar.us) has no readable page for the section, so these figures are not confirmed on an official text. They come from a non-official copy of the code marked current as of March 28, 2024.",
+  "noteEs": "El Código oficial de Arkansas (portal de LexisNexis enlazado desde arkleg.state.ar.us) no tiene una página legible de la sección, así que estas cifras no están confirmadas en un texto oficial. Vienen de una copia no oficial del código marcada como vigente al 28 de marzo de 2024."
+ }
 }

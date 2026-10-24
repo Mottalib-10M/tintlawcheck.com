@@ -38,6 +38,7 @@ export default definePage({
     body: (h) => {
       const { s, ky, al, ms, ar, mo } = F(h);
       return `
+<p><strong>Source of these figures.</strong> ${s.readL}</p>
 <h2>The material, not the window</h2>
 <p>Most states measure the window as tinted, glass included. Tennessee's text targets "any material that has a visible light transmittance of less than thirty-five percent". Read literally, a film rated 35% is legal whatever the glass beneath it. The statute does not settle the question, and officers check with a field comparison test whose procedure is set by the Safety Commissioner, not by the statute. The calculator above therefore shows both figures: the film against 35%, and the combined reading a meter would give.</p>
 ${h.table(['Film rating', 'Combined on 75% glass', 'Combined on 85% glass', 'Film against 35%'], [
@@ -85,6 +86,7 @@ ${h.table(['Film rating', 'Combined on 75% glass', 'Combined on 85% glass', 'Fil
     body: (h) => {
       const { s, ky, al, ms, ar, mo } = F(h);
       return `
+<p><strong>Origen de estas cifras.</strong> ${s.readL}</p>
 <h2>El material, no la ventana</h2>
 <p>La mayoría de los estados mide la ventana ya polarizada, con el vidrio incluido. El texto de Tennessee apunta a «cualquier material con una transmisión de luz visible inferior al treinta y cinco por ciento». Leído al pie de la letra, una lámina clasificada en 35 % es legal sea cual sea el vidrio debajo. La ley no zanja la cuestión, y los agentes revisan con una prueba de comparación en el lugar cuyo procedimiento fija el Comisionado de Seguridad, no la ley. Por eso la calculadora de arriba muestra las dos cifras: la lámina frente al 35 %, y la lectura combinada que daría un medidor.</p>
 ${h.table(['Clasificación de la lámina', 'Combinada con vidrio de 75 %', 'Combinada con vidrio de 85 %', 'Lámina frente al 35 %'], [

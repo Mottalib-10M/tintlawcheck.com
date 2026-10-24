@@ -1,112 +1,117 @@
 {
-  "code": "IA",
-  "name": "Iowa",
-  "tint": {
-    "statute": [
-      {
-        "cite": "Iowa Code § 321.438",
-        "url": "https://www.legis.iowa.gov/docs/code/321.438.pdf",
-        "readVia": null
-      },
-      {
-        "cite": "Iowa Admin. Code r. 761-450.5 (formerly 450.7)",
-        "url": "https://www.legis.iowa.gov/docs/iac/chapter/761.450.pdf",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "vlt",
-        "strip": "No strip/AS-1 exception stated; windshield must meet 70% light transmittance",
-        "stripInches": null,
-        "asLine": false,
-        "vlt": 70,
-        "reflective": "not 'excessively ... reflective' (no number)"
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": "side window to the immediate right or left of the driver and front sidewings"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "no transparency standard; only general 'clear vision' rule of § 321.438(1)"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "no transparency standard; only general 'clear vision' rule of § 321.438(1)"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "not stated (rule says the windshield/window must meet 70 percent light transmittance)",
-    "reflectivity": {
-      "front": "may not be 'excessively dark or reflective' (no numeric limit)",
-      "back": null
-    },
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": null,
-    "certificateOrSticker": null,
-    "medicalExemption": {
-      "available": false,
-      "text": "No medical exemption for new tint. Vehicles with a dark window exemption issued before July 4, 2012 remain under former rule 761-450.7(3) as in effect April 13, 2022.",
-      "url": "https://www.legis.iowa.gov/docs/iac/chapter/761.450.pdf"
-    },
-    "penalty": {
-      "text": "Scheduled fine $70 for § 321.438 (plus surcharges/court costs)",
-      "maxFineUsd": 70,
-      "cite": "Iowa Code § 805.8A(3)(ai)",
-      "url": "https://www.legis.iowa.gov/docs/code/805.8A.pdf"
-    },
-    "lastAmended": "Statute: 2021 Acts ch 183 §53; rule renumbered 450.5 by ARC 9133C, effective 2025-05-21",
-    "quotes": [
-      "a front windshield, a side window to the immediate right or left of the driver, or a sidewing forward of and to the left or right of the driver which is excessively dark or reflective",
-      "\"Excessively dark or reflective\" means that the windshield, front side window or front sidewing does not meet a minimum standard of transparency of 70 percent light transmittance.",
-      "Motor vehicles operating with a dark window exemption issued prior to July 4, 2012, are subject to the provisions of rule 761—450.7(3) in effect April 13, 2022.",
-      "ai. Section 321.438 ... $ 70."
-    ]
-  },
-  "helmet": {
-    "rule": "none",
-    "ageUnder": null,
-    "conditions": "No motorcycle helmet requirement in Iowa Code § 321.275 (operation of motorcycles)",
-    "cite": "Iowa Code § 321.275",
-    "url": "https://www.legis.iowa.gov/docs/code/321.275.pdf"
-  },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "$100 scheduled fine; warnings only until January 1, 2026 (hands-free law, 2025 Acts ch 14)",
-    "cite": "Iowa Code § 321.276; § 805.8A(14)(l)",
-    "url": "https://www.legis.iowa.gov/docs/code/321.276.pdf"
-  },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Nov 1 - Apr 1 (studs max 1/16 in.; school buses and fire apparatus any time)",
-    "cite": "Iowa Code § 321.442(3)",
-    "url": "https://www.legis.iowa.gov/docs/code/321.442.pdf"
-  },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
-  },
-  "underglow": {
-    "rule": "No red light visible from directly in front; flashing lights prohibited except listed uses; blue lights restricted to emergency vehicles (no specific underglow statute)",
-    "cite": "Iowa Code § 321.422; § 321.423",
-    "url": "https://www.legis.iowa.gov/docs/code/321.423.pdf"
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "openQuestions": [
-    "Iowa hands-free law (2025 Acts ch 14) is new: enforcement with citations began January 1, 2026 - confirm no further change.",
-    "Primary enforcement assumed (statute contains no secondary-enforcement clause).",
-    "Lift/frame height: no Iowa statute located."
+ "code": "IA",
+ "name": "Iowa",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Iowa Code § 321.438",
+    "url": "https://www.legis.iowa.gov/docs/code/321.438.pdf",
+    "readVia": null
+   },
+   {
+    "cite": "Iowa Admin. Code r. 761-450.5 (formerly 450.7)",
+    "url": "https://www.legis.iowa.gov/docs/iac/chapter/761.450.pdf",
+    "readVia": null
+   }
   ],
-  "checkedOn": "2026-10-24"
+  "passenger": {
+   "windshield": {
+    "rule": "vlt",
+    "strip": "No strip/AS-1 exception stated; windshield must meet 70% light transmittance",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": 70,
+    "reflective": "not 'excessively ... reflective' (no number)"
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "side window to the immediate right or left of the driver and front sidewings"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "no transparency standard; only general 'clear vision' rule of § 321.438(1)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "no transparency standard; only general 'clear vision' rule of § 321.438(1)"
+   }
+  },
+  "multipurpose": null,
+  "measuredHow": "not stated (rule says the windshield/window must meet 70 percent light transmittance)",
+  "reflectivity": {
+   "front": "may not be 'excessively dark or reflective' (no numeric limit)",
+   "back": null
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": null,
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": false,
+   "text": "No medical exemption for new tint. Vehicles with a dark window exemption issued before July 4, 2012 remain under former rule 761-450.7(3) as in effect April 13, 2022.",
+   "url": "https://www.legis.iowa.gov/docs/iac/chapter/761.450.pdf"
+  },
+  "penalty": {
+   "text": "Scheduled fine $70 for § 321.438 (plus surcharges/court costs)",
+   "maxFineUsd": 70,
+   "cite": "Iowa Code § 805.8A(3)(ai)",
+   "url": "https://www.legis.iowa.gov/docs/code/805.8A.pdf"
+  },
+  "lastAmended": "Statute: 2021 Acts ch 183 §53; rule renumbered 450.5 by ARC 9133C, effective 2025-05-21",
+  "quotes": [
+   "a front windshield, a side window to the immediate right or left of the driver, or a sidewing forward of and to the left or right of the driver which is excessively dark or reflective",
+   "\"Excessively dark or reflective\" means that the windshield, front side window or front sidewing does not meet a minimum standard of transparency of 70 percent light transmittance.",
+   "Motor vehicles operating with a dark window exemption issued prior to July 4, 2012, are subject to the provisions of rule 761—450.7(3) in effect April 13, 2022.",
+   "ai. Section 321.438 ... $ 70."
+  ]
+ },
+ "helmet": {
+  "rule": "none",
+  "ageUnder": null,
+  "conditions": "No motorcycle helmet requirement in Iowa Code § 321.275 (operation of motorcycles)",
+  "cite": "Iowa Code § 321.275",
+  "url": "https://www.legis.iowa.gov/docs/code/321.275.pdf"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "$100 scheduled fine; warnings only until January 1, 2026 (hands-free law, 2025 Acts ch 14)",
+  "cite": "Iowa Code § 321.276; § 805.8A(14)(l)",
+  "url": "https://www.legis.iowa.gov/docs/code/321.276.pdf"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 1 - Apr 1 (studs max 1/16 in.; school buses and fire apparatus any time)",
+  "cite": "Iowa Code § 321.442(3)",
+  "url": "https://www.legis.iowa.gov/docs/code/321.442.pdf"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "No red light visible from directly in front; flashing lights prohibited except listed uses; blue lights restricted to emergency vehicles (no specific underglow statute)",
+  "cite": "Iowa Code § 321.422; § 321.423",
+  "url": "https://www.legis.iowa.gov/docs/code/321.423.pdf"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "openQuestions": [
+  "Iowa hands-free law (2025 Acts ch 14) is new: enforcement with citations began January 1, 2026 - confirm no further change.",
+  "Primary enforcement assumed (statute contains no secondary-enforcement clause).",
+  "Lift/frame height: no Iowa statute located."
+ ],
+ "checkedOn": "2026-10-24",
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "legis.iowa.gov"
+ }
 }

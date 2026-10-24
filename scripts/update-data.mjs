@@ -94,6 +94,12 @@ for (const code of CODES) {
     err(code, 'tint.statute : citation + URL obligatoires');
   }
   if (!Array.isArray(t.quotes) || !t.quotes.length) err(code, 'tint.quotes : extrait verbatim obligatoire');
+  // Provenance de la lecture : site officiel en direct, copie archivée datée de la page officielle, ou non confirmé.
+  const rd = r.read ?? {};
+  if (!['official', 'archive', 'unconfirmed'].includes(rd.how) || !/^\d{4}-\d{2}-\d{2}$/.test(rd.date ?? '') || !rd.host) err(code, 'read : how/date/host obligatoires');
+  if (rd.how === 'unconfirmed' && !(rd.noteEn && rd.noteEs)) err(code, 'read : note EN/ES obligatoire si non confirmé');
+  // Relais non officiels interdits comme source (FindLaw interdit la reprise ; Justia, public.law, onecle = relais).
+  if (/findlaw|justia|public\.law|onecle|law\.cornell/i.test(JSON.stringify(r))) err(code, 'relais non officiel cité (FindLaw/Justia/public.law/onecle/Cornell)');
   const passenger = vehicle(code, 'passenger', t.passenger);
   if (!passenger) err(code, 'tint.passenger manquant');
   const tol = t.tolerance && typeof t.tolerance.points === 'number' ? t.tolerance.points : null;
@@ -130,6 +136,7 @@ for (const code of CODES) {
       liftHeight: r.liftHeight ?? null,
     },
     checkedOn: r.checkedOn ?? null,
+    read: r.read ?? null,
     openQuestions: r.openQuestions ?? [],
   });
   if (!r.checkedOn) err(code, 'checkedOn manquant');
@@ -165,7 +172,7 @@ const lite = states.map((s) => {
   const v = (x) => x && { windshield: { rule: x.windshield.rule, stripInches: x.windshield.stripInches, asLine: x.windshield.asLine, vlt: x.windshield.vlt }, frontSide: { vlt: x.frontSide.vlt }, backSide: { vlt: x.backSide.vlt }, rear: { vlt: x.rear.vlt } };
   const h = s.equipment.helmet, r = s.equipment.radarDetector, p = s.detail.penalty, m = s.detail.medicalExemption;
   return {
-    code: s.code, name: s.name, passenger: v(s.passenger), multipurpose: v(s.multipurpose), measuredHow: s.measuredHow, tolerancePoints: s.tolerancePoints, frontByRear: s.frontByRear, frontFilmMin: s.frontFilmMin,
+    code: s.code, name: s.name, read: s.read, passenger: v(s.passenger), multipurpose: v(s.multipurpose), measuredHow: s.measuredHow, tolerancePoints: s.tolerancePoints, frontByRear: s.frontByRear, frontFilmMin: s.frontFilmMin,
     detail: { statute: s.detail.statute.slice(0, 1).map((x) => ({ cite: x.cite, url: x.url })), penalty: p && { maxFineUsd: p.maxFineUsd, cite: p.cite }, medicalExemption: m && { available: m.available } },
     equipment: { helmet: h && { rule: h.rule, ageUnder: h.ageUnder, cite: h.cite }, radarDetector: r && { passengerAllowed: r.passengerAllowed, cite: r.cite } },
   };

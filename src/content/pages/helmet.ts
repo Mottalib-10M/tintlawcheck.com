@@ -55,7 +55,7 @@ ${h.table(['State', 'Helmet required for', 'Age', 'Statute'], rows, `Read in eac
 <h2>Eye protection</h2>
 <p>Several states that do not require a helmet for adults still require eye protection, or a windscreen of a set height, for every operator. Kansas, for example, requires eye protection unless the motorcycle has a windscreen of at least 10 inches, and Rhode Island requires it for all operators. Read the state's statute before riding without goggles.</p>
 <h2>The two states not confirmed</h2>
-<p>Michigan's helmet section, MCL 257.658, and New Mexico's, section 66-7-356, could not be read in their official versions on the day of the check: Michigan's legislature site refused our connections, and New Mexico's official text was not readable. New Mexico's rule is believed to apply under 18, and a 2026 bill to change it did not pass, but neither rule is shown as confirmed here until the official text is read.</p>
+<p>${h.list(h.STATES.filter((s) => !s.equipment.helmet?.rule).map((s) => s.code))}: the helmet section could not be read in an official version on the day of the check (official site refusing our connections, or official code not readable by page), so no rule is shown for them as confirmed. A rule read only on a non-official copy of a code is not used here.</p>
 <h2>The helmet itself</h2>
 <p>Where a helmet is required, it must meet ${h.src('fmvss218', 'FMVSS 218')}, the federal standard for motorcycle helmets, which sets tests for impact attenuation, penetration resistance and the retention system. Helmets certified to it carry the DOT symbol. Colorado and Connecticut name the standard in their statutes.</p>`;
     },
@@ -97,7 +97,7 @@ ${h.table(['Estado', 'Casco exigido para', 'Edad', 'Ley'], rows, `Leído en la l
 <h2>Protección ocular</h2>
 <p>Varios estados que no exigen casco a los adultos sí exigen protección ocular, o un parabrisas de cierta altura, a todo conductor. Kansas, por ejemplo, exige protección ocular salvo que la moto tenga un parabrisas de al menos 10 pulgadas, y Rhode Island la exige a todos los conductores. Lea la ley del estado antes de manejar sin gafas.</p>
 <h2>Los dos estados no confirmados</h2>
-<p>La sección del casco de Michigan, MCL 257.658, y la de Nuevo México, la sección 66-7-356, no pudieron leerse en su versión oficial el día de la revisión: el sitio de la legislatura de Michigan rechazó nuestras conexiones, y el texto oficial de Nuevo México no era legible. Se cree que la regla de Nuevo México se aplica a los menores de 18, y un proyecto de 2026 para cambiarla no prosperó, pero ninguna de las dos reglas se muestra como confirmada aquí hasta leer el texto oficial.</p>
+<p>${h.list(h.STATES.filter((s) => !s.equipment.helmet?.rule).map((s) => s.code))}: la sección del casco no pudo leerse en una versión oficial el día de la revisión (sitio oficial que rechazaba la conexión o código oficial no legible por página), así que no se muestra ninguna regla confirmada para ellos. Una regla leída solo en una copia no oficial de un código no se usa aquí.</p>
 <h2>El casco en sí</h2>
 <p>Donde se exige casco, debe cumplir la ${h.src('fmvss218', 'FMVSS 218')}, la norma federal de los cascos de moto, que fija pruebas de amortiguación del impacto, de resistencia a la penetración y del sistema de sujeción. Los cascos certificados llevan el símbolo DOT. Colorado y Connecticut citan la norma en sus leyes.</p>`;
     },

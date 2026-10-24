@@ -1,119 +1,124 @@
 {
-  "code": "TX",
-  "name": "Texas",
-  "tint": {
-    "statute": [
-      {
-        "cite": "Tex. Transp. Code § 547.613",
-        "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.613",
-        "readVia": "https://tcss.legis.texas.gov/resources/TN/htm/TN.547.htm (raw file behind the official statutes site)"
-      },
-      {
-        "cite": "Tex. Transp. Code § 547.609 (label)",
-        "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.609",
-        "readVia": "same"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "sunscreening device allowed above the AS-1 line or top 5 in., whichever is closer to the top; with the windshield at least 25% light transmission, max 25% reflectance, not red, blue or amber",
-        "stripInches": 5,
-        "asLine": true,
-        "vlt": null,
-        "reflective": "max 25% luminous reflectance on the strip"
-      },
-      "frontSide": {
-        "vlt": 25,
-        "note": "device + window combined at least 25%, luminous reflectance max 25%"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "side windows to the rear of the operator are exempt (547.613(b)(2-a))"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "only if the vehicle has an outside mirror on each side giving a 200-ft rear view"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('in combination with the vent or window')",
-    "reflectivity": {
-      "front": "max 25%",
-      "back": "not limited (rear side windows exempt)"
-    },
-    "tolerance": {
-      "points": 3,
-      "cite": "Tex. Transp. Code § 547.613(d) (DPS may treat a front side window as exempt if transmission/reflectance varies by no more than 3%)"
-    },
-    "colorsBanned": [
-      "red",
-      "blue",
-      "amber"
-    ],
-    "dualMirrors": "Outside mirror on each side (200-ft view) required for a tinted rear window",
-    "certificateOrSticker": "Every sunscreening device must carry a legible label, installed between film and glass, with DPS-required light transmission/reflectance info stating compliance with 547.613(b)(1) or (2); a business installing film without the label commits a misdemeanor (fine up to $1,000)",
-    "medicalExemption": {
-      "available": true,
-      "text": "Statutory defense to prosecution if the driver or a passenger is required for a medical reason to be shielded from direct sun (547.613(e)); no state permit described in the statute",
-      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.613"
-    },
-    "penalty": {
-      "text": "Misdemeanor; general Transportation Code penalty fine $1-$200 (542.401); installer without label up to $1,000; charge may be dismissed if the defect is remedied before first court appearance (reimbursement fee max $10, 547.004(c))",
-      "maxFineUsd": 200,
-      "cite": "Tex. Transp. Code §§ 547.613, 542.401, 547.004(c)",
-      "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.542.htm#542.401"
-    },
-    "lastAmended": "2009 (Acts 2009, 81st Leg., Ch. 750, S.B. 589, eff. Sept. 1, 2009)",
-    "quotes": [
-      "a wing vent or a window that is to the left or right of the vehicle operator if the vent or window has a sunscreening device that in combination with the vent or window has: (A) a light transmission of 25 percent or more; and (B) a luminous reflectance of 25 percent or less",
-      "(2-a) a side window that is to the rear of the vehicle operator",
-      "a rear window, if the motor vehicle is equipped with an outside mirror on each side of the vehicle that reflects to the vehicle operator a view of the highway for a distance of at least 200 feet from the rear",
-      "does not extend downward beyond the AS-1 line or more than five inches from the top of the windshield, whichever is closer to the top of the windshield",
-      "It is a defense to prosecution under Subsection (a) that the defendant or a passenger in the vehicle at the time of the violation is required for a medical reason to be shielded from direct rays of the sun."
-    ]
+ "code": "TX",
+ "name": "Texas",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Tex. Transp. Code § 547.613",
+    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.613",
+    "readVia": "https://tcss.legis.texas.gov/resources/TN/htm/TN.547.htm (raw file behind the official statutes site)"
+   },
+   {
+    "cite": "Tex. Transp. Code § 547.609 (label)",
+    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.609",
+    "readVia": "same"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "sunscreening device allowed above the AS-1 line or top 5 in., whichever is closer to the top; with the windshield at least 25% light transmission, max 25% reflectance, not red, blue or amber",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "max 25% luminous reflectance on the strip"
+   },
+   "frontSide": {
+    "vlt": 25,
+    "note": "device + window combined at least 25%, luminous reflectance max 25%"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "side windows to the rear of the operator are exempt (547.613(b)(2-a))"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "only if the vehicle has an outside mirror on each side giving a 200-ft rear view"
+   }
   },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 21,
-    "conditions": "Helmet required unless the rider is 21+ and has completed an approved motorcycle safety course or is covered by a health insurance plan for motorcycle crash injuries; police may not stop riders solely to check; fine $10-$50",
-    "cite": "Tex. Transp. Code § 661.003",
-    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.661.htm#661.003"
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('in combination with the vent or window')",
+  "reflectivity": {
+   "front": "max 25%",
+   "back": "not limited (rear side windows exempt)"
   },
-  "handheldPhone": {
-    "allDriversBan": false,
-    "textingBan": true,
-    "noviceOrAgeBan": "Drivers under 18 may not use any wireless communication device except in an emergency (545.424); school-zone handheld bans also exist (545.425)",
-    "primaryEnforcement": true,
-    "fineText": "Texting: $25-$99 first offense, $100-$200 repeat; Class A misdemeanor (up to $4,000 and 1 year) if death or serious injury",
-    "cite": "Tex. Transp. Code § 545.4251",
-    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.545.htm#545.4251"
+  "tolerance": {
+   "points": 3,
+   "cite": "Tex. Transp. Code § 547.613(d) (DPS may treat a front side window as exempt if transmission/reflectance varies by no more than 3%)"
   },
-  "studdedTires": {
-    "allowed": "restricted",
-    "season": "No dates in statute; studs/protuberances allowed only if they do not injure the highway",
-    "cite": "Tex. Transp. Code § 547.612(c)",
-    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.612"
+  "colorsBanned": [
+   "red",
+   "blue",
+   "amber"
+  ],
+  "dualMirrors": "Outside mirror on each side (200-ft view) required for a tinted rear window",
+  "certificateOrSticker": "Every sunscreening device must carry a legible label, installed between film and glass, with DPS-required light transmission/reflectance info stating compliance with 547.613(b)(1) or (2); a business installing film without the label commits a misdemeanor (fine up to $1,000)",
+  "medicalExemption": {
+   "available": true,
+   "text": "Statutory defense to prosecution if the driver or a passenger is required for a medical reason to be shielded from direct sun (547.613(e)); no state permit described in the statute",
+   "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.613"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "Radar detectors not banned; radar interference devices (jammers) prohibited for drivers and their sale (547.616). Commercial vehicles over 10,001 lb banned from detectors federally (49 CFR 392.71).",
-    "cite": "Tex. Transp. Code § 547.616",
-    "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.616"
+  "penalty": {
+   "text": "Misdemeanor; general Transportation Code penalty fine $1-$200 (542.401); installer without label up to $1,000; charge may be dismissed if the defect is remedied before first court appearance (reimbursement fee max $10, 547.004(c))",
+   "maxFineUsd": 200,
+   "cite": "Tex. Transp. Code §§ 547.613, 542.401, 547.004(c)",
+   "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.542.htm#542.401"
   },
-  "underglow": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "DPS medical exemption paperwork not checked (statute gives only a defense)",
-    "Underglow and lift rules not located (Texas has no lift statute found in ch. 547)"
+  "lastAmended": "2009 (Acts 2009, 81st Leg., Ch. 750, S.B. 589, eff. Sept. 1, 2009)",
+  "quotes": [
+   "a wing vent or a window that is to the left or right of the vehicle operator if the vent or window has a sunscreening device that in combination with the vent or window has: (A) a light transmission of 25 percent or more; and (B) a luminous reflectance of 25 percent or less",
+   "(2-a) a side window that is to the rear of the vehicle operator",
+   "a rear window, if the motor vehicle is equipped with an outside mirror on each side of the vehicle that reflects to the vehicle operator a view of the highway for a distance of at least 200 feet from the rear",
+   "does not extend downward beyond the AS-1 line or more than five inches from the top of the windshield, whichever is closer to the top of the windshield",
+   "It is a defense to prosecution under Subsection (a) that the defendant or a passenger in the vehicle at the time of the violation is required for a medical reason to be shielded from direct rays of the sun."
   ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 21,
+  "conditions": "Helmet required unless the rider is 21+ and has completed an approved motorcycle safety course or is covered by a health insurance plan for motorcycle crash injuries; police may not stop riders solely to check; fine $10-$50",
+  "cite": "Tex. Transp. Code § 661.003",
+  "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.661.htm#661.003"
+ },
+ "handheldPhone": {
+  "allDriversBan": false,
+  "textingBan": true,
+  "noviceOrAgeBan": "Drivers under 18 may not use any wireless communication device except in an emergency (545.424); school-zone handheld bans also exist (545.425)",
+  "primaryEnforcement": true,
+  "fineText": "Texting: $25-$99 first offense, $100-$200 repeat; Class A misdemeanor (up to $4,000 and 1 year) if death or serious injury",
+  "cite": "Tex. Transp. Code § 545.4251",
+  "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.545.htm#545.4251"
+ },
+ "studdedTires": {
+  "allowed": "restricted",
+  "season": "No dates in statute; studs/protuberances allowed only if they do not injure the highway",
+  "cite": "Tex. Transp. Code § 547.612(c)",
+  "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.612"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "Radar detectors not banned; radar interference devices (jammers) prohibited for drivers and their sale (547.616). Commercial vehicles over 10,001 lb banned from detectors federally (49 CFR 392.71).",
+  "cite": "Tex. Transp. Code § 547.616",
+  "url": "https://statutes.capitol.texas.gov/Docs/TN/htm/TN.547.htm#547.616"
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "DPS medical exemption paperwork not checked (statute gives only a defense)",
+  "Underglow and lift rules not located (Texas has no lift statute found in ch. 547)"
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "statutes.capitol.texas.gov"
+ }
 }

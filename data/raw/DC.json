@@ -1,130 +1,135 @@
 {
-  "code": "DC",
-  "name": "District of Columbia",
-  "tint": {
-    "statute": [
-      {
-        "cite": "D.C. Code § 50-2207.02",
-        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "vlt",
-        "strip": "less than 70% allowed only above the AS-1 line or within 5 inches from the top of the windshield",
-        "stripInches": 5,
-        "asLine": true,
-        "vlt": 70,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": null
-      },
-      "backSide": {
-        "vlt": 50,
-        "note": null
-      },
-      "rear": {
-        "vlt": 50,
-        "note": null
-      }
-    },
-    "multipurpose": {
-      "windshield": {
-        "rule": "vlt",
-        "strip": "less than 70% allowed only above the AS-1 line or within 5 inches from the top of the windshield",
-        "stripInches": 5,
-        "asLine": true,
-        "vlt": 55,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 55,
-        "note": "applies to mini-vans only (statute says 'mini-van'); SUVs/pickups not separately addressed"
-      },
-      "backSide": {
-        "vlt": 35,
-        "note": "mini-vans only"
-      },
-      "rear": {
-        "vlt": 35,
-        "note": "mini-vans only"
-      }
-    },
-    "measuredHow": "not stated",
-    "reflectivity": {
-      "front": null,
-      "back": null
-    },
-    "tolerance": null,
-    "colorsBanned": null,
-    "dualMirrors": null,
-    "certificateOrSticker": null,
-    "medicalExemption": {
-      "available": true,
-      "text": "Vehicles exempted by the Director of the Department of Motor Vehicles because the owner has a medical condition requiring windows that allow less light than permitted.",
-      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02"
-    },
-    "penalty": {
-      "text": "$50 citation; vehicle must be inspected within 5 business days; if not brought into compliance, owner fined up to $1,000 (up to $5,000 on a second or subsequent finding); no points.",
-      "maxFineUsd": 1000,
-      "cite": "D.C. Code § 50-2207.02(c)-(e), (p)",
-      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02"
-    },
-    "lastAmended": "2005 (D.C. Law 15-307, Apr. 8, 2005)",
-    "quotes": [
-      "A front windshield or front side windows that allow less than 70% light transmittance; or (B) A rear windshield or rear side windows that allow less than 50% light transmittance.",
-      "no mini-van may be operated or parked ... with: (A) A front windshield or front side windows that allow less than 55% light transmittance, or (B) A rear windshield or rear side windows that allow less than 35% light transmittance.",
-      "a front windshield that allows less than 70% light transmittance above the AS-1 line, or within 5 inches from the top of the windshield.",
-      "Any person who operates or parks a motor vehicle in violation of subsection (a) of this section shall be issued a $50 citation."
-    ]
+ "code": "DC",
+ "name": "District of Columbia",
+ "tint": {
+  "statute": [
+   {
+    "cite": "D.C. Code § 50-2207.02",
+    "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02",
+    "readVia": null
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "vlt",
+    "strip": "less than 70% allowed only above the AS-1 line or within 5 inches from the top of the windshield",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": 70,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": null
+   },
+   "backSide": {
+    "vlt": 50,
+    "note": null
+   },
+   "rear": {
+    "vlt": 50,
+    "note": null
+   }
   },
-  "helmet": {
-    "rule": "universal",
-    "ageUnder": null,
-    "conditions": "All motorcycle operators and passengers (18 DCMR 2215.3)",
-    "cite": "18 DCMR § 2215.3",
-    "url": null
+  "multipurpose": {
+   "windshield": {
+    "rule": "vlt",
+    "strip": "less than 70% allowed only above the AS-1 line or within 5 inches from the top of the windshield",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": 55,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 55,
+    "note": "applies to mini-vans only (statute says 'mini-van'); SUVs/pickups not separately addressed"
+   },
+   "backSide": {
+    "vlt": 35,
+    "note": "mini-vans only"
+   },
+   "rear": {
+    "vlt": 35,
+    "note": "mini-vans only"
+   }
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": "Additional restrictions for school bus drivers and learner's permit holders (§ 50-1731.05)",
-    "primaryEnforcement": true,
-    "fineText": "$100 fine (handheld fine suspended for a first-time violator who proves purchase of a hands-free accessory, not for texting)",
-    "cite": "D.C. Code §§ 50-1731.04, 50-1731.06",
-    "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-1731.04"
+  "measuredHow": "not stated",
+  "reflectivity": {
+   "front": null,
+   "back": null
   },
-  "studdedTires": {
-    "allowed": null,
-    "season": null,
-    "cite": null,
-    "url": null
+  "tolerance": null,
+  "colorsBanned": null,
+  "dualMirrors": null,
+  "certificateOrSticker": null,
+  "medicalExemption": {
+   "available": true,
+   "text": "Vehicles exempted by the Director of the Department of Motor Vehicles because the owner has a medical condition requiring windows that allow less light than permitted.",
+   "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02"
   },
-  "radarDetector": {
-    "passengerAllowed": false,
-    "note": "18 DCMR § 736, \"Radar detectors and jammers\" (D.C. Municipal Regulations, title 18, chapter 7, motor vehicle equipment); commercial vehicles also banned federally (49 CFR 392.71)",
-    "cite": "18 DCMR § 736",
-    "url": "https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=18-736"
+  "penalty": {
+   "text": "$50 citation; vehicle must be inspected within 5 business days; if not brought into compliance, owner fined up to $1,000 (up to $5,000 on a second or subsequent finding); no points.",
+   "maxFineUsd": 1000,
+   "cite": "D.C. Code § 50-2207.02(c)-(e), (p)",
+   "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2207.02"
   },
-  "underglow": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "Helmet (18 DCMR 2215.3) and radar-detector ban (18 DCMR 736) cites come from search results; the official dcregs.dc.gov text was not read. Federal bills H.R. 10067 / S. 5274 ('Ride in Freedom Act', 2026) would repeal the D.C. helmet rule; not enacted as far as seen.",
-    "Studded tires: DCMR rule not found (secondary sources give conflicting dates Oct 15-Mar 15 vs Oct 15-Apr 15).",
-    "Tint tolerance and how VLT is measured are not stated in § 50-2207.02; DCMR Title 18 inspection rules may add details.",
-    "Phone: D.C. Law 26-55 (Dec. 6, 2025) amended §§ 50-1731.02/.04 (definition of text message and 'use'); primaryEnforcement inferred (moving violation, no secondary clause).",
-    "No underglow or lift-height rule found."
+  "lastAmended": "2005 (D.C. Law 15-307, Apr. 8, 2005)",
+  "quotes": [
+   "A front windshield or front side windows that allow less than 70% light transmittance; or (B) A rear windshield or rear side windows that allow less than 50% light transmittance.",
+   "no mini-van may be operated or parked ... with: (A) A front windshield or front side windows that allow less than 55% light transmittance, or (B) A rear windshield or rear side windows that allow less than 35% light transmittance.",
+   "a front windshield that allows less than 70% light transmittance above the AS-1 line, or within 5 inches from the top of the windshield.",
+   "Any person who operates or parks a motor vehicle in violation of subsection (a) of this section shall be issued a $50 citation."
   ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All motorcycle operators and passengers (18 DCMR 2215.3)",
+  "cite": "18 DCMR § 2215.3",
+  "url": null
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Additional restrictions for school bus drivers and learner's permit holders (§ 50-1731.05)",
+  "primaryEnforcement": true,
+  "fineText": "$100 fine (handheld fine suspended for a first-time violator who proves purchase of a hands-free accessory, not for texting)",
+  "cite": "D.C. Code §§ 50-1731.04, 50-1731.06",
+  "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-1731.04"
+ },
+ "studdedTires": {
+  "allowed": null,
+  "season": null,
+  "cite": null,
+  "url": null
+ },
+ "radarDetector": {
+  "passengerAllowed": false,
+  "note": "18 DCMR § 736, \"Radar detectors and jammers\" (D.C. Municipal Regulations, title 18, chapter 7, motor vehicle equipment); commercial vehicles also banned federally (49 CFR 392.71)",
+  "cite": "18 DCMR § 736",
+  "url": "https://dcregs.dc.gov/Common/DCMR/SectionList.aspx?SectionNumber=18-736"
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "Helmet (18 DCMR 2215.3) and radar-detector ban (18 DCMR 736) cites come from search results; the official dcregs.dc.gov text was not read. Federal bills H.R. 10067 / S. 5274 ('Ride in Freedom Act', 2026) would repeal the D.C. helmet rule; not enacted as far as seen.",
+  "Studded tires: DCMR rule not found (secondary sources give conflicting dates Oct 15-Mar 15 vs Oct 15-Apr 15).",
+  "Tint tolerance and how VLT is measured are not stated in § 50-2207.02; DCMR Title 18 inspection rules may add details.",
+  "Phone: D.C. Law 26-55 (Dec. 6, 2025) amended §§ 50-1731.02/.04 (definition of text message and 'use'); primaryEnforcement inferred (moving violation, no secondary clause).",
+  "No underglow or lift-height rule found."
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "code.dccouncil.gov"
+ }
 }

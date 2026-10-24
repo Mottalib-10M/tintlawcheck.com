@@ -1,129 +1,134 @@
 {
-  "code": "NY",
-  "name": "New York",
-  "tint": {
-    "statute": [
-      {
-        "cite": "N.Y. Veh. & Traf. Law § 375(12-a)",
-        "url": "https://www.nysenate.gov/legislation/laws/VAT/375",
-        "readVia": "web.archive.org snapshot 2026-10-12 of the official page"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "material with less than 70% light transmittance allowed only in the uppermost 6 in. of the windshield",
-        "stripInches": 6,
-        "asLine": false,
-        "vlt": 70,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": "side wings/side windows forward of or adjacent to the operator's seat"
-      },
-      "backSide": {
-        "vlt": 70,
-        "note": "applies to station wagons, sedans, hardtops, coupes, hatchbacks and convertibles"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "rear window may be below 70% if side mirrors on both sides give a clear and full view of the road behind"
-      }
-    },
-    "multipurpose": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "same (top 6 in.)",
-        "stripInches": 6,
-        "asLine": false,
-        "vlt": 70,
-        "reflective": null
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": null
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "the 70% rear-side rule is limited to station wagons, sedans, hardtops, coupes, hatchbacks and convertibles; SUVs, vans and trucks are not listed"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "with side mirrors on both sides"
-      }
-    },
-    "measuredHow": "not stated ('composed of, covered by or treated with any material which has a light transmittance of less than seventy percent')",
-    "reflectivity": {
-      "front": null,
-      "back": null
-    },
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": "Side mirrors on both sides required for a rear window below 70%",
-    "certificateOrSticker": "Medical exemption: DMV sticker attached to each shielded window. A window tested by DMV and found compliant receives a small conformity label (375(12-a)(d)).",
-    "medicalExemption": {
-      "available": true,
-      "text": "DMV Commissioner exemption (windshield and front side windows) for a person needing shielding from the sun who drives or is habitually transported; physician's or nurse practitioner's statement with the condition and minimum light transmission; condition must be on the Health Commissioner's list; sticker affixed",
-      "url": "https://www.nysenate.gov/legislation/laws/VAT/375"
-    },
-    "penalty": {
-      "text": "Traffic infraction; general penalty (VTL 1800): up to $150 and/or 15 days for a first conviction, higher on repeat within 18 months",
-      "maxFineUsd": 150,
-      "cite": "N.Y. Veh. & Traf. Law §§ 375(12-a), 1800(a)",
-      "url": "https://www.nysenate.gov/legislation/laws/VAT/1800"
-    },
-    "lastAmended": null,
-    "quotes": [
-      "the front windshield of which is composed of, covered by or treated with any material which has a light transmittance of less than seventy percent unless such materials are limited to the uppermost six inches of the windshield",
-      "the sidewings or side windows of which on either side forward of or adjacent to the operator's seat are composed of, covered by or treated with any material which has a light transmittance of less than seventy percent",
-      "if it is classified as a station wagon, sedan, hardtop, coupe, hatchback or convertible and any rear side window has a light transmittance of less than seventy percent",
-      "A rear window may have a light transmittance of less than seventy percent if the vehicle is equipped with side mirrors on both sides"
-    ]
+ "code": "NY",
+ "name": "New York",
+ "tint": {
+  "statute": [
+   {
+    "cite": "N.Y. Veh. & Traf. Law § 375(12-a)",
+    "url": "https://www.nysenate.gov/legislation/laws/VAT/375",
+    "readVia": "web.archive.org snapshot 2026-10-12 of the official page"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "material with less than 70% light transmittance allowed only in the uppermost 6 in. of the windshield",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 70,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "side wings/side windows forward of or adjacent to the operator's seat"
+   },
+   "backSide": {
+    "vlt": 70,
+    "note": "applies to station wagons, sedans, hardtops, coupes, hatchbacks and convertibles"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "rear window may be below 70% if side mirrors on both sides give a clear and full view of the road behind"
+   }
   },
-  "helmet": {
-    "rule": "universal",
-    "ageUnder": null,
-    "conditions": "All motorcycle operators and passengers (FMVSS 218 helmet)",
-    "cite": "N.Y. Veh. & Traf. Law § 381(6)",
-    "url": "https://www.nysenate.gov/legislation/laws/VAT/381"
+  "multipurpose": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "same (top 6 in.)",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": 70,
+    "reflective": null
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": null
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "the 70% rear-side rule is limited to station wagons, sedans, hardtops, coupes, hatchbacks and convertibles; SUVs, vans and trucks are not listed"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "with side mirrors on both sides"
+   }
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "Handheld call: $50-$200 first violation; higher caps for repeat violations within 18 months (up to $450 read in the text); texting/portable device use governed by § 1225-d",
-    "cite": "N.Y. Veh. & Traf. Law §§ 1225-c, 1225-d",
-    "url": "https://www.nysenate.gov/legislation/laws/VAT/1225-C"
+  "measuredHow": "not stated ('composed of, covered by or treated with any material which has a light transmittance of less than seventy percent')",
+  "reflectivity": {
+   "front": null,
+   "back": null
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Oct 16 - Apr 30 (prohibited May 1 - Oct 15 inclusive, except school buses and state/municipal vehicles; stud size limits)",
-    "cite": "N.Y. Veh. & Traf. Law § 375(35)",
-    "url": "https://www.nysenate.gov/legislation/laws/VAT/375"
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Side mirrors on both sides required for a rear window below 70%",
+  "certificateOrSticker": "Medical exemption: DMV sticker attached to each shielded window. A window tested by DMV and found compliant receives a small conformity label (375(12-a)(d)).",
+  "medicalExemption": {
+   "available": true,
+   "text": "DMV Commissioner exemption (windshield and front side windows) for a person needing shielding from the sun who drives or is habitually transported; physician's or nurse practitioner's statement with the condition and minimum light transmission; condition must be on the Health Commissioner's list; sticker affixed",
+   "url": "https://www.nysenate.gov/legislation/laws/VAT/375"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No ban for passenger vehicles found; commercial vehicles over 18,000 lb are restricted under VTL 397-a (not read); also banned federally over 10,001 lb (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "penalty": {
+   "text": "Traffic infraction; general penalty (VTL 1800): up to $150 and/or 15 days for a first conviction, higher on repeat within 18 months",
+   "maxFineUsd": 150,
+   "cite": "N.Y. Veh. & Traf. Law §§ 375(12-a), 1800(a)",
+   "url": "https://www.nysenate.gov/legislation/laws/VAT/1800"
   },
-  "underglow": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "nysenate.gov pages read via Wayback snapshots (Nov 2025 - Oct 2026)",
-    "Exact 1225-c second/third offense caps and 1225-d texting fines partly read only",
-    "Radar rule for commercial vehicles (VTL 397-a) not read",
-    "Underglow (VTL 375(41)) and lift rules not read"
+  "lastAmended": null,
+  "quotes": [
+   "the front windshield of which is composed of, covered by or treated with any material which has a light transmittance of less than seventy percent unless such materials are limited to the uppermost six inches of the windshield",
+   "the sidewings or side windows of which on either side forward of or adjacent to the operator's seat are composed of, covered by or treated with any material which has a light transmittance of less than seventy percent",
+   "if it is classified as a station wagon, sedan, hardtop, coupe, hatchback or convertible and any rear side window has a light transmittance of less than seventy percent",
+   "A rear window may have a light transmittance of less than seventy percent if the vehicle is equipped with side mirrors on both sides"
   ]
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All motorcycle operators and passengers (FMVSS 218 helmet)",
+  "cite": "N.Y. Veh. & Traf. Law § 381(6)",
+  "url": "https://www.nysenate.gov/legislation/laws/VAT/381"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "Handheld call: $50-$200 first violation; higher caps for repeat violations within 18 months (up to $450 read in the text); texting/portable device use governed by § 1225-d",
+  "cite": "N.Y. Veh. & Traf. Law §§ 1225-c, 1225-d",
+  "url": "https://www.nysenate.gov/legislation/laws/VAT/1225-C"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Oct 16 - Apr 30 (prohibited May 1 - Oct 15 inclusive, except school buses and state/municipal vehicles; stud size limits)",
+  "cite": "N.Y. Veh. & Traf. Law § 375(35)",
+  "url": "https://www.nysenate.gov/legislation/laws/VAT/375"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No ban for passenger vehicles found; commercial vehicles over 18,000 lb are restricted under VTL 397-a (not read); also banned federally over 10,001 lb (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "nysenate.gov pages read via Wayback snapshots (Nov 2025 - Oct 2026)",
+  "Exact 1225-c second/third offense caps and 1225-d texting fines partly read only",
+  "Radar rule for commercial vehicles (VTL 397-a) not read",
+  "Underglow (VTL 375(41)) and lift rules not read"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-10-12",
+  "host": "nysenate.gov"
+ }
 }

@@ -1,122 +1,127 @@
 {
-  "code": "IL",
-  "name": "Illinois",
-  "tint": {
-    "statute": [
-      {
-        "cite": "625 ILCS 5/12-503",
-        "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503",
-        "readVia": "https://web.archive.org/web/20260627233753/https://www.ilga.gov/Documents/legislation/ilcs/documents/062500050K12-503.htm (archived copy of the official ILCS page; ilga.gov unreachable)"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "nonreflective tinted film on the uppermost portion, no more than 6 inches down from the top",
-        "stripInches": 6,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "nonreflective only"
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "35% (5% variance) only if no window behind the driver is below 35%; 50% film allowed if no rear window is below 30%; 50% if the rear glass is factory-tinted; otherwise no tint on front side windows"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "no numeric limit in § 12-503, but rear tint below 35% (or 30%) removes the right to tint the front side windows; side mirrors on both sides required"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "same as back side; side mirrors on each side required (§ 12-503(b-5))"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "not stated",
-    "reflectivity": {
-      "front": "nonreflective film only",
-      "back": null
-    },
-    "tolerance": {
-      "points": 5,
-      "cite": "625 ILCS 5/12-503(a-5)"
-    },
-    "colorsBanned": null,
-    "dualMirrors": "Any vehicle with a treated window to the rear of the driver's seat must have a side mirror on each side (§ 12-503(b-5)).",
-    "certificateOrSticker": "Medical exemption vehicles need distinctive plates or plate stickers under § 3-412(k); installers must keep a copy of the physician's statement.",
-    "medicalExemption": {
-      "available": true,
-      "text": "Owner (or household member transported) with a medical disease requiring shielding from the sun (e.g., lupus, porokeratosis, TBI light sensitivity, albinism) needs a certified statement from an Illinois-licensed physician, carried in the vehicle, renewed every 4 years, copy sent to the Secretary of State; vehicle must have distinctive plates/stickers (§ 3-412(k)). Exempts windshield (a) and front side (a-5) rules.",
-      "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503"
-    },
-    "penalty": {
-      "text": "Petty offense, fine $50 to $500; second or subsequent: Class C misdemeanor, fine $100 to $500; court orders windows brought into compliance.",
-      "maxFineUsd": 500,
-      "cite": "625 ILCS 5/12-503(j)",
-      "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503"
-    },
-    "lastAmended": "P.A. 103-32, eff. 1-1-24 (dealer test-drive rule); tint numbers unchanged",
-    "quotes": [
-      "a nonreflective tinted film may be used along the uppermost portion of the windshield if such material does not extend more than 6 inches down from the top of the windshield.",
-      "On vehicles where none of the windows to the rear of the driver's seat are treated in a manner that allows less than 35% light transmittance, a nonreflective tinted film that allows at least 35% light transmittance, with a 5% variance",
-      "On vehicles where none of the windows to the rear of the driver's seat are treated in a manner that allows less than 30% light transmittance, a nonreflective tinted film that allows at least 50% light transmittance",
-      "Any motor vehicle with a window to the rear of the driver's seat treated in this manner shall be equipped with a side mirror on each side",
-      "shall be guilty of a petty offense and fined no less than $50 nor more than $500."
-    ],
-    "frontByRear": [
-      {
-        "rearAtLeast": 35,
-        "front": 35
-      },
-      {
-        "rearAtLeast": 30,
-        "front": 50
-      }
-    ]
+ "code": "IL",
+ "name": "Illinois",
+ "tint": {
+  "statute": [
+   {
+    "cite": "625 ILCS 5/12-503",
+    "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503",
+    "readVia": "https://web.archive.org/web/20260627233753/https://www.ilga.gov/Documents/legislation/ilcs/documents/062500050K12-503.htm (archived copy of the official ILCS page; ilga.gov unreachable)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "nonreflective tinted film on the uppermost portion, no more than 6 inches down from the top",
+    "stripInches": 6,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "nonreflective only"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "35% (5% variance) only if no window behind the driver is below 35%; 50% film allowed if no rear window is below 30%; 50% if the rear glass is factory-tinted; otherwise no tint on front side windows"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "no numeric limit in § 12-503, but rear tint below 35% (or 30%) removes the right to tint the front side windows; side mirrors on both sides required"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "same as back side; side mirrors on each side required (§ 12-503(b-5))"
+   }
   },
-  "helmet": {
-    "rule": "none",
-    "ageUnder": null,
-    "conditions": "No motorcycle helmet requirement in the Illinois Vehicle Code",
-    "cite": null,
-    "url": null
+  "multipurpose": null,
+  "measuredHow": "not stated",
+  "reflectivity": {
+   "front": "nonreflective film only",
+   "back": null
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": null,
-    "primaryEnforcement": true,
-    "fineText": "max $75 first offense, $100 second, $125 third, $150 fourth+; aggravated (crash with great bodily harm or death): min $1,000 and Class A misdemeanor / Class 4 felony",
-    "cite": "625 ILCS 5/12-610.2",
-    "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-610.2"
+  "tolerance": {
+   "points": 5,
+   "cite": "625 ILCS 5/12-503(a-5)"
   },
-  "studdedTires": {
-    "allowed": "restricted",
-    "season": "banned except rural USPS letter carriers (Nov 15 - Apr 1) and certain disability/disabled-veteran plates in unincorporated areas",
-    "cite": "625 ILCS 5/12-401",
-    "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-401"
+  "colorsBanned": null,
+  "dualMirrors": "Any vehicle with a treated window to the rear of the driver's seat must have a side mirror on each side (§ 12-503(b-5)).",
+  "certificateOrSticker": "Medical exemption vehicles need distinctive plates or plate stickers under § 3-412(k); installers must keep a copy of the physician's statement.",
+  "medicalExemption": {
+   "available": true,
+   "text": "Owner (or household member transported) with a medical disease requiring shielding from the sun (e.g., lupus, porokeratosis, TBI light sensitivity, albinism) needs a certified statement from an Illinois-licensed physician, carried in the vehicle, renewed every 4 years, copy sent to the Secretary of State; vehicle must have distinctive plates/stickers (§ 3-412(k)). Exempts windshield (a) and front side (a-5) rules.",
+   "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "penalty": {
+   "text": "Petty offense, fine $50 to $500; second or subsequent: Class C misdemeanor, fine $100 to $500; court orders windows brought into compliance.",
+   "maxFineUsd": 500,
+   "cite": "625 ILCS 5/12-503(j)",
+   "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-503"
   },
-  "underglow": {
-    "rule": "No red light visible from the front; flashing lights banned except as authorized; 'all other lighting or combination of lighting' not expressly authorized by the Code is prohibited; no smoked/tinted lens covers.",
-    "cite": "625 ILCS 5/12-212",
-    "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-212"
-  },
-  "liftHeight": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "ilga.gov refused connections; statutes read from Wayback copies of the official ILCS pages (12-503: June 2026; 12-610.2: Aug 2026; 12-401: Oct 2025; 12-212: Nov 2025).",
-    "Rear/back side VLT: commonly reported as 35% for sedans and 'any' for MPVs, but § 12-503 sets no direct numeric rear limit - it conditions front tint on the rear windows. Recorded as 'any' with that condition.",
-    "Helmet: 'none' based on absence of a helmet requirement; no single cite to quote.",
-    "Lift-height: not found."
+  "lastAmended": "P.A. 103-32, eff. 1-1-24 (dealer test-drive rule); tint numbers unchanged",
+  "quotes": [
+   "a nonreflective tinted film may be used along the uppermost portion of the windshield if such material does not extend more than 6 inches down from the top of the windshield.",
+   "On vehicles where none of the windows to the rear of the driver's seat are treated in a manner that allows less than 35% light transmittance, a nonreflective tinted film that allows at least 35% light transmittance, with a 5% variance",
+   "On vehicles where none of the windows to the rear of the driver's seat are treated in a manner that allows less than 30% light transmittance, a nonreflective tinted film that allows at least 50% light transmittance",
+   "Any motor vehicle with a window to the rear of the driver's seat treated in this manner shall be equipped with a side mirror on each side",
+   "shall be guilty of a petty offense and fined no less than $50 nor more than $500."
+  ],
+  "frontByRear": [
+   {
+    "rearAtLeast": 35,
+    "front": 35
+   },
+   {
+    "rearAtLeast": 30,
+    "front": 50
+   }
   ]
+ },
+ "helmet": {
+  "rule": "none",
+  "ageUnder": null,
+  "conditions": "No motorcycle helmet requirement in the Illinois Vehicle Code",
+  "cite": null,
+  "url": null
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": null,
+  "primaryEnforcement": true,
+  "fineText": "max $75 first offense, $100 second, $125 third, $150 fourth+; aggravated (crash with great bodily harm or death): min $1,000 and Class A misdemeanor / Class 4 felony",
+  "cite": "625 ILCS 5/12-610.2",
+  "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-610.2"
+ },
+ "studdedTires": {
+  "allowed": "restricted",
+  "season": "banned except rural USPS letter carriers (Nov 15 - Apr 1) and certain disability/disabled-veteran plates in unincorporated areas",
+  "cite": "625 ILCS 5/12-401",
+  "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-401"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "No red light visible from the front; flashing lights banned except as authorized; 'all other lighting or combination of lighting' not expressly authorized by the Code is prohibited; no smoked/tinted lens covers.",
+  "cite": "625 ILCS 5/12-212",
+  "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K12-212"
+ },
+ "liftHeight": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "ilga.gov refused connections; statutes read from Wayback copies of the official ILCS pages (12-503: June 2026; 12-610.2: Aug 2026; 12-401: Oct 2025; 12-212: Nov 2025).",
+  "Rear/back side VLT: commonly reported as 35% for sedans and 'any' for MPVs, but § 12-503 sets no direct numeric rear limit - it conditions front tint on the rear windows. Recorded as 'any' with that condition.",
+  "Helmet: 'none' based on absence of a helmet requirement; no single cite to quote.",
+  "Lift-height: not found."
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-06-27",
+  "host": "ilga.gov"
+ }
 }

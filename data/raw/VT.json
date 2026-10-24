@@ -103,5 +103,10 @@
   "Tint fine not found",
   "Studded tire rule not located in 23 V.S.A. (believed unrestricted, not confirmed)",
   "Underglow and lift rules not located"
- ]
+ ],
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "legislature.vermont.gov"
+ }
 }

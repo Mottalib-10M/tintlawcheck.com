@@ -1,133 +1,138 @@
 {
-  "code": "CA",
-  "name": "California",
-  "tint": {
-    "statute": [
-      {
-        "cite": "Cal. Veh. Code § 26708",
-        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708",
-        "readVia": "https://california.public.law/codes/vehicle_code_section_26708"
-      },
-      {
-        "cite": "Cal. Veh. Code § 26708.5",
-        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.5",
-        "readVia": "https://california.public.law/codes/vehicle_code_section_26708.5"
-      },
-      {
-        "cite": "Cal. Veh. Code § 26708.2",
-        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.2",
-        "readVia": "https://california.public.law/codes/vehicle_code_section_26708.2"
-      },
-      {
-        "cite": "Cal. Veh. Code § 42001",
-        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001",
-        "readVia": "https://california.public.law/codes/vehicle_code_section_42001"
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat; not red or amber; no opaque lettering; no more reflective than the windshield; clear 88% UV film with 70% combined allowed only with dermatologist certificate",
-        "stripInches": null,
-        "asLine": false,
-        "vlt": null,
-        "reflective": "not allowed to reflect sunlight or headlight glare more than the windshield without the material"
-      },
-      "frontSide": {
-        "vlt": 70,
-        "note": "only clear, colorless, transparent UV-blocking film with at least 88% VLT, and glass + film must meet FMVSS 205 minimum 70%; installer certificate must be in the vehicle"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "side windows to the rear of the driver are exempt from § 26708(a)"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "exempt if outside mirrors on both sides give a 200-foot view to the rear"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "film alone (88%) and film + glass combined (70%) for front sides",
-    "reflectivity": {
-      "front": "front-side film must be clear and colorless (no reflectance number)",
-      "back": null
-    },
-    "tolerance": {
-      "points": null,
-      "cite": null
-    },
-    "colorsBanned": [
-      "red",
-      "amber"
-    ],
-    "dualMirrors": "Rear window may be covered if outside mirrors on both left and right sides show 200 feet to the rear (§ 26708(b)(8))",
-    "certificateOrSticker": "For front-side clear film: certificate signed by the installing company (or manufacturer if self-installed) kept in the vehicle (§ 26708(d)(4))",
-    "medicalExemption": {
-      "available": true,
-      "text": "Removable sun screening devices (green/gray/neutral smoke, at least 35% transmittance, max 35% reflective) on front side windows if driver or front passenger carries a letter from a licensed physician and surgeon or optometrist; not during darkness (§§ 26708(b)(10), 26708.2). Clear 88% UV film on any window with a dermatologist's certificate (§ 26708(e)). No DMV application.",
-      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708"
-    },
-    "penalty": {
-      "text": "Infraction: fine up to $100 (1st), $200 (2nd within a year), $250 (3rd within a year), plus penalty assessments",
-      "maxFineUsd": 250,
-      "cite": "Cal. Veh. Code §§ 40000.1, 42001",
-      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001"
-    },
-    "lastAmended": null,
-    "quotes": [
-      "§ 26708(b)(4): \"Side windows that are to the rear of the driver.\"",
-      "§ 26708(b)(8): \"The rear window or windows, if the motor vehicle is equipped with outside mirrors on both the left- and right-hand sides...for a distance of at least 200 feet to the rear\"",
-      "§ 26708(c)(1): \"The bottom edge of the material is at least 29 inches above the undepressed driver's seat...\" (2) \"The material is not red or amber in color.\"",
-      "§ 26708(d)(1): \"The material has a minimum visible light transmittance of 88 percent.\" (d)(2): \"...including the specified minimum light transmittance of 70 percent...\"",
-      "§ 26708.2(b): \"...green, gray, or a neutral smoke in color and shall have a luminous transmittance of not less than 35 percent.\"",
-      "§ 42001(a)(1): \"By a fine not exceeding one hundred dollars ($100).\""
-    ],
-    "frontFilmMin": 88
+ "code": "CA",
+ "name": "California",
+ "tint": {
+  "statute": [
+   {
+    "cite": "Cal. Veh. Code § 26708",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708",
+    "readVia": "https://web.archive.org/web/20260930141447/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708 (archived copy of the official page; leginfo answers 403 to scripts)"
+   },
+   {
+    "cite": "Cal. Veh. Code § 26708.5",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.5",
+    "readVia": "https://web.archive.org/web/20250815184355/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.5 (archived copy of the official page; leginfo answers 403 to scripts)"
+   },
+   {
+    "cite": "Cal. Veh. Code § 26708.2",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.2",
+    "readVia": "https://web.archive.org/web/20250823230011/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708.2 (archived copy of the official page; leginfo answers 403 to scripts)"
+   },
+   {
+    "cite": "Cal. Veh. Code § 42001",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001",
+    "readVia": "https://web.archive.org/web/20250421070440/https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001 (archived copy of the official page; leginfo answers 403 to scripts)"
+   }
+  ],
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "transparent material on the topmost portion, bottom edge at least 29 inches above the undepressed driver's seat; not red or amber; no opaque lettering; no more reflective than the windshield; clear 88% UV film with 70% combined allowed only with dermatologist certificate",
+    "stripInches": null,
+    "asLine": false,
+    "vlt": null,
+    "reflective": "not allowed to reflect sunlight or headlight glare more than the windshield without the material"
+   },
+   "frontSide": {
+    "vlt": 70,
+    "note": "only clear, colorless, transparent UV-blocking film with at least 88% VLT, and glass + film must meet FMVSS 205 minimum 70%; installer certificate must be in the vehicle"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "side windows to the rear of the driver are exempt from § 26708(a)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "exempt if outside mirrors on both sides give a 200-foot view to the rear"
+   }
   },
-  "helmet": {
-    "rule": "universal",
-    "ageUnder": null,
-    "conditions": "All drivers and passengers of motorcycles, motor-driven cycles and motorized bicycles",
-    "cite": "Cal. Veh. Code § 27803",
-    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27803"
+  "multipurpose": null,
+  "measuredHow": "film alone (88%) and film + glass combined (70%) for front sides",
+  "reflectivity": {
+   "front": "front-side film must be clear and colorless (no reflectance number)",
+   "back": null
   },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": "Drivers under 18 may not use a wireless phone even hands-free (§ 23124, not re-read)",
-    "primaryEnforcement": true,
-    "fineText": "Base fine $20 first offense, $50 each subsequent (plus penalty assessments)",
-    "cite": "Cal. Veh. Code §§ 23123, 23123.5",
-    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23123.5"
+  "tolerance": {
+   "points": null,
+   "cite": null
   },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "Nov 1 - Apr 30 (retractable studs year-round if retracted May 1 - Oct 31); CHP commissioner may extend",
-    "cite": "Cal. Veh. Code § 27454(e)",
-    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27454"
+  "colorsBanned": [
+   "red",
+   "amber"
+  ],
+  "dualMirrors": "Rear window may be covered if outside mirrors on both left and right sides show 200 feet to the rear (§ 26708(b)(8))",
+  "certificateOrSticker": "For front-side clear film: certificate signed by the installing company (or manufacturer if self-installed) kept in the vehicle (§ 26708(d)(4))",
+  "medicalExemption": {
+   "available": true,
+   "text": "Removable sun screening devices (green/gray/neutral smoke, at least 35% transmittance, max 35% reflective) on front side windows if driver or front passenger carries a letter from a licensed physician and surgeon or optometrist; not during darkness (§§ 26708(b)(10), 26708.2). Clear 88% UV film on any window with a dermatologist's certificate (§ 26708(e)). No DMV application.",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=26708"
   },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No California ban on radar detectors in passenger vehicles found; windshield mounting restricted by § 26708; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
+  "penalty": {
+   "text": "Infraction: fine up to $100 (1st), $200 (2nd within a year), $250 (3rd within a year), plus penalty assessments",
+   "maxFineUsd": 250,
+   "cite": "Cal. Veh. Code §§ 40000.1, 42001",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=42001"
   },
-  "underglow": {
-    "rule": "Light visible from the front must be white or yellow; light visible from the rear must be red (listed exceptions)",
-    "cite": "Cal. Veh. Code § 25950",
-    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=25950"
-  },
-  "liftHeight": {
-    "rule": "Max frame height: passenger vehicles 23 in.; other vehicles up to 4,500 lb GVWR 27 in., 4,501-7,500 lb 30 in., 7,501-10,000 lb 31 in.; body floor max 5 in. above frame",
-    "cite": "Cal. Veh. Code § 24008.5",
-    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=24008.5"
-  },
-  "checkedOn": "2026-10-24",
-  "openQuestions": [
-    "leginfo.legislature.ca.gov blocked (Cloudflare); text read on california.public.law (mirror stating it was updated Jan. 1, 2026 from leginfo) - not one of the brief's listed mirrors; amendment year not visible",
-    "No numeric VLT limit for windshield; strip defined by 29-inch seat measurement",
-    "Underglow: § 25950 color rules only; whether other sections (e.g. § 24003, § 25251 flashing) restrict underglow not checked",
-    "Under-18 phone ban § 23124 not re-read",
-    "Front-side tint must be clear/colorless film, so a tinted (darker) film is illegal on front sides regardless of the 70% combined figure"
-  ]
+  "lastAmended": null,
+  "quotes": [
+   "§ 26708(b)(4): \"Side windows that are to the rear of the driver.\"",
+   "§ 26708(b)(8): \"The rear window or windows, if the motor vehicle is equipped with outside mirrors on both the left- and right-hand sides...for a distance of at least 200 feet to the rear\"",
+   "§ 26708(c)(1): \"The bottom edge of the material is at least 29 inches above the undepressed driver's seat...\" (2) \"The material is not red or amber in color.\"",
+   "§ 26708(d)(1): \"The material has a minimum visible light transmittance of 88 percent.\" (d)(2): \"...including the specified minimum light transmittance of 70 percent...\"",
+   "§ 26708.2(b): \"...green, gray, or a neutral smoke in color and shall have a luminous transmittance of not less than 35 percent.\"",
+   "§ 42001(a)(1): \"By a fine not exceeding one hundred dollars ($100).\""
+  ],
+  "frontFilmMin": 88
+ },
+ "helmet": {
+  "rule": "universal",
+  "ageUnder": null,
+  "conditions": "All drivers and passengers of motorcycles, motor-driven cycles and motorized bicycles",
+  "cite": "Cal. Veh. Code § 27803",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27803"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Drivers under 18 may not use a wireless phone even hands-free (§ 23124, not re-read)",
+  "primaryEnforcement": true,
+  "fineText": "Base fine $20 first offense, $50 each subsequent (plus penalty assessments)",
+  "cite": "Cal. Veh. Code §§ 23123, 23123.5",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23123.5"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "Nov 1 - Apr 30 (retractable studs year-round if retracted May 1 - Oct 31); CHP commissioner may extend",
+  "cite": "Cal. Veh. Code § 27454(e)",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=27454"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No California ban on radar detectors in passenger vehicles found; windshield mounting restricted by § 26708; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": "Light visible from the front must be white or yellow; light visible from the rear must be red (listed exceptions)",
+  "cite": "Cal. Veh. Code § 25950",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=25950"
+ },
+ "liftHeight": {
+  "rule": "Max frame height: passenger vehicles 23 in.; other vehicles up to 4,500 lb GVWR 27 in., 4,501-7,500 lb 30 in., 7,501-10,000 lb 31 in.; body floor max 5 in. above frame",
+  "cite": "Cal. Veh. Code § 24008.5",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=24008.5"
+ },
+ "checkedOn": "2026-10-24",
+ "openQuestions": [
+  "leginfo.legislature.ca.gov answers 403 to scripts; § 26708 read on the archived copy of the official page of 2026-09-30, §§ 26708.5, 26708.2 and 42001 on copies of 2025 (Aug 15, Aug 23, Apr 21).",
+  "No numeric VLT limit for windshield; strip defined by 29-inch seat measurement",
+  "Underglow: § 25950 color rules only; whether other sections (e.g. § 24003, § 25251 flashing) restrict underglow not checked",
+  "Under-18 phone ban § 23124 not re-read",
+  "Front-side tint must be clear/colorless film, so a tinted (darker) film is illegal on front sides regardless of the 70% combined figure"
+ ],
+ "read": {
+  "how": "archive",
+  "date": "2026-09-30",
+  "host": "leginfo.legislature.ca.gov"
+ }
 }

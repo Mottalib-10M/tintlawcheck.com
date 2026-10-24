@@ -1,107 +1,112 @@
 {
-  "code": "ME",
-  "name": "Maine",
-  "tint": {
-    "statute": [
-      {
-        "cite": "29-A M.R.S. § 1916",
-        "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html",
-        "readVia": null
-      }
-    ],
-    "passenger": {
-      "windshield": {
-        "rule": "strip",
-        "strip": "above the AS-1 line or, if there is no AS-1 line, a 5-inch strip at the top of the windshield; below that no material reducing transmittance below the original window",
-        "stripInches": 5,
-        "asLine": true,
-        "vlt": null,
-        "reflective": "no reflective material on any window"
-      },
-      "frontSide": {
-        "vlt": 35,
-        "note": "net of glass and material"
-      },
-      "backSide": {
-        "vlt": "any",
-        "note": "35% limit does not apply to side windows behind the operator if the vehicle has 2 outside mirrors (one each side)"
-      },
-      "rear": {
-        "vlt": "any",
-        "note": "35% limit does not apply to the rear window if the vehicle has 2 outside mirrors (one each side); otherwise 35%"
-      }
-    },
-    "multipurpose": null,
-    "measuredHow": "film + glass combined ('net of glass and material')",
-    "reflectivity": {
-      "front": "no reflective material allowed",
-      "back": "no reflective material allowed"
-    },
-    "tolerance": null,
-    "colorsBanned": [],
-    "dualMirrors": "Required for rear side/rear window darker than 35%: 2 outside rear view mirrors, one on each side (§ 1916(2)(B))",
-    "certificateOrSticker": "Owner/operator of a vehicle with tinting material must acquire a light transmittance certificate (issued by persons authorized by the Chief of the State Police) and show it at inspection; failure to produce on request creates a presumption of non-compliance (§ 1916(3), (5)).",
-    "medicalExemption": {
-      "available": true,
-      "text": "Chief of the State Police may grant an exception when the health of the owner or a usual occupant is adversely affected by sunlight; certificate of exemption shown on request of an officer.",
-      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html"
-    },
-    "penalty": {
-      "text": "Traffic infraction, forfeiture of not less than $100 (no maximum stated)",
-      "maxFineUsd": null,
-      "cite": "29-A M.R.S. § 1916(6)",
-      "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html"
-    },
-    "lastAmended": "2009 (PL 2009, c. 251)",
-    "quotes": [
-      "A side window or rear window is composed of, covered by or treated with a material that allows a light transmittance of less than 35% net of glass and material",
-      "A window is composed of, covered by or treated with any material that is reflective",
-      "Sun-screening or window-tinting material above the AS-1 line in the top portion of the windshield or, if there is no AS-1 line in the top portion of the windshield, along a 5-inch strip at the top of the windshield.",
-      "do not apply to side windows behind the operator's seat or the rear window of a motor vehicle, as long as the vehicle is equipped with 2 outside rear view mirrors, one on each side",
-      "commits a traffic infraction that must be punished by a forfeiture of not less than $100."
-    ]
-  },
-  "helmet": {
-    "rule": "partial",
-    "ageUnder": 18,
-    "conditions": "Under 18 (operator or passenger), operators on a learner's permit or within one year of passing the driving test, and passengers of an operator required to wear one",
-    "cite": "29-A M.R.S. § 2083",
-    "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2083.html"
-  },
-  "handheldPhone": {
-    "allDriversBan": true,
-    "textingBan": true,
-    "noviceOrAgeBan": "Under 18, intermediate license and learner's permit holders may not use even hands-free mode (§ 2121(2))",
-    "primaryEnforcement": true,
-    "fineText": "$50 first offense, $250 subsequent (handheld); texting: not less than $250 first, $500 repeat within 3 years plus suspension",
-    "cite": "29-A M.R.S. § 2121; § 2119",
-    "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2121.html"
-  },
-  "studdedTires": {
-    "allowed": "seasonal",
-    "season": "prohibited May 1 - Oct 1 (allowed Oct 1 - May 1); Commissioner of Transportation may extend or permit",
-    "cite": "29-A M.R.S. § 1919",
-    "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1919.html"
-  },
-  "radarDetector": {
-    "passengerAllowed": true,
-    "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
-    "cite": null,
-    "url": null
-  },
-  "underglow": {
-    "rule": null,
-    "cite": null,
-    "url": null
-  },
-  "liftHeight": {
-    "rule": "Frame end height min 10 in.; max by GVWR: <=4,500 lb 24 in. front/26 in. rear; 4,501-7,500 lb 28/30; 7,501-10,000 lb 30/32; 10,001-11,500 lb 31/33; 11,501-13,000 lb 32/34 (measured from level surface to bottom of frame end)",
-    "cite": "29-A M.R.S. § 1920",
-    "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1920.html"
-  },
-  "openQuestions": [
-    "Underglow: no specific Maine statute located (§ 2054 restricts emergency/auxiliary lights; not read in full).",
-    "§ 1916(1)(D) requires 2-way glass on front windshield, front door windows and windows at either end of the rear passenger seat - interplay with § 1916(2)(B) mirror exception reviewed: exception covers paragraphs C and D for windows behind the operator."
+ "code": "ME",
+ "name": "Maine",
+ "tint": {
+  "statute": [
+   {
+    "cite": "29-A M.R.S. § 1916",
+    "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html",
+    "readVia": null
+   }
   ],
-  "checkedOn": "2026-10-24"
+  "passenger": {
+   "windshield": {
+    "rule": "strip",
+    "strip": "above the AS-1 line or, if there is no AS-1 line, a 5-inch strip at the top of the windshield; below that no material reducing transmittance below the original window",
+    "stripInches": 5,
+    "asLine": true,
+    "vlt": null,
+    "reflective": "no reflective material on any window"
+   },
+   "frontSide": {
+    "vlt": 35,
+    "note": "net of glass and material"
+   },
+   "backSide": {
+    "vlt": "any",
+    "note": "35% limit does not apply to side windows behind the operator if the vehicle has 2 outside mirrors (one each side)"
+   },
+   "rear": {
+    "vlt": "any",
+    "note": "35% limit does not apply to the rear window if the vehicle has 2 outside mirrors (one each side); otherwise 35%"
+   }
+  },
+  "multipurpose": null,
+  "measuredHow": "film + glass combined ('net of glass and material')",
+  "reflectivity": {
+   "front": "no reflective material allowed",
+   "back": "no reflective material allowed"
+  },
+  "tolerance": null,
+  "colorsBanned": [],
+  "dualMirrors": "Required for rear side/rear window darker than 35%: 2 outside rear view mirrors, one on each side (§ 1916(2)(B))",
+  "certificateOrSticker": "Owner/operator of a vehicle with tinting material must acquire a light transmittance certificate (issued by persons authorized by the Chief of the State Police) and show it at inspection; failure to produce on request creates a presumption of non-compliance (§ 1916(3), (5)).",
+  "medicalExemption": {
+   "available": true,
+   "text": "Chief of the State Police may grant an exception when the health of the owner or a usual occupant is adversely affected by sunlight; certificate of exemption shown on request of an officer.",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html"
+  },
+  "penalty": {
+   "text": "Traffic infraction, forfeiture of not less than $100 (no maximum stated)",
+   "maxFineUsd": null,
+   "cite": "29-A M.R.S. § 1916(6)",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1916.html"
+  },
+  "lastAmended": "2009 (PL 2009, c. 251)",
+  "quotes": [
+   "A side window or rear window is composed of, covered by or treated with a material that allows a light transmittance of less than 35% net of glass and material",
+   "A window is composed of, covered by or treated with any material that is reflective",
+   "Sun-screening or window-tinting material above the AS-1 line in the top portion of the windshield or, if there is no AS-1 line in the top portion of the windshield, along a 5-inch strip at the top of the windshield.",
+   "do not apply to side windows behind the operator's seat or the rear window of a motor vehicle, as long as the vehicle is equipped with 2 outside rear view mirrors, one on each side",
+   "commits a traffic infraction that must be punished by a forfeiture of not less than $100."
+  ]
+ },
+ "helmet": {
+  "rule": "partial",
+  "ageUnder": 18,
+  "conditions": "Under 18 (operator or passenger), operators on a learner's permit or within one year of passing the driving test, and passengers of an operator required to wear one",
+  "cite": "29-A M.R.S. § 2083",
+  "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2083.html"
+ },
+ "handheldPhone": {
+  "allDriversBan": true,
+  "textingBan": true,
+  "noviceOrAgeBan": "Under 18, intermediate license and learner's permit holders may not use even hands-free mode (§ 2121(2))",
+  "primaryEnforcement": true,
+  "fineText": "$50 first offense, $250 subsequent (handheld); texting: not less than $250 first, $500 repeat within 3 years plus suspension",
+  "cite": "29-A M.R.S. § 2121; § 2119",
+  "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2121.html"
+ },
+ "studdedTires": {
+  "allowed": "seasonal",
+  "season": "prohibited May 1 - Oct 1 (allowed Oct 1 - May 1); Commissioner of Transportation may extend or permit",
+  "cite": "29-A M.R.S. § 1919",
+  "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1919.html"
+ },
+ "radarDetector": {
+  "passengerAllowed": true,
+  "note": "No state ban on radar detectors in private passenger vehicles found; commercial vehicles over 10,001 lb banned federally (49 CFR 392.71)",
+  "cite": null,
+  "url": null
+ },
+ "underglow": {
+  "rule": null,
+  "cite": null,
+  "url": null
+ },
+ "liftHeight": {
+  "rule": "Frame end height min 10 in.; max by GVWR: <=4,500 lb 24 in. front/26 in. rear; 4,501-7,500 lb 28/30; 7,501-10,000 lb 30/32; 10,001-11,500 lb 31/33; 11,501-13,000 lb 32/34 (measured from level surface to bottom of frame end)",
+  "cite": "29-A M.R.S. § 1920",
+  "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1920.html"
+ },
+ "openQuestions": [
+  "Underglow: no specific Maine statute located (§ 2054 restricts emergency/auxiliary lights; not read in full).",
+  "§ 1916(1)(D) requires 2-way glass on front windshield, front door windows and windows at either end of the rear passenger seat - interplay with § 1916(2)(B) mirror exception reviewed: exception covers paragraphs C and D for windows behind the operator."
+ ],
+ "checkedOn": "2026-10-24",
+ "read": {
+  "how": "official",
+  "date": "2026-10-24",
+  "host": "legislature.maine.gov"
+ }
 }
