@@ -97,10 +97,10 @@ export default function TintCheck({ lang = 'en', state = 'TX', idPrefix = 'c', f
         <p className="text-sm font-medium text-navy-600">{L.head[all]} {stateName(st, lang)}</p>
         <p className={`mt-1 text-3xl font-bold ${tone[all]}`}>{pct(byWin('frontSide').combinedVlt, lang)} <span className="text-base font-medium text-navy-700">{L.win.frontSide.toLowerCase()}</span></p>
         <table className="mt-3 w-full text-sm">
-          <thead><tr className="text-left text-xs uppercase tracking-wide text-navy-600"><th className="py-1 font-semibold" scope="col"> </th><th className="py-1 text-right font-semibold" scope="col">{L.measured}</th><th className="py-1 text-right font-semibold" scope="col">{L.limit}</th><th className="py-1 text-right font-semibold" scope="col">{L.verdict}</th></tr></thead>
+          <thead><tr className="text-left text-xs uppercase tracking-wide text-navy-600"><th className="py-1 font-semibold" scope="col"> </th><th className="py-1 pl-3 text-right font-semibold" scope="col">{L.measured}</th><th className="py-1 pl-3 text-right font-semibold" scope="col">{L.limit}</th><th className="py-1 pl-3 text-right font-semibold" scope="col">{L.verdict}</th></tr></thead>
           <tbody className="divide-y divide-navy-200">
             {WINS.map((w) => { const r = byWin(w); return (
-              <tr key={w}><td className="py-1.5 pr-2 text-navy-700">{L.win[w]}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{show(r) || '–'}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{limitLabel(r.limit, lang)}</td><td className={`py-1.5 text-right font-semibold ${tone[r.verdict]}`}>{L.v[r.verdict]}</td></tr>
+              <tr key={w}><td className="py-1.5 pr-2 text-navy-700">{L.win[w]}</td><td className="tabular-nums py-1.5 pl-3 text-right text-navy-900">{show(r) || '–'}</td><td className="tabular-nums py-1.5 pl-3 text-right text-navy-900">{limitLabel(r.limit, lang)}</td><td className={`py-1.5 pl-3 text-right font-semibold ${tone[r.verdict]}`}>{L.v[r.verdict]}</td></tr>
             ); })}
           </tbody>
         </table>
